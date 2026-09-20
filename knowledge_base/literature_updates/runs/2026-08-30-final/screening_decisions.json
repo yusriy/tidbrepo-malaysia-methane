@@ -1,0 +1,485 @@
+{
+  "decision_source": "researcher-reviewed monthly screening workbook",
+  "source_workbook": "outputs/01a0507e-5e8e-7dc2-be97-52906a1658b5/monthly_candidate_screening_2026-08-30.xlsx",
+  "source_workbook_sha256": "2f16f5c983b2db97170a5eb012fdb08e6cbeb12a16d81bbd3d2f5fb8cc3edc06",
+  "recorded_at": "2026-08-30T16:45:41.835Z",
+  "counts": {
+    "retrieve_extract": 13,
+    "exclude": 14,
+    "pending": 32
+  },
+  "decisions": [
+    {
+      "candidate_id": "candidate_7e8229dafd3351d1",
+      "doi": "10.47172/2965-730x.sdgsreview.v5.n02.pe02774",
+      "title": "Development of National Emission Factor for Rice Production System in Malaysia: A Step Toward Achieving Sustainable Development Goals",
+      "machine_priority": "P1 — direct measurement",
+      "decision": "retrieve_extract",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_331efe04aed054b0",
+      "doi": "10.1038/s41598-025-32378-z",
+      "title": "Long-term effects of nitrogen fertilization on methane emissions in drained tropical peatland",
+      "machine_priority": "P1 — direct measurement",
+      "decision": "retrieve_extract",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_0c88f7207566cba6",
+      "doi": "10.1051/e3sconf/202459901005",
+      "title": "Enteric Methane Emission Factor for Local Kedah-Kelantan Cross Beef Cattle in Smallholder Farms of Malaysia",
+      "machine_priority": "P1 — direct measurement",
+      "decision": "retrieve_extract",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_7e9e03a4115f4b61",
+      "doi": "10.1128/aem.01986-24",
+      "title": "Temporal dynamics of soil microbial C and N cycles with GHG fluxes in the transition from tropical peatland forest to oil palm plantation",
+      "machine_priority": "P1 — direct measurement",
+      "decision": "retrieve_extract",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_d3b4b8d8fc03840a",
+      "doi": "10.1016/j.chemosphere.2026.144830",
+      "title": "Spatial dynamics of methane emissions and organic load reduction in a pond-based palm oil mill effluent treatment system",
+      "machine_priority": "P1 — direct measurement",
+      "decision": "retrieve_extract",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_bb4619382aa0662a",
+      "doi": "10.7717/peerj.19929",
+      "title": "An assessment of CO2 and CH4 emissions in a tropical river: from the Kenyir Reservoir to the estuary",
+      "machine_priority": "P1 — direct measurement",
+      "decision": "retrieve_extract",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_216934de1a1ef46a",
+      "doi": "10.46754/jssm.2025.11.004",
+      "title": "ESTIMATING LANDFILL METHANE EMISSIONS BASED ON CLIMATIC CONDITIONS AND MAJOR WASTE COMPONENTS IN SHAH ALAM, SELANGOR, MALAYSIA",
+      "machine_priority": "P1 — direct measurement",
+      "decision": "retrieve_extract",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_cd2307ca694e55be",
+      "doi": "10.1038/s41598-025-21094-3",
+      "title": "Greenhouse gas emissions from ditches in oil palm plantations on tropical peatlands in Malaysia",
+      "machine_priority": "P1 — direct measurement",
+      "decision": "retrieve_extract",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_a77001951c8051cf",
+      "doi": "10.5194/egusphere-egu24-14157",
+      "title": "Methane and Nitrous Oxide Fluxes in Soil and Stems of Malaysian Tropical Peat Swamp Forest",
+      "machine_priority": "P1 — direct measurement",
+      "decision": "retrieve_extract",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_3a6645d40d73eb29",
+      "doi": "10.9734/ajahr/2024/v11i1306",
+      "title": "Plant Physiological Performances, Plant Growth, Grain Yield and Methane Emission of Rice (Oryza Sativa L.) in Response to Water Management as Adaptation Strategy for Climate Change",
+      "machine_priority": "P1 — direct measurement",
+      "decision": "retrieve_extract",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_64308285281b45b9",
+      "doi": "10.61762/pajevol10iss2art001",
+      "title": "Development of Tier 2 Fugitive Emission Factors for Malaysia's Oil and Gas Systems",
+      "machine_priority": "P1 — direct measurement",
+      "decision": "retrieve_extract",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_c0f0b5add1d982a4",
+      "doi": "10.31223/x5g697",
+      "title": "Detecting methane emissions from palm oil mills with airborne and spaceborne imaging spectrometers",
+      "machine_priority": "P1 — direct measurement",
+      "decision": "retrieve_extract",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_08c89a5b7f06d951",
+      "doi": "10.1016/j.scitotenv.2025.178466",
+      "title": "Impact of land conversion on environmental conditions and methane emissions from a tropical peatland",
+      "machine_priority": "P1 — direct measurement",
+      "decision": "retrieve_extract",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_508634e7b7da6ca7",
+      "doi": "10.5281/zenodo.20453138",
+      "title": "Rice CH4 inventory and validation data + code for Southeast Asia (0.1 deg, 2020-2021)",
+      "machine_priority": "P2 — scope check",
+      "decision": "exclude",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_30ea9ab92c8e9b3e",
+      "doi": "10.17113/ftb.63.02.25.8792",
+      "title": "Predictive Modelling of H2S Removal from Biogas Generated from Palm Oil Mill Effluent (POME) Using a Biological Scrubber in an Industrial Biogas Plant: Integration of Artificial Neural Network (ANN) and Process Simulation",
+      "machine_priority": "P2 — scope check",
+      "decision": "exclude",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_877e5a8be1652f60",
+      "doi": "10.1016/j.psep.2026.109123",
+      "title": "Economic allocation in wastewater-to-energy life cycle assessment: Carbon value and mitigation co-benefits of palm oil mill effluent in the Global South",
+      "machine_priority": "P2 — scope check",
+      "decision": "exclude",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_b5ddcfb66091599f",
+      "doi": "10.5194/egusphere-egu24-20969",
+      "title": "Methanotrophy Potential in Tropical Peatland under Different Land Use in Sarawak, Malaysia",
+      "machine_priority": "P2 — scope check",
+      "decision": "exclude",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_624358489900de28",
+      "doi": "10.3389/fsoil.2024.1259907",
+      "title": "Translocation of tropical peat surface to deeper soil horizons under compaction controls carbon emissions in the absence of groundwater",
+      "machine_priority": "P2 — scope check",
+      "decision": "exclude",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_9639b0bdde7a3def",
+      "doi": "10.1007/s42452-023-05548-9",
+      "title": "Assessing the potential of compaction techniques in tropical peatlands for effective carbon reduction and climate change mitigation",
+      "machine_priority": "P2 — scope check",
+      "decision": "exclude",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_d4cbc4f8fee8b990",
+      "doi": "10.1002/apj.3030",
+      "title": "Operational process stability in pilot dry anaerobic digester of source‐sorted organic fraction municipal solid waste",
+      "machine_priority": "P2 — scope check",
+      "decision": "exclude",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_faa179441e04d534",
+      "doi": "10.11591/ijai.v14.i1.pp231-239",
+      "title": "Neural networks based-simple estimated model for greenhouse gas emission from irrigated paddy fields",
+      "machine_priority": "P2 — scope check",
+      "decision": "exclude",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_6235be3c09b315e4",
+      "doi": "10.1051/e3sconf/202563603002",
+      "title": "A Comparative Study on the Effects of Co-Digesting Molasses with Palm Oil Mill Effluent (POME) or Chicken Manure on Biomethane Yield",
+      "machine_priority": "P2 — scope check",
+      "decision": "exclude",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_350e2c07e2f8a9a8",
+      "doi": "10.2166/wst.2024.153",
+      "title": "Feeding frequency efficacy on biogas yield of oily substrate anaerobic digestion in continuous stir tank reactor",
+      "machine_priority": "P2 — scope check",
+      "decision": "exclude",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_b55a16e87c377280",
+      "doi": "10.1016/j.fuel.2023.129916",
+      "title": "In-ground lagoon anaerobic digester in the treatment of palm oil mill effluent (POME): Effects of process parameters and optimisation analysis",
+      "machine_priority": "P2 — scope check",
+      "decision": "exclude",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_6fba7db8ab53e2c0",
+      "doi": "10.1007/s10533-023-01103-1",
+      "title": "Peatland restoration pathways to mitigate greenhouse gas emissions and retain peat carbon",
+      "machine_priority": "P2 — scope check",
+      "decision": "exclude",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_d22cf728f2ae29ae",
+      "doi": "10.1016/j.fuel.2024.133727",
+      "title": "High organic loading rate treatment of palm oil mill effluent using a pilot-scale integrated anaerobic-aerobic bioreactor",
+      "machine_priority": "P2 — scope check",
+      "decision": "exclude",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_73bfeb2c504584fe",
+      "doi": "10.1016/j.energy.2023.129939",
+      "title": "Industrial-scale anaerobic Co-digestion of palm oil mill effluent and decanter cake for maximizing methane yield",
+      "machine_priority": "P2 — scope check",
+      "decision": "exclude",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_0803dc2f954d4696",
+      "doi": "10.1029/2025av002260",
+      "title": "Spatiotemporal Variations in Hydrology Drive Greenhouse Gas Emissions in Tropical Peatlands",
+      "machine_priority": "P3 — context only",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_5aba67625a685066",
+      "doi": "10.3390/atmos16050582",
+      "title": "Estimation of Biomass Burning Emissions in South and Southeast Asia Based on FY-4A Satellite Observations",
+      "machine_priority": "P3 — context only",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_69c4ada217c15aff",
+      "doi": "10.3390/su172310665",
+      "title": "The Potential of Zero Liquid Discharge for Sustainable Palm Oil Mill Effluent Management in Malaysia: A Techno-Economic and ESG Perspective",
+      "machine_priority": "P3 — context only",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_d3f2bf52f8eb75e7",
+      "doi": "10.35631/aijbes.620026",
+      "title": "SOCIO-ECONOMIC IMPACTS OF OIL PALM PLANTATIONS IN MALAYSIA: A REVIEW OF ECONOMIC AND ENVIRONMENTAL PERSPECTIVES",
+      "machine_priority": "P3 — context only",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_3203cc84e5273d39",
+      "doi": "10.2118/221314-ms",
+      "title": "Operational Strategies and Cost Dynamics of Hydrogen Production: A Case Study in Malaysia",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_6972edbd6f5a0be7",
+      "doi": "10.5530/pj.2026.18.126",
+      "title": "Green-Synthesized Copper Nanoparticles from Azadirachta Indica for Antimicrobial Applications and Potential Visible-Light- Assisted Organic Load Reduction of POME",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_08272d1d9319d9c4",
+      "doi": "10.1007/s13762-025-06947-8",
+      "title": "Copperas supplementation during anaerobic digestion of aquaculture sludge: methane production, organic matter removal, and process optimization",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_248ac64f95583d9a",
+      "doi": "10.1088/1755-1315/1560/1/012003",
+      "title": "Effect of Pre-treatment of Oil Palm Empty Fruit Bunch (OPEFB) in the production of biogas in Chemical Looping Reforming (CLR)",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_532032a1eb3a3917",
+      "doi": "10.1002/tqem.70155",
+      "title": "Influence of Hydraulic Retention Time in the Methanogenic Stage on Biohythane Production and Dissolved Sulfide Removal From Acidogenic Effluent",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_65931b97ecfa5153",
+      "doi": "10.3390/en18010001",
+      "title": "Anaerobic Biohythane Production in an Internal Two-Stage Bioreactor: Kitchen Waste Concentration Optimization",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_b185dc1252364a23",
+      "doi": "10.24003/emitter.v12i2.890",
+      "title": "Development of DOAS System for Hazardous Methane Detection in the Near-Infrared Region",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_9709524d7e14e7a3",
+      "doi": "10.59440/ceer/175795",
+      "title": "Influence of Mesophilic Bacteria Inoculation with Chicken Manure for Biogas Production Enhancement in Anaerobic Digestion (AD) Process",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_f825a1088eac4313",
+      "doi": "10.3390/environments13010022",
+      "title": "Palm Oil Fuel Ash-Enhanced Biofilm Reactor: Performance and Microbial Dynamics in POME Treatment",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_63f05c4e615b2b26",
+      "doi": "10.47772/ijriss.2026.100700048",
+      "title": "Technical, Economic, Social, and Environmental Dimensions in Biogas Energy Development",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_bfe39418664d344c",
+      "doi": "10.20508/ijrer.v15i4.14918.g9132",
+      "title": "Design and performance of water scrubber and desulfurization system for CO2 and H2S purification of biogas produced from POME",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_325765714428a91a",
+      "doi": "10.1007/s13762-025-06634-8",
+      "title": "Physicochemical changes and emissions impact during co-composting of grease trap solid waste and rice husk",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_ae2ce7cff5e86613",
+      "doi": "10.64030/3069-2075.02.01.08",
+      "title": "POME-Based Sustainable Aviation Fuel (SAF) as a Game Changer in Sustainable Renewable Energy",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_e101ba0508a73dac",
+      "doi": "10.4314/sajas.v54i3.04",
+      "title": "Increasing the nutritive value of a rice straw-based diet using mulberry and Leucaena to promote the growth performance of lambs",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_82e0e2d1172f48e0",
+      "doi": "10.4491/eer.2025.698",
+      "title": "Mesoporous bio-composite hydrogels for selective hydrogen sulfide and carbon dioxide adsorption in biogas purification",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_a04dc8d14b2e9af3",
+      "doi": "10.1007/s13369-025-10865-9",
+      "title": "Kinetics and Mechanism of Ni/La-Promoted Fibrous Silica Titania (FST) for High-Performance Syngas Generation via Dry Reforming of Methane",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_427912e56ee3207f",
+      "doi": "10.14710/jitaa.49.4.307-315",
+      "title": "The digestibility, ruminal fermentation and methane product of Cajanus cajan forage as a concentrate substitute in goats",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_9b2a05dab37f83dd",
+      "doi": "10.3390/su151914531",
+      "title": "Evaluation of the Methane (CH4) Generation Rate Constant (k Value) of Municipal Solid Waste (MSW) in Mogadishu City, Somalia",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_7b8d563f39fe9fd8",
+      "doi": "10.15376/biores.21.3.james",
+      "title": "Activated carbon from lignocellulosic biomass for biogas upgrading: Structure, activation, and adsorption mechanisms",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_6d78f1e020585cba",
+      "doi": "10.47772/ijriss.2026.100700056",
+      "title": "Navigating Climate-Related Risks and Sustainable Finance: A Critical Review of ESG Transformation in Malaysian Plam Oil Industry",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_32a164e1c8b9276a",
+      "doi": "10.36877/aafrj.a0000566",
+      "title": "Biogas Purification Using Rice Straw and Wood Chip Biochar",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_6648a8f93c198496",
+      "doi": "10.1007/s44246-026-00266-4",
+      "title": "Upcycling eggshell waste into CaO-enhanced PVDF mixed matrix membranes for optimized CO2/CH4 separation",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_afeacce75ee63805",
+      "doi": "10.9767/bcrec.20266",
+      "title": "Impact of Zirconia and Lanthanum Promoters on Multiwalled CNT Generation in Dry Reforming of Methane",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_df8f4d264a73fdb4",
+      "doi": "10.59440/ceer/193454",
+      "title": "Bio-delignification and Pre-treatment of Oil Palm Frond (OPF) by Trametes Polyzona for Enhanced Biochemical Methane Potential (BMP)",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_88fd080918649e2c",
+      "doi": "10.3390/hydrogen5040040",
+      "title": "Comparative Hydrogen Production Routes via Steam Methane Reforming and Chemical Looping Reforming of Natural Gas as Feedstock",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_36de8d4aa684fb42",
+      "doi": "10.1007/s13205-024-03933-8",
+      "title": "Microbial community dynamics and functional potentials in the conversion of oil palm wastes into biomethane",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_69a4b9582591537b",
+      "doi": "10.1051/e3sconf/202451602002",
+      "title": "Non-noble metal catalysts for dry reforming of methane: Challenges, opportunities, and future directions",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    },
+    {
+      "candidate_id": "candidate_a111b0024ae82b69",
+      "doi": "10.9734/sajrm/2023/v16i4316",
+      "title": "Temporal Variation of Methanogenic Microbial Community in Palm Oil Mill Effluent (POME) Anaerobic Digester",
+      "machine_priority": "P4 — exclude",
+      "decision": "pending",
+      "reviewer_note": ""
+    }
+  ]
+}

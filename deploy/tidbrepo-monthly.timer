@@ -1,0 +1,11 @@
+[Unit]
+Description=Run the Malaysian methane literature check monthly
+
+[Timer]
+OnCalendar=*-*-01 03:15:00
+Persistent=true
+RandomizedDelaySec=45m
+Unit=tidbrepo-monthly.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,6 @@
+Monthly Malaysian methane literature check completed.
+Run directory: /home/yusriy/tidbrepo-monthly/knowledge_base/literature_updates/runs/20260920T164325
+New candidate papers: 2
+Automatically proposed values: 3
+Review candidate_review.csv before any further extraction or database preparation.
+No TIDBRepo upload was attempted.

@@ -1,0 +1,18 @@
+[Unit]
+Description=Monthly Malaysian methane literature candidate check
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=__INSTALL_DIR__
+Environment=PYTHONDONTWRITEBYTECODE=1
+EnvironmentFile=-%h/.config/tidbrepo-monthly.env
+ExecStart=__INSTALL_DIR__/deploy/run_monthly.sh
+TimeoutStartSec=45min
+Nice=10
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=default.target

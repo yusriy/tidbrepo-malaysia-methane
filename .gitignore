@@ -1,0 +1,30 @@
+# Credentials and machine-specific settings
+.env
+*.env
+.codex/
+
+# Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# Locally held papers — redistribution rights not assumed
+*.pdf
+
+# Large reproducible search responses and downloaded sources
+knowledge_base/literature_updates/runs/*/raw/
+knowledge_base/literature_updates/runs/*/sources/
+
+# Runtime state
+knowledge_base/literature_updates/state/latest_run_path.txt
+knowledge_base/literature_updates/state/monthly-run.lock
+*.log
+
+# SQLite temporary files
+*.sqlite-wal
+*.sqlite-shm
+
+# Transfer packages and operating-system files
+*.tar.gz
+.DS_Store
+.Rhistory

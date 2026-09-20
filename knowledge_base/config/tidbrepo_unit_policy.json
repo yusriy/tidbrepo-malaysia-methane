@@ -1,0 +1,112 @@
+{
+  "policy_version": "1.1",
+  "principle": "Preserve the source value and unit exactly, and store a separate TIDBRepo-standardized value only when the conversion is dimensionally valid and fully documented.",
+  "required_review_fields": [
+    "reported_value",
+    "reported_unit",
+    "standardized_value",
+    "standardized_unit",
+    "conversion_status",
+    "conversion_factor",
+    "conversion_formula",
+    "conversion_assumptions",
+    "source_locator"
+  ],
+  "canonical_units_by_category": {
+    "Rice Cultivation": "kg CH4 ha-1 day-1",
+    "Peat lands": "kg CH4 ha-1 day-1",
+    "Drained Organic Soil": "kg CH4 ha-1 day-1",
+    "Disturbed river basins": "kg CH4 ha-1 day-1",
+    "Undisturbed river basins": "kg CH4 ha-1 day-1",
+    "Enteric Fermentation": "kg CH4 head-1 yr-1",
+    "Manure Management": "kg CH4 head-1 yr-1",
+    "Wastewater Treatment and Discharge - Industrial": "kg CH4 kg-1 BOD",
+    "Wastewater Treatment and Discharge - Domestic": "kg CH4 kg-1 BOD",
+    "Solid Waste Disposal": "kg CH4 kg-1 total MSW",
+    "Fugitive Emissions from Fuels - Oil": "kg CH4 TJ-1",
+    "Fugitive Emissions from Fuels - Natural Gas": "kg CH4 TJ-1"
+  },
+  "direct_conversion_rules": [
+    {
+      "reported_unit": "ug C m-2 h-1",
+      "standardized_unit": "kg CH4 ha-1 day-1",
+      "factor": 0.00032,
+      "formula": "value × (16/12) × 24 × 10000 × 1e-9",
+      "assumptions": "Carbon mass is converted stoichiometrically to methane mass using 16/12."
+    },
+    {
+      "reported_unit": "mg C m-2 day-1",
+      "standardized_unit": "kg CH4 ha-1 day-1",
+      "factor": 0.0133333333333333,
+      "formula": "value × (16/12) × 10000 × 1e-6",
+      "assumptions": "Carbon mass is converted stoichiometrically to methane mass using 16/12."
+    },
+    {
+      "reported_unit": "g C m-2 yr-1",
+      "standardized_unit": "kg CH4 ha-1 day-1",
+      "factor": 0.0365296803652968,
+      "formula": "value × (16/12) × 10 / 365",
+      "assumptions": "Carbon mass is converted using 16/12 and annual flux is divided by 365 days."
+    },
+    {
+      "reported_unit": "g CH4 m-2 day-1",
+      "standardized_unit": "kg CH4 ha-1 day-1",
+      "factor": 10,
+      "formula": "value × 10000 / 1000",
+      "assumptions": "Area and mass conversion only."
+    },
+    {
+      "reported_unit": "mmol CH4 m-2 day-1",
+      "standardized_unit": "kg CH4 ha-1 day-1",
+      "factor": 0.16,
+      "formula": "value × 1e-3 × 16 × 10000 / 1000",
+      "assumptions": "Methane molar mass is represented as 16 g mol-1 for inventory compatibility."
+    },
+    {
+      "reported_unit": "umol CH4 m-2 s-1",
+      "standardized_unit": "kg CH4 ha-1 day-1",
+      "factor": 13.824,
+      "formula": "value × 1e-6 × 16 × 86400 × 10000 / 1000",
+      "assumptions": "Methane molar mass is represented as 16 g mol-1."
+    }
+  ],
+  "blocked_conversion_examples": [
+    {
+      "reported_basis": "POME surface flux",
+      "target_basis": "kg CH4 kg-1 BOD",
+      "reason": "Requires contemporaneous BOD load and a defensible allocation between pond area and treated wastewater."
+    },
+    {
+      "reported_basis": "Gg CH4 per 10^6 m3 oil or gas",
+      "target_basis": "kg CH4 TJ-1",
+      "reason": "Requires source-specific energy content or net calorific value; no default may be silently assumed."
+    },
+    {
+      "reported_basis": "m3 CH4 Mg-1 waste or ml CH4 g-1 VS",
+      "target_basis": "kg CH4 kg-1 total MSW",
+      "reason": "Requires methane density at stated conditions and, for VS-based results, the volatile-solids fraction of total wet waste."
+    },
+    {
+      "reported_basis": "percent emission reduction",
+      "target_basis": "absolute emission factor",
+      "reason": "Requires the absolute baseline emission factor."
+    }
+  ],
+  "approved_record_exceptions": [
+    {
+      "tidbrepo_ids": [132, 133, 134, 135, 136, 137, 138, 139],
+      "doi": "10.61762/pajevol10iss2art001",
+      "categories": [
+        "Fugitive Emissions from Fuels - Oil",
+        "Fugitive Emissions from Fuels - Natural Gas"
+      ],
+      "approved_units_by_category": {
+        "Fugitive Emissions from Fuels - Oil": "kg CH₄ m⁻³ oil sales volume",
+        "Fugitive Emissions from Fuels - Natural Gas": "kg CH₄ m⁻³ natural gas sales volume"
+      },
+      "reason": "Researcher-approved mass-per-volume representation of Malaysia-specific Tier 2 factors. Conversion to the canonical kg CH4 TJ-1 basis remains blocked until a matching net calorific value and volume reference basis are verified.",
+      "approved_on": "2026-09-20"
+    }
+  ],
+  "rounding_rule": "Carry full precision through conversion, then display no more precision than is justified by the reported value. Preserve the unrounded standardized value in the provenance record."
+}

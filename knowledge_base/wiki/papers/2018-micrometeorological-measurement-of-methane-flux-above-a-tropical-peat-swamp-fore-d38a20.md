@@ -1,0 +1,76 @@
+---
+document_id: "doc_9bf65262ead38a20"
+title: "Micrometeorological measurement of methane flux above a tropical peat swamp forest"
+year: 2018
+doi: "10.1016/j.agrformet.2018.03.025"
+manuscript_role: "quantitative_baseline"
+tidbrepo_baseline_decision: "approve_existing_representation"
+verification_status: "machine_extracted"
+---
+
+# Micrometeorological measurement of methane flux above a tropical peat swamp forest
+
+> Verification status: machine-extracted; bibliographic details and section boundaries require human review.
+
+## Source record
+
+- Database ID: `doc_9bf65262ead38a20`
+- Local source: `pdfs/2018_wong.pdf`
+- SHA-256: `9bf65262ead38a20dec292839978ca39c422582b47cec552e0bee3683bd10ee9`
+- Authors: Guan Xhuan Wong
+- DOI: https://doi.org/10.1016/j.agrformet.2018.03.025
+- Pages: 9
+- Search chunks: 38
+- Manuscript role: `quantitative_baseline`
+- TIDBRepo baseline decision: `approve_existing_representation`
+
+## Connections
+
+- ecosystem: [[topics/tropical-peatland|Tropical peatland]]
+- location: [[locations/malaysia|Malaysia]]
+- location: [[locations/sarawak|Sarawak]]
+- method: [[methods/eddy-covariance|Eddy covariance]]
+- sector: [[topics/afolu|AFOLU]]
+- Proposed claims: 3
+- Verified measurements: 0
+- Proposed measurements: 9
+
+## Abstract
+
+Tropical peat swamp forest is a unique ecosystem, in which both swamp forest and peat soil have coexisted over
+millennia and accumulated a signi ﬁcant amount of soil carbon as peat. Owing to the huge soil carbon stock and
+high groundwater level (GWL), tropical peatlands potentially represent a signi ﬁcant source of methane (CH 4)t o
+the atmosphere. However, a few studies of CH 4 ﬂux by the soil chamber technique have reported that annual
+CH4 emissions from tropical peat swamp forest were very low as compared to mid- and high-latitude peatlands.
+Recently, it has been reported that some tree species growing in peat swamp forest emit CH 4 from their stems. It
+is impossible to continuously measure ecosystem-scale CH 4 ﬂux including both soil and plant-mediated CH 4
+emissions by the chamber technique. Thus, we have measured net ecosystem CH 4 exchange (FCH 4) above a
+tropical peat swamp forest in Sarawak, Malaysia using the eddy covariance technique from February 2014 to
+July 2015 (18 months). The mean ( ± 1 standard deviation) of half-hourly measured FCH
+4 was
+24.0 ± 42.2 nmol m – 2 s– 1. Monthly mean FCH 4 was always positive during the 18 months, even in the driest
+month with mean GWL of – 30 cm. FCH4 was positively associated with GWL or soil moisture in a quadratic form.
+Annual FCH 4 from March 2014 through February 2015 was 7.5 – 10.8 g C m– 2 yr– 1. The annual FCH 4 was much
+higher than annual soil CH 4 emissions from tropical peatlands, because the FCH 4 included aboveground CH 4
+emissions mainly from tree stems. However, the annual FCH 4 was relatively low in comparison with those
+measured by the eddy covariance technique in mid- and high-latitude peatlands.
+
+## Detected structure
+
+| Type | Original heading | Pages | Characters |
+|---|---|---:|---:|
+| front_matter | - | 1 | 719 |
+| keywords | Keywords: | 1 | 104 |
+| abstract | ABSTRACT | 1 | 1690 |
+| introduction | 1. Introduction | 1-2 | 6179 |
+| methods | 2. Material and methods | 2-4 | 11949 |
+| results | 3. Results | 5-6 | 6417 |
+| discussion | 4. Discussion | 6 | 1950 |
+| references | References | 6-7 | 8365 |
+| conclusion | 5. Conclusions | 7 | 1354 |
+| acknowledgements | Acknowledgements | 8 | 659 |
+| references | References | 8-9 | 14084 |
+
+## Research notes
+
+<!-- Add verified synthesis through the ingestion/review workflow. -->

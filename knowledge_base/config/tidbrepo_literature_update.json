@@ -1,0 +1,80 @@
+{
+  "baseline_date": "2023-08-26",
+  "search_from_date": "2023-08-27",
+  "country_terms": [
+    "Malaysia",
+    "Malaysian",
+    "Sarawak",
+    "Sabah",
+    "Peninsular Malaysia",
+    "Selangor"
+  ],
+  "methane_terms": [
+    "methane",
+    "CH4",
+    "CH₄"
+  ],
+  "measurement_terms": [
+    "emission factor",
+    "flux",
+    "yield",
+    "emission",
+    "concentration",
+    "eddy covariance",
+    "chamber",
+    "Tier 2"
+  ],
+  "exclusion_terms": [
+    "review",
+    "bibliometric",
+    "perspective",
+    "editorial"
+  ],
+  "queries": [
+    "Malaysia methane emission factor",
+    "Malaysia methane flux measurement",
+    "Malaysia CH4 rice emission",
+    "Malaysia methane peatland",
+    "Malaysia methane oil gas fugitive",
+    "Malaysia methane POME wastewater",
+    "Sarawak Sabah methane flux"
+  ],
+  "seed_candidates": [
+    {
+      "doi": "10.61762/pajevol10iss2art001",
+      "title": "Development of Tier 2 Fugitive Emission Factors for Malaysia's Oil and Gas Systems",
+      "publication_year": 2026,
+      "source_url": "https://journal.utp.edu.my/paje/vol10/iss2/1/",
+      "abstract": "Malaysia-specific Tier 2 fugitive oil and gas emission factors for venting, flaring, and other fugitive emissions, including CH4 factors derived from nationally representative operational data."
+    },
+    {
+      "doi": "10.1016/j.fuel.2023.129916",
+      "title": "In-ground lagoon anaerobic digester in the treatment of palm oil mill effluent (POME): Effects of process parameters and optimisation analysis",
+      "publication_year": 2024,
+      "source_url": "https://doi.org/10.1016/j.fuel.2023.129916",
+      "abstract": "Industrial-scale Malaysian POME biogas plants with measured methane yield and process conditions."
+    },
+    {
+      "doi": "10.1016/j.energy.2023.129939",
+      "title": "Industrial-scale anaerobic Co-digestion of palm oil mill effluent and decanter cake for maximizing methane yield",
+      "publication_year": 2024,
+      "source_url": "https://doi.org/10.1016/j.energy.2023.129939",
+      "abstract": "Industrial-scale POME and decanter cake co-digestion study reporting methane yield and biogas production."
+    },
+    {
+      "doi": "10.1016/j.fuel.2024.133727",
+      "title": "High organic loading rate treatment of palm oil mill effluent using a pilot-scale integrated anaerobic-aerobic bioreactor",
+      "publication_year": 2025,
+      "source_url": "https://doi.org/10.1016/j.fuel.2024.133727",
+      "abstract": "Pilot-scale POME treatment study reporting methane yield under high organic loading."
+    }
+  ],
+  "minimum_screening_score": 5,
+  "openalex_per_page": 100,
+  "openalex_max_pages_per_query": 2,
+  "tidbrepo": {
+    "database_id": "8cb5b734-7d57-4ca5-81a6-4d1de7acee88",
+    "table_id": "ff844ee0-03d8-4531-ae43-14f4bbdf4cd4",
+    "public_data_endpoint": "https://tidbrepo.usm.my/api/v1/database/8cb5b734-7d57-4ca5-81a6-4d1de7acee88/table/ff844ee0-03d8-4531-ae43-14f4bbdf4cd4/data"
+  }
+}
