@@ -690,3 +690,6 @@ Append-only record of ingestion, compilation, queries, review imports, and lint 
   "pages": 75
 }
 ```
+## 2026-10-28 | October monthly workflow audit
+
+Inspected run `20260930T195143Z` without regenerating its original files. Diagnosed the candidate's extraction skip (score 6, required 8), corrected future review status/count reporting, and added regression tests. Verified the UiTM full text separately and recorded a context-only screening recommendation with source checksum and page locators in [[findings/october-2026-workflow-audit|October workflow audit]]. Added proposed LLM screening, source verification, backlog, and review-preservation improvements. Complete new run packages remain local; tracked history is preserved. No scientific database write, TIDBRepo upload, timer change, or merge.
