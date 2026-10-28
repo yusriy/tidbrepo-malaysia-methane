@@ -717,3 +717,7 @@ Recorded the owner’s approval of R01/R02 wiki-only with database use on hold, 
 ## 2026-10-29 | Owner authorized R03 upload; submission prepared
 
 Cross-checked R03 Table 3 mean/SD, outlier exclusion, Maludam site and soil-chamber conditions against stored full text and author-posted full text, with publisher abstract corroboration. Prepared one explicitly conditioned peat-land row using the existing unit policy; no duplicate DOI or corresponding mean in 180 live rows. Submission remains pending authenticated access; no TIDBRepo write confirmed. Original scientific records, raw evidence, timer and other paper decisions are unchanged. See [[papers/2019-carbon-dioxide-and-methane-emissions-from-peat-soil-in-an-undrained-tropical-pea-a6bc32|R03 provenance]].
+
+## 2026-10-29 | Direct API path for the authorized R03 submission
+
+Browser SSO returned to an unauthenticated UI. Added a manual HTTPS Basic-authentication helper with hidden, unsaved password input, owner-authorization and source-condition checks, complete duplicate checking, a locked local submission receipt, no blind retries, the documented data wrapper, and read-back verification. It is separate from scheduled discovery and does not alter the timer. Submission still awaits the owner’s local credential input.

@@ -146,3 +146,17 @@ Apply the existing unit-policy rule `value × (16/12) × 10 / 365` to both mean 
 Pre-submission duplicate check: all 180 live rows were retrieved; no R03 DOI match or matching normalized mean was found. Existing Alan Batu row 102 cites a different forest-type study and is retained unchanged.
 
 **Submission status: prepared and validated; awaiting authenticated TIDBRepo access. No upload confirmed.** Approval and full conversion provenance: `knowledge_base/reconciliations/reviews/2026-10-29-R03-upload.json`. Complete processing files remain local under `knowledge_base/literature_updates/runs/20261028-r03-upload/`. Original SQLite measurement values and verification flags are unchanged.
+
+### Direct API submission option
+
+The manual one-time helper `knowledge_base/pipeline/submit_r03.py --execute` uses documented HTTPS Basic authentication with a hidden password prompt. It saves no password or token, refuses authentication redirects, checks existing database write access and all current rows before insertion, and uses the API's `{"data": record}` wrapper. It submits only the approved R03 representation. A local locked receipt records the request before transmission; failed or ambiguous attempts block automatic retries. Successful insertion is independently read back, and pre-existing row values must remain unchanged. The helper is not called by monthly automation.
+
+Run from any local terminal:
+
+```bash
+/home/yusriy/tidbrepo-monthly/.venv/bin/python /home/yusriy/tidbrepo-monthly/knowledge_base/pipeline/submit_r03.py --execute
+```
+
+The local result is `knowledge_base/literature_updates/runs/20261028-r03-upload/api_submission_receipt.json`. A successful result reports `verified` and the row ID; `verified_existing` confirms a matching record without inserting a duplicate. Neither a prepared package nor an authentication attempt is an upload receipt.
+
+API reference: https://www.ifs.tuwien.ac.at/infrastructures/dbrepo/1.11/api/rest/ (Insert tuple: Basic/Bearer authentication and `data` request body). The site identifies its version as 1.14.1; the helper's actual success is determined by response and read-back verification, not documentation alone.
