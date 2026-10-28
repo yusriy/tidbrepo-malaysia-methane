@@ -31,6 +31,7 @@ class FakeClient:
 class SubmissionTests(unittest.TestCase):
     def setUp(self):
         self.package = json.loads(workflow.PACKAGE.read_text())
+        self.package.pop("upload_authorization_revoked", None)
         self.temp = tempfile.TemporaryDirectory()
         self.run = Path(self.temp.name)
 
@@ -95,6 +96,11 @@ class SubmissionTests(unittest.TestCase):
                 package["payload"][0]["unit"] = "g C m^-2 yr^-1"
             with self.subTest(mutation=mutation), self.assertRaises(workflow.SubmissionError):
                 workflow.validated_payload(package)
+
+    def test_revoked_permission_blocks_reinsertion(self):
+        self.package["upload_authorization_revoked"] = True
+        with self.assertRaisesRegex(workflow.SubmissionError, "revoked"):
+            workflow.validated_payload(self.package)
 
     def test_credentials_are_not_forwarded_to_redirects(self):
         handler = workflow.NoRedirect()

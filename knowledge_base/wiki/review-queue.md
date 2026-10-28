@@ -4,6 +4,8 @@
 
 ## Monthly literature
 
+**Row 181 removal:** the owner requested removal of the R03 legacy-paper entry on 29 October 2026. Removal is complete: HTTP 202, verified local receipt and independent public read-back confirm row 181 absent, with the other 180 records unchanged. The old upload permission is revoked. This is cleanup of a legacy entry, not a new monthly literature review.
+
 See [[unverified-literature/index|Unverified monthly literature queue]] for machine-discovered candidates. These entries and extracted measurements remain unverified until scientific review.
 
 October 2026: **0 pending paper reviews**. The owner [[findings/literature-review-hcc-2026-10-28|excluded the Hydrothermal Compost Catalyst paper]] on 28 October 2026. The older verification items below are separate from this completed monthly review.
@@ -52,7 +54,7 @@ The owner approved [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28
 
 ## R03 upload follow-up — 29 October 2026
 
-The owner authorized [[papers/2019-carbon-dioxide-and-methane-emissions-from-peat-soil-in-an-undrained-tropical-pea-a6bc32|R03 submission]]. The non-trenched n=9 outlier-excluded Table 3 mean/SD and source conditions have been cross-checked in full text; conversion and duplicate checks passed. One record was uploaded and independently verified as **TIDBRepo row 181** (mean 0.158, SD 0.144 kg CH4 ha^-1 day^-1). The table now contains 181 rows; the original 180 rows are unchanged. R03 has no pending upload action. Earlier candidate-only decisions and the 28 October live-table reconciliation remain historical snapshots. R01/R02/R04 dispositions are unchanged. Q01/Q02 were subsequently closed by the owner, as recorded below.
+The owner authorized [[papers/2019-carbon-dioxide-and-methane-emissions-from-peat-soil-in-an-undrained-tropical-pea-a6bc32|R03 submission]]. The non-trenched n=9 outlier-excluded Table 3 mean/SD and source conditions have been cross-checked in full text; conversion and duplicate checks passed. One record was uploaded and independently verified as **TIDBRepo row 181** (mean 0.158, SD 0.144 kg CH4 ha^-1 day^-1). At that upload verification the table contained 181 rows with the earlier 180 unchanged. Row 181 was subsequently removed at owner request; the current table contains 180 unchanged original rows. R03 has no pending upload or removal action. Earlier candidate-only decisions and the 28 October live-table reconciliation remain historical snapshots. R01/R02/R04 dispositions are unchanged. Q01/Q02 were subsequently closed by the owner, as recorded below.
 
 ## Existing-entry checks closed — 29 October 2026
 

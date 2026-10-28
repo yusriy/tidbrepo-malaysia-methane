@@ -98,3 +98,7 @@ After separate owner upload authorization and full-text source checks, [[papers/
 **Q02: closed — previously resolved.** The owner confirmed that the paddy issue was resolved previously. The earlier source/statistic comparison remains preserved for provenance; this closure does not supply or invent a new technical explanation and requests no change to rows 109–110.
 
 The decisions are recorded separately under `knowledge_base/reconciliations/reviews/2026-10-29-close-Q01.json` and `2026-10-29-close-Q02.json`. Both are closed with no further review required. No TIDBRepo values or scientific verification flags were modified.
+
+## R03 entry removed at owner request — 29 October 2026
+
+The owner requested removal of row 181 after clarifying that the active task is new automated discoveries, not additional entries from original-corpus papers. HTTP 202, a verified local removal receipt and an independent public read confirm row 181 absent and all other 180 rows unchanged. The original 2019 paper, scientific evidence, matching assessment and earlier upload receipt remain preserved as history. R03 upload permission is revoked; no automatic reinsertion is permitted. Removal provenance: `knowledge_base/reconciliations/reviews/2026-10-29-R03-removal.json`.

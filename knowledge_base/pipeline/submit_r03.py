@@ -50,7 +50,7 @@ class Client:
         ).decode()
         self.opener = urllib.request.build_opener(NoRedirect())
 
-    def request(self, path, data=None):
+    def request(self, path, data=None, method=None):
         if not path.startswith("/api/v1/") or path.startswith("//"):
             raise SubmissionError("Request is outside the fixed TIDBRepo API.")
         request = urllib.request.Request(
@@ -58,7 +58,7 @@ class Client:
             data=None if data is None else json.dumps(data).encode(),
             headers={"Authorization": self.authorization, "Accept": "application/json",
                      "Content-Type": "application/json"},
-            method="GET" if data is None else "POST",
+            method=method or ("GET" if data is None else "POST"),
         )
         try:
             with self.opener.open(request, timeout=60) as response:
@@ -103,6 +103,8 @@ def same_record(row, payload):
 
 
 def validated_payload(package):
+    if package.get("upload_authorization_revoked"):
+        raise SubmissionError("R03 upload authorization was revoked; do not reinsert the removed record.")
     if package.get("authorization", {}).get("tidbrepo_upload_authorized") is not True:
         raise SubmissionError("Owner upload authorization is missing.")
     payload = package.get("payload", [])
