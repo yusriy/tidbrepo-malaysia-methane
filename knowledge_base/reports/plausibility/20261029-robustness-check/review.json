@@ -907,7 +907,7 @@
     "ipcc_min_only_storage": "accepted; not a data defect",
     "ipcc_doi_missing": "DOI optional; report edition/table locator required instead",
     "reference": "knowledge_base/reconciliations/reviews/2026-10-29-default-convention-and-coal-proposals.json",
-    "coal": "Earlier unit-change proposal withdrawn on owner clarification: existing kg CH4/TJ values are purposefully standardized. Owner authorized descriptions only for rows 55/58; categories, units and numeric values remain unchanged. See description-only decision record for execution status.",
+    "coal": "Description-only update complete and independently verified for rows 55/58. All 180 records and every other field, including kg CH4/TJ units, numeric values and categories, remain unchanged. Earlier native-unit proposals are withdrawn per owner clarification.",
     "doi": "Complete: 27 DOI fields in 22 records standardized as lowercase bare DOIs; full live table read-back confirms 180 rows and all non-DOI fields unchanged. See DOI normalization progress record."
   }
 }
