@@ -82,7 +82,7 @@
       "doi_6": null
     }
   ],
-  "upload_status": "uploaded_and_independently_verified",
+  "upload_status": "uploaded_then_removed_at_owner_request",
   "database_write_performed": true,
   "sqlite_measurement_status_changed": false,
   "supersedes_upload_permission_only": "knowledge_base/reconciliations/reviews/2026-10-28-suitability-R03.json",
@@ -114,5 +114,9 @@
     "local_receipt": "knowledge_base/literature_updates/runs/20261028-r03-upload/api_submission_receipt.json",
     "receipt_sha256": "e4c14c6536b4a7f768a77778eacefbd2fd513d699d5b96acbe2b04f57fbd49c2",
     "independent_response_sha256": "d66d5ccd0af20064f089d245a3c8ab79a41c50cf9e132a91f111bf5e266258ee"
-  }
+  },
+  "upload_authorization_revoked": true,
+  "superseded_by_removal_request": "knowledge_base/reconciliations/reviews/2026-10-29-R03-removal.json",
+  "current_tidbrepo_row_present": false,
+  "removal_record": "knowledge_base/reconciliations/reviews/2026-10-29-R03-removal.json"
 }

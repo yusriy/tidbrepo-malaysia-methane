@@ -6,7 +6,7 @@ doi: "10.1007/s10021-019-00376-8"
 manuscript_role: "quantitative_baseline"
 tidbrepo_baseline_decision: "approve_existing_representation"
 verification_status: "machine_extracted"
-tidbrepo_status: "uploaded_owner_authorized_source_checked"
+tidbrepo_status: "removed_at_owner_request"
 tidbrepo_row_id: 181
 ---
 
@@ -147,7 +147,7 @@ Apply the existing unit-policy rule `value × (16/12) × 10 / 365` to both mean 
 
 Pre-submission duplicate check: all 180 live rows were retrieved; no R03 DOI match or matching normalized mean was found. Existing Alan Batu row 102 cites a different forest-type study and is retained unchanged.
 
-**Submission status: uploaded and independently verified on 29 October 2026 (WITA), TIDBRepo row 181.** The owner ran the one-time API helper with local password input. The API returned HTTP 201; independent public read-back confirmed mean 0.158, SD 0.144, unit, DOI and full condition. The table now has 181 rows; the previous 180 rows are unchanged and exactly one record cites this DOI. The original SQLite verification flag remains unchanged. Approval and full conversion provenance: `knowledge_base/reconciliations/reviews/2026-10-29-R03-upload.json`. Complete processing files remain local under `knowledge_base/literature_updates/runs/20261028-r03-upload/`. Original SQLite measurement values and verification flags are unchanged.
+**Historical submission: uploaded and independently verified on 29 October 2026 (WITA), TIDBRepo row 181; subsequently removed at owner request.** The owner ran the one-time API helper with local password input. The API returned HTTP 201; independent public read-back confirmed mean 0.158, SD 0.144, unit, DOI and full condition. At upload verification the table had 181 rows, with the previous 180 unchanged and one record citing this DOI. Following the later removal, the table is back to 180 rows. The original SQLite verification flag remains unchanged. Approval and full conversion provenance: `knowledge_base/reconciliations/reviews/2026-10-29-R03-upload.json`. Complete processing files remain local under `knowledge_base/literature_updates/runs/20261028-r03-upload/`. Original SQLite measurement values and verification flags are unchanged.
 
 ### Direct API submission option
 
@@ -166,3 +166,15 @@ API reference: https://www.ifs.tuwien.ac.at/infrastructures/dbrepo/1.11/api/rest
 ### Confirmed upload receipt
 
 The local API receipt reports `verified`, HTTP 201, row 181, at `2026-10-28T16:12:44.435903+00:00` (29 October 2026, 00:12:44 WITA). An independent unauthenticated public API read confirmed the row and all previous rows unchanged. Curated saved values, response hashes and receipt linkage are in `knowledge_base/reconciliations/reviews/2026-10-29-R03-upload.json`; the full receipt and responses remain local. This records successful persistence of the owner-authorized source-checked factor, not a blanket promotion of the original machine-extracted corpus.
+
+## Owner requested removal — 29 October 2026
+
+After clarification that this is an original-corpus 2019 paper rather than a new monthly discovery, the owner instructed “remove it”, referring to TIDBRepo row 181. The prior upload receipt remains preserved as history. Upload permission is now revoked, and the old submission helper blocks reinsertion.
+
+**Current status: row 181 removed and independently verified on 29 October 2026.** HTTP 202 and the local API receipt confirm removal; an independent public read shows 180 rows and all remaining records unchanged. The exact row and full pre-removal response are preserved locally. The manual `knowledge_base/pipeline/remove_r03.py --execute` helper uses a hidden unsaved password prompt, checks row 181 against the owner-authorized contents, deletes by ID plus DOI, and independently verifies that all other rows are unchanged. Receipt: `knowledge_base/literature_updates/runs/20261029-r03-removal/api_removal_receipt.json`. Authorization: `knowledge_base/reconciliations/reviews/2026-10-29-R03-removal.json`.
+
+The original paper, extracted evidence, scientific verification flags and earlier upload history are retained. Removal does not exclude the paper from the knowledge base. No timer changes or further uploads are authorized.
+
+### Confirmed removal receipt
+
+The owner ran the one-time removal command with hidden local password input. The API returned HTTP 202; the receipt reports `verified_removed` at `2026-10-28T16:47:34.927088+00:00` (29 October 2026, 00:47:34 WITA). Independent public read-back confirms row 181 is absent and every other record is unchanged. Curated removal evidence is in `knowledge_base/reconciliations/reviews/2026-10-29-R03-removal.json`. Full receipts and snapshots remain local. The old upload helper is blocked from reinserting R03 under its revoked permission.

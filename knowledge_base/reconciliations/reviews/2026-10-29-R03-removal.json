@@ -1,0 +1,49 @@
+{
+  "review_id": "review_20261029_R03_removal",
+  "reviewed_on": "2026-10-29",
+  "reviewer": "Project owner (user)",
+  "authorization": {
+    "channel": "project chat",
+    "user_request": "remove it",
+    "context": "Remove TIDBRepo row 181, newly added from original-corpus 2019 R03 paper; owner wants new automated discoveries."
+  },
+  "deletion_authorized": true,
+  "tidbrepo_row_id": 181,
+  "expected_row": {
+    "id": 181,
+    "countries": "Malaysia",
+    "sectors": "AFOLU",
+    "category": "Peat lands",
+    "condition": "Undrained Alan Batu forest soil - Maludam, 2015-2017; non-trenched; n=9; one outlier excluded",
+    "tier": "2",
+    "mean": "0.158",
+    "stdev": "0.144",
+    "unit": "kg CH₄ ha⁻¹ day⁻¹",
+    "url": "https://doi.org/10.1007/s10021-019-00376-8",
+    "doi_1": "https://doi.org/10.1007/s10021-019-00376-8"
+  },
+  "status": "removed_and_independently_verified",
+  "deletion_confirmed": true,
+  "database_write_performed": true,
+  "before_rows": 181,
+  "before_response_sha256": "d66d5ccd0af20064f089d245a3c8ab79a41c50cf9e132a91f111bf5e266258ee",
+  "original_upload_record": "knowledge_base/reconciliations/reviews/2026-10-29-R03-upload.json",
+  "preserve_original_paper_and_evidence": true,
+  "scientific_verification_status_changed": false,
+  "automatic_reupload_prohibited": true,
+  "after_rows": 180,
+  "all_other_rows_unchanged": true,
+  "verification": {
+    "http_status": 202,
+    "verified_at": "2026-10-28T16:47:34.927088+00:00",
+    "independently_checked_at": "2026-10-28T16:48:35.054437+00:00",
+    "removed_ids": [
+      181
+    ],
+    "current_rows": 180,
+    "all_other_rows_unchanged": true,
+    "local_receipt": "knowledge_base/literature_updates/runs/20261029-r03-removal/api_removal_receipt.json",
+    "receipt_sha256": "22922224c2164c596e4c5498944da37a596bdbf1df5a2620ad32dc1313038d4a",
+    "independent_response_sha256": "88d1000505443c1d14a114c6a17eb974f83b4614f30e21103f7465f6e7ee4e71"
+  }
+}
