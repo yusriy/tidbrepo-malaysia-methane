@@ -40,7 +40,9 @@ Six values match at stored precision after unit conversion. The Melling uptake r
 | Assessment of differences in peat physico-chemical properties, surface subsidence and GHG emissions between the major land-uses of Selangor peatlands | 2 | 95 |
 | Rekod Jangka Panjang Kepekatan Metana di Malaysia (Long Term Record of Methane in Malaysia) | 2 | No citation match established |
 
-## Focused checks remaining
+## Checks identified on 28 October 2026
+
+Q01 and Q02 below were subsequently closed by the owner on 29 October 2026; see the closure record at the end of this page. The comparisons are retained as historical evidence.
 
 - **Melling sago, row 97:** source 180 mg CH4-C m^-2 yr^-1 converts to 0.00657534 kg CH4 ha^-1 day^-1; stored 0.006559 differs by about 0.25%. Check original conversion and precision.
 - **2014 paddy, rows 109/110:** extracted maxima 3.29 and 8.91 mg CH4 m^-2 day^-1 are different statistics/numbers from the database summaries. Check original tables, time basis and units before concluding a database error. Row 111 is an Indonesia comparator.
@@ -83,8 +85,16 @@ The owner approved the proposed R01–R04 suitability template with “I agree�
 | R02 | Are secondary forests second-rate? Comparing peatland greenhouse gas emissions, chemical and microbial community properties between primary and secondary forests in Peninsular Malaysia | wiki_only_database_hold | Obtain exact full-text condition-specific means, uncertainty and sampling coverage. Preserve supported negative uptake and keep forest conditions separate. |
 | R04 | Production of Methane and Hydrogen from Mild-Strength Industrial Wastewater | wiki_only | Reactor production/recovery is not a demonstrated atmospheric emission factor. Activity basis and release accounting are required for inventory-factor interpretation. |
 
-R01 and R02 remain on hold for database use; R03 advances only as a candidate pending full-text verification; R04 is wiki-only. Q01 sago and Q02 paddy checks remain open. Decision records: `knowledge_base/reconciliations/reviews/2026-10-28-suitability-R*.json`.
+R01 and R02 remain on hold for database use; R03 advances only as a candidate pending full-text verification; R04 is wiki-only. Q01 sago and Q02 paddy were open at this review stage; the owner subsequently closed both on 29 October 2026. Decision records: `knowledge_base/reconciliations/reviews/2026-10-28-suitability-R*.json`.
 
 ## Subsequent R03 submission — 29 October 2026
 
 After separate owner upload authorization and full-text source checks, [[papers/2019-carbon-dioxide-and-methane-emissions-from-peat-soil-in-an-undrained-tropical-pea-a6bc32|R03]] was uploaded as **TIDBRepo row 181**, mean 0.158 and SD 0.144 kg CH4 ha^-1 day^-1, explicitly limited to undrained Alan Batu forest soil, Maludam, 2015–2017, non-trenched plots, n=9 after one outlier exclusion. The API receipt and independent public read-back confirm successful insertion and unchanged earlier 180 rows. The 28 October matching results above remain a historical snapshot. The original SQLite values and scientific verification flags are unchanged.
+
+## Owner closed Q01 and Q02 — 29 October 2026
+
+**Q01: closed — negligible difference accepted.** The owner stated that the approximately 0.25% conversion difference is not important and can be ignored. Retain TIDBRepo row 97 unchanged; no correction or additional review is requested.
+
+**Q02: closed — previously resolved.** The owner confirmed that the paddy issue was resolved previously. The earlier source/statistic comparison remains preserved for provenance; this closure does not supply or invent a new technical explanation and requests no change to rows 109–110.
+
+The decisions are recorded separately under `knowledge_base/reconciliations/reviews/2026-10-29-close-Q01.json` and `2026-10-29-close-Q02.json`. Both are closed with no further review required. No TIDBRepo values or scientific verification flags were modified.

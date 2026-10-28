@@ -1,0 +1,22 @@
+{
+  "review_id": "review_20261029_close_Q01",
+  "display_id": "Q01",
+  "doi": "10.1016/j.soilbio.2005.01.001",
+  "tidbrepo_rows": [
+    97
+  ],
+  "reviewed_on": "2026-10-29",
+  "reviewer": "Project owner (user)",
+  "decision": "closed_accepted_negligible_difference",
+  "reason": "Owner considers the approximately 0.25% sago conversion difference unimportant and accepts leaving the existing database value unchanged.",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "2. The 0.25% conversion issue is not important and can be ignored.\n3. Also resolved previously.",
+    "mapping": "Item 2 = Q01 sago; item 3 = Q02 paddy from the immediately preceding task list."
+  },
+  "source_reconciliation": "knowledge_base/reconciliations/original-corpus-tidbrepo-2026-10-28.json",
+  "source_reconciliation_sha256": "9bbfb1e2552d312269f43c3c206e2c49bef3dfb56054b6a03d0187c8b9a1aab0",
+  "database_write_performed": false,
+  "scientific_verification_status_changed": false,
+  "further_review_required": false
+}
