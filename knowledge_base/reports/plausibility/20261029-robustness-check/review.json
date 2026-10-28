@@ -1,0 +1,906 @@
+{
+  "records": 180,
+  "id_range": [
+    1,
+    180
+  ],
+  "removed_181_absent": true,
+  "unchanged_since_initial_audit": true,
+  "missing_fields": {
+    "countries": [],
+    "sectors": [],
+    "category": [],
+    "condition": [],
+    "tier": [
+      53,
+      54
+    ],
+    "unit": [],
+    "url": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131
+    ]
+  },
+  "missing_doi": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    96,
+    98,
+    104,
+    105,
+    106,
+    108,
+    112,
+    113,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    127,
+    128,
+    129,
+    130,
+    131
+  ],
+  "exact_duplicate_groups": [],
+  "same_context_groups": [
+    [
+      55,
+      58
+    ]
+  ],
+  "numerical_consistency_issues": [],
+  "no_estimate": [
+    84,
+    85
+  ],
+  "min_only_count": 112,
+  "min_only_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    79,
+    80,
+    81,
+    82,
+    83,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    98,
+    100,
+    104,
+    105,
+    106,
+    111,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131
+  ],
+  "max_only_ids": [],
+  "central_estimate_count": 61,
+  "negative_flux_ids": [
+    99,
+    144,
+    145,
+    146,
+    147,
+    152,
+    154,
+    163
+  ],
+  "canonical_unit_mismatches": [
+    {
+      "id": 96,
+      "category": "Drained Organic Soil",
+      "unit": "kg CH₄ ha⁻¹ yr⁻¹",
+      "canonical": "kg CH4 ha-1 day-1"
+    },
+    {
+      "id": 98,
+      "category": "Drained Organic Soil",
+      "unit": "kg CH₄ ha⁻¹ yr⁻¹",
+      "canonical": "kg CH4 ha-1 day-1"
+    }
+  ],
+  "approved_unit_exceptions": [
+    {
+      "id": 132,
+      "category": "Fugitive Emissions from Fuels - Oil",
+      "unit": "kg CH₄ m⁻³ oil sales volume",
+      "canonical": "kg CH4 TJ-1"
+    },
+    {
+      "id": 133,
+      "category": "Fugitive Emissions from Fuels - Oil",
+      "unit": "kg CH₄ m⁻³ oil sales volume",
+      "canonical": "kg CH4 TJ-1"
+    },
+    {
+      "id": 134,
+      "category": "Fugitive Emissions from Fuels - Natural Gas",
+      "unit": "kg CH₄ m⁻³ natural gas sales volume",
+      "canonical": "kg CH4 TJ-1"
+    },
+    {
+      "id": 135,
+      "category": "Fugitive Emissions from Fuels - Natural Gas",
+      "unit": "kg CH₄ m⁻³ natural gas sales volume",
+      "canonical": "kg CH4 TJ-1"
+    },
+    {
+      "id": 136,
+      "category": "Fugitive Emissions from Fuels - Oil",
+      "unit": "kg CH₄ m⁻³ oil sales volume",
+      "canonical": "kg CH4 TJ-1"
+    },
+    {
+      "id": 137,
+      "category": "Fugitive Emissions from Fuels - Natural Gas",
+      "unit": "kg CH₄ m⁻³ natural gas sales volume",
+      "canonical": "kg CH4 TJ-1"
+    },
+    {
+      "id": 138,
+      "category": "Fugitive Emissions from Fuels - Natural Gas",
+      "unit": "kg CH₄ m⁻³ natural gas sales volume",
+      "canonical": "kg CH4 TJ-1"
+    },
+    {
+      "id": 139,
+      "category": "Fugitive Emissions from Fuels - Natural Gas",
+      "unit": "kg CH₄ m⁻³ natural gas sales volume",
+      "canonical": "kg CH4 TJ-1"
+    }
+  ],
+  "countries": {
+    "IPCC": 117,
+    "Malaysia": 62,
+    "Indonesia": 1
+  },
+  "category_count": 40,
+  "unit_count": 14,
+  "field_names": [
+    "category",
+    "condition",
+    "countries",
+    "doi_1",
+    "doi_2",
+    "doi_3",
+    "doi_4",
+    "doi_5",
+    "doi_6",
+    "id",
+    "max",
+    "mean",
+    "median",
+    "min",
+    "scaling_factor",
+    "sectors",
+    "stdev",
+    "tier",
+    "unit",
+    "url"
+  ],
+  "peer_signals": [],
+  "unassessed_statistics": 220,
+  "contextual_contrasts": [
+    {
+      "category": "Fuel Combustion Activities - Electricity Generation",
+      "unit": "kg CH4 TJ-1",
+      "statistic": "min",
+      "low_id": 7,
+      "high_id": 10,
+      "ratio": 750.0,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Fuel Combustion Activities - Combined Heat and Power Generation",
+      "unit": "kg CH4 TJ-1",
+      "statistic": "min",
+      "low_id": 14,
+      "high_id": 18,
+      "ratio": 368.5714285714286,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Fugitive Emissions from Fuels - Oil",
+      "unit": "kg CH4 TJ-1",
+      "statistic": "min",
+      "low_id": 62,
+      "high_id": 60,
+      "ratio": 1118644.0677966103,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Metal Industry - Iron and Steel Production",
+      "unit": "kg CH4 kg-1 product",
+      "statistic": "min",
+      "low_id": 73,
+      "high_id": 72,
+      "ratio": 700.0,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Manure Management",
+      "unit": "kg CH4 head-1 yr-1",
+      "statistic": "min",
+      "low_id": 93,
+      "high_id": 86,
+      "ratio": 1550.0,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Peat lands",
+      "unit": "kg CH4 ha-1 day-1",
+      "statistic": "mean",
+      "low_id": 149,
+      "high_id": 164,
+      "ratio": 106.59784560143626,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Peat lands",
+      "unit": "kg CH4 ha-1 day-1",
+      "statistic": "max",
+      "low_id": 147,
+      "high_id": 165,
+      "ratio": 475.726196880043,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Rice Cultivation",
+      "unit": "kg CH4 ha-1 day-1",
+      "statistic": "min",
+      "low_id": 111,
+      "high_id": 110,
+      "ratio": 1097.2165071770335,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Disturbed river basins",
+      "unit": "kg CH4 ha-1 day-1",
+      "statistic": "mean",
+      "low_id": 158,
+      "high_id": 160,
+      "ratio": 329949238.5786802,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Disturbed river basins",
+      "unit": "kg CH4 ha-1 day-1",
+      "statistic": "min",
+      "low_id": 156,
+      "high_id": 160,
+      "ratio": 214.99999999999997,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Fugitive Emissions from Fuels - Oil",
+      "unit": "kg CH4 m-3 oil sales volume",
+      "statistic": "mean",
+      "low_id": 136,
+      "high_id": 132,
+      "ratio": 1117.117117117117,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Fugitive Emissions from Fuels - Natural Gas",
+      "unit": "kg CH4 m-3 natural gas sales volume",
+      "statistic": "mean",
+      "low_id": 138,
+      "high_id": 134,
+      "ratio": 59205.02092050209,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    }
+  ],
+  "noncanonical_doi_encodings": [
+    {
+      "id": 12,
+      "field": "doi_1",
+      "value": "https://doi.org/10.37934/arfmts.88.2.1426"
+    },
+    {
+      "id": 13,
+      "field": "doi_1",
+      "value": "https://doi.org/10.37934/arfmts.88.2.1426"
+    },
+    {
+      "id": 14,
+      "field": "doi_1",
+      "value": "https://doi.org/10.37934/arfmts.88.2.1426"
+    },
+    {
+      "id": 15,
+      "field": "doi_1",
+      "value": "https://doi.org/10.37934/arfmts.88.2.1426"
+    },
+    {
+      "id": 16,
+      "field": "doi_1",
+      "value": "https://doi.org/10.37934/arfmts.88.2.1426"
+    },
+    {
+      "id": 17,
+      "field": "doi_1",
+      "value": "https://doi.org/10.37934/arfmts.88.2.1426"
+    },
+    {
+      "id": 18,
+      "field": "doi_1",
+      "value": "https://doi.org/10.37934/arfmts.88.2.1426"
+    },
+    {
+      "id": 19,
+      "field": "doi_1",
+      "value": "https://doi.org/10.37934/arfmts.88.2.1426"
+    },
+    {
+      "id": 95,
+      "field": "doi_1",
+      "value": "https://doi.org/10.5539/sar.v6n3p64"
+    },
+    {
+      "id": 95,
+      "field": "doi_2",
+      "value": "https://doi.org/10.3390/agronomy11081448"
+    },
+    {
+      "id": 95,
+      "field": "doi_3",
+      "value": "https://doi.org/10.1016/j.catena.2023.107255"
+    },
+    {
+      "id": 97,
+      "field": "doi_1",
+      "value": "https://doi.org/10.1016/j.soilbio.2005.01.001"
+    },
+    {
+      "id": 99,
+      "field": "doi_1",
+      "value": "https://doi.org/10.1016/j.soilbio.2005.01.001"
+    },
+    {
+      "id": 99,
+      "field": "doi_2",
+      "value": "https://doi.org/10.1016/j.agrformet.2019.107869"
+    },
+    {
+      "id": 99,
+      "field": "doi_3",
+      "value": "https://doi.org/10.1038/s41467-020-14298-w"
+    },
+    {
+      "id": 99,
+      "field": "doi_4",
+      "value": "https://doi.org/10.3390/w13233372"
+    },
+    {
+      "id": 100,
+      "field": "doi_1",
+      "value": "https://doi.org/10.5539/sar.v6n3p64"
+    },
+    {
+      "id": 101,
+      "field": "doi_1",
+      "value": "https://doi.org/10.1016/j.scitotenv.2022.159973"
+    },
+    {
+      "id": 102,
+      "field": "doi_1",
+      "value": "https://doi.org/10.1016/j.scitotenv.2022.159973"
+    },
+    {
+      "id": 103,
+      "field": "doi_1",
+      "value": "https://doi.org/10.1016/j.scitotenv.2022.159973"
+    },
+    {
+      "id": 107,
+      "field": "doi_1",
+      "value": "https://doi.org/10.1002/2017GB005709"
+    },
+    {
+      "id": 109,
+      "field": "doi_1",
+      "value": "https://doi.org/10.1016/j.aaspro.2014.11.039"
+    },
+    {
+      "id": 110,
+      "field": "doi_1",
+      "value": "https://doi.org/10.1016/j.aaspro.2014.11.039"
+    },
+    {
+      "id": 111,
+      "field": "doi_1",
+      "value": "https://doi.org/10.1016/j.aaspro.2014.11.039"
+    },
+    {
+      "id": 114,
+      "field": "doi_1",
+      "value": "https://doi.org/10.5194/bg-16-4321-2019"
+    },
+    {
+      "id": 115,
+      "field": "doi_1",
+      "value": "https://doi.org/10.5194/bg-16-4321-2019"
+    },
+    {
+      "id": 126,
+      "field": "doi_1",
+      "value": "https://doi.org/10.3844/ajgsp.2010.1.6"
+    }
+  ],
+  "invalid_doi_after_normalizing_resolver_prefix": [],
+  "missing_url_count": 130,
+  "missing_doi_count": 109,
+  "no_url_or_doi_count": 108,
+  "no_url_or_doi_source_label": "All 108 carry IPCC in the countries field; lack of DOI is not itself an error for reports, but edition/chapter/table references are absent from the public rows.",
+  "doi_url_encoding_rows": 22,
+  "doi_url_encoding_fields": 27,
+  "schema_numeric_columns": {
+    "min": {
+      "type": "varchar",
+      "nullable": true
+    },
+    "max": {
+      "type": "varchar",
+      "nullable": true
+    },
+    "median": {
+      "type": "varchar",
+      "nullable": true
+    },
+    "mean": {
+      "type": "varchar",
+      "nullable": true
+    },
+    "stdev": {
+      "type": "varchar",
+      "nullable": true
+    },
+    "scaling_factor": {
+      "type": "varchar",
+      "nullable": true
+    }
+  },
+  "scope": "Read-only public table rows, public schema metadata, local pipeline/tests/wiki, and a targeted original-source check. Not a source-by-source validation of all 180 factors; server backups, restore procedures, roles and enforcement were not audited.",
+  "snapshot_sha256": "c728c793c7328acd82a48339afd453f0a505b40270693a07427df32d53c801eb",
+  "review_date_local": "2026-10-29 Asia/Makassar",
+  "assessment": "Basic numerical consistency passes. Not yet robust for unattended scientific aggregation because statistic meaning, applicability and source traceability remain incomplete.",
+  "findings": [
+    {
+      "priority": "high",
+      "finding": "112 records store only min; no explicit point-estimate or statistic-type field",
+      "evidence": "Public schema defines min as minimum reported emission-factor value. The rows alone cannot establish which values are minima versus single IPCC/default factors.",
+      "action": "Verify statistic semantics from cited source tables. Add explicit factor value/statistic type and preserve true reported bounds; do not move values automatically."
+    },
+    {
+      "priority": "high",
+      "finding": "108 IPCC-labeled rows have neither URL nor DOI",
+      "action": "Attach report edition, volume/chapter/table/page and stable official source URL; DOI is optional for IPCC reports. Public columns also lack evidence locator, quote and reviewer/status fields. Local provenance exists for some curated records and must be linked explicitly."
+    },
+    {
+      "priority": "high",
+      "finding": "Same context, different factors in rows 55 and 58",
+      "ids": [
+        55,
+        58
+      ],
+      "values": [
+        10,
+        0.3
+      ],
+      "unit": "kg CH4 TJ-1",
+      "action": "Both describe IPCC underground coal mining / Mining / Tier 1. Establish the missing distinguishing activity or source condition and verify the energy basis. Neither row has a source link; do not delete as duplicates."
+    },
+    {
+      "priority": "medium",
+      "finding": "Records 84 and 85 have no numeric factor",
+      "ids": [
+        84,
+        85
+      ],
+      "action": "Classify poultry entries explicitly as not applicable, not estimated, missing, or pending according to the source. Never convert missing to zero."
+    },
+    {
+      "priority": "medium",
+      "finding": "Tier missing for rows 53 and 54",
+      "ids": [
+        53,
+        54
+      ],
+      "action": "Verify tier against the source; do not silently infer it from the IPCC label."
+    },
+    {
+      "priority": "medium",
+      "finding": "All six numeric/modifier columns exposed as nullable varchar",
+      "action": "Current populated values parse as finite numbers, but text column types do not enforce numeric validity. Validate typed numbers, bounds and missingness on every ingestion; backend enforcement beyond public metadata remains unverified."
+    },
+    {
+      "priority": "medium",
+      "finding": "Mixed DOI encodings in 22 rows / 27 fields",
+      "action": "Normalize resolver URLs and bare DOIs to one identity during matching, retain original strings. These are valid DOI URL forms, not invalid papers. Current report generator prefixes all entries with https://doi.org/ and therefore creates malformed double-prefix links for these fields; its source grouping also fails to normalize DOI prefixes."
+    },
+    {
+      "priority": "medium",
+      "finding": "Record 158 is source-consistent but pathway context is incomplete",
+      "ids": [
+        157,
+        158
+      ],
+      "source_doi": "10.7717/peerj.19929",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12422260/fullTextXML",
+      "source_locator": "Results paragraph beginning Ebullition fluxes during the dry period",
+      "reported_wet_value": 3.94e-08,
+      "reported_unit": "mmol CH4 m-2 day-1",
+      "conversion_factor": 0.16,
+      "converted_value": 6.304e-09,
+      "database_value": 6.304e-09,
+      "reported_dry_value": 0.0379,
+      "converted_dry_value": 0.006064000000000001,
+      "action": "Preserve numeric values. Add or propose explicit ebullition/bubble pathway context for rows 157/158 and keep them apart from diffusive or total fluxes. Agreement with source text does not independently validate the original measurement.",
+      "conversion_agrees_with_database": true
+    },
+    {
+      "priority": "medium",
+      "finding": "117 rows put IPCC in the country field; 62 say Malaysia and one Indonesia",
+      "action": "Separate reference/default source from geographical applicability. Tag the Indonesia comparator clearly; do not treat every record as a Malaysian field measurement. Retain source-specific applicability."
+    },
+    {
+      "priority": "medium",
+      "finding": "Scaling-factor meaning is not explicit for rows 108,112,113",
+      "ids": [
+        108,
+        112,
+        113
+      ],
+      "action": "Document whether stored means are baseline or adjusted and whether modifiers were applied. Do not multiply automatically or reopen closed Q01/Q02 reviews."
+    },
+    {
+      "priority": "coverage",
+      "finding": "All 220 populated statistics assessed for peer coverage remain unassessed; no usable independent peer reference sets",
+      "action": "No outlier signal is not evidence of plausibility. The 12 broad category contrasts mix conditions and are navigation aids only. Expand curated comparability metadata and source-independent references before drawing statistical conclusions."
+    }
+  ],
+  "existing_unit_handling": {
+    "annual_daily_conversion_rows": [
+      96,
+      98
+    ],
+    "annual_daily_status": "Convertible /365 during comparison; stored annual values need not be overwritten",
+    "approved_sales_volume_exceptions": [
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139
+    ],
+    "negative_values": "Valid possibility for flux uptake; eight signed records retained",
+    "Q01_Q02": "Closed decisions preserved; no reopening"
+  },
+  "verification": {
+    "unit_tests_passed": 49,
+    "wiki_pages": 84,
+    "broken_wikilinks": 0,
+    "numerical_issues": 0,
+    "exact_duplicates": 0,
+    "all_previous_180_unchanged": true,
+    "database_writes": 0,
+    "timer_changes": 0
+  },
+  "resolved_documentation_check": "PRs 6 and 7 are already merged. Switched from the older development checkout to a fresh branch based on origin/main. The approved main wiki correctly records row 181 removal, matching the live 180-row table."
+}
