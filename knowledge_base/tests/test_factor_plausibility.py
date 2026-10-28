@@ -1,5 +1,7 @@
 import importlib.util
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).parents[1] / "pipeline"))
 import unittest
 
 spec = importlib.util.spec_from_file_location('factor_plausibility', Path(__file__).parents[1] / 'pipeline/factor_plausibility.py')
@@ -37,14 +39,14 @@ class FactorAuditTests(unittest.TestCase):
         self.assertFalse(result['peer_signals'])
 
     def test_source_dependence_does_not_create_peers(self):
-        rows = [dict(self.row(mean=str(10**i)), id=i, doi_1='10.1/shared') for i in range(8)]
+        rows = [dict(self.row(mean=str(10**i)), id=i, doi_1='10.1234/shared') for i in range(8)]
         result = m.audit(rows)
         self.assertFalse(result['peer_signals'])
         self.assertEqual(len(result['unassessed']), 8)
 
     def test_positive_peer_signal_and_wrong_condition_exclusion(self):
-        rows = [dict(self.row(mean=str(10 + i*.1)), id=i, doi_1=f'10.1/{i}') for i in range(7)]
-        rows.append(dict(self.row(mean='10000'), id=99, doi_1='10.1/extreme'))
+        rows = [dict(self.row(mean=str(10 + i*.1)), id=i, doi_1=f'10.1234/{i}') for i in range(7)]
+        rows.append(dict(self.row(mean='10000'), id=99, doi_1='10.1234/extreme'))
         result = m.audit(rows)
         self.assertTrue(any(s['id'] == 99 for s in result['peer_signals']))
         rows[-1]['condition'] = 'Different boundary'

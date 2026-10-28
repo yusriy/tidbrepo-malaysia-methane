@@ -1,0 +1,41 @@
+{
+  "review_id": "2026-10-29-doi-normalization-progress",
+  "status": "partial_failure_independently_reconciled_ready_to_resume",
+  "checked_at": "2026-10-28T23:35:39.460329+00:00",
+  "completed_ids": [
+    12,
+    13
+  ],
+  "pending_ids": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    95,
+    97,
+    99,
+    100,
+    101,
+    102,
+    103,
+    107,
+    109,
+    110,
+    111,
+    114,
+    115,
+    126
+  ],
+  "pending_records": 20,
+  "pending_fields": 25,
+  "total_live_records": 180,
+  "non_doi_fields_unchanged": true,
+  "original_http_failure": 401,
+  "failure_stage": "Not captured in first receipt; not assumed to be initial sign-in. Two rows were confirmed before the failure.",
+  "reconciliation": "Public live read against original full-table backup; no unexpected changes. Earlier receipt and original backup preserved locally.",
+  "repair": "Use unauthenticated public GET for backups/read-back, retain authentication only for access check and scoped PUT. Read-only reconciliation required before any resumed execution.",
+  "test_count": 59,
+  "source_plan": "knowledge_base/reconciliations/reviews/2026-10-29-doi-normalization.json"
+}

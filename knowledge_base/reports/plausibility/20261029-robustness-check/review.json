@@ -902,5 +902,12 @@
     "database_writes": 0,
     "timer_changes": 0
   },
-  "resolved_documentation_check": "PRs 6 and 7 are already merged. Switched from the older development checkout to a fresh branch based on origin/main. The approved main wiki correctly records row 181 removal, matching the live 180-row table."
+  "resolved_documentation_check": "PRs 6 and 7 are already merged. Switched from the older development checkout to a fresh branch based on origin/main. The approved main wiki correctly records row 181 removal, matching the live 180-row table.",
+  "owner_follow_up_2026_10_29": {
+    "ipcc_min_only_storage": "accepted; not a data defect",
+    "ipcc_doi_missing": "DOI optional; report edition/table locator required instead",
+    "reference": "knowledge_base/reconciliations/reviews/2026-10-29-default-convention-and-coal-proposals.json",
+    "coal": "source-checked classification/unit proposals, no numeric edits",
+    "doi": "Rows 12/13 confirmed normalized; 20 remaining after independently reconciled HTTP 401 interruption. See DOI progress record."
+  }
 }
