@@ -87,7 +87,7 @@ Scientific measurement verification is unchanged. This is not approval to upload
 
 ## Guided factor assessment — 29 October 2026 (R01)
 
-**Assessment recommendation, awaiting owner decision:** prepare one ecosystem-scale factor candidate representing the authors' preferred processing-estimate range, **9.8–10.8 g CH4-C m^-2 yr^-1**, rather than the full sensitivity range 7.5–10.8 or the across-method average 9.2. Original PDF p. 6 (printed p. 358), Table 2 and section 3.5 explicitly prefer eddy flux with morning flushes included. The original table was checked in stored full-page text; the PDF was not visually rechecked in this assessment.
+**Assessment recommendation (subsequently accepted for staging by the owner, pending visual table check):** prepare one ecosystem-scale factor candidate representing the authors' preferred processing-estimate range, **9.8–10.8 g CH4-C m^-2 yr^-1**, rather than the full sensitivity range 7.5–10.8 or the across-method average 9.2. Original PDF p. 6 (printed p. 358), Table 2 and section 3.5 explicitly prefer eddy flux with morning flushes included. The original table was checked in stored full-page text; the PDF was not visually rechecked in this assessment.
 
 | Flux processing | Morning flush | Gap filling | Annual g CH4-C m^-2 yr^-1 | Role |
 |---|---|---|---:|---|
@@ -103,3 +103,7 @@ The candidate applies to undrained Alan Batu forest at Maludam, **whole-ecosyste
 The existing conversion `value × (16/12) × 10 / 365` gives about **0.358–0.395 kg CH4 ha^-1 day^-1** as an illustrative daily equivalent of the annual estimates. Carry unrounded values in provenance and apply source-appropriate precision before submission. If accepted, label the min/max fields as a processing-estimate range in the condition; leave mean, median and SD empty. Keep this separate from soil-only R03 row 181; do not add or pool the two as independent ecosystem totals.
 
 **Owner choice:** accept this explicitly labeled ecosystem-scale range for candidate staging, keep wiki-only, or hold for visual Table 2 checking. No new approval or upload is recorded. Detailed assessment: `knowledge_base/reconciliations/r01-r02-factor-assessment-2026-10-29.json`.
+
+## Owner decision and staged range — 29 October 2026
+
+The owner instructed: “R01: stage the author-preferred range, pending visual table check.” One candidate is staged in `knowledge_base/reconciliations/staging/r01-author-preferred-range-2026-10-29.json`, retaining source bounds 9.8–10.8 g CH4-C m^-2 yr^-1, unrounded conversion, source-precision preview bounds 0.36–0.395 kg CH4 ha^-1 day^-1, and the explicit ecosystem-scale processing-estimate-range condition. Mean, median and SD remain empty. The candidate is **not ready for upload**: original Table 2 visual checking and final representation checks remain incomplete, and no upload approval was given. The original source/measurement verification flags are unchanged. Separate owner decision: `knowledge_base/reconciliations/reviews/2026-10-29-factor-decision-R01.json`.

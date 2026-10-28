@@ -94,7 +94,7 @@ Scientific measurement verification is unchanged. This is not approval to upload
 
 ## Guided factor assessment — 29 October 2026 (R02)
 
-**Assessment recommendation, awaiting owner decision:** retain the study's quantitative seasonal observations in the wiki; keep database-factor use on hold while exact Figure 2 values/uncertainty and the intended seasonal representation are checked. The original PDF p. 5 results and caption were cross-checked against an openly archived accepted manuscript. Results p. 14 and caption p. 34 were rendered and visually inspected. This manuscript has captions but no Figure 2 panel available for reliable digitization.
+**Assessment recommendation (subsequently accepted by the owner as wiki-only):** retain the study's quantitative seasonal observations in the wiki; keep database-factor use on hold while exact Figure 2 values/uncertainty and the intended seasonal representation are checked. The original PDF p. 5 results and caption were cross-checked against an openly archived accepted manuscript. Results p. 14 and caption p. 34 were rendered and visually inspected. This manuscript has captions but no Figure 2 panel available for reliable digitization.
 
 | Soil observation | Source-reported flux | Dimensional daily equivalent, kg CH4 ha^-1 day^-1 |
 |---|---|---:|
@@ -107,3 +107,7 @@ These are source-reported seasonal rates, with the primary rate explicitly appro
 Primary forest was visited once in each season (July and October 2017); secondary forest three times per season (December 2016 and July 2017 campaigns). Figure 2's whiskers are **standard errors, not standard deviations**. The caption gives primary n=25 per season and secondary wet n=76/dry n=75, while sampling prose says 75 per season. Keep this source discrepancy; do not infer an SD from an unresolved n or invent numerical SEs. The results describe significant seasonal differences in secondary-forest uptake, although the abstract contains a broader no-seasonal-variation statement. These are also distinct geographic sites and histories, not a controlled drainage experiment.
 
 **Owner choice:** retain wiki-only (recommended now), or continue toward separately labeled seasonal uptake candidates by obtaining the original Figure 2/full numerical results. A seasonal candidate could be useful with explicit limitations; the missing annual coverage does not invalidate the study. Neither option authorizes an upload. Detailed assessment: `knowledge_base/reconciliations/r01-r02-factor-assessment-2026-10-29.json`.
+
+## Owner decision — 29 October 2026
+
+The owner instructed: “R02: retain wiki-only.” Retain the signed seasonal observations, approximate primary-forest value and all source limitations above. R02 has **no pending factor-staging or upload action**. Exact figure values/SE and sampling discrepancies remain documented limitations; they do not create a required new review task under this disposition. The original scientific verification flags are unchanged. Separate decision: `knowledge_base/reconciliations/reviews/2026-10-29-factor-decision-R02.json`.

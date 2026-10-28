@@ -733,3 +733,7 @@ Recorded Q01 as closed with the approximately 0.25% sago conversion difference a
 ## 2026-10-29 | Guided R01/R02 factor assessment prepared
 
 Reconstructed R01 Table 2 processing alternatives from stored full-page text, identifying the authors’ preferred 9.8–10.8 annual range. Retrieved and visually checked R02 accepted-manuscript results/caption, separating signed seasonal uptake from approximate primary-forest emission and preserving SE/sample-size limitations. Both source DOIs are absent from 181 current live rows. Saved source-specific assessment/provenance and guided wiki choices; no owner decision, scientific-status change or upload is inferred.
+
+## 2026-10-29 | Owner staged R01 range and retained R02 wiki-only
+
+Recorded the explicit owner decisions separately from the assessment. Staged one R01 author-preferred annual method-estimate range with full source provenance, original and normalized bounds, empty mean/median/SD, and incomplete visual/source/upload gates. R02 remains wiki-only with no further database action requested. Original evidence and scientific verification flags are preserved. No TIDBRepo write, timer change or merge.

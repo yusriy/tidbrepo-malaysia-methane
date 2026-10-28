@@ -1,0 +1,21 @@
+{
+  "review_id": "review_20261029_factor_decision_R02",
+  "display_id": "R02",
+  "doi": "10.1016/j.scitotenv.2018.11.046",
+  "reviewed_on": "2026-10-29",
+  "reviewer": "Project owner (user)",
+  "decision": "wiki_only",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "R01: stage the author-preferred range, pending visual table check.\nR02: retain wiki-only."
+  },
+  "source_assessment": "knowledge_base/reconciliations/r01-r02-factor-assessment-2026-10-29.json",
+  "source_assessment_sha256": "b750268e70920b5eaaef9af2500b4ec45cbaf27e3d1c0c4bcf42601f5db9adf4",
+  "measurements_verified": false,
+  "tidbrepo_upload_authorized": false,
+  "database_write_performed": false,
+  "sqlite_scientific_status_changed": false,
+  "wiki_review_page": "papers/2019-are-secondary-forests-second-rate-comparing-peatland-greenhouse-gas-emissions-ch-20dfb6",
+  "further_factor_assessment_required": false,
+  "reason": "Owner retains wiki-only use. Exact figure values and uncertainties remain source limitations; no further database-factor assessment is requested."
+}
