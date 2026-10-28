@@ -117,6 +117,27 @@ def build_curated(run: Path) -> dict:
     }
 
 
+def queue_index(repo: Path) -> str:
+    """Keep owner decisions separate from immutable discovery snapshots."""
+    reviews = {}
+    for path in sorted((repo / "knowledge_base/literature_updates/reviews").glob("*.json")):
+        review = load(path)
+        reviews[review["candidate_id"]] = review
+    lines = ["# Unverified literature queue", "",
+             "> Extracted values remain unverified. Run pages are archived discovery snapshots; recorded owner decisions take precedence.", ""]
+    for page in sorted((repo / QUEUE).glob("*.md")):
+        if page.name == "index.md":
+            continue
+        candidates = load(repo / CURATED / (page.stem + ".json"), {}).get("candidates", [])
+        closed = [reviews[c["candidate_id"]] for c in candidates
+                  if reviews.get(c["candidate_id"], {}).get("decision") in ("exclude", "context_only")]
+        pending = len(candidates) - len(closed)
+        lines.append(f"- [[unverified-literature/{page.stem}|{page.stem}]] — {pending} pending; {len(closed)} completed paper reviews")
+        for review in closed:
+            lines.append(f"  - [[{review['wiki_review_page']}|{review['decision']}]] — " + compact(review["title"]))
+    return "\n".join(lines).rstrip() + "\n"
+
+
 def publish_queue(repo: Path, record: dict) -> list[str]:
     run_id = identifier(record["run_id"])
     path = repo / CURATED / f"{run_id}.json"
@@ -153,9 +174,7 @@ def publish_queue(repo: Path, record: dict) -> list[str]:
         raise ValueError("Queue page has edits; preserve reviewer history instead of regenerating")
     page.write_text(content)
     index = queue / "index.md"
-    index.write_text(("# Unverified literature queue\n\n"
-                     "> All entries await scientific review. Extracted values are proposals, never verified automatically.\n\n" +
-                     "\n".join(f"- [[unverified-literature/{p.stem}|{p.stem}]]" for p in sorted(queue.glob("*.md")) if p.name != "index.md")).rstrip() + "\n")
+    index.write_text(queue_index(repo))
     return [str(CURATED / f"{run_id}.json"), str(QUEUE / f"{run_id}.md"), str(QUEUE / "index.md")]
 
 

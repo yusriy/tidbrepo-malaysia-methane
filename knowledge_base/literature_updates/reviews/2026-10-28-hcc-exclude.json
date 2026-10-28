@@ -1,0 +1,23 @@
+{
+  "review_id": "review_20261028_hcc_exclude",
+  "candidate_id": "candidate_f524d451c95c260f",
+  "run_id": "20260930T195143Z",
+  "doi": "10.24191/esteem.v21iseptember.5826.g5027",
+  "title": "Hydrothermal compost catalyst (HCC): Reducing food waste and methane emissions through optimized composting",
+  "decision": "exclude",
+  "reviewer": "Project owner (user)",
+  "reviewed_at": "2026-10-28T22:56:29.591245+08:00",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "exclude",
+    "prior_user_statement": "I reviewed it. What do i do now?"
+  },
+  "reason": "Excluded by the project owner after review; no additional reason supplied.",
+  "supersedes_advisory_recommendation": "context_only",
+  "source_url": "https://doi.org/10.24191/esteem.v21iseptember.5826.g5027",
+  "curated_record": "knowledge_base/literature_updates/curated/20260930T195143Z.json",
+  "curated_record_sha256": "f5a767e18681a8ba08017bc9034cd29605ddec32dce1378cca5c90f0795841e8",
+  "wiki_review_page": "findings/literature-review-hcc-2026-10-28",
+  "measurements_verified": false,
+  "tidbrepo_upload_authorized": false
+}

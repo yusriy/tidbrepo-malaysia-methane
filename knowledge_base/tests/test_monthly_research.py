@@ -33,6 +33,27 @@ def fixture(repo, run_id="20261001T000000Z", proposals=True):
 
 
 class QueueTests(unittest.TestCase):
+    def test_owner_exclusion_survives_queue_regeneration(self):
+        with tempfile.TemporaryDirectory() as temp:
+            repo = Path(temp)
+            run = fixture(repo)
+            record = monthly.build_curated(run)
+            files = monthly.publish_queue(repo, record)
+            original = {name: (repo / name).read_bytes() for name in files[:2]}
+            monthly.save(repo / "knowledge_base/literature_updates/reviews/owner-exclusion.json", {
+                "candidate_id": "candidate_a", "decision": "exclude",
+                "title": "Malaysian methane flux", "wiki_review_page": "findings/owner-review",
+            })
+            note = repo / "knowledge_base/wiki/findings/owner-review.md"
+            note.parent.mkdir(parents=True)
+            note.write_text("# Owner decision\n\nExcluded after review.\n")
+            monthly.publish_queue(repo, record)
+            index = (repo / monthly.QUEUE / "index.md").read_text()
+            self.assertIn("0 pending; 1 completed paper reviews", index)
+            self.assertIn("[[findings/owner-review|exclude]]", index)
+            self.assertEqual({name: (repo / name).read_bytes() for name in files[:2]}, original)
+            monthly.validate_wiki(repo)
+
     def test_queue_preserves_evidence_and_forces_unverified(self):
         with tempfile.TemporaryDirectory() as temp:
             repo = Path(temp)

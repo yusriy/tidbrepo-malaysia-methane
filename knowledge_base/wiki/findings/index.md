@@ -1,5 +1,7 @@
 # Findings
 
+- [[literature-review-hcc-2026-10-28|Hydrothermal Compost Catalyst: owner review]] — excluded; paper review complete
+
 - [[october-2026-workflow-audit|October 2026 workflow audit]] — score-gate diagnosis, source verification, and proposed LLM screening workflow
 
 - [[proposed-paper-findings|Proposed paper findings]] — 70 evidence candidates

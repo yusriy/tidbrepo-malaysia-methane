@@ -697,3 +697,7 @@ Inspected run `20260930T195143Z` without regenerating its original files. Diagno
 ## 2026-10-28 | Monthly notifications and unverified queue synchronization
 
 Added durable run summaries and a Gmail outbox, an explicitly unverified literature queue, provenance-preserving curated metadata, and validation/test gates before development-branch publication. Seeded [[unverified-literature/20260930T195143Z|October's unverified queue]] from the existing run without regenerating its evidence. Scientific promotion remains a separate human-reviewed change. The selected notification destination is configured through the connected Gmail delivery bridge. No scientific database write, TIDBRepo upload, or timer/service schedule modification.
+
+## 2026-10-28 | Owner excluded the October HCC candidate
+
+Recorded the owner's explicit exclusion in [[findings/literature-review-hcc-2026-10-28|the paper review decision]] and a separate provenance-linked JSON review record. Closed the October paper queue without rewriting original discovery metadata or local processing evidence. Queue regeneration now retains completed owner decisions. No measurement verification, TIDBRepo write, or timer change.
