@@ -1,0 +1,41 @@
+{
+  "review_id": "2026-10-29-coal-description-update",
+  "reviewed_on": "2026-10-29",
+  "description_update_authorized": true,
+  "authorization": "Owner: ok change the description, following explicit instruction to preserve converted units and values.",
+  "scope": "Only the condition (description) fields of rows 55 and 58. Categories, units, all factor values, source URLs, DOIs and scientific verification status remain unchanged.",
+  "status": "verified_complete",
+  "patches": [
+    {
+      "id": 55,
+      "before": {
+        "condition": "Mining"
+      },
+      "after": {
+        "condition": "Underground coal mining - IPCC Tier 1 low default"
+      },
+      "row_sha256": "8e6156535df4a7c6496838f4fb99d104dace451f4971848790e3fe097909ee4e"
+    },
+    {
+      "id": 58,
+      "before": {
+        "condition": "Mining"
+      },
+      "after": {
+        "condition": "Surface coal mining - IPCC Tier 1 low default"
+      },
+      "row_sha256": "06b4a655577d8e402d7d89529882bce6c906fc4a8f664f8268e59e1ed6d74e0a"
+    }
+  ],
+  "database_writes_performed": true,
+  "verified_at": "2026-10-28T23:45:24.650834+00:00",
+  "independently_verified": true,
+  "record_count": 180,
+  "updated_ids": [
+    55,
+    58
+  ],
+  "all_other_fields_unchanged": true,
+  "receipt_sha256": "ea3b2c7c42491ce08d0eba295d52c03be93a2fad35059cbf95c2eb969272665d",
+  "independent_snapshot_sha256": "0a455a527bd09496940ef26a5981a189d98a4dc625c785fd7bf43d3d69c992f7"
+}
