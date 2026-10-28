@@ -132,3 +132,17 @@ Annual gap-filled methane emission 4.32 ± 3.95 g CH4-C m^-2 yr^-1; reported n =
 Candidate for undrained tropical peat-swamp forest soil. Confirm uncertainty definition, sampling coverage, site conditions and carbon-mass basis before preparing a final entry.
 
 Scientific measurement verification is unchanged. This is not approval to upload. See [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28|the original-corpus reconciliation and owner decisions]].
+
+## Authorized database submission — 29 October 2026
+
+The owner subsequently instructed “you should upload it to tidbrepo”. This authorizes the R03 submission after source and duplicate checks; the earlier candidate-only decision remains in the history. R01, R02 and R04 retain their wiki-only/database-hold dispositions.
+
+Table 3, **Simple ave., non-trenched CH4 (n=9), one outlier excluded**, reports **4.32 ± 3.95 g CH4-C m^-2 yr^-1 (mean ± one SD)**. Site and methods describe undrained Alan Batu peat-swamp forest in Maludam National Park, Sarawak; the forest had been selectively logged and protected since 2000. Annual gap-filled soil chamber integrations cover October 2015–September 2016 and October 2016–September 2017. This is soil flux, not above-canopy ecosystem flux.
+
+The check used complete stored text from the original PDF (Table 3 on PDF p. 14; site/methods pp. 5–7; discussion pp. 13–14), cross-checked against author-posted full text and the publisher abstract. No new PDF was obtained for visual inspection. The table confirms the ± term is one standard deviation. The full-data n=10, trenched and spatially interpolated estimates are alternative statistics and are not included in this submission.
+
+Apply the existing unit-policy rule `value × (16/12) × 10 / 365` to both mean and SD. Unrounded results are 0.1578082191780822 and 0.1442922374429224 kg CH4 ha^-1 day^-1. The prepared database values are **mean 0.158; stdev 0.144 kg CH4 ha^-1 day^-1**, retaining three significant figures. Mean ± SD is not stored as min/max. Category is `Peat lands`, sector `AFOLU`, country `Malaysia`; the Tier 2 crosswalk denotes country-specific field evidence, not a tier stated by the authors. The condition explicitly preserves Maludam, Alan Batu, soil, 2015–2017, non-trenched, n=9 and outlier exclusion.
+
+Pre-submission duplicate check: all 180 live rows were retrieved; no R03 DOI match or matching normalized mean was found. Existing Alan Batu row 102 cites a different forest-type study and is retained unchanged.
+
+**Submission status: prepared and validated; awaiting authenticated TIDBRepo access. No upload confirmed.** Approval and full conversion provenance: `knowledge_base/reconciliations/reviews/2026-10-29-R03-upload.json`. Complete processing files remain local under `knowledge_base/literature_updates/runs/20261028-r03-upload/`. Original SQLite measurement values and verification flags are unchanged.

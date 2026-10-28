@@ -49,3 +49,7 @@ The original corpus has been [[findings/original-corpus-tidbrepo-reconciliation-
 ## Approved suitability dispositions — R01–R04
 
 The owner approved [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28|R01–R04 suitability decisions]]: R01 and R02 wiki-only with database use on hold; R03 a factor candidate pending full-text verification; R04 wiki-only. These are not new quantitative verification or upload approvals. R03 verification, R01/R02 source and method checks, and Q01/Q02 existing-entry checks remain open.
+
+## R03 upload follow-up — 29 October 2026
+
+The owner authorized [[papers/2019-carbon-dioxide-and-methane-emissions-from-peat-soil-in-an-undrained-tropical-pea-a6bc32|R03 submission]]. The non-trenched n=9 outlier-excluded Table 3 mean/SD and source conditions have been cross-checked in full text; conversion and duplicate checks passed. One record is prepared (mean 0.158, SD 0.144 kg CH4 ha^-1 day^-1), but authenticated access is still required and no upload has been confirmed. Earlier candidate-only decisions and the 28 October live-table reconciliation remain historical snapshots. R01/R02/R04 dispositions and Q01/Q02 checks are unchanged.

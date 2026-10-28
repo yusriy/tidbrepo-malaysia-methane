@@ -713,3 +713,7 @@ Recorded S01 as excluded and S02 as retained for extraction. Created a new local
 ## 2026-10-28 | Owner approved R01–R04 suitability dispositions
 
 Recorded the owner’s approval of R01/R02 wiki-only with database use on hold, R03 as a factor candidate pending full-text verification, and R04 as wiki-only with unresolved source conflicts retained. Linked separate decision records to preserved evidence, updated paper annotations and monthly queues, and retained all original measurement verification statuses. No TIDBRepo write, timer change or merge. See [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28|the reconciliation and suitability decisions]].
+
+## 2026-10-29 | Owner authorized R03 upload; submission prepared
+
+Cross-checked R03 Table 3 mean/SD, outlier exclusion, Maludam site and soil-chamber conditions against stored full text and author-posted full text, with publisher abstract corroboration. Prepared one explicitly conditioned peat-land row using the existing unit policy; no duplicate DOI or corresponding mean in 180 live rows. Submission remains pending authenticated access; no TIDBRepo write confirmed. Original scientific records, raw evidence, timer and other paper decisions are unchanged. See [[papers/2019-carbon-dioxide-and-methane-emissions-from-peat-soil-in-an-undrained-tropical-pea-a6bc32|R03 provenance]].
