@@ -908,6 +908,6 @@
     "ipcc_doi_missing": "DOI optional; report edition/table locator required instead",
     "reference": "knowledge_base/reconciliations/reviews/2026-10-29-default-convention-and-coal-proposals.json",
     "coal": "source-checked classification/unit proposals, no numeric edits",
-    "doi": "Rows 12/13 confirmed normalized; 20 remaining after independently reconciled HTTP 401 interruption. See DOI progress record."
+    "doi": "Complete: 27 DOI fields in 22 records standardized as lowercase bare DOIs; full live table read-back confirms 180 rows and all non-DOI fields unchanged. See DOI normalization progress record."
   }
 }
