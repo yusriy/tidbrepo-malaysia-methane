@@ -1,0 +1,51 @@
+{
+  "run_id": "20260930T195143Z",
+  "verification_status": "unverified",
+  "manifest": {
+    "candidates_retained": 1,
+    "config_sha256": "6bf45e0c8566b4443f947577d531b77b16631f7f188c05651f5f60303c512658",
+    "created_at": "2026-09-30T19:51:43+00:00",
+    "database_write_performed": false,
+    "known_dois_at_run": 87,
+    "previously_seen_candidates_included": false,
+    "queries": [
+      "Malaysia methane emission factor",
+      "Malaysia methane flux measurement",
+      "Malaysia CH4 rice emission",
+      "Malaysia methane peatland",
+      "Malaysia methane oil gas fugitive",
+      "Malaysia methane POME wastewater",
+      "Sarawak Sabah methane flux"
+    ],
+    "run_id": "20260930T195143Z",
+    "seen_openalex_ids_at_run": 57,
+    "seen_titles_at_run": 61,
+    "works_deduplicated": 903
+  },
+  "input_sha256": {
+    "manifest.json": "641c62418ceff6155666b229bda331f94e61467650fae3480f2160b91c7c88a8",
+    "candidates.jsonl": "f90de4bb0b7b7538705ee9299fa2b29fb7cb9409acd8b73c01f3c09d949e0ea6",
+    "proposals.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "candidates": [
+    {
+      "candidate_id": "candidate_f524d451c95c260f",
+      "doi": "10.24191/esteem.v21iseptember.5826.g5027",
+      "title": "Hydrothermal compost catalyst (HCC): Reducing food waste and methane emissions through optimized composting",
+      "publication_year": 2025,
+      "source_url": "https://doi.org/10.24191/esteem.v21iseptember.5826.g5027",
+      "open_access_pdf_url": "https://doi.org/10.24191/esteem.v21iseptember.5826.g5027",
+      "openalex_id": "https://openalex.org/W4415682121",
+      "discovered_at": "2026-09-30T19:51:43+00:00",
+      "discovered_by": "OpenAlex API",
+      "screening_score": 6,
+      "screening_flags": [
+        "methane_context",
+        "measurement_language",
+        "malaysian_author_affiliation"
+      ],
+      "verification_status": "unverified"
+    }
+  ],
+  "proposals": []
+}

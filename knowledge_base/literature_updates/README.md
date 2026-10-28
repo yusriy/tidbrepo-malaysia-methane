@@ -13,6 +13,8 @@ This workflow searches for Malaysian methane values published after the retained
 
 ## Commands
 
+The monthly wrapper now supports durable summaries, an unverified wiki queue, and explicit-file Git publication. See [deployment and Gmail delivery](../../deploy/MONTHLY-EXTENSIONS.md) for the reviewed activation boundary and credentials. Manual discovery/extraction/review commands below retain their existing behavior.
+
 Run from the workspace root:
 
 ```bash

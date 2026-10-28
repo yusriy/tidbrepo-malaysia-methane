@@ -18,7 +18,8 @@ knowledge_base/literature_updates/runs/*/
 knowledge_base/literature_updates/runs/*/raw/
 knowledge_base/literature_updates/runs/*/sources/
 
-# Runtime state
+# Runtime state (notification receipts and publication worktrees stay local)
+knowledge_base/literature_updates/state/*
 knowledge_base/literature_updates/state/latest_run_path.txt
 knowledge_base/literature_updates/state/monthly-run.lock
 *.log

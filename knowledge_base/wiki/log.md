@@ -693,3 +693,7 @@ Append-only record of ingestion, compilation, queries, review imports, and lint 
 ## 2026-10-28 | October monthly workflow audit
 
 Inspected run `20260930T195143Z` without regenerating its original files. Diagnosed the candidate's extraction skip (score 6, required 8), corrected future review status/count reporting, and added regression tests. Verified the UiTM full text separately and recorded a context-only screening recommendation with source checksum and page locators in [[findings/october-2026-workflow-audit|October workflow audit]]. Added proposed LLM screening, source verification, backlog, and review-preservation improvements. Complete new run packages remain local; tracked history is preserved. No scientific database write, TIDBRepo upload, timer change, or merge.
+
+## 2026-10-28 | Monthly notifications and unverified queue synchronization
+
+Added durable run summaries and a Gmail outbox, an explicitly unverified literature queue, provenance-preserving curated metadata, and validation/test gates before development-branch publication. Seeded [[unverified-literature/20260930T195143Z|October's unverified queue]] from the existing run without regenerating its evidence. Scientific promotion remains a separate human-reviewed change. The selected notification destination is configured through the connected Gmail delivery bridge. No scientific database write, TIDBRepo upload, or timer/service schedule modification.
