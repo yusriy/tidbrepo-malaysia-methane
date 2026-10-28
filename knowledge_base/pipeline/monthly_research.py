@@ -130,7 +130,7 @@ def queue_index(repo: Path) -> str:
             continue
         candidates = load(repo / CURATED / (page.stem + ".json"), {}).get("candidates", [])
         closed = [reviews[c["candidate_id"]] for c in candidates
-                  if reviews.get(c["candidate_id"], {}).get("decision") in ("exclude", "context_only")]
+                  if reviews.get(c["candidate_id"], {}).get("decision") in ("exclude", "context_only", "retrieve_extract")]
         pending = len(candidates) - len(closed)
         lines.append(f"- [[unverified-literature/{page.stem}|{page.stem}]] — {pending} pending; {len(closed)} completed paper reviews")
         for review in closed:

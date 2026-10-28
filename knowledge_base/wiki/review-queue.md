@@ -10,7 +10,7 @@ October 2026: **0 pending paper reviews**. The owner [[findings/literature-revie
 
 August 2026: **0 pending paper-screening decisions**. The owner [[findings/august-2026-remaining-screening-review|approved all 32 saved suggestions]] on 28 October 2026: 4 context-only and 28 excluded. The 66 value-review decisions are already complete; six landfill records retain their existing activity-basis/conversion blockers.
 
-September 2026 remains separate: **2 papers and 3 measurement proposals await review**, in `knowledge_base/literature_updates/runs/20260920T164325/candidate_review.csv` and `review.csv`.
+September 2026: **0 pending paper-screening decisions; 3 measurement decisions pending**. The owner excluded S01 and retained S02 for extraction. See [[findings/september-2026-screening-and-extraction-review|the source-checked S03–S05 review]] for conflicting reported figures and the corrected batch range. The current local measurement review file is `knowledge_base/literature_updates/runs/20261028-september-source-review/review.csv`; the original September run remains archived unchanged.
 
 ## Queue summary
 

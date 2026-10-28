@@ -705,3 +705,7 @@ Recorded the owner's explicit exclusion in [[findings/literature-review-hcc-2026
 ## 2026-10-28 | Owner approved August's 32 saved screening suggestions
 
 Recorded A01–A04 as context-only and A05–A32 as excluded, following the owner's explicit approval of the numbered list. Preserved the original August screening gate and its earlier decisions; linked 32 separate owner-review records to its checksum. August now has zero pending paper-screening decisions. The 66 completed value decisions and six landfill conversion blockers are unchanged. September's two paper reviews and three measurement proposals remain pending. See [[findings/august-2026-remaining-screening-review|the approved August list]]. No new measurement verification, TIDBRepo upload, or timer change.
+
+## 2026-10-28 | Owner completed September screening and requested extraction
+
+Recorded S01 as excluded and S02 as retained for extraction. Created a new local source-review attempt for S03–S05, retaining the original September package unchanged. Inspected PDF text and rendered tables; preserved conflicting S03/S04 figures and corrected S05 to the full 56–66 mL batch range with six source conditions. All three measurements remain unverified proposals; no preferred conflicting value or inventory conversion is imposed. See [[findings/september-2026-screening-and-extraction-review|the extraction and scientific review queue]]. No scientific database write, TIDBRepo upload, or timer change.
