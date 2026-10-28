@@ -729,3 +729,7 @@ The owner ran the manual API helper with a hidden local credential prompt. HTTP 
 ## 2026-10-29 | Owner closed Q01 and Q02 existing-entry checks
 
 Recorded Q01 as closed with the approximately 0.25% sago conversion difference accepted as negligible, and Q02 as closed on owner confirmation that the paddy issue was resolved previously. Retained original comparisons and separate provenance-linked closure records. Updated the current queue so neither item is presented as pending. No database value, scientific verification flag, timer or schedule change. See [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28|the reconciliation and closure history]].
+
+## 2026-10-29 | Guided R01/R02 factor assessment prepared
+
+Reconstructed R01 Table 2 processing alternatives from stored full-page text, identifying the authors’ preferred 9.8–10.8 annual range. Retrieved and visually checked R02 accepted-manuscript results/caption, separating signed seasonal uptake from approximate primary-forest emission and preserving SE/sample-size limitations. Both source DOIs are absent from 181 current live rows. Saved source-specific assessment/provenance and guided wiki choices; no owner decision, scientific-status change or upload is inferred.

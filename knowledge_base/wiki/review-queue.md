@@ -60,3 +60,7 @@ The owner authorized [[papers/2019-carbon-dioxide-and-methane-emissions-from-pea
 - **Q02 — 2014 paddy, rows 109–110: closed.** The owner confirmed this issue was resolved previously. This records the owner's confirmation without inventing an undocumented technical resolution. No new database action or review is required.
 
 Separate decision records preserve the closure and original evidence: `knowledge_base/reconciliations/reviews/2026-10-29-close-Q01.json` and `2026-10-29-close-Q02.json`. These closures do not change scientific verification flags or database values. R03 upload is complete; R01/R02 remain optional database-assessment follow-ups, and R04 remains wiki-only.
+
+## Guided R01/R02 assessment — 29 October 2026
+
+Source assessment is prepared, with owner decisions pending: [[papers/2018-micrometeorological-measurement-of-methane-flux-above-a-tropical-peat-swamp-fore-d38a20|R01]] has an author-preferred 9.8–10.8 g CH4-C m^-2 yr^-1 ecosystem-scale processing-estimate range; [[papers/2019-are-secondary-forests-second-rate-comparing-peatland-greenhouse-gas-emissions-ch-20dfb6|R02]] has seasonal soil uptake/emission observations with source-precision, uncertainty and coverage limitations. Recommended next choices are R01 range staging and R02 wiki-only pending exact figure results. Existing dispositions remain until owner review; no measurements are newly verified or uploaded.
