@@ -730,10 +730,14 @@ The owner ran the manual API helper with a hidden local credential prompt. HTTP 
 
 Recorded Q01 as closed with the approximately 0.25% sago conversion difference accepted as negligible, and Q02 as closed on owner confirmation that the paddy issue was resolved previously. Retained original comparisons and separate provenance-linked closure records. Updated the current queue so neither item is presented as pending. No database value, scientific verification flag, timer or schedule change. See [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28|the reconciliation and closure history]].
 
-## 2026-10-29 | Owner requested removal of legacy R03 row 181
+## 2026-10-29 | Guided R01/R02 factor assessment prepared
 
-Recorded explicit removal authorization and the exact saved row, preserved the original paper and upload history, revoked the former upload permission, and added a manual API removal helper with exact-row checks, local backup/receipt, no blind retries and unchanged-other-rows verification. Removal awaits local password input; no deletion is claimed. No timer or scientific verification change.
+Reconstructed R01 Table 2 processing alternatives from stored full-page text, identifying the authors’ preferred 9.8–10.8 annual range. Retrieved and visually checked R02 accepted-manuscript results/caption, separating signed seasonal uptake from approximate primary-forest emission and preserving SE/sample-size limitations. Both source DOIs are absent from 181 current live rows. Saved source-specific assessment/provenance and guided wiki choices; no owner decision, scientific-status change or upload is inferred.
 
-## 2026-10-29 | Row 181 removed and independently verified
+## 2026-10-29 | Owner staged R01 range and retained R02 wiki-only
 
-The owner ran the one-time API removal command with hidden local password input. HTTP 202 and the verified receipt confirm removal of exactly row 181. Independent public read-back confirms 180 remaining rows, all unchanged. Updated the current wiki status and curated removal record while retaining the original paper, scientific evidence, upload history and revoked upload permission. No password saved, timer change, other database edit or scientific verification change.
+Recorded the explicit owner decisions separately from the assessment. Staged one R01 author-preferred annual method-estimate range with full source provenance, original and normalized bounds, empty mean/median/SD, and incomplete visual/source/upload gates. R02 remains wiki-only with no further database action requested. Original evidence and scientific verification flags are preserved. No TIDBRepo write, timer change or merge.
+
+## 2026-10-29 | Restored focus to new automated discoveries
+
+The owner clarified that old original-corpus papers should not be presented as the new monthly literature backlog. R01/R02 assessments remain preserved as legacy history; R01 further visual checking is deferred outside the active monthly queue. Confirmed zero pending August–October paper-screening decisions and that discovery already excludes known identities by default. Read the next timer trigger as 1 November 2026 at 03:48:11 WITA; no timer or schedule change.

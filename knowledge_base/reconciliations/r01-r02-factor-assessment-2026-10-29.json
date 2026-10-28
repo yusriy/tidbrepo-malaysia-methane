@@ -1,0 +1,164 @@
+{
+  "assessment_date": "2026-10-29",
+  "purpose": "Evidence and explicit scientific choices for guided owner factor assessment; not an approval record or upload payload.",
+  "papers": [
+    {
+      "paper_id": "R01",
+      "doi": "10.1016/j.agrformet.2018.03.025",
+      "recommendation": "Prepare one distinct ecosystem-scale factor candidate using author-preferred method range 9.8–10.8 g CH4-C m^-2 yr^-1; pending owner scientific decision.",
+      "scope": "Undrained Alan Batu peat-swamp forest, Maludam, Sarawak; above-canopy eddy flux including morning flushes; annual integration March 2014–February 2015.",
+      "source_verification": {
+        "original_pdf_filename": "2018_wong.pdf",
+        "original_pdf_sha256": "9bf65262ead38a20dec292839978ca39c422582b47cec552e0bee3683bd10ee9",
+        "original_document_id": "doc_9bf65262ead38a20",
+        "source_locator": "Original PDF p. 6 (printed p. 358), Table 2 and section 3.5; discussion original PDF p. 7 (printed p. 359).",
+        "basis": "Complete stored page text; original Table 2 PDF not visually rechecked in this assessment.",
+        "auxiliary_download": "Author thesis is a distinct source and was not substituted for the original Table 2.",
+        "stored_page_sha256": "1fae6eccd5bdead018fc6cc2572269c64cfa624d6705d39c7b92e6498c211e70"
+      },
+      "method_variants": [
+        {
+          "flux": "eddy_plus_storage",
+          "morning_flush": true,
+          "gap_fill": "MDV",
+          "annual_g_CH4_C_m2": 9.4
+        },
+        {
+          "flux": "eddy_plus_storage",
+          "morning_flush": true,
+          "gap_fill": "MI",
+          "annual_g_CH4_C_m2": 9.7
+        },
+        {
+          "flux": "eddy_plus_storage",
+          "morning_flush": false,
+          "gap_fill": "MI",
+          "annual_g_CH4_C_m2": 8.0
+        },
+        {
+          "flux": "eddy",
+          "morning_flush": true,
+          "gap_fill": "MDV",
+          "annual_g_CH4_C_m2": 9.8,
+          "authors_preferred": true
+        },
+        {
+          "flux": "eddy",
+          "morning_flush": true,
+          "gap_fill": "MI",
+          "annual_g_CH4_C_m2": 10.8,
+          "authors_preferred": true
+        },
+        {
+          "flux": "eddy",
+          "morning_flush": false,
+          "gap_fill": "MI",
+          "annual_g_CH4_C_m2": 7.5
+        }
+      ],
+      "normalization": {
+        "formula": "value × (16/12) × 10 / 365",
+        "unit": "kg CH4 ha^-1 day^-1",
+        "factor": 0.0365296803652968,
+        "preferred_method_range_unrounded": [
+          0.35799086757990867,
+          0.39452054794520547
+        ],
+        "meaning": "Annual daily equivalent; endpoints are alternative processing estimates of the same observation period, not observed extrema, a CI, or independent replicates."
+      },
+      "proposed_representation": {
+        "countries": "Malaysia",
+        "sectors": "AFOLU",
+        "category": "Peat lands",
+        "condition": "Undrained Alan Batu forest, Maludam; ecosystem-scale eddy covariance; Mar 2014-Feb 2015; morning flush included; MDV-MI processing-estimate range",
+        "statistic": "Method-estimate range",
+        "mean": null,
+        "median": null,
+        "stdev": null,
+        "storage_rule": "If approved, use min/max only with the range meaning explicit in the condition/provenance. Do not combine with soil-only row 181 or treat it as independent of the same-site R03 study."
+      },
+      "limitations": [
+        "Table 2 preferred variants retain 27% of measured data after filtering and depend on gap filling.",
+        "Mean ± SD in Table 2 refers to flux-time-series variability, not uncertainty of the annual integrated estimate. Do not copy it into an annual-factor SD.",
+        "9.2 is an average across alternative processing estimates and is not the recommended factor.",
+        "Whole-ecosystem and soil-only fluxes cannot be summed or pooled as independent ecosystem totals."
+      ],
+      "assessment_date": "2026-10-29",
+      "verification_status": "source_assessed_pending_owner_decision",
+      "owner_scientific_decision_pending": true,
+      "tidbrepo_upload_authorized": false,
+      "database_write_performed": false,
+      "sqlite_scientific_status_changed": false,
+      "current_database_check": {
+        "rows": 181,
+        "matching_doi_ids": [],
+        "response_sha256": "d66d5ccd0af20064f089d245a3c8ab79a41c50cf9e132a91f111bf5e266258ee"
+      },
+      "wiki_page": "papers/2018-micrometeorological-measurement-of-methane-flux-above-a-tropical-peat-swamp-fore-d38a20"
+    },
+    {
+      "paper_id": "R02",
+      "doi": "10.1016/j.scitotenv.2018.11.046",
+      "recommendation": "Retain quantitative seasonal observations and contextual findings in the wiki. Keep DBRepo factor use on hold until source precision/figure checks and season-specific representativeness are accepted.",
+      "scope": "Primary forest in Terengganu and historically drained/logged secondary forest in North Selangor; closed-chamber soil flux; sampled wet/dry campaigns rather than a continuously monitored annual balance.",
+      "source_verification": {
+        "original_document_id": "doc_c453260b7620dfb6",
+        "original_pdf_filename": "2019_Are_secondary_forests_second_rate.pdf",
+        "source_locator": "Original published PDF p. 3 sampling, p. 4 units, p. 5 Results 3.1 and Figure 2 caption; accepted manuscript p. 14 results, p. 34 caption, pp. 7–9 sampling/methods.",
+        "accepted_manuscript_url": "https://researchonline.ljmu.ac.uk/id/eprint/12269/3/Are%20secondary%20forests%20second-rate%20Comparing%20peatland%20greenhouse%20gas%20emissions%2C%20chemical%20and%20microbial%20community%20properties%20between%20primary%20and%20secondary%20forests%20in%20Peninsular%20Malaysia..pdf",
+        "accepted_manuscript_sha256": "80f5ffdd120a0cc48238165e904885a12136e7fa6a99c026ea044ff60688f7ca",
+        "visual_review": "Accepted manuscript pp. 14 and 34 rendered and inspected. The 36-page file has figure captions but no Figure 2 panel suitable for digitization; no exact graph-derived values or uncertainties were invented.",
+        "original_pdf_sha256": "c453260b7620dfb641f7a49eeca54f71b2b5a9d640494a6ea1beb1605cabb4fb"
+      },
+      "observations": [
+        {
+          "condition": "Secondary forest, wet campaign December 2016",
+          "reported_value": -10,
+          "reported_unit": "ug CH4 m^-2 h^-1",
+          "statistic": "Reported seasonal uptake flux; source precision retained; numerical SE not available here.",
+          "daily_equivalent": -0.0024000000000000002
+        },
+        {
+          "condition": "Secondary forest, dry campaign July 2017",
+          "reported_value": -30,
+          "reported_unit": "ug CH4 m^-2 h^-1",
+          "statistic": "Reported seasonal uptake flux; source precision retained; numerical SE not available here.",
+          "daily_equivalent": -0.007200000000000001
+        },
+        {
+          "condition": "Primary forest, July/October 2017 campaigns",
+          "reported_value": 2,
+          "reported_unit": "mg CH4 m^-2 h^-1",
+          "approximate": true,
+          "daily_equivalent": 0.48
+        }
+      ],
+      "normalization": {
+        "unit": "kg CH4 ha^-1 day^-1",
+        "ug_formula": "value × 24 × 10000 × 1e-9",
+        "mg_formula": "value × 24 × 10000 × 1e-6",
+        "meaning": "Dimensional daily equivalents only. Hourly-to-daily scaling assumes a representative hourly rate and does not establish a measured daily or annual mean. Source already uses CH4 mass: no 16/12 factor."
+      },
+      "limitations": [
+        "Primary forest visited once per season; secondary forest three times per season. Study design has limited temporal coverage.",
+        "Figure 2 caption says means ± SE, not SD. Primary n=25 per season; secondary wet n=76, dry n=75. Sampling text says 75 per season: preserve the discrepancy and do not infer SD using an unresolved n.",
+        "Results show secondary-forest seasonal uptake differences despite the abstract’s broad no-seasonal-variation statement; retain the source distinction.",
+        "Different forest types are different geographic sites and histories; do not interpret this as a controlled before/after effect of drainage alone.",
+        "Negative flux denotes uptake; never replace with zero or a positive emission.",
+        "Missing exact figure means or SE do not invalidate the study, but limit the precision and scope of a factor representation."
+      ],
+      "assessment_date": "2026-10-29",
+      "verification_status": "source_assessed_pending_owner_decision",
+      "owner_scientific_decision_pending": true,
+      "tidbrepo_upload_authorized": false,
+      "database_write_performed": false,
+      "sqlite_scientific_status_changed": false,
+      "current_database_check": {
+        "rows": 181,
+        "matching_doi_ids": [],
+        "response_sha256": "d66d5ccd0af20064f089d245a3c8ab79a41c50cf9e132a91f111bf5e266258ee"
+      },
+      "wiki_page": "papers/2019-are-secondary-forests-second-rate-comparing-peatland-greenhouse-gas-emissions-ch-20dfb6"
+    }
+  ]
+}

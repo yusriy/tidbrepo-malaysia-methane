@@ -84,3 +84,30 @@ Retain annual range 7.5–10.8 g CH4-C m^-2 yr^-1 with processing methods. Do no
 Ecosystem-scale flux includes aboveground emissions. Check Table 2 and choose a defensible processing method before any database preparation.
 
 Scientific measurement verification is unchanged. This is not approval to upload. See [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28|the original-corpus reconciliation and owner decisions]].
+
+## Guided factor assessment — 29 October 2026 (R01)
+
+**Assessment recommendation (subsequently accepted for staging by the owner, pending visual table check):** prepare one ecosystem-scale factor candidate representing the authors' preferred processing-estimate range, **9.8–10.8 g CH4-C m^-2 yr^-1**, rather than the full sensitivity range 7.5–10.8 or the across-method average 9.2. Original PDF p. 6 (printed p. 358), Table 2 and section 3.5 explicitly prefer eddy flux with morning flushes included. The original table was checked in stored full-page text; the PDF was not visually rechecked in this assessment.
+
+| Flux processing | Morning flush | Gap filling | Annual g CH4-C m^-2 yr^-1 | Role |
+|---|---|---|---:|---|
+| Eddy + storage | Included | MDV | 9.4 | Sensitivity variant |
+| Eddy + storage | Included | MI | 9.7 | Sensitivity variant |
+| Eddy + storage | Excluded | MI | 8.0 | Sensitivity variant |
+| Eddy | Included | MDV | 9.8 | Author-preferred |
+| Eddy | Included | MI | 10.8 | Author-preferred |
+| Eddy | Excluded | MI | 7.5 | Sensitivity variant |
+
+The candidate applies to undrained Alan Batu forest at Maludam, **whole-ecosystem** above-canopy exchange, March 2014–February 2015. MDV and MI are alternative ways to fill missing observations. The preferred variants retain 27% of measured data after filtering, so gap-filling dependence must stay visible. The endpoints describe **method estimates for the same period**, not observed minima/maxima, a confidence interval, or independent replicate measurements. Table 2's flux-time-series SD is not the SD of the annual integrated estimate.
+
+The existing conversion `value × (16/12) × 10 / 365` gives about **0.358–0.395 kg CH4 ha^-1 day^-1** as an illustrative daily equivalent of the annual estimates. Carry unrounded values in provenance and apply source-appropriate precision before submission. If accepted, label the min/max fields as a processing-estimate range in the condition; leave mean, median and SD empty. Keep this separate from soil-only R03 row 181; do not add or pool the two as independent ecosystem totals.
+
+**Owner choice:** accept this explicitly labeled ecosystem-scale range for candidate staging, keep wiki-only, or hold for visual Table 2 checking. No new approval or upload is recorded. Detailed assessment: `knowledge_base/reconciliations/r01-r02-factor-assessment-2026-10-29.json`.
+
+## Owner decision and staged range — 29 October 2026
+
+The owner instructed: “R01: stage the author-preferred range, pending visual table check.” One candidate is staged in `knowledge_base/reconciliations/staging/r01-author-preferred-range-2026-10-29.json`, retaining source bounds 9.8–10.8 g CH4-C m^-2 yr^-1, unrounded conversion, source-precision preview bounds 0.36–0.395 kg CH4 ha^-1 day^-1, and the explicit ecosystem-scale processing-estimate-range condition. Mean, median and SD remain empty. The candidate is **not ready for upload**: original Table 2 visual checking and final representation checks remain incomplete, and no upload approval was given. The original source/measurement verification flags are unchanged. Separate owner decision: `knowledge_base/reconciliations/reviews/2026-10-29-factor-decision-R01.json`.
+
+## Scope clarification — 29 October 2026
+
+The owner clarified that the active task concerns new papers from automated discovery. This 2018 paper is already in the original knowledge base. Its assessment and staged range are preserved as legacy history; further visual Table 2 checking is deferred and is not a monthly review requirement. The visual gate remains incomplete, and no upload is authorized. Scope record: `knowledge_base/reconciliations/reviews/2026-10-29-monthly-discovery-scope.json`.

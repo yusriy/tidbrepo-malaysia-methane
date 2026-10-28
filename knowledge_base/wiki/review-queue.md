@@ -4,7 +4,7 @@
 
 ## Monthly literature
 
-**Row 181 removal:** the owner requested removal of the R03 legacy-paper entry on 29 October 2026. Removal is complete: HTTP 202, verified local receipt and independent public read-back confirm row 181 absent, with the other 180 records unchanged. The old upload permission is revoked. This is cleanup of a legacy entry, not a new monthly literature review.
+**Current focus: new papers discovered by the automated routine.** August–October paper screening is complete. Original-corpus R01/R02 assessments below are legacy history, not newly discovered papers or required monthly reviews. R01 follow-up is deferred following the owner’s scope clarification on 29 October 2026.
 
 See [[unverified-literature/index|Unverified monthly literature queue]] for machine-discovered candidates. These entries and extracted measurements remain unverified until scientific review.
 
@@ -50,7 +50,7 @@ The original corpus has been [[findings/original-corpus-tidbrepo-reconciliation-
 
 ## Approved suitability dispositions — R01–R04
 
-The owner approved [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28|R01–R04 suitability decisions]]: R01 and R02 wiki-only with database use on hold; R03 a factor candidate pending full-text verification; R04 wiki-only. These are not new quantitative verification or upload approvals. The later R03 upload is complete. R01/R02 database-assessment checks remain on hold. Q01/Q02 existing-entry checks were closed by the owner on 29 October 2026, as recorded below.
+The owner approved [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28|R01–R04 suitability decisions]]: R01 and R02 wiki-only with database use on hold; R03 a factor candidate pending full-text verification; R04 wiki-only. These are not new quantitative verification or upload approvals. The later R03 upload is complete. R01/R02 database-assessment checks were on hold at this stage; the owner later accepted R01 staging pending visual Table 2 checking and retained R02 wiki-only, as recorded below. Q01/Q02 existing-entry checks were closed by the owner on 29 October 2026, as recorded below.
 
 ## R03 upload follow-up — 29 October 2026
 
@@ -61,4 +61,15 @@ The owner authorized [[papers/2019-carbon-dioxide-and-methane-emissions-from-pea
 - **Q01 — Melling sago, row 97: closed.** The owner accepted the approximately 0.25% conversion difference as negligible and instructed that it can be ignored. Keep the existing database value unchanged; no correction or further review is required.
 - **Q02 — 2014 paddy, rows 109–110: closed.** The owner confirmed this issue was resolved previously. This records the owner's confirmation without inventing an undocumented technical resolution. No new database action or review is required.
 
-Separate decision records preserve the closure and original evidence: `knowledge_base/reconciliations/reviews/2026-10-29-close-Q01.json` and `2026-10-29-close-Q02.json`. These closures do not change scientific verification flags or database values. R03 upload is complete; R01/R02 remain optional database-assessment follow-ups, and R04 remains wiki-only.
+Separate decision records preserve the closure and original evidence: `knowledge_base/reconciliations/reviews/2026-10-29-close-Q01.json` and `2026-10-29-close-Q02.json`. These closures do not change scientific verification flags or database values. R03 upload is complete; The owner subsequently staged R01 pending visual Table 2 checking and retained R02 wiki-only; R04 remains wiki-only.
+
+## Guided R01/R02 assessment — 29 October 2026
+
+Source assessment is prepared; the subsequent owner decisions are recorded below: [[papers/2018-micrometeorological-measurement-of-methane-flux-above-a-tropical-peat-swamp-fore-d38a20|R01]] has an author-preferred 9.8–10.8 g CH4-C m^-2 yr^-1 ecosystem-scale processing-estimate range; [[papers/2019-are-secondary-forests-second-rate-comparing-peatland-greenhouse-gas-emissions-ch-20dfb6|R02]] has seasonal soil uptake/emission observations with source-precision, uncertainty and coverage limitations. Recommended next choices are R01 range staging and R02 wiki-only pending exact figure results. The owner subsequently accepted R01 staging pending visual Table 2 checking and R02 wiki-only. No measurements are newly verified or uploaded.
+
+## Legacy R01/R02 dispositions — outside the monthly review queue
+
+- **R01: staged legacy evidence; further review deferred.** One author-preferred ecosystem-scale range candidate (9.8–10.8 g CH4-C m^-2 yr^-1) is preserved with source, conversion and explicit method-range meaning. The visual Table 2 gate remains incomplete, but it is not an active monthly review task. Staging is not upload approval; `ready_for_upload` is false.
+- **R02: wiki-only; no pending database action.** Preserve signed seasonal findings and source limitations.
+
+Staged object: `knowledge_base/reconciliations/staging/r01-author-preferred-range-2026-10-29.json`. Decisions: `knowledge_base/reconciliations/reviews/2026-10-29-factor-decision-R01.json` and `2026-10-29-factor-decision-R02.json`. R03 remains uploaded; Q01/Q02 remain closed.
