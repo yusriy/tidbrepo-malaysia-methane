@@ -1,0 +1,2 @@
+# Additional dependency for reproducible scientific factor audit plots
+matplotlib==3.11.2

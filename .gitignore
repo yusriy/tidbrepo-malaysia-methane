@@ -32,3 +32,6 @@ knowledge_base/literature_updates/state/monthly-run.lock
 *.tar.gz
 .DS_Store
 .Rhistory
+
+# Complete factor audit snapshots, mail claims and receipts remain local
+knowledge_base/plausibility_audits/runs/

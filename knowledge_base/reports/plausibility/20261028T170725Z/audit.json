@@ -1,0 +1,6603 @@
+{
+  "analysis_version": "1.0",
+  "rows": [
+    {
+      "id": 1,
+      "category": "Fuel Combustion Activities - Electricity Generation",
+      "condition": "Diesel Oil",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 3.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "3",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 2,
+      "category": "Fuel Combustion Activities - Electricity Generation",
+      "condition": "Residual Fuel Oil",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 3.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "3",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 3,
+      "category": "Fuel Combustion Activities - Electricity Generation",
+      "condition": "Bituminous",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 1.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "1",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 4,
+      "category": "Fuel Combustion Activities - Electricity Generation",
+      "condition": "Sub-bituminous coal",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 1.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "1",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 5,
+      "category": "Fuel Combustion Activities - Electricity Generation",
+      "condition": "Sub-bituminous coal",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.09,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.09",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 6,
+      "category": "Fuel Combustion Activities - Electricity Generation",
+      "condition": "Lignite",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 1.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "1",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 7,
+      "category": "Fuel Combustion Activities - Electricity Generation",
+      "condition": "Lignite",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.04,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.04",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 8,
+      "category": "Fuel Combustion Activities - Electricity Generation",
+      "condition": "Natural Gas",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 1.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "1",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 9,
+      "category": "Fuel Combustion Activities - Electricity Generation",
+      "condition": "Natural Gas",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.09,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.09",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 10,
+      "category": "Fuel Combustion Activities - Electricity Generation",
+      "condition": "Biomass (Other Primary Solid Biomass)",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 30.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "30",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 11,
+      "category": "Fuel Combustion Activities - Electricity Generation",
+      "condition": "Biogas (Other Biogas)",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 1.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "1",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 12,
+      "category": "Fuel Combustion Activities - Combined Heat and Power Generation",
+      "condition": "Gas/Diesel Oil Boiler ",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.9,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.9",
+        "max": null,
+        "stdev": null
+      },
+      "source": "https://doi.org/10.37934/arfmts.88.2.1426",
+      "dois": [
+        "https://doi.org/10.37934/arfmts.88.2.1426"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 13,
+      "category": "Fuel Combustion Activities - Combined Heat and Power Generation",
+      "condition": "Residual Fuel Oil Boiler ",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.8,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.8",
+        "max": null,
+        "stdev": null
+      },
+      "source": "https://doi.org/10.37934/arfmts.88.2.1426",
+      "dois": [
+        "https://doi.org/10.37934/arfmts.88.2.1426"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 14,
+      "category": "Fuel Combustion Activities - Combined Heat and Power Generation",
+      "condition": "Pulverized Bituminous ",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.7,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.7",
+        "max": null,
+        "stdev": null
+      },
+      "source": "https://doi.org/10.37934/arfmts.88.2.1426",
+      "dois": [
+        "https://doi.org/10.37934/arfmts.88.2.1426"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 15,
+      "category": "Fuel Combustion Activities - Combined Heat and Power Generation",
+      "condition": "Combustion Boilers",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": 0.8,
+        "min": 0.7,
+        "max": 0.9,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": "0.8",
+        "min": "0.7",
+        "max": "0.9",
+        "stdev": null
+      },
+      "source": "https://doi.org/10.37934/arfmts.88.2.1426",
+      "dois": [
+        "https://doi.org/10.37934/arfmts.88.2.1426"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 16,
+      "category": "Fuel Combustion Activities - Combined Heat and Power Generation",
+      "condition": "Natural Gas Boilers ",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 1.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "1",
+        "max": null,
+        "stdev": null
+      },
+      "source": "https://doi.org/10.37934/arfmts.88.2.1426",
+      "dois": [
+        "https://doi.org/10.37934/arfmts.88.2.1426"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 17,
+      "category": "Fuel Combustion Activities - Combined Heat and Power Generation",
+      "condition": "Natural Gas Gas-Fired Gas Turbines >3MW",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 4.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "4",
+        "max": null,
+        "stdev": null
+      },
+      "source": "https://doi.org/10.37934/arfmts.88.2.1426",
+      "dois": [
+        "https://doi.org/10.37934/arfmts.88.2.1426"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 18,
+      "category": "Fuel Combustion Activities - Combined Heat and Power Generation",
+      "condition": "Natural Gas Large Dual Fuel Engines",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 258.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "258",
+        "max": null,
+        "stdev": null
+      },
+      "source": "https://doi.org/10.37934/arfmts.88.2.1426",
+      "dois": [
+        "https://doi.org/10.37934/arfmts.88.2.1426"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 19,
+      "category": "Fuel Combustion Activities - Combined Heat and Power Generation",
+      "condition": "Natural Gas Combined Cycle",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 1.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "1",
+        "max": null,
+        "stdev": null
+      },
+      "source": "https://doi.org/10.37934/arfmts.88.2.1426",
+      "dois": [
+        "https://doi.org/10.37934/arfmts.88.2.1426"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 20,
+      "category": "Fuel Combustion Activities - Combined Heat and Power Generation",
+      "condition": "Biogas (Other Biogas)",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 1.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "1",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 21,
+      "category": "Fuel Combustion Activities - Petroleum Refining",
+      "condition": "Crude Oil (Liquid Fuel)",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 3.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "3",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 22,
+      "category": "Fuel Combustion Activities - Other Energy Industries",
+      "condition": "Natural Gas",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 1.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "1",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 23,
+      "category": "Fuel Combustion Activities - Iron and Steel",
+      "condition": "Natural Gas",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 1.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "1",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 24,
+      "category": "Fuel Combustion Activities - Iron and Steel",
+      "condition": "Motor Gasoline",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 1.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "1",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 25,
+      "category": "Fuel Combustion Activities - Iron and Steel",
+      "condition": "Gas/Diesel oil",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 3.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "3",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 26,
+      "category": "Fuel Combustion Activities - Iron and Steel",
+      "condition": "Residual Fuel Oil",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 3.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "3",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 27,
+      "category": "Fuel Combustion Activities - Iron and Steel",
+      "condition": "LPG",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 3.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "3",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 28,
+      "category": "Fuel Combustion Activities - Iron and Steel",
+      "condition": "Other kerosene",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 1.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "1",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 29,
+      "category": "Fuel Combustion Activities - Iron and Steel",
+      "condition": "Sub-bituminous coal",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 3.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "3",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 30,
+      "category": "Fuel Combustion Activities - Domestic Aviation",
+      "condition": "Jet kerosene",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.5,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.5",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 31,
+      "category": "Fuel Combustion Activities - Road Transportation",
+      "condition": "Gasoline",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 33.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "33",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 32,
+      "category": "Fuel Combustion Activities - Road Transportation",
+      "condition": "Diesel Oil",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 3.9,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "3.9",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 33,
+      "category": "Fuel Combustion Activities - Road Transportation",
+      "condition": "Natural gas",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 92.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "92",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 34,
+      "category": "Fuel Combustion Activities - Road Transportation",
+      "condition": "Biodiesel",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 3.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "3",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 35,
+      "category": "Fuel Combustion Activities - Railways",
+      "condition": "Diesel Oil",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 4.15,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "4.15",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 36,
+      "category": "Fuel Combustion Activities - Domestic Water-borne Navigation",
+      "condition": "Diesel Oil",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 7.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "7",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 37,
+      "category": "Fuel Combustion Activities - Domestic Water-borne Navigation",
+      "condition": "Residual Fuel Oil",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 7.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "7",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 38,
+      "category": "Fuel Combustion Activities - Commercial /Institutional",
+      "condition": "Diesel Oil",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 10.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "10",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 39,
+      "category": "Fuel Combustion Activities - Commercial /Institutional",
+      "condition": "Residual Fuel Oil",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 10.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "10",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 40,
+      "category": "Fuel Combustion Activities - Commercial /Institutional",
+      "condition": "LPG",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 5.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "5",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 41,
+      "category": "Fuel Combustion Activities - Commercial /Institutional",
+      "condition": "Natural Gas",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 5.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "5",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 42,
+      "category": "Fuel Combustion Activities - Residential",
+      "condition": "Other kerosene",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 10.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "10",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 43,
+      "category": "Fuel Combustion Activities - Residential",
+      "condition": "LPG",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 5.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "5",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 44,
+      "category": "Fuel Combustion Activities - Residential",
+      "condition": "Natural Gas",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 5.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "5",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 45,
+      "category": "Fuel Combustion Activities - Agriculture/ Forestry/Fishing/Fish Farms (Stationary)",
+      "condition": "Motor Gasoline",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 10.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "10",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 46,
+      "category": "Fuel Combustion Activities - Agriculture/ Forestry/Fishing/Fish Farms (Stationary)",
+      "condition": "Diesel oil",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 10.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "10",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 47,
+      "category": "Fuel Combustion Activities - Agriculture/ Forestry/Fishing/Fish Farms (Stationary)",
+      "condition": "Residual Fuel Oil",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 10.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "10",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 48,
+      "category": "Fuel Combustion Activities - Agriculture/ Forestry/Fishing/Fish Farms (Off-road Vehicles and Other Machinery)",
+      "condition": "Residual Fuel Oil",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 10.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "10",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 49,
+      "category": "Fuel Combustion Activities - Agriculture/ Forestry/Fishing/Fish Farms (Fishing ‚Äì mobile Combustion)",
+      "condition": "Motor Gasoline",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 10.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "10",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 50,
+      "category": "Fuel Combustion Activities - Agriculture/ Forestry/Fishing/Fish Farms (Fishing ‚Äì mobile Combustion)",
+      "condition": "Diesel Oil",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 10.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "10",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 51,
+      "category": "Fuel Combustion Activities -Aviation Component (Mobile)",
+      "condition": "Jet kerosene",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.5,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.5",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 52,
+      "category": "Fuel Combustion Activities - Water Component (Mobile)",
+      "condition": "Diesel Oil",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 7.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "7",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 53,
+      "category": "Fuel Combustion Activities - Other (Mobile)",
+      "condition": "Motor Gasoline",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 33.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "33",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 54,
+      "category": "Fuel Combustion Activities - Other (Mobile)",
+      "condition": "Diesel Oil",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 3.9,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "3.9",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 55,
+      "category": "Fugitive Emissions from Fuels -Underground Coal Mining and Handling",
+      "condition": "Mining",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 10.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "10",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 56,
+      "category": "Fugitive Emissions from Fuels -Underground Coal Mining and Handling",
+      "condition": "Post-mining seam gas emissions",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 2.45,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "2.45",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 57,
+      "category": "Fugitive Emissions from Fuels -Underground Coal Mining and Handling",
+      "condition": "Abandoned underground mines",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.343,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.343",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 58,
+      "category": "Fugitive Emissions from Fuels -Underground Coal Mining and Handling",
+      "condition": "Mining",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.3,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.3",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 59,
+      "category": "Fugitive Emissions from Fuels -Surface Coal Mining and Handling",
+      "condition": "Post-mining seam gas emissions",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.1,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.1",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 60,
+      "category": "Fugitive Emissions from Fuels - Oil",
+      "condition": "Venting",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.66,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.66",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 61,
+      "category": "Fugitive Emissions from Fuels - Oil",
+      "condition": "Flaring",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.012,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.012",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 62,
+      "category": "Fugitive Emissions from Fuels - Oil",
+      "condition": "Production and upgrading",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 5.9e-07,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "5.9E-7",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 63,
+      "category": "Fugitive Emissions from Fuels - Oil",
+      "condition": "Refining",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 6.4e-06,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "6.4E-6",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 64,
+      "category": "Fugitive Emissions from Fuels - Natural Gas",
+      "condition": "Flaring",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.012,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.012",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 65,
+      "category": "Fugitive Emissions from Fuels - Natural Gas",
+      "condition": "Production",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.00274,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.00274",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 66,
+      "category": "Fugitive Emissions from Fuels - Natural Gas",
+      "condition": "Processing",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.000542,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "5.42E-4",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 67,
+      "category": "Fugitive Emissions from Fuels - Natural Gas",
+      "condition": "Transmission and Storage",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.000259,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "2.59E-4",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 68,
+      "category": "Fugitive Emissions from Fuels - Natural Gas",
+      "condition": "Distribution",
+      "country": "IPCC",
+      "unit": "kg CH4 TJ-1",
+      "reported_unit": "kg CH₄ TJ⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.00124,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.00124",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 69,
+      "category": "Chemical Industry - Petrochemical and Carbon Black Production",
+      "condition": "Methanol",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 product",
+      "reported_unit": "kg CH₄ kg⁻¹ product",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.0023,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.0023",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 70,
+      "category": "Chemical Industry - Petrochemical and Carbon Black Production",
+      "condition": "Ethylene",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 product",
+      "reported_unit": "kg CH₄ kg⁻¹ product",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.006,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.006",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 71,
+      "category": "Chemical Industry - Petrochemical and Carbon Black Production",
+      "condition": "Ethylene Oxide",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 product",
+      "reported_unit": "kg CH₄ kg⁻¹ product",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.00179,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.00179",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 72,
+      "category": "Metal Industry - Iron and Steel Production",
+      "condition": "Sinter",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 product",
+      "reported_unit": "kg CH₄ kg⁻¹ product",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 7e-05,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "7.0E-5",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 73,
+      "category": "Metal Industry - Iron and Steel Production",
+      "condition": "Coke",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 product",
+      "reported_unit": "kg CH₄ kg⁻¹ product",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 1e-07,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "1.0E-7",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 74,
+      "category": "Metal Industry - Ferroalloys Industry",
+      "condition": "FeSi",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 product",
+      "reported_unit": "kg CH₄ kg⁻¹ product",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.001,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.001",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 75,
+      "category": "Metal Industry - Ferroalloys Industry",
+      "condition": "Si-metal",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 product",
+      "reported_unit": "kg CH₄ kg⁻¹ product",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.0012,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.0012",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 76,
+      "category": "Enteric Fermentation",
+      "condition": "Dairy Cows",
+      "country": "IPCC",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 68.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "68",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 77,
+      "category": "Enteric Fermentation",
+      "condition": "Other Cattle",
+      "country": "IPCC",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 47.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "47",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 78,
+      "category": "Enteric Fermentation",
+      "condition": "Other Cattle",
+      "country": "Malaysia",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 58.65,
+        "median": null,
+        "min": 51.6,
+        "max": 65.7,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "58.65",
+        "median": "",
+        "min": "51.6",
+        "max": "65.7",
+        "stdev": null
+      },
+      "source": "https://www.researchgate.net/publication/326109676_Local_emission_factors_estimates_for_methane_emission_from_cattle_enteric_fermentation_using_IPCC_tier-2_methodology",
+      "dois": [],
+      "url": "https://www.researchgate.net/publication/326109676_Local_emission_factors_estimates_for_methane_emission_from_cattle_enteric_fermentation_using_IPCC_tier-2_methodology",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 79,
+      "category": "Enteric Fermentation",
+      "condition": "Buffalo",
+      "country": "IPCC",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 55.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "55",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 80,
+      "category": "Enteric Fermentation",
+      "condition": "Sheep",
+      "country": "IPCC",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 5.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "5",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 81,
+      "category": "Enteric Fermentation",
+      "condition": "Goats",
+      "country": "IPCC",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 5.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "5",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 82,
+      "category": "Enteric Fermentation",
+      "condition": "Horses",
+      "country": "IPCC",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 18.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "18",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 83,
+      "category": "Enteric Fermentation",
+      "condition": "Swine",
+      "country": "IPCC",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 1.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "1",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 84,
+      "category": "Enteric Fermentation",
+      "condition": "Poultry - Chicken",
+      "country": "IPCC",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 85,
+      "category": "Enteric Fermentation",
+      "condition": "Poultry - Ducks",
+      "country": "IPCC",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 86,
+      "category": "Manure Management",
+      "condition": "Dairy Cows",
+      "country": "IPCC",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 31.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "31",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 87,
+      "category": "Manure Management",
+      "condition": "Other Cattle",
+      "country": "IPCC",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 1.24,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "1.24",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 88,
+      "category": "Manure Management",
+      "condition": "Buffalo",
+      "country": "IPCC",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 2.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "2",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 89,
+      "category": "Manure Management",
+      "condition": "Sheep",
+      "country": "IPCC",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.2,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.2",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 90,
+      "category": "Manure Management",
+      "condition": "Goats",
+      "country": "IPCC",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.22,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.22",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 91,
+      "category": "Manure Management",
+      "condition": "Horses",
+      "country": "IPCC",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 2.19,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "2.19",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 92,
+      "category": "Manure Management",
+      "condition": "Swine",
+      "country": "IPCC",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 7.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "7",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 93,
+      "category": "Manure Management",
+      "condition": "Poultry - Chicken",
+      "country": "IPCC",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.02,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.02",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 94,
+      "category": "Manure Management",
+      "condition": "Poultry - Ducks",
+      "country": "IPCC",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.02,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.02",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 95,
+      "category": "Pineapple Cultivation",
+      "condition": "Open-Field Pineapple Cultivation - Dry and Wet Seasons",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.0072,
+        "max": 1.7808,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": "",
+        "min": "0.0072",
+        "max": "1.7808",
+        "stdev": null
+      },
+      "source": "https://doi.org/10.1016/j.catena.2023.107255|https://doi.org/10.3390/agronomy11081448|https://doi.org/10.5539/sar.v6n3p64",
+      "dois": [
+        "https://doi.org/10.1016/j.catena.2023.107255",
+        "https://doi.org/10.3390/agronomy11081448",
+        "https://doi.org/10.5539/sar.v6n3p64"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 96,
+      "category": "Drained Organic Soil",
+      "condition": "Sago Plantation",
+      "country": "IPCC",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ yr⁻¹",
+      "conversion_factor": 0.0027397260273972603,
+      "conversion_formula": "annual value / 365; assumed 365-day year",
+      "values": {
+        "mean": 0.07178082191780821,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": 0.00019643835616438355
+      },
+      "reported_values": {
+        "mean": "26.2",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": "0.0717"
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 97,
+      "category": "Drained Organic Soil",
+      "condition": "Sago Plantation",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.006559,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.006559",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": ""
+      },
+      "source": "https://doi.org/10.1016/j.soilbio.2005.01.001",
+      "dois": [
+        "https://doi.org/10.1016/j.soilbio.2005.01.001"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 98,
+      "category": "Drained Organic Soil",
+      "condition": "Drained Oil Palm Plantation",
+      "country": "IPCC",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ yr⁻¹",
+      "conversion_factor": 0.0027397260273972603,
+      "conversion_formula": "annual value / 365; assumed 365-day year",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 99,
+      "category": "Peat lands",
+      "condition": "Drained Oil Palm Plantation",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": 0.0652,
+        "min": -0.0005531,
+        "max": 0.619,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": "0.0652",
+        "min": "-5.531E-4",
+        "max": "0.619",
+        "stdev": null
+      },
+      "source": "https://doi.org/10.1016/j.agrformet.2019.107869|https://doi.org/10.1016/j.soilbio.2005.01.001|https://doi.org/10.1038/s41467-020-14298-w|https://doi.org/10.3390/w13233372",
+      "dois": [
+        "https://doi.org/10.1016/j.agrformet.2019.107869",
+        "https://doi.org/10.1016/j.soilbio.2005.01.001",
+        "https://doi.org/10.1038/s41467-020-14298-w",
+        "https://doi.org/10.3390/w13233372"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 100,
+      "category": "Peat lands",
+      "condition": "No Vegetation (Bare)",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 2.05,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "2.05",
+        "max": null,
+        "stdev": null
+      },
+      "source": "https://doi.org/10.5539/sar.v6n3p64",
+      "dois": [
+        "https://doi.org/10.5539/sar.v6n3p64"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 101,
+      "category": "Peat lands",
+      "condition": "Mixed Peat Swamp Forest",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.063562,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.063562",
+        "median": "",
+        "min": "",
+        "max": "",
+        "stdev": ""
+      },
+      "source": "https://doi.org/10.1016/j.scitotenv.2022.159973",
+      "dois": [
+        "https://doi.org/10.1016/j.scitotenv.2022.159973"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 102,
+      "category": "Peat lands",
+      "condition": "Alan Batu",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.153425,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.153425",
+        "median": "",
+        "min": "",
+        "max": "",
+        "stdev": ""
+      },
+      "source": "https://doi.org/10.1016/j.scitotenv.2022.159973",
+      "dois": [
+        "https://doi.org/10.1016/j.scitotenv.2022.159973"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 103,
+      "category": "Peat lands",
+      "condition": "Alan Bunga",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.26995,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.26995",
+        "median": "",
+        "min": "",
+        "max": "",
+        "stdev": ""
+      },
+      "source": "https://doi.org/10.1016/j.scitotenv.2022.159973",
+      "dois": [
+        "https://doi.org/10.1016/j.scitotenv.2022.159973"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 104,
+      "category": "Aggregate sources and non-CO2 Emissions sources on land - Burning",
+      "condition": "Forest Land",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 dry matter",
+      "reported_unit": "kg CH₄ kg⁻¹ dry matter",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.0068,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.0068",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 105,
+      "category": "Aggregate sources and non-CO2 Emissions sources on land - Burning",
+      "condition": "Cropland",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 dry matter",
+      "reported_unit": "kg CH₄ kg⁻¹ dry matter",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.0027,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.0027",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 106,
+      "category": "Aggregate sources and non-CO2 Emissions sources on land - Burning",
+      "condition": "Organic Soil",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 dry matter",
+      "reported_unit": "kg CH₄ kg⁻¹ dry matter",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.021,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.021",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 107,
+      "category": "Aggregate sources and non-CO2 Emissions sources on land - Burning",
+      "condition": "Organic Soil - Oil Palm Plantation",
+      "country": "Malaysia",
+      "unit": "kg CH4 kg-1 dry fuel burned",
+      "reported_unit": "kg CH₄ kg⁻¹ dry fuel burned",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.011,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": 0.00611
+      },
+      "reported_values": {
+        "mean": "0.011",
+        "median": "",
+        "min": "",
+        "max": "",
+        "stdev": "0.00611"
+      },
+      "source": "https://doi.org/10.1002/2017gb005709",
+      "dois": [
+        "https://doi.org/10.1002/2017gb005709"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 108,
+      "category": "Rice Cultivation",
+      "condition": "Irrigated -Continuously Flooded",
+      "country": "IPCC",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 1.6,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "1.6",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": "1",
+      "issues": []
+    },
+    {
+      "id": 109,
+      "category": "Rice Cultivation",
+      "condition": "Irrigated - Continuously Flooded",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 2.861,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "2.861",
+        "median": "",
+        "min": "",
+        "max": "",
+        "stdev": null
+      },
+      "source": "https://doi.org/10.1016/j.aaspro.2014.11.039",
+      "dois": [
+        "https://doi.org/10.1016/j.aaspro.2014.11.039"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 110,
+      "category": "Rice Cultivation",
+      "condition": "Irrigated - Multiple Drainage Period",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 1.000909,
+        "median": 1.000909,
+        "min": 0.917273,
+        "max": 1.084545,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "1.000909",
+        "median": "1.000909",
+        "min": "0.917273",
+        "max": "1.084545",
+        "stdev": null
+      },
+      "source": "https://doi.org/10.1016/j.aaspro.2014.11.039",
+      "dois": [
+        "https://doi.org/10.1016/j.aaspro.2014.11.039"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 111,
+      "category": "Rice Cultivation",
+      "condition": "Irrigated - Continuously Flooded",
+      "country": "Indonesia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.000836,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "8.36E-4",
+        "max": null,
+        "stdev": null
+      },
+      "source": "https://doi.org/10.1016/j.aaspro.2014.11.039",
+      "dois": [
+        "https://doi.org/10.1016/j.aaspro.2014.11.039"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 112,
+      "category": "Rice Cultivation",
+      "condition": "Rainfed",
+      "country": "IPCC",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 1.6,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "1.6",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": "0.27",
+      "issues": []
+    },
+    {
+      "id": 113,
+      "category": "Rice Cultivation",
+      "condition": "Upland",
+      "country": "IPCC",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 1.6,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "1.6",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": "0.27",
+      "issues": []
+    },
+    {
+      "id": 114,
+      "category": "Disturbed river basins",
+      "condition": "Disturbed river basins",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.167409,
+        "median": 0.167409,
+        "min": 0.076308,
+        "max": 0.258509,
+        "stdev": 0.128835
+      },
+      "reported_values": {
+        "mean": "0.167409",
+        "median": "0.167409",
+        "min": "0.076308",
+        "max": "0.258509",
+        "stdev": "0.128835"
+      },
+      "source": "https://doi.org/10.5194/bg-16-4321-2019",
+      "dois": [
+        "https://doi.org/10.5194/bg-16-4321-2019"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 115,
+      "category": "Undisturbed river basins",
+      "condition": "Undisturbed river basins",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.25609,
+        "median": 0.255744,
+        "min": 0.21289,
+        "max": 0.299981,
+        "stdev": 0.046104
+      },
+      "reported_values": {
+        "mean": "0.256090",
+        "median": "0.255744",
+        "min": "0.212890",
+        "max": "0.299981",
+        "stdev": "0.046104"
+      },
+      "source": "https://doi.org/10.5194/bg-16-4321-2019",
+      "dois": [
+        "https://doi.org/10.5194/bg-16-4321-2019"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 116,
+      "category": "Solid Waste Disposal",
+      "condition": "Managed Waste Disposal Site",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 total MSW",
+      "reported_unit": "kg CH₄ kg⁻¹ total MSW",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 1.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "1",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 117,
+      "category": "Solid Waste Disposal",
+      "condition": "Unmanaged Waste Disposal Site",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 total MSW",
+      "reported_unit": "kg CH₄ kg⁻¹ total MSW",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.8,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.8",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 118,
+      "category": "Biological Treatment of Solid Waste",
+      "condition": "Waste treated per kg",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 treated waste",
+      "reported_unit": "kg CH₄ kg⁻¹ treated waste",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 4.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "4",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 119,
+      "category": "Incineration and Open Burning of Waste",
+      "condition": "Hazardous Waste",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 incinerated waste",
+      "reported_unit": "kg CH₄ kg⁻¹ incinerated waste",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 120,
+      "category": "Waste Incineration",
+      "condition": "Clinical Waste",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 incinerated waste",
+      "reported_unit": "kg CH₄ kg⁻¹ incinerated waste",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 121,
+      "category": "Open Burning of Waste",
+      "condition": "Municipal Solid Waste",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 total open-burnt waste",
+      "reported_unit": "kg CH₄ kg⁻¹ total open-burnt waste",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.01,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.01",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 122,
+      "category": "Wastewater Treatment and Discharge - Domestic",
+      "condition": "Centralised Aerobic Treatment Plant",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 BOD",
+      "reported_unit": "kg CH₄ kg⁻¹ BOD",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.0,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 123,
+      "category": "Wastewater Treatment and Discharge - Domestic",
+      "condition": "Septic Tank",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 BOD",
+      "reported_unit": "kg CH₄ kg⁻¹ BOD",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.18,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.18",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 124,
+      "category": "Wastewater Treatment and Discharge - Domestic",
+      "condition": "Latrine 3 (Pour Flush)",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 BOD",
+      "reported_unit": "kg CH₄ kg⁻¹ BOD",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.252,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.252",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 125,
+      "category": "Wastewater Treatment and Discharge - Domestic",
+      "condition": "Sea, River, and Lake Discharge",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 BOD",
+      "reported_unit": "kg CH₄ kg⁻¹ BOD",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.036,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.036",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 126,
+      "category": "Wastewater Treatment and Discharge - Industrial",
+      "condition": "Palm Oil Mill Effluent",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 BOD",
+      "reported_unit": "kg CH₄ kg⁻¹ BOD",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.225,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.225",
+        "max": null,
+        "stdev": null
+      },
+      "source": "https://doi.org/10.3844/ajgsp.2010.1.6",
+      "dois": [
+        "https://doi.org/10.3844/ajgsp.2010.1.6"
+      ],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 127,
+      "category": "Wastewater Treatment and Discharge - Industrial",
+      "condition": "Natural Rubber (SMR)",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 BOD",
+      "reported_unit": "kg CH₄ kg⁻¹ BOD",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.2,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.2",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 128,
+      "category": "Wastewater Treatment and Discharge - Industrial",
+      "condition": "Natural Rubber (LATEX)",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 BOD",
+      "reported_unit": "kg CH₄ kg⁻¹ BOD",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.036,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.036",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 129,
+      "category": "Wastewater Treatment and Discharge - Industrial",
+      "condition": "Petroleum Refineries",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 BOD",
+      "reported_unit": "kg CH₄ kg⁻¹ BOD",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.125,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.125",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 130,
+      "category": "Wastewater Treatment and Discharge - Industrial",
+      "condition": "Pulp and Paper",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 BOD",
+      "reported_unit": "kg CH₄ kg⁻¹ BOD",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.125,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.125",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 131,
+      "category": "Wastewater Treatment and Discharge - Industrial",
+      "condition": "Meat and Poultry",
+      "country": "IPCC",
+      "unit": "kg CH4 kg-1 BOD",
+      "reported_unit": "kg CH₄ kg⁻¹ BOD",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": 0.125,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "0.125",
+        "max": null,
+        "stdev": null
+      },
+      "source": "IPCC",
+      "dois": [],
+      "url": null,
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 132,
+      "category": "Fugitive Emissions from Fuels - Oil",
+      "condition": "Oil system venting",
+      "country": "Malaysia",
+      "unit": "kg CH4 m-3 oil sales volume",
+      "reported_unit": "kg CH₄ m⁻³ oil sales volume",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.124,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.124",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.61762/pajevol10iss2art001",
+      "dois": [
+        "10.61762/pajevol10iss2art001"
+      ],
+      "url": "https://doi.org/10.61762/pajevol10iss2art001",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 133,
+      "category": "Fugitive Emissions from Fuels - Oil",
+      "condition": "Oil system flaring",
+      "country": "Malaysia",
+      "unit": "kg CH4 m-3 oil sales volume",
+      "reported_unit": "kg CH₄ m⁻³ oil sales volume",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.00885,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.00885",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.61762/pajevol10iss2art001",
+      "dois": [
+        "10.61762/pajevol10iss2art001"
+      ],
+      "url": "https://doi.org/10.61762/pajevol10iss2art001",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 134,
+      "category": "Fugitive Emissions from Fuels - Natural Gas",
+      "condition": "Natural gas system venting",
+      "country": "Malaysia",
+      "unit": "kg CH4 m-3 natural gas sales volume",
+      "reported_unit": "kg CH₄ m⁻³ natural gas sales volume",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.566,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.566",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.61762/pajevol10iss2art001",
+      "dois": [
+        "10.61762/pajevol10iss2art001"
+      ],
+      "url": "https://doi.org/10.61762/pajevol10iss2art001",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 135,
+      "category": "Fugitive Emissions from Fuels - Natural Gas",
+      "condition": "Natural gas system flaring",
+      "country": "Malaysia",
+      "unit": "kg CH4 m-3 natural gas sales volume",
+      "reported_unit": "kg CH₄ m⁻³ natural gas sales volume",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.00928,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.00928",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.61762/pajevol10iss2art001",
+      "dois": [
+        "10.61762/pajevol10iss2art001"
+      ],
+      "url": "https://doi.org/10.61762/pajevol10iss2art001",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 136,
+      "category": "Fugitive Emissions from Fuels - Oil",
+      "condition": "Oil system production and upgrading",
+      "country": "Malaysia",
+      "unit": "kg CH4 m-3 oil sales volume",
+      "reported_unit": "kg CH₄ m⁻³ oil sales volume",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.000111,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "1.11E-4",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.61762/pajevol10iss2art001",
+      "dois": [
+        "10.61762/pajevol10iss2art001"
+      ],
+      "url": "https://doi.org/10.61762/pajevol10iss2art001",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 137,
+      "category": "Fugitive Emissions from Fuels - Natural Gas",
+      "condition": "Natural gas system production",
+      "country": "Malaysia",
+      "unit": "kg CH4 m-3 natural gas sales volume",
+      "reported_unit": "kg CH₄ m⁻³ natural gas sales volume",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 8.97e-05,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "8.97E-5",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.61762/pajevol10iss2art001",
+      "dois": [
+        "10.61762/pajevol10iss2art001"
+      ],
+      "url": "https://doi.org/10.61762/pajevol10iss2art001",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 138,
+      "category": "Fugitive Emissions from Fuels - Natural Gas",
+      "condition": "Natural gas system processing",
+      "country": "Malaysia",
+      "unit": "kg CH4 m-3 natural gas sales volume",
+      "reported_unit": "kg CH₄ m⁻³ natural gas sales volume",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 9.56e-06,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "9.56E-6",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.61762/pajevol10iss2art001",
+      "dois": [
+        "10.61762/pajevol10iss2art001"
+      ],
+      "url": "https://doi.org/10.61762/pajevol10iss2art001",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 139,
+      "category": "Fugitive Emissions from Fuels - Natural Gas",
+      "condition": "Natural gas system transmission and storage",
+      "country": "Malaysia",
+      "unit": "kg CH4 m-3 natural gas sales volume",
+      "reported_unit": "kg CH₄ m⁻³ natural gas sales volume",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.000109,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "1.09E-4",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.61762/pajevol10iss2art001",
+      "dois": [
+        "10.61762/pajevol10iss2art001"
+      ],
+      "url": "https://doi.org/10.61762/pajevol10iss2art001",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 140,
+      "category": "Enteric Fermentation",
+      "condition": "Mature male KK cross",
+      "country": "Malaysia",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 52.5,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "52.5",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.1051/e3sconf/202459901005",
+      "dois": [
+        "10.1051/e3sconf/202459901005"
+      ],
+      "url": "https://doi.org/10.1051/e3sconf/202459901005",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 141,
+      "category": "Enteric Fermentation",
+      "condition": "Mature female KK cross",
+      "country": "Malaysia",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 39.7,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "39.7",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.1051/e3sconf/202459901005",
+      "dois": [
+        "10.1051/e3sconf/202459901005"
+      ],
+      "url": "https://doi.org/10.1051/e3sconf/202459901005",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 142,
+      "category": "Enteric Fermentation",
+      "condition": "Pooled KK-cross average",
+      "country": "Malaysia",
+      "unit": "kg CH4 head-1 yr-1",
+      "reported_unit": "kg CH₄ head⁻¹ yr⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 46.1,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "46.1",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.1051/e3sconf/202459901005",
+      "dois": [
+        "10.1051/e3sconf/202459901005"
+      ],
+      "url": "https://doi.org/10.1051/e3sconf/202459901005",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 143,
+      "category": "Rice Cultivation",
+      "condition": "National factor; 11 planting seasons, 2012–2024",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 1.8,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "1.8",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.47172/2965-730x.sdgsreview.v5.n02.pe02774",
+      "dois": [
+        "10.47172/2965-730x.sdgsreview.v5.n02.pe02774"
+      ],
+      "url": "https://doi.org/10.47172/2965-730x.sdgsreview.v5.n02.pe02774",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 144,
+      "category": "Peat lands",
+      "condition": "T1 control; 0 kg N ha-1 yr-1",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": -0.052352,
+        "max": 0.102624,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "-0.052352",
+        "max": "0.102624",
+        "stdev": null
+      },
+      "source": "10.1038/s41598-025-32378-z",
+      "dois": [
+        "10.1038/s41598-025-32378-z"
+      ],
+      "url": "https://doi.org/10.1038/s41598-025-32378-z",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 145,
+      "category": "Peat lands",
+      "condition": "T2 low; 31.1 kg N ha-1 yr-1",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": -0.027744000000000005,
+        "max": 0.09145600000000001,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "-0.027744000000000005",
+        "max": "0.09145600000000001",
+        "stdev": null
+      },
+      "source": "10.1038/s41598-025-32378-z",
+      "dois": [
+        "10.1038/s41598-025-32378-z"
+      ],
+      "url": "https://doi.org/10.1038/s41598-025-32378-z",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 146,
+      "category": "Peat lands",
+      "condition": "T3 moderate; 62.2 kg N ha-1 yr-1",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": -0.042112000000000004,
+        "max": 0.08771200000000001,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "-0.042112000000000004",
+        "max": "0.08771200000000001",
+        "stdev": null
+      },
+      "source": "10.1038/s41598-025-32378-z",
+      "dois": [
+        "10.1038/s41598-025-32378-z"
+      ],
+      "url": "https://doi.org/10.1038/s41598-025-32378-z",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 147,
+      "category": "Peat lands",
+      "condition": "T4 high; 124.3 kg N ha-1 yr-1",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": null,
+        "median": null,
+        "min": -0.040224,
+        "max": 0.059488000000000006,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": null,
+        "median": null,
+        "min": "-0.040224",
+        "max": "0.059488000000000006",
+        "stdev": null
+      },
+      "source": "10.1038/s41598-025-32378-z",
+      "dois": [
+        "10.1038/s41598-025-32378-z"
+      ],
+      "url": "https://doi.org/10.1038/s41598-025-32378-z",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 148,
+      "category": "Peat lands",
+      "condition": "Jan 2016; secondary peat swamp forest; wet season",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.107488,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.107488",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.1128/aem.01986-24",
+      "dois": [
+        "10.1128/aem.01986-24"
+      ],
+      "url": "https://doi.org/10.1128/aem.01986-24",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 149,
+      "category": "Peat lands",
+      "condition": "Aug 2016; secondary peat swamp forest; dry season",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.017824,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.017824",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.1128/aem.01986-24",
+      "dois": [
+        "10.1128/aem.01986-24"
+      ],
+      "url": "https://doi.org/10.1128/aem.01986-24",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 150,
+      "category": "Peat lands",
+      "condition": "Aug 2017; land preparation; dry season",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.02464,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.02464",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.1128/aem.01986-24",
+      "dois": [
+        "10.1128/aem.01986-24"
+      ],
+      "url": "https://doi.org/10.1128/aem.01986-24",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 151,
+      "category": "Peat lands",
+      "condition": "Jan 2018; land preparation; wet season",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.071744,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.071744",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.1128/aem.01986-24",
+      "dois": [
+        "10.1128/aem.01986-24"
+      ],
+      "url": "https://doi.org/10.1128/aem.01986-24",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 152,
+      "category": "Peat lands",
+      "condition": "Mar 2018; land preparation; wet season",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": -0.021312,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "-0.021312",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.1128/aem.01986-24",
+      "dois": [
+        "10.1128/aem.01986-24"
+      ],
+      "url": "https://doi.org/10.1128/aem.01986-24",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 153,
+      "category": "Peat lands",
+      "condition": "Jan 2020; oil palm plantation; wet season",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.019872,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.019872",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.1128/aem.01986-24",
+      "dois": [
+        "10.1128/aem.01986-24"
+      ],
+      "url": "https://doi.org/10.1128/aem.01986-24",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 154,
+      "category": "Peat lands",
+      "condition": "Aug 2020; oil palm plantation; dry season",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": -0.02064,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "-0.02064",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.1128/aem.01986-24",
+      "dois": [
+        "10.1128/aem.01986-24"
+      ],
+      "url": "https://doi.org/10.1128/aem.01986-24",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 155,
+      "category": "Disturbed river basins",
+      "condition": "Kenyir Reservoir; wet season",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.32,
+        "median": null,
+        "min": 0.016,
+        "max": 1.92,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.32",
+        "median": null,
+        "min": "0.016",
+        "max": "1.92",
+        "stdev": null
+      },
+      "source": "10.7717/peerj.19929",
+      "dois": [
+        "10.7717/peerj.19929"
+      ],
+      "url": "https://doi.org/10.7717/peerj.19929",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 156,
+      "category": "Disturbed river basins",
+      "condition": "Kenyir Reservoir; dry season",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.128,
+        "median": null,
+        "min": 0.0032,
+        "max": 0.8,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.128",
+        "median": null,
+        "min": "0.0032",
+        "max": "0.8",
+        "stdev": null
+      },
+      "source": "10.7717/peerj.19929",
+      "dois": [
+        "10.7717/peerj.19929"
+      ],
+      "url": "https://doi.org/10.7717/peerj.19929",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 157,
+      "category": "Disturbed river basins",
+      "condition": "Kenyir Reservoir; dry season; shallow southern region",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.006064,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.006064",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.7717/peerj.19929",
+      "dois": [
+        "10.7717/peerj.19929"
+      ],
+      "url": "https://doi.org/10.7717/peerj.19929",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 158,
+      "category": "Disturbed river basins",
+      "condition": "Kenyir Reservoir; wet season; shallow southern region",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 6.304e-09,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "6.304E-9",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.7717/peerj.19929",
+      "dois": [
+        "10.7717/peerj.19929"
+      ],
+      "url": "https://doi.org/10.7717/peerj.19929",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 159,
+      "category": "Disturbed river basins",
+      "condition": "Terengganu River; 2018 campaigns",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.128,
+        "median": null,
+        "min": 0.0096,
+        "max": 3.2,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.128",
+        "median": null,
+        "min": "0.0096",
+        "max": "3.2",
+        "stdev": null
+      },
+      "source": "10.7717/peerj.19929",
+      "dois": [
+        "10.7717/peerj.19929"
+      ],
+      "url": "https://doi.org/10.7717/peerj.19929",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 160,
+      "category": "Disturbed river basins",
+      "condition": "Terengganu River Estuary; high flow; December 2017",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 2.08,
+        "median": null,
+        "min": 0.688,
+        "max": 3.36,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "2.08",
+        "median": null,
+        "min": "0.688",
+        "max": "3.36",
+        "stdev": null
+      },
+      "source": "10.7717/peerj.19929",
+      "dois": [
+        "10.7717/peerj.19929"
+      ],
+      "url": "https://doi.org/10.7717/peerj.19929",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 161,
+      "category": "Disturbed river basins",
+      "condition": "Terengganu River Estuary; low flow; September 2018",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.656,
+        "median": null,
+        "min": 0.256,
+        "max": 1.6,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.656",
+        "median": null,
+        "min": "0.256",
+        "max": "1.6",
+        "stdev": null
+      },
+      "source": "10.7717/peerj.19929",
+      "dois": [
+        "10.7717/peerj.19929"
+      ],
+      "url": "https://doi.org/10.7717/peerj.19929",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 162,
+      "category": "Disturbed river basins",
+      "condition": "Terengganu River Estuary; neap tide; 24-hour sampling",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.112,
+        "median": null,
+        "min": 0.032,
+        "max": 0.208,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.112",
+        "median": null,
+        "min": "0.032",
+        "max": "0.208",
+        "stdev": null
+      },
+      "source": "10.7717/peerj.19929",
+      "dois": [
+        "10.7717/peerj.19929"
+      ],
+      "url": "https://doi.org/10.7717/peerj.19929",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 163,
+      "category": "Disturbed river basins",
+      "condition": "Terengganu River Estuary; spring tide; 24-hour sampling",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.096,
+        "median": null,
+        "min": -0.0144,
+        "max": 0.208,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.096",
+        "median": null,
+        "min": "-0.0144",
+        "max": "0.208",
+        "stdev": null
+      },
+      "source": "10.7717/peerj.19929",
+      "dois": [
+        "10.7717/peerj.19929"
+      ],
+      "url": "https://doi.org/10.7717/peerj.19929",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 164,
+      "category": "Peat lands",
+      "condition": "First rotation total CH4 flux",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 1.9,
+        "median": null,
+        "min": 0.04,
+        "max": 26.6,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "1.9",
+        "median": null,
+        "min": "0.04",
+        "max": "26.6",
+        "stdev": null
+      },
+      "source": "10.1038/s41598-025-21094-3",
+      "dois": [
+        "10.1038/s41598-025-21094-3"
+      ],
+      "url": "https://doi.org/10.1038/s41598-025-21094-3",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 165,
+      "category": "Peat lands",
+      "condition": "Second rotation total CH4 flux",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.7000000000000001,
+        "median": null,
+        "min": 0.04,
+        "max": 28.3,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.7000000000000001",
+        "median": null,
+        "min": "0.04",
+        "max": "28.3",
+        "stdev": null
+      },
+      "source": "10.1038/s41598-025-21094-3",
+      "dois": [
+        "10.1038/s41598-025-21094-3"
+      ],
+      "url": "https://doi.org/10.1038/s41598-025-21094-3",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 166,
+      "category": "Peat lands",
+      "condition": "Combined total CH4 flux",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 1.7999999999999998,
+        "median": null,
+        "min": 0.04,
+        "max": 28.3,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "1.7999999999999998",
+        "median": null,
+        "min": "0.04",
+        "max": "28.3",
+        "stdev": null
+      },
+      "source": "10.1038/s41598-025-21094-3",
+      "dois": [
+        "10.1038/s41598-025-21094-3"
+      ],
+      "url": "https://doi.org/10.1038/s41598-025-21094-3",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 167,
+      "category": "Peat lands",
+      "condition": "First rotation, per hectare of drained land",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.07,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.07",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.1038/s41598-025-21094-3",
+      "dois": [
+        "10.1038/s41598-025-21094-3"
+      ],
+      "url": "https://doi.org/10.1038/s41598-025-21094-3",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 168,
+      "category": "Peat lands",
+      "condition": "Second rotation, per hectare of drained land",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.02,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.02",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.1038/s41598-025-21094-3",
+      "dois": [
+        "10.1038/s41598-025-21094-3"
+      ],
+      "url": "https://doi.org/10.1038/s41598-025-21094-3",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 169,
+      "category": "Rice Cultivation",
+      "condition": "Season 1/2019; continuous flooding (CF)",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 1.66,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "1.66",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.9734/ajahr/2024/v11i1306",
+      "dois": [
+        "10.9734/ajahr/2024/v11i1306"
+      ],
+      "url": "https://doi.org/10.9734/ajahr/2024/v11i1306",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 170,
+      "category": "Rice Cultivation",
+      "condition": "Season 1/2019; saturated then flooded (S-F)",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 1.0,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "1.0",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.9734/ajahr/2024/v11i1306",
+      "dois": [
+        "10.9734/ajahr/2024/v11i1306"
+      ],
+      "url": "https://doi.org/10.9734/ajahr/2024/v11i1306",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 171,
+      "category": "Rice Cultivation",
+      "condition": "Season 1/2019; continuous saturated (CS)",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.74,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.74",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.9734/ajahr/2024/v11i1306",
+      "dois": [
+        "10.9734/ajahr/2024/v11i1306"
+      ],
+      "url": "https://doi.org/10.9734/ajahr/2024/v11i1306",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 172,
+      "category": "Rice Cultivation",
+      "condition": "Season 2/2019; continuous flooding (CF)",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 2.89,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "2.89",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.9734/ajahr/2024/v11i1306",
+      "dois": [
+        "10.9734/ajahr/2024/v11i1306"
+      ],
+      "url": "https://doi.org/10.9734/ajahr/2024/v11i1306",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 173,
+      "category": "Rice Cultivation",
+      "condition": "Season 2/2019; saturated then flooded (S-F)",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 2.19,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "2.19",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.9734/ajahr/2024/v11i1306",
+      "dois": [
+        "10.9734/ajahr/2024/v11i1306"
+      ],
+      "url": "https://doi.org/10.9734/ajahr/2024/v11i1306",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 174,
+      "category": "Rice Cultivation",
+      "condition": "Season 2/2019; continuous saturated (CS)",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 1.89,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "1.89",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.9734/ajahr/2024/v11i1306",
+      "dois": [
+        "10.9734/ajahr/2024/v11i1306"
+      ],
+      "url": "https://doi.org/10.9734/ajahr/2024/v11i1306",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 175,
+      "category": "Peat lands",
+      "condition": "Before conversion",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.1613333333333329,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.1613333333333329",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.1016/j.scitotenv.2025.178466",
+      "dois": [
+        "10.1016/j.scitotenv.2025.178466"
+      ],
+      "url": "https://doi.org/10.1016/j.scitotenv.2025.178466",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 176,
+      "category": "Peat lands",
+      "condition": "During conversion",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.31066666666666587,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.31066666666666587",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.1016/j.scitotenv.2025.178466",
+      "dois": [
+        "10.1016/j.scitotenv.2025.178466"
+      ],
+      "url": "https://doi.org/10.1016/j.scitotenv.2025.178466",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 177,
+      "category": "Peat lands",
+      "condition": "After conversion",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.2173333333333328,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.2173333333333328",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.1016/j.scitotenv.2025.178466",
+      "dois": [
+        "10.1016/j.scitotenv.2025.178466"
+      ],
+      "url": "https://doi.org/10.1016/j.scitotenv.2025.178466",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 178,
+      "category": "Peat lands",
+      "condition": "2014–2020",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.20968036529680364,
+        "median": null,
+        "min": 0.13406392694063926,
+        "max": 0.3013698630136986,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.20968036529680364",
+        "median": null,
+        "min": "0.13406392694063926",
+        "max": "0.3013698630136986",
+        "stdev": null
+      },
+      "source": "10.1016/j.scitotenv.2025.178466",
+      "dois": [
+        "10.1016/j.scitotenv.2025.178466"
+      ],
+      "url": "https://doi.org/10.1016/j.scitotenv.2025.178466",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 179,
+      "category": "Peat lands",
+      "condition": "Baseline scenario",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.33242009132420086,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.33242009132420086",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.1016/j.scitotenv.2025.178466",
+      "dois": [
+        "10.1016/j.scitotenv.2025.178466"
+      ],
+      "url": "https://doi.org/10.1016/j.scitotenv.2025.178466",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    },
+    {
+      "id": 180,
+      "category": "Peat lands",
+      "condition": "Controlled-burning scenario",
+      "country": "Malaysia",
+      "unit": "kg CH4 ha-1 day-1",
+      "reported_unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "conversion_factor": 1.0,
+      "conversion_formula": "identity; activity basis preserved",
+      "values": {
+        "mean": 0.42374429223744287,
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "reported_values": {
+        "mean": "0.42374429223744287",
+        "median": null,
+        "min": null,
+        "max": null,
+        "stdev": null
+      },
+      "source": "10.1016/j.scitotenv.2025.178466",
+      "dois": [
+        "10.1016/j.scitotenv.2025.178466"
+      ],
+      "url": "https://doi.org/10.1016/j.scitotenv.2025.178466",
+      "scaling_factor_not_applied": null,
+      "issues": []
+    }
+  ],
+  "peer_signals": [],
+  "unassessed": [
+    {
+      "id": 1,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 2,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 3,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 4,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 5,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 6,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 7,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 8,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 9,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 10,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 11,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 12,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 13,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 14,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 15,
+      "statistic": "median",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 15,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 15,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 16,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 17,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 18,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 19,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 20,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 21,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 22,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 23,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 24,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 25,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 26,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 27,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 28,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 29,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 30,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 31,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 32,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 33,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 34,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 35,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 36,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 37,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 38,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 39,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 40,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 41,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 42,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 43,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 44,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 45,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 46,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 47,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 48,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 49,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 50,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 51,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 52,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 53,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 54,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 55,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 56,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 57,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 58,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 59,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 60,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 61,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 62,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 63,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 64,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 65,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 66,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 67,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 68,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 69,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 70,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 71,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 72,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 73,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 74,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 75,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 76,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 77,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 78,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 78,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 78,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 79,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 80,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 81,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 82,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 83,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 86,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 87,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 88,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 89,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 90,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 91,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 92,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 93,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 94,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 95,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 95,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 96,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 97,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 98,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 99,
+      "statistic": "median",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 99,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 99,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 100,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 101,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 102,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 103,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 104,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 105,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 106,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 107,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 108,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 109,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 110,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 110,
+      "statistic": "median",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 110,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 110,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 111,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 112,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 113,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 114,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 114,
+      "statistic": "median",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 114,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 114,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 115,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 115,
+      "statistic": "median",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 115,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 115,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 116,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 117,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 118,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 119,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 120,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 121,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 122,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 123,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 124,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 125,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 126,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 127,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 128,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 129,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 130,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 131,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 132,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 133,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 134,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 135,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 136,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 137,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 138,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 139,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 140,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 141,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 142,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 143,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 144,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 144,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 145,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 145,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 146,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 146,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 147,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 147,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 148,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 149,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 150,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 151,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 152,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 153,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 154,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 155,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 155,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 155,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 156,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 156,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 156,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 157,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 158,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 159,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 159,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 159,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 160,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 160,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 160,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 161,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 161,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 161,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 162,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 162,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 162,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 163,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 163,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 163,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 164,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 164,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 164,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 165,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 165,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 165,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 166,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 166,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 166,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 167,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 168,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 169,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 170,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 171,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 172,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 173,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 174,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 175,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 176,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 177,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 178,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 178,
+      "statistic": "min",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 178,
+      "statistic": "max",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 179,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    },
+    {
+      "id": 180,
+      "statistic": "mean",
+      "reason": "insufficient independent peers with matching condition, country and statistic"
+    }
+  ],
+  "contextual_contrasts": [
+    {
+      "category": "Fuel Combustion Activities - Electricity Generation",
+      "unit": "kg CH4 TJ-1",
+      "statistic": "min",
+      "low_id": 7,
+      "high_id": 10,
+      "ratio": 750.0,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Fuel Combustion Activities - Combined Heat and Power Generation",
+      "unit": "kg CH4 TJ-1",
+      "statistic": "min",
+      "low_id": 14,
+      "high_id": 18,
+      "ratio": 368.5714285714286,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Fugitive Emissions from Fuels - Oil",
+      "unit": "kg CH4 TJ-1",
+      "statistic": "min",
+      "low_id": 62,
+      "high_id": 60,
+      "ratio": 1118644.0677966103,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Metal Industry - Iron and Steel Production",
+      "unit": "kg CH4 kg-1 product",
+      "statistic": "min",
+      "low_id": 73,
+      "high_id": 72,
+      "ratio": 700.0,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Manure Management",
+      "unit": "kg CH4 head-1 yr-1",
+      "statistic": "min",
+      "low_id": 93,
+      "high_id": 86,
+      "ratio": 1550.0,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Peat lands",
+      "unit": "kg CH4 ha-1 day-1",
+      "statistic": "mean",
+      "low_id": 149,
+      "high_id": 164,
+      "ratio": 106.59784560143626,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Peat lands",
+      "unit": "kg CH4 ha-1 day-1",
+      "statistic": "max",
+      "low_id": 147,
+      "high_id": 165,
+      "ratio": 475.726196880043,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Rice Cultivation",
+      "unit": "kg CH4 ha-1 day-1",
+      "statistic": "min",
+      "low_id": 111,
+      "high_id": 110,
+      "ratio": 1097.2165071770335,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Disturbed river basins",
+      "unit": "kg CH4 ha-1 day-1",
+      "statistic": "mean",
+      "low_id": 158,
+      "high_id": 160,
+      "ratio": 329949238.5786802,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Disturbed river basins",
+      "unit": "kg CH4 ha-1 day-1",
+      "statistic": "min",
+      "low_id": 156,
+      "high_id": 160,
+      "ratio": 214.99999999999997,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Fugitive Emissions from Fuels - Oil",
+      "unit": "kg CH4 m-3 oil sales volume",
+      "statistic": "mean",
+      "low_id": 136,
+      "high_id": 132,
+      "ratio": 1117.117117117117,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    },
+    {
+      "category": "Fugitive Emissions from Fuels - Natural Gas",
+      "unit": "kg CH4 m-3 natural gas sales volume",
+      "statistic": "mean",
+      "low_id": 138,
+      "high_id": 134,
+      "ratio": 59205.02092050209,
+      "status": "context only: conditions/countries/boundaries may differ; not a peer outlier"
+    }
+  ],
+  "group_count": 43,
+  "consistency_issues": [],
+  "run_id": "20261028T170725Z",
+  "snapshot_sha256": "c728c793c7328acd82a48339afd453f0a505b40270693a07427df32d53c801eb",
+  "source_api": "https://tidbrepo.usm.my/api/v1/database/8cb5b734-7d57-4ca5-81a6-4d1de7acee88/table/ff844ee0-03d8-4531-ae43-14f4bbdf4cd4/data",
+  "acquisition": "live public GET; pagination checked to empty terminal page",
+  "generated_at": "2026-10-28T17:07:28.235575+00:00",
+  "plots": [
+    "factors-01.png",
+    "factors-02.png",
+    "factors-03.png",
+    "factors-04.png",
+    "factors-05.png",
+    "factors-06.png",
+    "factors-07.png",
+    "factors-08.png",
+    "factors-09.png"
+  ]
+}
