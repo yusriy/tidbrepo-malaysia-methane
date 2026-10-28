@@ -14,6 +14,8 @@ September 2026: **0 pending paper-screening decisions; 3 measurement decisions p
 
 ## Queue summary
 
+The original corpus has been [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28|matched against all 180 live TIDBRepo records]]. Eleven of the 18 papers with extracted measurements are already cited. Six extracted values match stored numbers after normalization; other records include combined-source ranges, concentrations, regional totals and extraction errors. The 95 `proposed` measurements below are local scientific-verification flags, **not 95 missing uploads or 95 new approval requests**. Use the focused checks in the reconciliation report before deciding whether anything needs adding.
+
 - Bibliographic title overrides to confirm: 8
 - Documents without a detected DOI: 1
 - Documents without a separately detected abstract: 3
