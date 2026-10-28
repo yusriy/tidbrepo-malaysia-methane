@@ -1,0 +1,22 @@
+{
+  "review_id": "review_20261028_suitability_R02",
+  "display_id": "R02",
+  "title": "Are secondary forests second-rate? Comparing peatland greenhouse gas emissions, chemical and microbial community properties between primary and secondary forests in Peninsular Malaysia",
+  "doi": "10.1016/j.scitotenv.2018.11.046",
+  "reviewed_on": "2026-10-28",
+  "reviewer": "Project owner (user)",
+  "decision": "wiki_only_database_hold",
+  "selected_evidence": "Retain primary-forest emission and secondary-forest uptake finding. Do not use approximate abstract value 2 mg CH4 m^-2 h^-1 as the final factor.",
+  "reason_and_conditions": "Obtain exact full-text condition-specific means, uncertainty and sampling coverage. Preserve supported negative uptake and keep forest conditions separate.",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "I agree",
+    "approved_proposal": "The immediately preceding assistant R01/R03/R02/R04 draft suitability template."
+  },
+  "wiki_use": "context_with_explicit_verification_limits",
+  "measurements_verified": false,
+  "tidbrepo_upload_authorized": false,
+  "source_reconciliation": "knowledge_base/reconciliations/original-corpus-tidbrepo-2026-10-28.json",
+  "source_reconciliation_sha256": "9bbfb1e2552d312269f43c3c206e2c49bef3dfb56054b6a03d0187c8b9a1aab0",
+  "wiki_review_page": "findings/original-corpus-tidbrepo-reconciliation-2026-10-28"
+}

@@ -122,3 +122,13 @@ previously reported in undrained forests.
 ## Research notes
 
 <!-- Add verified synthesis through the ingestion/review workflow. -->
+
+## Owner suitability review — 28 October 2026 (R03)
+
+Approved disposition: **factor_candidate_pending_full_text_verification**.
+
+Annual gap-filled methane emission 4.32 ± 3.95 g CH4-C m^-2 yr^-1; reported n = 9.
+
+Candidate for undrained tropical peat-swamp forest soil. Confirm uncertainty definition, sampling coverage, site conditions and carbon-mass basis before preparing a final entry.
+
+Scientific measurement verification is unchanged. This is not approval to upload. See [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28|the original-corpus reconciliation and owner decisions]].

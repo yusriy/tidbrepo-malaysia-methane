@@ -709,3 +709,7 @@ Recorded A01–A04 as context-only and A05–A32 as excluded, following the owne
 ## 2026-10-28 | Owner completed September screening and requested extraction
 
 Recorded S01 as excluded and S02 as retained for extraction. Created a new local source-review attempt for S03–S05, retaining the original September package unchanged. Inspected PDF text and rendered tables; preserved conflicting S03/S04 figures and corrected S05 to the full 56–66 mL batch range with six source conditions. All three measurements remain unverified proposals; no preferred conflicting value or inventory conversion is imposed. See [[findings/september-2026-screening-and-extraction-review|the extraction and scientific review queue]]. No scientific database write, TIDBRepo upload, or timer change.
+
+## 2026-10-28 | Owner approved R01–R04 suitability dispositions
+
+Recorded the owner’s approval of R01/R02 wiki-only with database use on hold, R03 as a factor candidate pending full-text verification, and R04 as wiki-only with unresolved source conflicts retained. Linked separate decision records to preserved evidence, updated paper annotations and monthly queues, and retained all original measurement verification statuses. No TIDBRepo write, timer change or merge. See [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28|the reconciliation and suitability decisions]].

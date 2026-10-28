@@ -74,3 +74,13 @@ measured by the eddy covariance technique in mid- and high-latitude peatlands.
 ## Research notes
 
 <!-- Add verified synthesis through the ingestion/review workflow. -->
+
+## Owner suitability review — 28 October 2026 (R01)
+
+Approved disposition: **wiki_only_database_hold**.
+
+Retain annual range 7.5–10.8 g CH4-C m^-2 yr^-1 with processing methods. Do not select the method-variant average 9.2 as a preferred factor.
+
+Ecosystem-scale flux includes aboveground emissions. Check Table 2 and choose a defensible processing method before any database preparation.
+
+Scientific measurement verification is unchanged. This is not approval to upload. See [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28|the original-corpus reconciliation and owner decisions]].

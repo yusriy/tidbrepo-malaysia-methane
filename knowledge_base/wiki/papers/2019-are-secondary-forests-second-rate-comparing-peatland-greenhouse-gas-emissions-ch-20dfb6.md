@@ -81,3 +81,13 @@ correlated with CO2 and CH4 emissions respectively. Drainage related disturbance
 ## Research notes
 
 <!-- Add verified synthesis through the ingestion/review workflow. -->
+
+## Owner suitability review — 28 October 2026 (R02)
+
+Approved disposition: **wiki_only_database_hold**.
+
+Retain primary-forest emission and secondary-forest uptake finding. Do not use approximate abstract value 2 mg CH4 m^-2 h^-1 as the final factor.
+
+Obtain exact full-text condition-specific means, uncertainty and sampling coverage. Preserve supported negative uptake and keep forest conditions separate.
+
+Scientific measurement verification is unchanged. This is not approval to upload. See [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28|the original-corpus reconciliation and owner decisions]].

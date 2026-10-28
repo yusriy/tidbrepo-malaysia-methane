@@ -10,7 +10,7 @@ October 2026: **0 pending paper reviews**. The owner [[findings/literature-revie
 
 August 2026: **0 pending paper-screening decisions**. The owner [[findings/august-2026-remaining-screening-review|approved all 32 saved suggestions]] on 28 October 2026: 4 context-only and 28 excluded. The 66 value-review decisions are already complete; six landfill records retain their existing activity-basis/conversion blockers.
 
-September 2026: **0 pending paper-screening decisions; 3 measurement decisions pending**. The owner excluded S01 and retained S02 for extraction. See [[findings/september-2026-screening-and-extraction-review|the source-checked S03–S05 review]] for conflicting reported figures and the corrected batch range. The current local measurement review file is `knowledge_base/literature_updates/runs/20261028-september-source-review/review.csv`; the original September run remains archived unchanged.
+September 2026: **0 pending paper-screening decisions; R04/S02 approved for wiki-only use**. The three extracted proposals remain unverified, with source conflicts retained; no database submission is pending. The owner excluded S01 and retained S02 for extraction. See [[findings/september-2026-screening-and-extraction-review|the source-checked S03–S05 review]] for the approved wiki-only disposition, conflicting reported figures and corrected batch range. The current local measurement review file is `knowledge_base/literature_updates/runs/20261028-september-source-review/review.csv`; the original September run remains archived unchanged.
 
 ## Queue summary
 
@@ -45,3 +45,7 @@ The original corpus has been [[findings/original-corpus-tidbrepo-reconciliation-
 3. For a measurement, confirm sign, unit, statistic, conditions, and whether the value belongs to this study rather than a cited study.
 4. For reviewer evidence, confirm that each suggested passage actually addresses the comment; remove irrelevant suggestions.
 5. Recompile and lint the wiki after database status changes.
+
+## Approved suitability dispositions — R01–R04
+
+The owner approved [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28|R01–R04 suitability decisions]]: R01 and R02 wiki-only with database use on hold; R03 a factor candidate pending full-text verification; R04 wiki-only. These are not new quantitative verification or upload approvals. R03 verification, R01/R02 source and method checks, and Q01/Q02 existing-entry checks remain open.

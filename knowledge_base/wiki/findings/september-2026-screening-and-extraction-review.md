@@ -14,7 +14,7 @@ The owner instructed: “S01 exclude, S02 retain, SO3-S05, extract.” The numbe
 | S01 | Biogas Recovery from Palm Oil Mill Effluent in Malaysia: A Review of Technology Transition, Deployment Readiness, and Sustainability Challenges; DOI `10.3390/biomass6050077` | Exclude |
 | S02 | Production of Methane and Hydrogen from Mild-Strength Industrial Wastewater; DOI `10.14233/ajchem.2024.30618` | Retain for quantitative assessment; retrieve/extract |
 
-**Paper screening is complete: 0 pending. Three extracted measurement records await scientific review.** Each paper decision is recorded separately in `knowledge_base/literature_updates/reviews/2026-10-28-september-S01.json` and `2026-10-28-september-S02.json`.
+**Paper screening is complete: 0 pending. The owner subsequently selected wiki-only use for R04/S02 on 28 October 2026. The three proposals remain unverified; source conflicts remain unresolved, but there is no outstanding choice of database versus wiki use.** Each paper decision is recorded separately in `knowledge_base/literature_updates/reviews/2026-10-28-september-S01.json` and `2026-10-28-september-S02.json`.
 
 ## Archived source and study context
 
@@ -83,3 +83,9 @@ No standardized `kg CH4 kg-1 BOD` value is assigned. Gas-reference applicability
 - PDF, layout text, rendered source pages, screening gate, and manifest remain local.
 
 The original September run and all of its files remain unchanged. The fresh attempt is manual source re-extraction, not a newly executed literature search, and does not generate a scheduled-run notification.
+
+## Owner follow-up: R04 approved as wiki-only
+
+On 28 October 2026, the owner approved retaining the corrected 56–66 mL CH4 batch range after 45 days with its individual conditions as wiki evidence. Conflicting continuous-production and yield figures remain explicitly unresolved. Reactor methane production/recovery is not a demonstrated atmospheric emission factor; no inventory-factor conversion or upload is authorized. The original proposals and review CSV remain unchanged as historical evidence.
+
+The new context-only screening record is `knowledge_base/literature_updates/reviews/2026-10-28-suitability-R04.json`; the earlier retain/extract decision remains preserved. Quantitative verification status is unchanged.
