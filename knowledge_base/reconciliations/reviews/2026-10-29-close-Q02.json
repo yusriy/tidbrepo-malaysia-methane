@@ -1,0 +1,23 @@
+{
+  "review_id": "review_20261029_close_Q02",
+  "display_id": "Q02",
+  "doi": "10.1016/j.aaspro.2014.11.039",
+  "tidbrepo_rows": [
+    109,
+    110
+  ],
+  "reviewed_on": "2026-10-29",
+  "reviewer": "Project owner (user)",
+  "decision": "closed_previously_resolved",
+  "reason": "Owner confirms the paddy units/time/statistic question was resolved previously. Closure records that confirmation; no new technical resolution is inferred.",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "2. The 0.25% conversion issue is not important and can be ignored.\n3. Also resolved previously.",
+    "mapping": "Item 2 = Q01 sago; item 3 = Q02 paddy from the immediately preceding task list."
+  },
+  "source_reconciliation": "knowledge_base/reconciliations/original-corpus-tidbrepo-2026-10-28.json",
+  "source_reconciliation_sha256": "9bbfb1e2552d312269f43c3c206e2c49bef3dfb56054b6a03d0187c8b9a1aab0",
+  "database_write_performed": false,
+  "scientific_verification_status_changed": false,
+  "further_review_required": false
+}

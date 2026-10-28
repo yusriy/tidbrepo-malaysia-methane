@@ -48,8 +48,15 @@ The original corpus has been [[findings/original-corpus-tidbrepo-reconciliation-
 
 ## Approved suitability dispositions — R01–R04
 
-The owner approved [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28|R01–R04 suitability decisions]]: R01 and R02 wiki-only with database use on hold; R03 a factor candidate pending full-text verification; R04 wiki-only. These are not new quantitative verification or upload approvals. R03 verification, R01/R02 source and method checks, and Q01/Q02 existing-entry checks remain open.
+The owner approved [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28|R01–R04 suitability decisions]]: R01 and R02 wiki-only with database use on hold; R03 a factor candidate pending full-text verification; R04 wiki-only. These are not new quantitative verification or upload approvals. The later R03 upload is complete. R01/R02 database-assessment checks remain on hold. Q01/Q02 existing-entry checks were closed by the owner on 29 October 2026, as recorded below.
 
 ## R03 upload follow-up — 29 October 2026
 
-The owner authorized [[papers/2019-carbon-dioxide-and-methane-emissions-from-peat-soil-in-an-undrained-tropical-pea-a6bc32|R03 submission]]. The non-trenched n=9 outlier-excluded Table 3 mean/SD and source conditions have been cross-checked in full text; conversion and duplicate checks passed. One record was uploaded and independently verified as **TIDBRepo row 181** (mean 0.158, SD 0.144 kg CH4 ha^-1 day^-1). The table now contains 181 rows; the original 180 rows are unchanged. R03 has no pending upload action. Earlier candidate-only decisions and the 28 October live-table reconciliation remain historical snapshots. R01/R02/R04 dispositions and Q01/Q02 checks are unchanged.
+The owner authorized [[papers/2019-carbon-dioxide-and-methane-emissions-from-peat-soil-in-an-undrained-tropical-pea-a6bc32|R03 submission]]. The non-trenched n=9 outlier-excluded Table 3 mean/SD and source conditions have been cross-checked in full text; conversion and duplicate checks passed. One record was uploaded and independently verified as **TIDBRepo row 181** (mean 0.158, SD 0.144 kg CH4 ha^-1 day^-1). The table now contains 181 rows; the original 180 rows are unchanged. R03 has no pending upload action. Earlier candidate-only decisions and the 28 October live-table reconciliation remain historical snapshots. R01/R02/R04 dispositions are unchanged. Q01/Q02 were subsequently closed by the owner, as recorded below.
+
+## Existing-entry checks closed — 29 October 2026
+
+- **Q01 — Melling sago, row 97: closed.** The owner accepted the approximately 0.25% conversion difference as negligible and instructed that it can be ignored. Keep the existing database value unchanged; no correction or further review is required.
+- **Q02 — 2014 paddy, rows 109–110: closed.** The owner confirmed this issue was resolved previously. This records the owner's confirmation without inventing an undocumented technical resolution. No new database action or review is required.
+
+Separate decision records preserve the closure and original evidence: `knowledge_base/reconciliations/reviews/2026-10-29-close-Q01.json` and `2026-10-29-close-Q02.json`. These closures do not change scientific verification flags or database values. R03 upload is complete; R01/R02 remain optional database-assessment follow-ups, and R04 remains wiki-only.
