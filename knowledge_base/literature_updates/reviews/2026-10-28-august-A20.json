@@ -1,0 +1,25 @@
+{
+  "review_id": "review_20261028_august_A20",
+  "display_id": "A20",
+  "candidate_id": "candidate_a04dc8d14b2e9af3",
+  "run_id": "2026-08-30-final",
+  "doi": "10.1007/s13369-025-10865-9",
+  "title": "Kinetics and Mechanism of Ni/La-Promoted Fibrous Silica Titania (FST) for High-Performance Syngas Generation via Dry Reforming of Methane",
+  "decision": "exclude",
+  "previous_decision": "pending",
+  "saved_machine_priority": "P4 — exclude",
+  "reviewer": "Project owner (user)",
+  "reviewed_at": "2026-10-28T23:05:27.770792+08:00",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "approve all saved suggestions",
+    "approved_mapping": "A01–A04: context_only; A05–A32: exclude"
+  },
+  "reason": "Project owner approved the saved suggestion in the numbered August review list.",
+  "source_screening_decisions": "knowledge_base/literature_updates/runs/2026-08-30-final/screening_decisions.json",
+  "source_screening_decisions_sha256": "db736d28a5f928bcf4839376e71d522d0e00fda97eeb3ff179e6d3db9dec975b",
+  "source_url": "https://doi.org/10.1007/s13369-025-10865-9",
+  "wiki_review_page": "findings/august-2026-remaining-screening-review",
+  "measurements_verified": false,
+  "tidbrepo_upload_authorized": false
+}

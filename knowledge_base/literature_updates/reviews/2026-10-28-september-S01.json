@@ -1,0 +1,24 @@
+{
+  "review_id": "review_20261028_september_S01",
+  "display_id": "S01",
+  "candidate_id": "candidate_c7b5053e6858ecfb",
+  "run_id": "20260920T164325",
+  "doi": "10.3390/biomass6050077",
+  "title": "Biogas Recovery from Palm Oil Mill Effluent in Malaysia: A Review of Technology Transition, Deployment Readiness, and Sustainability Challenges",
+  "decision": "exclude",
+  "previous_decision": "pending",
+  "reviewer": "Project owner (user)",
+  "reviewed_at": "2026-10-28T23:13:19.848304+08:00",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "S01 exclude, S02 retain, SO3-S05, extract",
+    "interpretation": "S01 excluded; S02 retained for quantitative assessment; S03–S05 authorized for extraction, not scientific approval"
+  },
+  "reason": "Explicit owner paper-screening decision.",
+  "source_url": "https://doi.org/10.3390/biomass6050077",
+  "source_candidates": "knowledge_base/literature_updates/runs/20260920T164325/candidates.jsonl",
+  "source_candidates_sha256": "d7efad2650024144e542cbee1ef1063d6ef4234bba6dd74e3f349b33d232772e",
+  "wiki_review_page": "findings/september-2026-screening-and-extraction-review",
+  "measurements_verified": false,
+  "tidbrepo_upload_authorized": false
+}

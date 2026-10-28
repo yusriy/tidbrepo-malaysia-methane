@@ -6,7 +6,15 @@
 
 See [[unverified-literature/index|Unverified monthly literature queue]] for machine-discovered candidates. These entries and extracted measurements remain unverified until scientific review.
 
+October 2026: **0 pending paper reviews**. The owner [[findings/literature-review-hcc-2026-10-28|excluded the Hydrothermal Compost Catalyst paper]] on 28 October 2026. The older verification items below are separate from this completed monthly review.
+
+August 2026: **0 pending paper-screening decisions**. The owner [[findings/august-2026-remaining-screening-review|approved all 32 saved suggestions]] on 28 October 2026: 4 context-only and 28 excluded. The 66 value-review decisions are already complete; six landfill records retain their existing activity-basis/conversion blockers.
+
+September 2026: **0 pending paper-screening decisions; 3 measurement decisions pending**. The owner excluded S01 and retained S02 for extraction. See [[findings/september-2026-screening-and-extraction-review|the source-checked S03–S05 review]] for conflicting reported figures and the corrected batch range. The current local measurement review file is `knowledge_base/literature_updates/runs/20261028-september-source-review/review.csv`; the original September run remains archived unchanged.
+
 ## Queue summary
+
+The original corpus has been [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28|matched against all 180 live TIDBRepo records]]. Eleven of the 18 papers with extracted measurements are already cited. Six extracted values match stored numbers after normalization; other records include combined-source ranges, concentrations, regional totals and extraction errors. The 95 `proposed` measurements below are local scientific-verification flags, **not 95 missing uploads or 95 new approval requests**. Use the focused checks in the reconciliation report before deciding whether anything needs adding.
 
 - Bibliographic title overrides to confirm: 8
 - Documents without a detected DOI: 1

@@ -1,0 +1,374 @@
+{
+  "run_id": "20261028-september-source-review",
+  "verification_status": "unverified",
+  "manifest": {
+    "run_id": "20261028-september-source-review",
+    "created_at": "2026-10-28T23:13:19.848304+08:00",
+    "run_type": "owner_authorized_source_reextraction",
+    "source_run_id": "20260920T164325",
+    "source_manifest_sha256": "db7122cc8ce75f0ca3365118a36d0354f0829759c9142228f58b31937ed4a105",
+    "source_candidates_sha256": "d7efad2650024144e542cbee1ef1063d6ef4234bba6dd74e3f349b33d232772e",
+    "config_sha256": "6bf45e0c8566b4443f947577d531b77b16631f7f188c05651f5f60303c512658",
+    "new_discovery_performed": false,
+    "candidates_retained": 2,
+    "database_write_performed": false
+  },
+  "input_sha256": {
+    "manifest.json": "3eddac44c42afa776a7e31440889c0a5318236b8194282a2fa0293d88e0db493",
+    "candidates.jsonl": "d7efad2650024144e542cbee1ef1063d6ef4234bba6dd74e3f349b33d232772e",
+    "proposals.jsonl": "e4afea01ee4100edc32e5a9f353dd2df08a648d862dfb47dea6430e9fc5f496b"
+  },
+  "candidates": [
+    {
+      "candidate_id": "candidate_c7b5053e6858ecfb",
+      "doi": "10.3390/biomass6050077",
+      "title": "Biogas Recovery from Palm Oil Mill Effluent in Malaysia: A Review of Technology Transition, Deployment Readiness, and Sustainability Challenges",
+      "publication_year": 2026,
+      "source_url": "https://doi.org/10.3390/biomass6050077",
+      "open_access_pdf_url": "",
+      "openalex_id": "https://openalex.org/W7212142247",
+      "discovered_at": "2026-09-20T08:43:25+00:00",
+      "discovered_by": "OpenAlex API",
+      "screening_score": 9,
+      "screening_flags": [
+        "malaysia_context",
+        "methane_context",
+        "measurement_language",
+        "numeric_value_in_abstract",
+        "likely_secondary_source",
+        "malaysian_author_affiliation"
+      ],
+      "verification_status": "unverified"
+    },
+    {
+      "candidate_id": "candidate_d5258e554da1a677",
+      "doi": "10.14233/ajchem.2024.30618",
+      "title": "Production of Methane and Hydrogen from Mild-Strength Industrial Wastewater",
+      "publication_year": 2024,
+      "source_url": "https://doi.org/10.14233/ajchem.2024.30618",
+      "open_access_pdf_url": "https://asianpubs.org/index.php/ajchem/article/download/36_4_23/29576",
+      "openalex_id": "https://openalex.org/W4393342605",
+      "discovered_at": "2026-09-20T08:43:25+00:00",
+      "discovered_by": "OpenAlex API",
+      "screening_score": 9,
+      "screening_flags": [
+        "methane_context",
+        "measurement_language",
+        "numeric_value_in_abstract",
+        "malaysian_author_affiliation"
+      ],
+      "verification_status": "unverified"
+    }
+  ],
+  "proposals": [
+    {
+      "proposal_id": "proposal_f99430cb4464cf8d",
+      "candidate_id": "candidate_d5258e554da1a677",
+      "doi": "10.14233/ajchem.2024.30618",
+      "source_url": "https://doi.org/10.14233/ajchem.2024.30618",
+      "open_access_pdf_url": "https://asianpubs.org/index.php/ajchem/article/download/36_4_23/29576",
+      "pdf_sha256": "03af1e9be60fe3ab2390bc7f851ea6dba74fc093bccae6a80d17c0823210c99d",
+      "page": 1,
+      "evidence_quote": "The highest methane production rate (MPR), methane yield (MY), methane content and COD elimination were, in order, 71 ± 30 mL/L-d, 57 ± 10 mL/g COD, 90 ± 1% and 77%, respectively.",
+      "raw_value_text": "71 ± 30 mL/L-d",
+      "raw_value": "71",
+      "unit_original": "mL/L-d",
+      "uncertainty_text": "30",
+      "statistic": "reported_value_with_unspecified_uncertainty",
+      "extraction_rule": "page_and_table_source_reextraction_20261028",
+      "provenance_chain": [
+        {
+          "provider": "OpenAlex",
+          "record_id": "https://openalex.org/W4393342605",
+          "retrieved_at": "2026-09-20T08:43:25+00:00",
+          "stage": "discovery"
+        },
+        {
+          "sha256": "03af1e9be60fe3ab2390bc7f851ea6dba74fc093bccae6a80d17c0823210c99d",
+          "stage": "source",
+          "url": "https://asianpubs.org/index.php/ajchem/article/download/36_4_23/29576"
+        },
+        {
+          "page": 1,
+          "quote": "The highest methane production rate (MPR), methane yield (MY), methane content and COD elimination were, in order, 71 ± 30 mL/L-d, 57 ± 10 mL/g COD, 90 ± 1% and 77%, respectively.",
+          "stage": "evidence"
+        },
+        {
+          "raw_value_text": "71 ± 30 mL/L-d",
+          "rule": "methane_sentence_value_unit_v1",
+          "stage": "extraction"
+        },
+        {
+          "action": "extract_only",
+          "reviewed_at": "2026-10-28T23:13:19.848304+08:00",
+          "stage": "owner_authorization"
+        },
+        {
+          "attempt_id": "20261028-september-source-review",
+          "method": "PDF text plus visual inspection of Tables 1, 2, 4 and 5",
+          "source_pdf_sha256": "03af1e9be60fe3ab2390bc7f851ea6dba74fc093bccae6a80d17c0823210c99d",
+          "source_run": "20260920T164325",
+          "stage": "source_reextraction"
+        }
+      ],
+      "verification_status": "proposed_human_review",
+      "display_id": "S03",
+      "supersedes_proposal_id": "proposal_532756c5a64b7ba5",
+      "source_variants": [
+        {
+          "locator": "Abstract; PDF p. 1 (printed 935)",
+          "raw_value_text": "71 ± 30 mL/L-d",
+          "value": 71,
+          "uncertainty": 30
+        },
+        {
+          "locator": "Table 2, Run 2 CH4 row; PDF p. 4 (938)",
+          "raw_value_text": "71.0 ± 31.0",
+          "unit_original": "mL/Ld",
+          "value": 71,
+          "uncertainty": 31
+        },
+        {
+          "locator": "Results prose; PDF p. 5 (939)",
+          "raw_value_text": "71 ± 30 mL/L-d",
+          "value": 71,
+          "uncertainty": 30
+        },
+        {
+          "locator": "Table 5, Run 2 CH4 row; PDF p. 6 (940)",
+          "raw_value_text": "72.0 ± 31.0",
+          "unit_original": "mL/L-d",
+          "value": 72,
+          "uncertainty": 31
+        }
+      ],
+      "source_check_status": "PDF text and rendered tables inspected; scientific decision pending",
+      "conditions": {
+        "system": "continuous two-stage anaerobic digestion",
+        "hydrogen_HRT_h": 8,
+        "methane_HRT_h": 24,
+        "run": "Run 2",
+        "temperature_note": "Methods discuss 35 C; Table 4 lists 25 C. Source inconsistency remains unresolved."
+      },
+      "review_blockers": [
+        "Internal disagreement between abstract, prose and tables",
+        "Uncertainty type is not explicitly defined for the extracted figures",
+        "Methane production/recovery metric is not directly a kg CH4/kg BOD atmospheric emission factor"
+      ],
+      "conversion_status": "not directly convertible",
+      "conversion_assumptions": "No gas-reference, COD-to-BOD, or recovered-to-emitted fraction assumption applied.",
+      "standardized_value": null,
+      "standardized_unit": null
+    },
+    {
+      "proposal_id": "proposal_5e3a41fe3b821405",
+      "candidate_id": "candidate_d5258e554da1a677",
+      "doi": "10.14233/ajchem.2024.30618",
+      "source_url": "https://doi.org/10.14233/ajchem.2024.30618",
+      "open_access_pdf_url": "https://asianpubs.org/index.php/ajchem/article/download/36_4_23/29576",
+      "pdf_sha256": "03af1e9be60fe3ab2390bc7f851ea6dba74fc093bccae6a80d17c0823210c99d",
+      "page": 1,
+      "evidence_quote": "The highest methane production rate (MPR), methane yield (MY), methane content and COD elimination were, in order, 71 ± 30 mL/L-d, 57 ± 10 mL/g COD, 90 ± 1% and 77%, respectively.",
+      "raw_value_text": "57 ± 10 mL/g COD",
+      "raw_value": "57",
+      "unit_original": "mL/g COD",
+      "uncertainty_text": "10",
+      "statistic": "reported_value_with_unspecified_uncertainty",
+      "extraction_rule": "page_and_table_source_reextraction_20261028",
+      "provenance_chain": [
+        {
+          "provider": "OpenAlex",
+          "record_id": "https://openalex.org/W4393342605",
+          "retrieved_at": "2026-09-20T08:43:25+00:00",
+          "stage": "discovery"
+        },
+        {
+          "sha256": "03af1e9be60fe3ab2390bc7f851ea6dba74fc093bccae6a80d17c0823210c99d",
+          "stage": "source",
+          "url": "https://asianpubs.org/index.php/ajchem/article/download/36_4_23/29576"
+        },
+        {
+          "page": 1,
+          "quote": "The highest methane production rate (MPR), methane yield (MY), methane content and COD elimination were, in order, 71 ± 30 mL/L-d, 57 ± 10 mL/g COD, 90 ± 1% and 77%, respectively.",
+          "stage": "evidence"
+        },
+        {
+          "raw_value_text": "57 ± 10 mL/g COD",
+          "rule": "methane_sentence_value_unit_v1",
+          "stage": "extraction"
+        },
+        {
+          "action": "extract_only",
+          "reviewed_at": "2026-10-28T23:13:19.848304+08:00",
+          "stage": "owner_authorization"
+        },
+        {
+          "attempt_id": "20261028-september-source-review",
+          "method": "PDF text plus visual inspection of Tables 1, 2, 4 and 5",
+          "source_pdf_sha256": "03af1e9be60fe3ab2390bc7f851ea6dba74fc093bccae6a80d17c0823210c99d",
+          "source_run": "20260920T164325",
+          "stage": "source_reextraction"
+        }
+      ],
+      "verification_status": "proposed_human_review",
+      "display_id": "S04",
+      "supersedes_proposal_id": "proposal_b3019c6c56a5e11b",
+      "source_variants": [
+        {
+          "locator": "Abstract; PDF p. 1 (935)",
+          "raw_value_text": "57 ± 10 mL/g COD",
+          "value": 57,
+          "uncertainty": 10
+        },
+        {
+          "locator": "Table 2, Run 2 CH4 row; PDF p. 4 (938)",
+          "raw_value_text": "57.0 ± 12.0",
+          "unit_original": "mL/g COD",
+          "value": 57,
+          "uncertainty": 12
+        },
+        {
+          "locator": "Results prose; PDF p. 5 (939)",
+          "raw_value_text": "57 ± 11 mL/g COD",
+          "value": 57,
+          "uncertainty": 11
+        },
+        {
+          "locator": "Table 4, this-study suspended-cell CH4 row; PDF p. 6 (940)",
+          "raw_value_text": "58.0 ± 12.0",
+          "unit_original": "mL/gCOD",
+          "value": 58,
+          "uncertainty": 12
+        },
+        {
+          "locator": "Table 5, Run 2 CH4 row; PDF p. 6 (940)",
+          "raw_value_text": "58.0 ± 12.0",
+          "unit_original": "mL/g COD",
+          "value": 58,
+          "uncertainty": 12
+        }
+      ],
+      "source_check_status": "PDF text and rendered tables inspected; scientific decision pending",
+      "conditions": {
+        "system": "continuous two-stage anaerobic digestion",
+        "hydrogen_HRT_h": 8,
+        "methane_HRT_h": 24,
+        "run": "Run 2",
+        "temperature_note": "Methods discuss 35 C; Table 4 lists 25 C. Source inconsistency remains unresolved."
+      },
+      "review_blockers": [
+        "Internal disagreement between abstract, prose and tables",
+        "Uncertainty type is not explicitly defined for the extracted figures",
+        "Methane production/recovery metric is not directly a kg CH4/kg BOD atmospheric emission factor"
+      ],
+      "conversion_status": "not directly convertible",
+      "conversion_assumptions": "No gas-reference, COD-to-BOD, or recovered-to-emitted fraction assumption applied.",
+      "standardized_value": null,
+      "standardized_unit": null
+    },
+    {
+      "proposal_id": "proposal_70de72b31d0d0366",
+      "candidate_id": "candidate_d5258e554da1a677",
+      "doi": "10.14233/ajchem.2024.30618",
+      "source_url": "https://doi.org/10.14233/ajchem.2024.30618",
+      "open_access_pdf_url": "https://asianpubs.org/index.php/ajchem/article/download/36_4_23/29576",
+      "pdf_sha256": "03af1e9be60fe3ab2390bc7f851ea6dba74fc093bccae6a80d17c0823210c99d",
+      "page": 3,
+      "evidence_quote": "Methane production (MP), methane yield (MY) and highest methane production rate (MPRmax) for all seeding sources were in the range of 56 to 66 mL, 0.27 to 0.33 L/g COD and 0.93 to 1.67 L/L-d after 45 days, correspondingly, according to Table-1.",
+      "raw_value_text": "56 to 66 mL",
+      "raw_value": null,
+      "unit_original": "mL",
+      "uncertainty_text": "",
+      "statistic": "range_across_batch_conditions",
+      "extraction_rule": "page_and_table_source_reextraction_20261028",
+      "provenance_chain": [
+        {
+          "provider": "OpenAlex",
+          "record_id": "https://openalex.org/W4393342605",
+          "retrieved_at": "2026-09-20T08:43:25+00:00",
+          "stage": "discovery"
+        },
+        {
+          "sha256": "03af1e9be60fe3ab2390bc7f851ea6dba74fc093bccae6a80d17c0823210c99d",
+          "stage": "source",
+          "url": "https://asianpubs.org/index.php/ajchem/article/download/36_4_23/29576"
+        },
+        {
+          "page": 3,
+          "quote": "Methane production (MP), methane yield (MY) and highest methane production rate (MPRmax) for all seeding sources were in the range of 56 to 66 mL, 0.27 to 0.33 L/g COD and 0.93 to 1.67 L/L-d after 45 days, correspondingly, according to Table-1.",
+          "stage": "evidence"
+        },
+        {
+          "raw_value_text": "66 mL",
+          "rule": "methane_sentence_value_unit_v1",
+          "stage": "extraction"
+        },
+        {
+          "action": "extract_only",
+          "reviewed_at": "2026-10-28T23:13:19.848304+08:00",
+          "stage": "owner_authorization"
+        },
+        {
+          "attempt_id": "20261028-september-source-review",
+          "method": "PDF text plus visual inspection of Tables 1, 2, 4 and 5",
+          "source_pdf_sha256": "03af1e9be60fe3ab2390bc7f851ea6dba74fc093bccae6a80d17c0823210c99d",
+          "source_run": "20260920T164325",
+          "stage": "source_reextraction"
+        }
+      ],
+      "verification_status": "proposed_human_review",
+      "display_id": "S05",
+      "supersedes_proposal_id": "proposal_a15b4ec98d7453b4",
+      "source_variants": [],
+      "source_check_status": "PDF text and rendered tables inspected; scientific decision pending",
+      "conditions": {
+        "system": "batch culture",
+        "duration_days": 45,
+        "temperature_C": 35,
+        "source_locator": "Results prose and Table 1; PDF p. 3 (937)"
+      },
+      "review_blockers": [
+        "Range across conditions is not a standalone mean of 66 mL",
+        "Batch gas volume lacks the required inventory activity denominator"
+      ],
+      "minimum": 56,
+      "maximum": 66,
+      "component_observations": [
+        {
+          "nitrogen_source": "NH4Cl",
+          "inoculum": "cow waste",
+          "CH4_volume_mL": 66
+        },
+        {
+          "nitrogen_source": "NH4Cl",
+          "inoculum": "sewage sludge 1",
+          "CH4_volume_mL": 60
+        },
+        {
+          "nitrogen_source": "NH4Cl",
+          "inoculum": "sewage sludge 2",
+          "CH4_volume_mL": 56
+        },
+        {
+          "nitrogen_source": "urea",
+          "inoculum": "cow waste",
+          "CH4_volume_mL": 57
+        },
+        {
+          "nitrogen_source": "urea",
+          "inoculum": "sewage sludge 1",
+          "CH4_volume_mL": 59
+        },
+        {
+          "nitrogen_source": "urea",
+          "inoculum": "sewage sludge 2",
+          "CH4_volume_mL": 56
+        }
+      ],
+      "conversion_status": "not directly convertible",
+      "conversion_assumptions": "No gas-reference, COD-to-BOD, or recovered-to-emitted fraction assumption applied.",
+      "standardized_value": null,
+      "standardized_unit": null
+    }
+  ]
+}

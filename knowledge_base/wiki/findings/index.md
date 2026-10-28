@@ -1,5 +1,11 @@
 # Findings
 
+- [[september-2026-screening-and-extraction-review|September screening and extraction]] — S01 excluded; S02 retained; three source-checked proposals await scientific review
+
+- [[august-2026-remaining-screening-review|August remaining screening: owner decisions]] — 4 context-only, 28 excluded; 0 pending August paper decisions
+
+- [[literature-review-hcc-2026-10-28|Hydrothermal Compost Catalyst: owner review]] — excluded; paper review complete
+
 - [[october-2026-workflow-audit|October 2026 workflow audit]] — score-gate diagnosis, source verification, and proposed LLM screening workflow
 
 - [[proposed-paper-findings|Proposed paper findings]] — 70 evidence candidates
