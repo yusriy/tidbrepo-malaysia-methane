@@ -71,3 +71,20 @@ Six values match at stored precision after unit conversion. The Melling uptake r
 The JSON audit at `knowledge_base/reconciliations/original-corpus-tidbrepo-2026-10-28.json` lists every measurement ID, unchanged original value and status, source filename/hash, DOI, page/chunk, evidence quote, citation rows and match rationale. It also preserves the relevant database row values and live-response hash. Full raw responses remain local.
 
 Limit: the comparison uses existing extracted PDF text; original PDFs were not visually rechecked in this pass. Non-methane values, concentrations, regional totals, uncertainty bounds, comparator values and OCR fragments are not new methane emission factors awaiting approval. Unresolved means insufficient evidence of a match, not confirmed missing data.
+
+## Owner suitability decisions — 28 October 2026
+
+The owner approved the proposed R01–R04 suitability template with “I agree”. This records intended use and follow-up conditions, not numerical verification or upload approval. Original evidence and earlier decisions remain preserved.
+
+| ID | Paper | Approved disposition | Follow-up |
+|---|---|---|---|
+| R01 | Micrometeorological measurement of methane flux above a tropical peat swamp forest | wiki_only_database_hold | Ecosystem-scale flux includes aboveground emissions. Check Table 2 and choose a defensible processing method before any database preparation. |
+| R03 | Carbon Dioxide and Methane Emissions from Peat Soil in an Undrained Tropical Peat Swamp Forest | factor_candidate_pending_full_text_verification | Candidate for undrained tropical peat-swamp forest soil. Confirm uncertainty definition, sampling coverage, site conditions and carbon-mass basis before preparing a final entry. |
+| R02 | Are secondary forests second-rate? Comparing peatland greenhouse gas emissions, chemical and microbial community properties between primary and secondary forests in Peninsular Malaysia | wiki_only_database_hold | Obtain exact full-text condition-specific means, uncertainty and sampling coverage. Preserve supported negative uptake and keep forest conditions separate. |
+| R04 | Production of Methane and Hydrogen from Mild-Strength Industrial Wastewater | wiki_only | Reactor production/recovery is not a demonstrated atmospheric emission factor. Activity basis and release accounting are required for inventory-factor interpretation. |
+
+R01 and R02 remain on hold for database use; R03 advances only as a candidate pending full-text verification; R04 is wiki-only. Q01 sago and Q02 paddy checks remain open. Decision records: `knowledge_base/reconciliations/reviews/2026-10-28-suitability-R*.json`.
+
+## Subsequent R03 submission — 29 October 2026
+
+After separate owner upload authorization and full-text source checks, [[papers/2019-carbon-dioxide-and-methane-emissions-from-peat-soil-in-an-undrained-tropical-pea-a6bc32|R03]] was uploaded as **TIDBRepo row 181**, mean 0.158 and SD 0.144 kg CH4 ha^-1 day^-1, explicitly limited to undrained Alan Batu forest soil, Maludam, 2015–2017, non-trenched plots, n=9 after one outlier exclusion. The API receipt and independent public read-back confirm successful insertion and unchanged earlier 180 rows. The 28 October matching results above remain a historical snapshot. The original SQLite values and scientific verification flags are unchanged.

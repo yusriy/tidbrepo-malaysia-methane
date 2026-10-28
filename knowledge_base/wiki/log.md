@@ -709,3 +709,19 @@ Recorded A01–A04 as context-only and A05–A32 as excluded, following the owne
 ## 2026-10-28 | Owner completed September screening and requested extraction
 
 Recorded S01 as excluded and S02 as retained for extraction. Created a new local source-review attempt for S03–S05, retaining the original September package unchanged. Inspected PDF text and rendered tables; preserved conflicting S03/S04 figures and corrected S05 to the full 56–66 mL batch range with six source conditions. All three measurements remain unverified proposals; no preferred conflicting value or inventory conversion is imposed. See [[findings/september-2026-screening-and-extraction-review|the extraction and scientific review queue]]. No scientific database write, TIDBRepo upload, or timer change.
+
+## 2026-10-28 | Owner approved R01–R04 suitability dispositions
+
+Recorded the owner’s approval of R01/R02 wiki-only with database use on hold, R03 as a factor candidate pending full-text verification, and R04 as wiki-only with unresolved source conflicts retained. Linked separate decision records to preserved evidence, updated paper annotations and monthly queues, and retained all original measurement verification statuses. No TIDBRepo write, timer change or merge. See [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28|the reconciliation and suitability decisions]].
+
+## 2026-10-29 | Owner authorized R03 upload; submission prepared
+
+Cross-checked R03 Table 3 mean/SD, outlier exclusion, Maludam site and soil-chamber conditions against stored full text and author-posted full text, with publisher abstract corroboration. Prepared one explicitly conditioned peat-land row using the existing unit policy; no duplicate DOI or corresponding mean in 180 live rows. Submission remains pending authenticated access; no TIDBRepo write confirmed. Original scientific records, raw evidence, timer and other paper decisions are unchanged. See [[papers/2019-carbon-dioxide-and-methane-emissions-from-peat-soil-in-an-undrained-tropical-pea-a6bc32|R03 provenance]].
+
+## 2026-10-29 | Direct API path for the authorized R03 submission
+
+Browser SSO returned to an unauthenticated UI. Added a manual HTTPS Basic-authentication helper with hidden, unsaved password input, owner-authorization and source-condition checks, complete duplicate checking, a locked local submission receipt, no blind retries, the documented data wrapper, and read-back verification. It is separate from scheduled discovery and does not alter the timer. Submission still awaits the owner’s local credential input.
+
+## 2026-10-29 | R03 uploaded through the API and independently verified
+
+The owner ran the manual API helper with a hidden local credential prompt. HTTP 201 and the local verified receipt identify row 181. Independently read all 181 public rows: one R03 DOI record with mean 0.158, SD 0.144 kg CH4 ha^-1 day^-1 and the full source-specific condition; all previous 180 rows are unchanged. Updated curated authorization/provenance and wiki status. No credential is stored or committed. Original SQLite verification flags, R01/R02/R04 dispositions, timer and main branch remain unchanged.

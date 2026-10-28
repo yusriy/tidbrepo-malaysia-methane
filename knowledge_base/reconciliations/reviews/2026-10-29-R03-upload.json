@@ -1,0 +1,118 @@
+{
+  "review_id": "review_20261029_R03_upload",
+  "reviewed_on": "2026-10-29",
+  "created_at": "2026-10-28T16:01:14.217433+00:00",
+  "paper_id": "R03",
+  "doi": "10.1007/s10021-019-00376-8",
+  "title": "Carbon Dioxide and Methane Emissions from Peat Soil in an Undrained Tropical Peat Swamp Forest",
+  "authorization": {
+    "channel": "project chat",
+    "user_request": "you should upload it to tidbrepo",
+    "interpreted_scope": "Upload the R03 factor candidate after source and duplicate checks; R01/R02/R04 remain wiki-only.",
+    "tidbrepo_upload_authorized": true
+  },
+  "source_verification": {
+    "basis": "Stored complete page text from the original checksummed PDF, cross-checked against author-posted full text Table 3 and the publisher abstract.",
+    "original_pdf_sha256": "b5a084dfeda6bc324b0b2c26b9412b60e406119999d5e1927bdd0d98e1c011dc",
+    "original_pdf_filename": "2019_Ishikura_et_al.pdf",
+    "original_document_id": "doc_b5a084dfeda6bc32",
+    "original_measurement_id": "measurement_9429b30201de2726",
+    "source_locator": "Table 3, Simple ave., CH4, Non-trenched (n=9)*; original PDF p. 14. Site/methods pp. 5–7; discussion pp. 13–14.",
+    "publisher_url": "https://link.springer.com/article/10.1007/s10021-019-00376-8",
+    "author_full_text_url": "https://www.researchgate.net/publication/332333617_Carbon_Dioxide_and_Methane_Emissions_from_Peat_Soil_in_an_Undrained_Tropical_Peat_Swamp_Forest",
+    "visual_pdf_recheck": false,
+    "pdf_retrieval": "Author-copy download returned HTML; no new PDF obtained. Failed download retained locally as HTML, not treated as a PDF.",
+    "evidence_quotes": [
+      "Annual Cumulative Soil CO 2 and CH 4 Emissions (g C m -2 y-1; mean ± 1 SD)",
+      "*An outlier is excluded."
+    ],
+    "context": "Undrained selectively logged Alan Batu peat-swamp forest, conserved as Maludam National Park since 2000; automated soil chambers, not ecosystem-scale flux; non-trenched plots; October 2015–September 2017 annual integrations with gap filling."
+  },
+  "reported_value": 4.32,
+  "reported_uncertainty": 3.95,
+  "reported_unit": "g CH4-C m^-2 yr^-1",
+  "statistic": "Simple mean annual flux, one standard deviation; n=9 plots after excluding one outlier.",
+  "conversion_status": "direct_policy_rule",
+  "standardized_value": 0.158,
+  "standardized_stdev": 0.144,
+  "standardized_unit": "kg CH4 ha-1 day-1",
+  "unrounded_standardized_value": 0.1578082191780822,
+  "unrounded_standardized_stdev": 0.14429223744292238,
+  "conversion_factor": 0.0365296803652968,
+  "conversion_formula": "value × (16/12) × 10 / 365; same positive factor applied to SD",
+  "conversion_assumptions": [
+    "CH4 carbon mass to methane mass uses 16/12.",
+    "g m^-2 to kg ha^-1 uses 10.",
+    "Annual to daily uses the project policy 365-day convention; this is a standardized annual daily equivalent, not an independently measured daily mean.",
+    "Stored mean and SD use three significant figures, matching source precision."
+  ],
+  "tier_rationale": "Tier 2 crosswalk for country-specific Malaysian field evidence, consistent with existing peat-land entries; not a paper-reported IPCC tier.",
+  "excluded_alternative_statistics": [
+    "All 10 non-trenched plots: 3.92 ± 3.94.",
+    "Trenched plots: 2.80 ± 1.76.",
+    "Spatially interpolated mean: 2.46 ± 0.87.",
+    "These are not additional independent factors in this authorized upload."
+  ],
+  "duplicate_check": {
+    "before_rows": 180,
+    "matching_doi_rows": [],
+    "existing_row_102": "Busman forest-type study, DOI 10.1016/j.scitotenv.2022.159973; retain unchanged, different study/statistic.",
+    "before_response_sha256": "88d1000505443c1d14a114c6a17eb974f83b4614f30e21103f7465f6e7ee4e71"
+  },
+  "payload": [
+    {
+      "countries": "Malaysia",
+      "sectors": "AFOLU",
+      "category": "Peat lands",
+      "condition": "Undrained Alan Batu forest soil - Maludam, 2015-2017; non-trenched; n=9; one outlier excluded",
+      "tier": "2",
+      "min": null,
+      "max": null,
+      "median": null,
+      "mean": 0.158,
+      "stdev": 0.144,
+      "scaling_factor": null,
+      "unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "url": "https://doi.org/10.1007/s10021-019-00376-8",
+      "doi_1": "https://doi.org/10.1007/s10021-019-00376-8",
+      "doi_2": null,
+      "doi_3": null,
+      "doi_4": null,
+      "doi_5": null,
+      "doi_6": null
+    }
+  ],
+  "upload_status": "uploaded_and_independently_verified",
+  "database_write_performed": true,
+  "sqlite_measurement_status_changed": false,
+  "supersedes_upload_permission_only": "knowledge_base/reconciliations/reviews/2026-10-28-suitability-R03.json",
+  "tidbrepo_row_id": 181,
+  "upload_verification": {
+    "http_status": 201,
+    "verified_at": "2026-10-28T16:12:44.435903+00:00",
+    "independently_checked_at": "2026-10-28T16:13:56.008659+00:00",
+    "before_rows": 180,
+    "after_rows": 181,
+    "added_ids": [
+      181
+    ],
+    "all_previous_rows_unchanged": true,
+    "matching_source_records": 1,
+    "saved_row": {
+      "id": 181,
+      "countries": "Malaysia",
+      "sectors": "AFOLU",
+      "category": "Peat lands",
+      "condition": "Undrained Alan Batu forest soil - Maludam, 2015-2017; non-trenched; n=9; one outlier excluded",
+      "tier": "2",
+      "mean": "0.158",
+      "stdev": "0.144",
+      "unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "url": "https://doi.org/10.1007/s10021-019-00376-8",
+      "doi_1": "https://doi.org/10.1007/s10021-019-00376-8"
+    },
+    "local_receipt": "knowledge_base/literature_updates/runs/20261028-r03-upload/api_submission_receipt.json",
+    "receipt_sha256": "e4c14c6536b4a7f768a77778eacefbd2fd513d699d5b96acbe2b04f57fbd49c2",
+    "independent_response_sha256": "d66d5ccd0af20064f089d245a3c8ab79a41c50cf9e132a91f111bf5e266258ee"
+  }
+}

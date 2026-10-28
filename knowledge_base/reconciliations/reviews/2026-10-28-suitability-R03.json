@@ -1,0 +1,22 @@
+{
+  "review_id": "review_20261028_suitability_R03",
+  "display_id": "R03",
+  "title": "Carbon Dioxide and Methane Emissions from Peat Soil in an Undrained Tropical Peat Swamp Forest",
+  "doi": "10.1007/s10021-019-00376-8",
+  "reviewed_on": "2026-10-28",
+  "reviewer": "Project owner (user)",
+  "decision": "factor_candidate_pending_full_text_verification",
+  "selected_evidence": "Annual gap-filled methane emission 4.32 ± 3.95 g CH4-C m^-2 yr^-1; reported n = 9.",
+  "reason_and_conditions": "Candidate for undrained tropical peat-swamp forest soil. Confirm uncertainty definition, sampling coverage, site conditions and carbon-mass basis before preparing a final entry.",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "I agree",
+    "approved_proposal": "The immediately preceding assistant R01/R03/R02/R04 draft suitability template."
+  },
+  "wiki_use": "context_with_explicit_verification_limits",
+  "measurements_verified": false,
+  "tidbrepo_upload_authorized": false,
+  "source_reconciliation": "knowledge_base/reconciliations/original-corpus-tidbrepo-2026-10-28.json",
+  "source_reconciliation_sha256": "9bbfb1e2552d312269f43c3c206e2c49bef3dfb56054b6a03d0187c8b9a1aab0",
+  "wiki_review_page": "findings/original-corpus-tidbrepo-reconciliation-2026-10-28"
+}

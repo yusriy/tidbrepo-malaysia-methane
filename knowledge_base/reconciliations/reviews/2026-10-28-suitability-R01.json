@@ -1,0 +1,22 @@
+{
+  "review_id": "review_20261028_suitability_R01",
+  "display_id": "R01",
+  "title": "Micrometeorological measurement of methane flux above a tropical peat swamp forest",
+  "doi": "10.1016/j.agrformet.2018.03.025",
+  "reviewed_on": "2026-10-28",
+  "reviewer": "Project owner (user)",
+  "decision": "wiki_only_database_hold",
+  "selected_evidence": "Retain annual range 7.5–10.8 g CH4-C m^-2 yr^-1 with processing methods. Do not select the method-variant average 9.2 as a preferred factor.",
+  "reason_and_conditions": "Ecosystem-scale flux includes aboveground emissions. Check Table 2 and choose a defensible processing method before any database preparation.",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "I agree",
+    "approved_proposal": "The immediately preceding assistant R01/R03/R02/R04 draft suitability template."
+  },
+  "wiki_use": "context_with_explicit_verification_limits",
+  "measurements_verified": false,
+  "tidbrepo_upload_authorized": false,
+  "source_reconciliation": "knowledge_base/reconciliations/original-corpus-tidbrepo-2026-10-28.json",
+  "source_reconciliation_sha256": "9bbfb1e2552d312269f43c3c206e2c49bef3dfb56054b6a03d0187c8b9a1aab0",
+  "wiki_review_page": "findings/original-corpus-tidbrepo-reconciliation-2026-10-28"
+}

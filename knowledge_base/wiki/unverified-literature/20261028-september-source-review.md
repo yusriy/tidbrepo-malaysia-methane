@@ -52,3 +52,7 @@ Local review package: `knowledge_base/literature_updates/runs/20261028-september
 - PDF page: 3
 - PDF SHA-256: 03af1e9be60fe3ab2390bc7f851ea6dba74fc093bccae6a80d17c0823210c99d
 - Evidence quote (unverified): Methane production (MP), methane yield (MY) and highest methane production rate (MPRmax) for all seeding sources were in the range of 56 to 66 mL, 0.27 to 0.33 L/g COD and 0.93 to 1.67 L/L-d after 45 days, correspondingly, according to Table-1.
+
+## Owner dispositions — 28 October 2026
+
+S01 remains excluded. R04/S02 is now **wiki-only (context_only)** following owner approval. The original machine proposals above remain unverified and archived; continuous-production/yield conflicts remain unresolved. The corrected batch range is 56–66 mL after 45 days, with individual conditions preserved in [[findings/september-2026-screening-and-extraction-review|the source review]]. No atmospheric emission factor or upload is approved.

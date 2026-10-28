@@ -1,0 +1,30 @@
+{
+  "review_id": "review_20261028_suitability_R04",
+  "display_id": "R04",
+  "title": "Production of Methane and Hydrogen from Mild-Strength Industrial Wastewater",
+  "doi": "10.14233/ajchem.2024.30618",
+  "reviewed_on": "2026-10-28",
+  "reviewer": "Project owner (user)",
+  "decision": "context_only",
+  "selected_evidence": "Retain corrected batch range 56–66 mL CH4 after 45 days with individual experimental conditions. Keep conflicting continuous-production and yield figures unresolved.",
+  "reason_and_conditions": "Reactor production/recovery is not a demonstrated atmospheric emission factor. Activity basis and release accounting are required for inventory-factor interpretation.",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "I agree",
+    "approved_proposal": "The immediately preceding assistant R01/R03/R02/R04 draft suitability template."
+  },
+  "wiki_use": "context_with_explicit_verification_limits",
+  "measurements_verified": false,
+  "tidbrepo_upload_authorized": false,
+  "source_reconciliation": "knowledge_base/reconciliations/original-corpus-tidbrepo-2026-10-28.json",
+  "source_reconciliation_sha256": "9bbfb1e2552d312269f43c3c206e2c49bef3dfb56054b6a03d0187c8b9a1aab0",
+  "wiki_review_page": "findings/september-2026-screening-and-extraction-review",
+  "candidate_id": "candidate_d5258e554da1a677",
+  "run_id": "20260920T164325",
+  "extraction_attempt": "20261028-september-source-review",
+  "source_extraction": "knowledge_base/literature_updates/curated/20261028-september-source-review.json",
+  "previous_decision": "retrieve_extract",
+  "source_url": "https://doi.org/10.14233/ajchem.2024.30618",
+  "source_review": "knowledge_base/literature_updates/reviews/2026-10-28-september-S02.json",
+  "reason": "Reactor production/recovery is not a demonstrated atmospheric emission factor. Activity basis and release accounting are required for inventory-factor interpretation."
+}
