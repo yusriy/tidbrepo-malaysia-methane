@@ -55,5 +55,6 @@ Machine-extracted claims, topics, and measurements remain proposals until their 
 ## Maintenance
 
 - [[review-queue|Human verification queue]]
+- [[unverified-literature/index|Unverified monthly literature queue]]
 - [[log|Activity log]]
 - [[lint-report|Wiki lint report]]

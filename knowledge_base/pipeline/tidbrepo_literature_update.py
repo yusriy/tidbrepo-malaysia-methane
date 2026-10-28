@@ -476,6 +476,19 @@ def command_extract(args: argparse.Namespace) -> int:
     return 0
 
 
+def candidate_retrieval_status(proposal_count: int, error: str) -> str:
+    """Distinguish an unattempted score gate from a failed source request."""
+    if proposal_count:
+        return "source_retrieved_values_proposed"
+    if error.startswith("below_automatic_extraction_score_"):
+        return "not_attempted_pending_screening"
+    if error == "no_open_access_pdf_url":
+        return "manual_full_text_needed"
+    if error:
+        return "automatic_retrieval_failed"
+    return "no_value_proposed"
+
+
 def command_review(args: argparse.Namespace) -> int:
     run_dir = args.run_dir
     proposals = read_jsonl(run_dir / "proposals.jsonl")
@@ -485,6 +498,13 @@ def command_review(args: argparse.Namespace) -> int:
     proposal_counts: dict[str, int] = {}
     for proposal in proposals:
         proposal_counts[proposal["candidate_id"]] = proposal_counts.get(proposal["candidate_id"], 0) + 1
+    retrieval_statuses = {
+        candidate["candidate_id"]: candidate_retrieval_status(
+            proposal_counts.get(candidate["candidate_id"], 0),
+            error_by_candidate.get(candidate["candidate_id"], ""),
+        )
+        for candidate in candidates
+    }
 
     candidate_csv = run_dir / "candidate_review.csv"
     with candidate_csv.open("w", newline="", encoding="utf-8-sig") as handle:
@@ -493,14 +513,7 @@ def command_review(args: argparse.Namespace) -> int:
         for candidate in candidates:
             count = proposal_counts.get(candidate["candidate_id"], 0)
             error = error_by_candidate.get(candidate["candidate_id"], "")
-            if count:
-                retrieval = "source_retrieved_values_proposed"
-            elif error == "no_open_access_pdf_url":
-                retrieval = "manual_full_text_needed"
-            elif error:
-                retrieval = "automatic_retrieval_failed"
-            else:
-                retrieval = "no_value_proposed"
+            retrieval = retrieval_statuses[candidate["candidate_id"]]
             writer.writerow({
                 "candidate_id": candidate["candidate_id"],
                 "paper_decision": "pending",
@@ -543,7 +556,8 @@ def command_review(args: argparse.Namespace) -> int:
         "",
         f"Candidate papers awaiting screening: **{len(candidates)}**",
         f"Proposals awaiting review: **{len(proposals)}**",
-        f"Papers requiring manual full-text retrieval or a retrieval retry: **{len(error_by_candidate)}**",
+        f"Papers not retrieved pending score-gate screening: **{sum(s == 'not_attempted_pending_screening' for s in retrieval_statuses.values())}**",
+        f"Papers requiring manual full-text retrieval or a retrieval retry: **{sum(s in ('manual_full_text_needed', 'automatic_retrieval_failed') for s in retrieval_statuses.values())}**",
     ]
     md_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(candidate_csv)

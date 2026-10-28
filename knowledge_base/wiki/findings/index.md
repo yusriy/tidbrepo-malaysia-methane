@@ -1,5 +1,7 @@
 # Findings
 
+- [[october-2026-workflow-audit|October 2026 workflow audit]] — score-gate diagnosis, source verification, and proposed LLM screening workflow
+
 - [[proposed-paper-findings|Proposed paper findings]] — 70 evidence candidates
 - [[query-energy-sector-evidence-and-research-coverage|Energy-sector evidence and research coverage]] — filed retrieval query
 - [[query-methane-measurement-methods-in-the-corpus|Methane measurement methods in the corpus]] — filed retrieval query

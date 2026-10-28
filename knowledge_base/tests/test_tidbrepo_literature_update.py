@@ -4,6 +4,8 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from types import SimpleNamespace
+from unittest.mock import patch
 
 
 PACKAGE_ROOT = Path(__file__).resolve().parents[1]
@@ -70,6 +72,37 @@ class ScreeningTests(unittest.TestCase):
 
 
 class ExtractionTests(unittest.TestCase):
+    def test_october_score_gate_does_not_attempt_download(self):
+        with tempfile.TemporaryDirectory() as temp:
+            run = Path(temp)
+            workflow.write_jsonl(run / "candidates.jsonl", [{
+                "candidate_id": "october", "screening_score": 6,
+                "open_access_pdf_url": "https://example.invalid/paper.pdf",
+            }])
+            with patch.object(workflow, "download_pdf") as download:
+                workflow.command_extract(SimpleNamespace(
+                    run_dir=run, screening_decisions=None, minimum_score=8,
+                    include_known=False,
+                ))
+            download.assert_not_called()
+            self.assertEqual(workflow.read_jsonl(run / "proposals.jsonl"), [])
+            workflow.command_review(SimpleNamespace(run_dir=run))
+            with (run / "candidate_review.csv").open(encoding="utf-8-sig") as handle:
+                row = next(csv.DictReader(handle))
+            self.assertEqual(row["source_retrieval_status"], "not_attempted_pending_screening")
+            report = (run / "REVIEW.md").read_text()
+            self.assertIn("pending score-gate screening: **1**", report)
+            self.assertIn("retrieval or a retrieval retry: **0**", report)
+
+    def test_review_distinguishes_missing_source_and_actual_failure(self):
+        self.assertEqual(workflow.candidate_retrieval_status(0, "no_open_access_pdf_url"),
+                         "manual_full_text_needed")
+        self.assertEqual(workflow.candidate_retrieval_status(0, "HTTPError: 403"),
+                         "automatic_retrieval_failed")
+        self.assertEqual(workflow.candidate_retrieval_status(1, ""),
+                         "source_retrieved_values_proposed")
+        self.assertEqual(workflow.candidate_retrieval_status(0, ""), "no_value_proposed")
+
     def test_exact_value_and_unit_are_retained(self):
         text = "The Malaysian system achieved a methane yield of 0.218 ± 0.032 L CH4/g COD removed."
         matches = list(workflow.evidence_sentences(text))

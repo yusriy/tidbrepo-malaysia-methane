@@ -1,5 +1,7 @@
 # Ubuntu monthly Malaysian methane literature check
 
+For the existing installation's notification and wiki/GitHub extension, follow [MONTHLY-EXTENSIONS.md](MONTHLY-EXTENSIONS.md). Avoid rerunning the installer for that upgrade because it reinstalls the timer. The extension keeps the timer schedule unchanged and delivers queued notifications through the selected Gmail connection.
+
 This package performs a deterministic monthly candidate search. It uses OpenAlex and local PDF text extraction; it does not call OpenAI and it never uploads to TIDBRepo.
 
 ## What the scheduled run does

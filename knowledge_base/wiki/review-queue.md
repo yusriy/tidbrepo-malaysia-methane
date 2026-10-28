@@ -2,6 +2,10 @@
 
 > Nothing in this queue becomes verified merely because it was extracted or linked by an LLM.
 
+## Monthly literature
+
+See [[unverified-literature/index|Unverified monthly literature queue]] for machine-discovered candidates. These entries and extracted measurements remain unverified until scientific review.
+
 ## Queue summary
 
 - Bibliographic title overrides to confirm: 8
