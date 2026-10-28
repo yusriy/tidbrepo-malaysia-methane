@@ -1,7 +1,7 @@
 {
   "staging_id": "R01_author_preferred_method_range",
   "staged_on": "2026-10-29",
-  "status": "staged_pending_visual_table_check",
+  "status": "staged_legacy_followup_deferred",
   "decision_record": "knowledge_base/reconciliations/reviews/2026-10-29-factor-decision-R01.json",
   "source_assessment": "knowledge_base/reconciliations/r01-r02-factor-assessment-2026-10-29.json",
   "source_assessment_sha256": "b750268e70920b5eaaef9af2500b4ec45cbaf27e3d1c0c4bcf42601f5db9adf4",
@@ -68,5 +68,13 @@
     "matching_doi_ids": [],
     "response_sha256": "d66d5ccd0af20064f089d245a3c8ab79a41c50cf9e132a91f111bf5e266258ee"
   },
-  "warning": "This is a staged review object, not an executable approved-upload payload."
+  "warning": "This is a staged review object, not an executable approved-upload payload.",
+  "scope_clarification": {
+    "date": "2026-10-29",
+    "owner_request": "Focus on new papers discovered by the automated routine, rather than re-reviewing old papers already in the knowledge base.",
+    "monthly_review_item": false,
+    "legacy_followup_deferred": true,
+    "visual_check_complete": false,
+    "previous_stage_sha256": "6ec221c7636a29f1ed95ec381f87e96bb248a761de218a7bb9c45e730d5db8d5"
+  }
 }

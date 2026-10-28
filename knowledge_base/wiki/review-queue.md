@@ -4,6 +4,8 @@
 
 ## Monthly literature
 
+**Current focus: new papers discovered by the automated routine.** August–October paper screening is complete. Original-corpus R01/R02 assessments below are legacy history, not newly discovered papers or required monthly reviews. R01 follow-up is deferred following the owner’s scope clarification on 29 October 2026.
+
 See [[unverified-literature/index|Unverified monthly literature queue]] for machine-discovered candidates. These entries and extracted measurements remain unverified until scientific review.
 
 October 2026: **0 pending paper reviews**. The owner [[findings/literature-review-hcc-2026-10-28|excluded the Hydrothermal Compost Catalyst paper]] on 28 October 2026. The older verification items below are separate from this completed monthly review.
@@ -65,9 +67,9 @@ Separate decision records preserve the closure and original evidence: `knowledge
 
 Source assessment is prepared; the subsequent owner decisions are recorded below: [[papers/2018-micrometeorological-measurement-of-methane-flux-above-a-tropical-peat-swamp-fore-d38a20|R01]] has an author-preferred 9.8–10.8 g CH4-C m^-2 yr^-1 ecosystem-scale processing-estimate range; [[papers/2019-are-secondary-forests-second-rate-comparing-peatland-greenhouse-gas-emissions-ch-20dfb6|R02]] has seasonal soil uptake/emission observations with source-precision, uncertainty and coverage limitations. Recommended next choices are R01 range staging and R02 wiki-only pending exact figure results. The owner subsequently accepted R01 staging pending visual Table 2 checking and R02 wiki-only. No measurements are newly verified or uploaded.
 
-## Current R01/R02 dispositions — 29 October 2026
+## Legacy R01/R02 dispositions — outside the monthly review queue
 
-- **R01: staged; visual Table 2 check pending.** One author-preferred ecosystem-scale range candidate (9.8–10.8 g CH4-C m^-2 yr^-1) is preserved with source, conversion and explicit method-range meaning. Staging is not upload approval; `ready_for_upload` is false.
+- **R01: staged legacy evidence; further review deferred.** One author-preferred ecosystem-scale range candidate (9.8–10.8 g CH4-C m^-2 yr^-1) is preserved with source, conversion and explicit method-range meaning. The visual Table 2 gate remains incomplete, but it is not an active monthly review task. Staging is not upload approval; `ready_for_upload` is false.
 - **R02: wiki-only; no pending database action.** Preserve signed seasonal findings and source limitations.
 
 Staged object: `knowledge_base/reconciliations/staging/r01-author-preferred-range-2026-10-29.json`. Decisions: `knowledge_base/reconciliations/reviews/2026-10-29-factor-decision-R01.json` and `2026-10-29-factor-decision-R02.json`. R03 remains uploaded; Q01/Q02 remain closed.

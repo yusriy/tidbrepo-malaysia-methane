@@ -737,3 +737,7 @@ Reconstructed R01 Table 2 processing alternatives from stored full-page text, id
 ## 2026-10-29 | Owner staged R01 range and retained R02 wiki-only
 
 Recorded the explicit owner decisions separately from the assessment. Staged one R01 author-preferred annual method-estimate range with full source provenance, original and normalized bounds, empty mean/median/SD, and incomplete visual/source/upload gates. R02 remains wiki-only with no further database action requested. Original evidence and scientific verification flags are preserved. No TIDBRepo write, timer change or merge.
+
+## 2026-10-29 | Restored focus to new automated discoveries
+
+The owner clarified that old original-corpus papers should not be presented as the new monthly literature backlog. R01/R02 assessments remain preserved as legacy history; R01 further visual checking is deferred outside the active monthly queue. Confirmed zero pending August–October paper-screening decisions and that discovery already excludes known identities by default. Read the next timer trigger as 1 November 2026 at 03:48:11 WITA; no timer or schedule change.

@@ -107,3 +107,7 @@ The existing conversion `value × (16/12) × 10 / 365` gives about **0.358–0.3
 ## Owner decision and staged range — 29 October 2026
 
 The owner instructed: “R01: stage the author-preferred range, pending visual table check.” One candidate is staged in `knowledge_base/reconciliations/staging/r01-author-preferred-range-2026-10-29.json`, retaining source bounds 9.8–10.8 g CH4-C m^-2 yr^-1, unrounded conversion, source-precision preview bounds 0.36–0.395 kg CH4 ha^-1 day^-1, and the explicit ecosystem-scale processing-estimate-range condition. Mean, median and SD remain empty. The candidate is **not ready for upload**: original Table 2 visual checking and final representation checks remain incomplete, and no upload approval was given. The original source/measurement verification flags are unchanged. Separate owner decision: `knowledge_base/reconciliations/reviews/2026-10-29-factor-decision-R01.json`.
+
+## Scope clarification — 29 October 2026
+
+The owner clarified that the active task concerns new papers from automated discovery. This 2018 paper is already in the original knowledge base. Its assessment and staged range are preserved as legacy history; further visual Table 2 checking is deferred and is not a monthly review requirement. The visual gate remains incomplete, and no upload is authorized. Scope record: `knowledge_base/reconciliations/reviews/2026-10-29-monthly-discovery-scope.json`.
