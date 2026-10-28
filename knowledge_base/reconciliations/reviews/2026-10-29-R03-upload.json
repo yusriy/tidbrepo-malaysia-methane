@@ -82,8 +82,37 @@
       "doi_6": null
     }
   ],
-  "upload_status": "prepared_pending_authenticated_access",
-  "database_write_performed": false,
+  "upload_status": "uploaded_and_independently_verified",
+  "database_write_performed": true,
   "sqlite_measurement_status_changed": false,
-  "supersedes_upload_permission_only": "knowledge_base/reconciliations/reviews/2026-10-28-suitability-R03.json"
+  "supersedes_upload_permission_only": "knowledge_base/reconciliations/reviews/2026-10-28-suitability-R03.json",
+  "tidbrepo_row_id": 181,
+  "upload_verification": {
+    "http_status": 201,
+    "verified_at": "2026-10-28T16:12:44.435903+00:00",
+    "independently_checked_at": "2026-10-28T16:13:56.008659+00:00",
+    "before_rows": 180,
+    "after_rows": 181,
+    "added_ids": [
+      181
+    ],
+    "all_previous_rows_unchanged": true,
+    "matching_source_records": 1,
+    "saved_row": {
+      "id": 181,
+      "countries": "Malaysia",
+      "sectors": "AFOLU",
+      "category": "Peat lands",
+      "condition": "Undrained Alan Batu forest soil - Maludam, 2015-2017; non-trenched; n=9; one outlier excluded",
+      "tier": "2",
+      "mean": "0.158",
+      "stdev": "0.144",
+      "unit": "kg CH₄ ha⁻¹ day⁻¹",
+      "url": "https://doi.org/10.1007/s10021-019-00376-8",
+      "doi_1": "https://doi.org/10.1007/s10021-019-00376-8"
+    },
+    "local_receipt": "knowledge_base/literature_updates/runs/20261028-r03-upload/api_submission_receipt.json",
+    "receipt_sha256": "e4c14c6536b4a7f768a77778eacefbd2fd513d699d5b96acbe2b04f57fbd49c2",
+    "independent_response_sha256": "d66d5ccd0af20064f089d245a3c8ab79a41c50cf9e132a91f111bf5e266258ee"
+  }
 }

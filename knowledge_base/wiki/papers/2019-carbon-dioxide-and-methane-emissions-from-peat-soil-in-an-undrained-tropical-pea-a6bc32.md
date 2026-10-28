@@ -6,6 +6,8 @@ doi: "10.1007/s10021-019-00376-8"
 manuscript_role: "quantitative_baseline"
 tidbrepo_baseline_decision: "approve_existing_representation"
 verification_status: "machine_extracted"
+tidbrepo_status: "uploaded_owner_authorized_source_checked"
+tidbrepo_row_id: 181
 ---
 
 # Carbon Dioxide and Methane Emissions from Peat Soil in an Undrained Tropical Peat Swamp Forest
@@ -145,7 +147,7 @@ Apply the existing unit-policy rule `value × (16/12) × 10 / 365` to both mean 
 
 Pre-submission duplicate check: all 180 live rows were retrieved; no R03 DOI match or matching normalized mean was found. Existing Alan Batu row 102 cites a different forest-type study and is retained unchanged.
 
-**Submission status: prepared and validated; awaiting authenticated TIDBRepo access. No upload confirmed.** Approval and full conversion provenance: `knowledge_base/reconciliations/reviews/2026-10-29-R03-upload.json`. Complete processing files remain local under `knowledge_base/literature_updates/runs/20261028-r03-upload/`. Original SQLite measurement values and verification flags are unchanged.
+**Submission status: uploaded and independently verified on 29 October 2026 (WITA), TIDBRepo row 181.** The owner ran the one-time API helper with local password input. The API returned HTTP 201; independent public read-back confirmed mean 0.158, SD 0.144, unit, DOI and full condition. The table now has 181 rows; the previous 180 rows are unchanged and exactly one record cites this DOI. The original SQLite verification flag remains unchanged. Approval and full conversion provenance: `knowledge_base/reconciliations/reviews/2026-10-29-R03-upload.json`. Complete processing files remain local under `knowledge_base/literature_updates/runs/20261028-r03-upload/`. Original SQLite measurement values and verification flags are unchanged.
 
 ### Direct API submission option
 
@@ -160,3 +162,7 @@ Run from any local terminal:
 The local result is `knowledge_base/literature_updates/runs/20261028-r03-upload/api_submission_receipt.json`. A successful result reports `verified` and the row ID; `verified_existing` confirms a matching record without inserting a duplicate. Neither a prepared package nor an authentication attempt is an upload receipt.
 
 API reference: https://www.ifs.tuwien.ac.at/infrastructures/dbrepo/1.11/api/rest/ (Insert tuple: Basic/Bearer authentication and `data` request body). The site identifies its version as 1.14.1; the helper's actual success is determined by response and read-back verification, not documentation alone.
+
+### Confirmed upload receipt
+
+The local API receipt reports `verified`, HTTP 201, row 181, at `2026-10-28T16:12:44.435903+00:00` (29 October 2026, 00:12:44 WITA). An independent unauthenticated public API read confirmed the row and all previous rows unchanged. Curated saved values, response hashes and receipt linkage are in `knowledge_base/reconciliations/reviews/2026-10-29-R03-upload.json`; the full receipt and responses remain local. This records successful persistence of the owner-authorized source-checked factor, not a blanket promotion of the original machine-extracted corpus.

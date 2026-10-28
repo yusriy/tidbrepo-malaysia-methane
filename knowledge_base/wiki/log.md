@@ -721,3 +721,7 @@ Cross-checked R03 Table 3 mean/SD, outlier exclusion, Maludam site and soil-cham
 ## 2026-10-29 | Direct API path for the authorized R03 submission
 
 Browser SSO returned to an unauthenticated UI. Added a manual HTTPS Basic-authentication helper with hidden, unsaved password input, owner-authorization and source-condition checks, complete duplicate checking, a locked local submission receipt, no blind retries, the documented data wrapper, and read-back verification. It is separate from scheduled discovery and does not alter the timer. Submission still awaits the owner’s local credential input.
+
+## 2026-10-29 | R03 uploaded through the API and independently verified
+
+The owner ran the manual API helper with a hidden local credential prompt. HTTP 201 and the local verified receipt identify row 181. Independently read all 181 public rows: one R03 DOI record with mean 0.158, SD 0.144 kg CH4 ha^-1 day^-1 and the full source-specific condition; all previous 180 rows are unchanged. Updated curated authorization/provenance and wiki status. No credential is stored or committed. Original SQLite verification flags, R01/R02/R04 dispositions, timer and main branch remain unchanged.

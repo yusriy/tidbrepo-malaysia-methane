@@ -84,3 +84,7 @@ The owner approved the proposed R01–R04 suitability template with “I agree�
 | R04 | Production of Methane and Hydrogen from Mild-Strength Industrial Wastewater | wiki_only | Reactor production/recovery is not a demonstrated atmospheric emission factor. Activity basis and release accounting are required for inventory-factor interpretation. |
 
 R01 and R02 remain on hold for database use; R03 advances only as a candidate pending full-text verification; R04 is wiki-only. Q01 sago and Q02 paddy checks remain open. Decision records: `knowledge_base/reconciliations/reviews/2026-10-28-suitability-R*.json`.
+
+## Subsequent R03 submission — 29 October 2026
+
+After separate owner upload authorization and full-text source checks, [[papers/2019-carbon-dioxide-and-methane-emissions-from-peat-soil-in-an-undrained-tropical-pea-a6bc32|R03]] was uploaded as **TIDBRepo row 181**, mean 0.158 and SD 0.144 kg CH4 ha^-1 day^-1, explicitly limited to undrained Alan Batu forest soil, Maludam, 2015–2017, non-trenched plots, n=9 after one outlier exclusion. The API receipt and independent public read-back confirm successful insertion and unchanged earlier 180 rows. The 28 October matching results above remain a historical snapshot. The original SQLite values and scientific verification flags are unchanged.
