@@ -1,0 +1,22 @@
+{
+  "review_id": "review_20261029_factor_decision_R01",
+  "display_id": "R01",
+  "doi": "10.1016/j.agrformet.2018.03.025",
+  "reviewed_on": "2026-10-29",
+  "reviewer": "Project owner (user)",
+  "decision": "stage_author_preferred_range_pending_visual_check",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "R01: stage the author-preferred range, pending visual table check.\nR02: retain wiki-only."
+  },
+  "source_assessment": "knowledge_base/reconciliations/r01-r02-factor-assessment-2026-10-29.json",
+  "source_assessment_sha256": "b750268e70920b5eaaef9af2500b4ec45cbaf27e3d1c0c4bcf42601f5db9adf4",
+  "measurements_verified": false,
+  "tidbrepo_upload_authorized": false,
+  "database_write_performed": false,
+  "sqlite_scientific_status_changed": false,
+  "wiki_review_page": "papers/2018-micrometeorological-measurement-of-methane-flux-above-a-tropical-peat-swamp-fore-d38a20",
+  "further_factor_assessment_required": true,
+  "remaining_gate": "Visual inspection of original Table 2; separate upload approval remains required.",
+  "staging_record": "knowledge_base/reconciliations/staging/r01-author-preferred-range-2026-10-29.json"
+}

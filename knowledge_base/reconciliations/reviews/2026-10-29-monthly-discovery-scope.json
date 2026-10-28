@@ -1,0 +1,21 @@
+{
+  "review_id": "review_20261029_monthly_discovery_scope",
+  "reviewed_on": "2026-10-29",
+  "reviewer": "Project owner (user)",
+  "decision": "focus_on_new_automated_discoveries_defer_legacy_R01_followup",
+  "authorization": {
+    "channel": "project chat",
+    "user_request": "but i thought this paper was already added previously? since it is an old paper and what i want now are the new ones that the automated routine would discover."
+  },
+  "interpretation": "R01/R02 are original-corpus papers, not new monthly discoveries. Keep previous assessments and staging as history; defer further R01 visual checking from the active task. Do not present it as monthly review backlog.",
+  "monthly_screening_pending": {
+    "August_2026": 0,
+    "September_2026": 0,
+    "October_2026": 0
+  },
+  "existing_automation_behavior": "Discovery checks existing corpus, snapshot and previous-run identities; previously seen candidates are skipped unless include-known is explicitly enabled.",
+  "tidbrepo_upload_authorized": false,
+  "database_write_performed": false,
+  "scientific_verification_status_changed": false,
+  "timer_modified": false
+}
