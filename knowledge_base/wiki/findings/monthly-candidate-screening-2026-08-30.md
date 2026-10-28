@@ -8,7 +8,11 @@ run_id: "2026-08-30-final"
 
 This is the first paper-level screening package for literature published after the retained 26 August 2023 search. It is separate from the 26-paper local corpus and the 16-paper manuscript baseline.
 
-## Human screening outcome
+## Follow-up screening — 28 October 2026
+
+The owner approved all saved suggestions for the 32 previously pending optional candidates: **4 context-only and 28 excluded**. Effective totals are now **13 retrieve/extract, 42 excluded, 4 context-only, and 0 pending**. See [[august-2026-remaining-screening-review|the numbered owner-approved list and provenance records]]. This is a paper-screening decision; the 66 completed value decisions and six landfill conversion blockers are unchanged.
+
+## Original human screening outcome — 30 August 2026
 
 | Saved decision | Papers | Workflow status |
 |---|---:|---|

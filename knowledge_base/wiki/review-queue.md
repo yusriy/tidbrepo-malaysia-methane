@@ -8,6 +8,10 @@ See [[unverified-literature/index|Unverified monthly literature queue]] for mach
 
 October 2026: **0 pending paper reviews**. The owner [[findings/literature-review-hcc-2026-10-28|excluded the Hydrothermal Compost Catalyst paper]] on 28 October 2026. The older verification items below are separate from this completed monthly review.
 
+August 2026: **0 pending paper-screening decisions**. The owner [[findings/august-2026-remaining-screening-review|approved all 32 saved suggestions]] on 28 October 2026: 4 context-only and 28 excluded. The 66 value-review decisions are already complete; six landfill records retain their existing activity-basis/conversion blockers.
+
+September 2026 remains separate: **2 papers and 3 measurement proposals await review**, in `knowledge_base/literature_updates/runs/20260920T164325/candidate_review.csv` and `review.csv`.
+
 ## Queue summary
 
 - Bibliographic title overrides to confirm: 8

@@ -1,0 +1,25 @@
+{
+  "review_id": "review_20261028_august_A11",
+  "display_id": "A11",
+  "candidate_id": "candidate_b185dc1252364a23",
+  "run_id": "2026-08-30-final",
+  "doi": "10.24003/emitter.v12i2.890",
+  "title": "Development of DOAS System for Hazardous Methane Detection in the Near-Infrared Region",
+  "decision": "exclude",
+  "previous_decision": "pending",
+  "saved_machine_priority": "P4 — exclude",
+  "reviewer": "Project owner (user)",
+  "reviewed_at": "2026-10-28T23:05:27.770792+08:00",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "approve all saved suggestions",
+    "approved_mapping": "A01–A04: context_only; A05–A32: exclude"
+  },
+  "reason": "Project owner approved the saved suggestion in the numbered August review list.",
+  "source_screening_decisions": "knowledge_base/literature_updates/runs/2026-08-30-final/screening_decisions.json",
+  "source_screening_decisions_sha256": "db736d28a5f928bcf4839376e71d522d0e00fda97eeb3ff179e6d3db9dec975b",
+  "source_url": "https://doi.org/10.24003/emitter.v12i2.890",
+  "wiki_review_page": "findings/august-2026-remaining-screening-review",
+  "measurements_verified": false,
+  "tidbrepo_upload_authorized": false
+}

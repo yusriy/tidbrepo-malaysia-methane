@@ -701,3 +701,7 @@ Added durable run summaries and a Gmail outbox, an explicitly unverified literat
 ## 2026-10-28 | Owner excluded the October HCC candidate
 
 Recorded the owner's explicit exclusion in [[findings/literature-review-hcc-2026-10-28|the paper review decision]] and a separate provenance-linked JSON review record. Closed the October paper queue without rewriting original discovery metadata or local processing evidence. Queue regeneration now retains completed owner decisions. No measurement verification, TIDBRepo write, or timer change.
+
+## 2026-10-28 | Owner approved August's 32 saved screening suggestions
+
+Recorded A01–A04 as context-only and A05–A32 as excluded, following the owner's explicit approval of the numbered list. Preserved the original August screening gate and its earlier decisions; linked 32 separate owner-review records to its checksum. August now has zero pending paper-screening decisions. The 66 completed value decisions and six landfill conversion blockers are unchanged. September's two paper reviews and three measurement proposals remain pending. See [[findings/august-2026-remaining-screening-review|the approved August list]]. No new measurement verification, TIDBRepo upload, or timer change.

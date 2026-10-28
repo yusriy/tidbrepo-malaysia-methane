@@ -1,5 +1,7 @@
 # Findings
 
+- [[august-2026-remaining-screening-review|August remaining screening: owner decisions]] — 4 context-only, 28 excluded; 0 pending August paper decisions
+
 - [[literature-review-hcc-2026-10-28|Hydrothermal Compost Catalyst: owner review]] — excluded; paper review complete
 
 - [[october-2026-workflow-audit|October 2026 workflow audit]] — score-gate diagnosis, source verification, and proposed LLM screening workflow
