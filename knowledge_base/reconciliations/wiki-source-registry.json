@@ -1,0 +1,247 @@
+{
+  "scope": "DOI source references in the independently verified 183-record post-N02 snapshot; source pointers are not scientific approval or full-text ingestion.",
+  "snapshot_date": "2026-11-01",
+  "snapshot_sha256": "7a4590fb87d5c02a16bd51b3b40d03c575df20a3f290655126ee8500ab46937a",
+  "sources": [
+    {
+      "doi": "10.1002/2017gb005709",
+      "title": "In Situ Tropical Peatland Fire Emission Factors and Their Variability, as Determined by Field Measurements in Peninsula Malaysia",
+      "tidbrepo_row_ids": [
+        107
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W2771391889"
+    },
+    {
+      "doi": "10.1016/j.aaspro.2014.11.039",
+      "title": "Comparison of Methane Emission from Conventional and Modified Paddy Cultivation in Malaysia",
+      "tidbrepo_row_ids": [
+        109,
+        110,
+        111
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W2043758356"
+    },
+    {
+      "doi": "10.1016/j.agrformet.2019.107869",
+      "title": "How do land use practices affect methane emissions from tropical peat ecosystems?",
+      "tidbrepo_row_ids": [
+        99
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W2995806893"
+    },
+    {
+      "doi": "10.1016/j.catena.2023.107255",
+      "title": "Assessment of differences in peat physico-chemical properties, surface subsidence and GHG emissions between the major land-uses of Selangor peatlands",
+      "tidbrepo_row_ids": [
+        95
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W4378905029"
+    },
+    {
+      "doi": "10.1016/j.scitotenv.2022.159973",
+      "title": "Soil CO2 and CH4 fluxes from different forest types in tropical peat swamp forest",
+      "tidbrepo_row_ids": [
+        101,
+        102,
+        103
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W4308252524"
+    },
+    {
+      "doi": "10.1016/j.scitotenv.2025.178466",
+      "title": "Impact of land conversion on environmental conditions and methane emissions from a tropical peatland",
+      "tidbrepo_row_ids": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W4406367698"
+    },
+    {
+      "doi": "10.1016/j.soilbio.2005.01.001",
+      "title": "Methane fluxes from three ecosystems in tropical peatland of Sarawak, Malaysia",
+      "tidbrepo_row_ids": [
+        97,
+        99
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W1992727279"
+    },
+    {
+      "doi": "10.1038/s41467-020-14298-w",
+      "title": "Greenhouse gas emissions resulting from conversion of peat swamp forest to oil palm plantation",
+      "tidbrepo_row_ids": [
+        99
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W3002674779"
+    },
+    {
+      "doi": "10.1038/s41598-025-21094-3",
+      "title": "Greenhouse gas emissions from ditches in oil palm plantations on tropical peatlands in Malaysia",
+      "tidbrepo_row_ids": [
+        164,
+        165,
+        166,
+        167,
+        168
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W4415469396"
+    },
+    {
+      "doi": "10.1038/s41598-025-32378-z",
+      "title": "Long-term effects of nitrogen fertilization on methane emissions in drained tropical peatland",
+      "tidbrepo_row_ids": [
+        144,
+        145,
+        146,
+        147
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W4417448704"
+    },
+    {
+      "doi": "10.1051/e3sconf/202459901005",
+      "title": "Enteric Methane Emission Factor for Local Kedah-Kelantan Cross Beef Cattle in Smallholder Farms of Malaysia",
+      "tidbrepo_row_ids": [
+        140,
+        141,
+        142
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W4406248838"
+    },
+    {
+      "doi": "10.1128/aem.01986-24",
+      "title": "Temporal dynamics of soil microbial C and N cycles with GHG fluxes in the transition from tropical peatland forest to oil palm plantation",
+      "tidbrepo_row_ids": [
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W4405703473"
+    },
+    {
+      "doi": "10.30880/ijie.2024.16.06.029",
+      "title": "Country-Specific CO2 and Non-CO2 Emission Factor for Coal Electricity Generation in Malaysia",
+      "tidbrepo_row_ids": [
+        181,
+        182,
+        183
+      ],
+      "metadata_source": "Owner-reviewed N02 source and upload completion record; 10.30880/ijie.2024.16.06.029"
+    },
+    {
+      "doi": "10.3390/agronomy11081448",
+      "title": "Water Table Fluctuation and Methane Emission in Pineapples (Ananas comosus (L.) Merr.) Cultivated on a Tropical Peatland",
+      "tidbrepo_row_ids": [
+        95
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W3185611032"
+    },
+    {
+      "doi": "10.3390/w13233372",
+      "title": "Comparing GHG Emissions from Drained Oil Palm and Recovering Tropical Peatland Forests in Malaysia",
+      "tidbrepo_row_ids": [
+        99
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W3217656934"
+    },
+    {
+      "doi": "10.37934/arfmts.88.2.1426",
+      "title": "Greenhouse Gas Emission Intensity Assessment for Power Plants in Peninsular Malaysia",
+      "tidbrepo_row_ids": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W3213938235"
+    },
+    {
+      "doi": "10.3844/ajgsp.2010.1.6",
+      "title": "Capturing Biogas: A Means to Reduce Green House Gas Emissions for the Production of Crude Palm Oil",
+      "tidbrepo_row_ids": [
+        126
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W2086442967"
+    },
+    {
+      "doi": "10.47172/2965-730x.sdgsreview.v5.n02.pe02774",
+      "title": "Development of National Emission Factor for Rice Production System in Malaysia: A Step Toward Achieving Sustainable Development Goals",
+      "tidbrepo_row_ids": [
+        143
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W4404208060"
+    },
+    {
+      "doi": "10.5194/bg-16-4321-2019",
+      "title": "Nitrous oxide (N 2 O) and methane (CH 4 ) in rivers and estuaries of northwestern Borneo",
+      "tidbrepo_row_ids": [
+        114,
+        115
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W2950683338"
+    },
+    {
+      "doi": "10.5539/sar.v6n3p64",
+      "title": "Methane Emission from Pineapple Cultivation on a Tropical Peatland at Saratok, Malaysia",
+      "tidbrepo_row_ids": [
+        95,
+        100
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W2625450432"
+    },
+    {
+      "doi": "10.61762/pajevol10iss2art001",
+      "title": "Development of Tier 2 Fugitive Emission Factors for Malaysia's Oil and Gas Systems",
+      "tidbrepo_row_ids": [
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W7170627379"
+    },
+    {
+      "doi": "10.7717/peerj.19929",
+      "title": "An assessment of CO2 and CH4 emissions in a tropical river: from the Kenyir Reservoir to the estuary",
+      "tidbrepo_row_ids": [
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W4413958929"
+    },
+    {
+      "doi": "10.9734/ajahr/2024/v11i1306",
+      "title": "Plant Physiological Performances, Plant Growth, Grain Yield and Methane Emission of Rice (Oryza Sativa L.) in Response to Water Management as Adaptation Strategy for Climate Change",
+      "tidbrepo_row_ids": [
+        169,
+        170,
+        171,
+        172,
+        173,
+        174
+      ],
+      "metadata_source": "OpenAlex bibliographic record https://openalex.org/W4392131822"
+    }
+  ]
+}
