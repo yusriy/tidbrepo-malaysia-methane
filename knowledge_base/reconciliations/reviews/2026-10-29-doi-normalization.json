@@ -1,0 +1,245 @@
+{
+  "review_id": "2026-10-29-doi-normalization",
+  "doi_format_update_authorized": true,
+  "authorization": "Owner: Make consistent the DOI formats.",
+  "canonical_format": "lowercase bare DOI",
+  "scope": "Existing doi_1 through doi_6 fields only. No numeric, category, unit, URL, condition, verification or removed-row changes.",
+  "status": "prepared_pending_local_hidden_credential_execution",
+  "patches": [
+    {
+      "id": 12,
+      "before": {
+        "doi_1": "https://doi.org/10.37934/arfmts.88.2.1426"
+      },
+      "after": {
+        "doi_1": "10.37934/arfmts.88.2.1426"
+      },
+      "row_sha256": "8b2ebb9455b5fdc3cb676c0d3aa397abd7e72d5d731fb9ef434b674d423bf131"
+    },
+    {
+      "id": 13,
+      "before": {
+        "doi_1": "https://doi.org/10.37934/arfmts.88.2.1426"
+      },
+      "after": {
+        "doi_1": "10.37934/arfmts.88.2.1426"
+      },
+      "row_sha256": "aac1d28d8ecc9e3a513ef9d436d4a41c7e5ae47198d77d9dff2d17c6bab3c552"
+    },
+    {
+      "id": 14,
+      "before": {
+        "doi_1": "https://doi.org/10.37934/arfmts.88.2.1426"
+      },
+      "after": {
+        "doi_1": "10.37934/arfmts.88.2.1426"
+      },
+      "row_sha256": "a733724dcac4a4f7d350dd18fb33c0d1cb5ce6384d756a0357f8518fcb3f3f4c"
+    },
+    {
+      "id": 15,
+      "before": {
+        "doi_1": "https://doi.org/10.37934/arfmts.88.2.1426"
+      },
+      "after": {
+        "doi_1": "10.37934/arfmts.88.2.1426"
+      },
+      "row_sha256": "d248908a9628721d5e001ac08190c83c9f45a68e495136279625399e24a40e72"
+    },
+    {
+      "id": 16,
+      "before": {
+        "doi_1": "https://doi.org/10.37934/arfmts.88.2.1426"
+      },
+      "after": {
+        "doi_1": "10.37934/arfmts.88.2.1426"
+      },
+      "row_sha256": "07ca55180507d80b965f4b797a500d4796432764fcfccd5f98edef87f9768463"
+    },
+    {
+      "id": 17,
+      "before": {
+        "doi_1": "https://doi.org/10.37934/arfmts.88.2.1426"
+      },
+      "after": {
+        "doi_1": "10.37934/arfmts.88.2.1426"
+      },
+      "row_sha256": "16e1ac1d76d38ae180b8e68927b4ff727c5cb739e0b8007594fa0bf910647df1"
+    },
+    {
+      "id": 18,
+      "before": {
+        "doi_1": "https://doi.org/10.37934/arfmts.88.2.1426"
+      },
+      "after": {
+        "doi_1": "10.37934/arfmts.88.2.1426"
+      },
+      "row_sha256": "08502544004945f91ed779b054ac5ad969dd0035b77f8f40440945cefe86cea9"
+    },
+    {
+      "id": 19,
+      "before": {
+        "doi_1": "https://doi.org/10.37934/arfmts.88.2.1426"
+      },
+      "after": {
+        "doi_1": "10.37934/arfmts.88.2.1426"
+      },
+      "row_sha256": "9d759baac04a83d1f3d1791f2aa550e840a20c106a462f668321d11f4cbb5f75"
+    },
+    {
+      "id": 95,
+      "before": {
+        "doi_1": "https://doi.org/10.5539/sar.v6n3p64",
+        "doi_2": "https://doi.org/10.3390/agronomy11081448",
+        "doi_3": "https://doi.org/10.1016/j.catena.2023.107255"
+      },
+      "after": {
+        "doi_1": "10.5539/sar.v6n3p64",
+        "doi_2": "10.3390/agronomy11081448",
+        "doi_3": "10.1016/j.catena.2023.107255"
+      },
+      "row_sha256": "2e93057a4a08c7bd49b3e8f0bc080a6fd79d3e35349628cc3c5483b8687f1a8f"
+    },
+    {
+      "id": 97,
+      "before": {
+        "doi_1": "https://doi.org/10.1016/j.soilbio.2005.01.001"
+      },
+      "after": {
+        "doi_1": "10.1016/j.soilbio.2005.01.001"
+      },
+      "row_sha256": "86469003ae5fcdaed42416ad6733fba0724fa8a319499565e68c037e13de7ac8"
+    },
+    {
+      "id": 99,
+      "before": {
+        "doi_1": "https://doi.org/10.1016/j.soilbio.2005.01.001",
+        "doi_2": "https://doi.org/10.1016/j.agrformet.2019.107869",
+        "doi_3": "https://doi.org/10.1038/s41467-020-14298-w",
+        "doi_4": "https://doi.org/10.3390/w13233372"
+      },
+      "after": {
+        "doi_1": "10.1016/j.soilbio.2005.01.001",
+        "doi_2": "10.1016/j.agrformet.2019.107869",
+        "doi_3": "10.1038/s41467-020-14298-w",
+        "doi_4": "10.3390/w13233372"
+      },
+      "row_sha256": "3a167a31eb571730e69c057b365f4e2d6b80759490fa65e232846643a79d7353"
+    },
+    {
+      "id": 100,
+      "before": {
+        "doi_1": "https://doi.org/10.5539/sar.v6n3p64"
+      },
+      "after": {
+        "doi_1": "10.5539/sar.v6n3p64"
+      },
+      "row_sha256": "643255ab4986c2d5b32d2bde36ce4dcbb992f7d7286c653ef4a52a5950ad19e1"
+    },
+    {
+      "id": 101,
+      "before": {
+        "doi_1": "https://doi.org/10.1016/j.scitotenv.2022.159973"
+      },
+      "after": {
+        "doi_1": "10.1016/j.scitotenv.2022.159973"
+      },
+      "row_sha256": "c1891f36537f1d069f2eebbf0d8cafefd4f9f99be618b014c808acae0feb20b8"
+    },
+    {
+      "id": 102,
+      "before": {
+        "doi_1": "https://doi.org/10.1016/j.scitotenv.2022.159973"
+      },
+      "after": {
+        "doi_1": "10.1016/j.scitotenv.2022.159973"
+      },
+      "row_sha256": "442bbd8c1e8c52d793828562361334395fc01acc77cf699fda59f7ef53a5ecb2"
+    },
+    {
+      "id": 103,
+      "before": {
+        "doi_1": "https://doi.org/10.1016/j.scitotenv.2022.159973"
+      },
+      "after": {
+        "doi_1": "10.1016/j.scitotenv.2022.159973"
+      },
+      "row_sha256": "1adc31e88787d794957d72323902cc8ad0c6d1b8b17ac543781b3e14fa6a6108"
+    },
+    {
+      "id": 107,
+      "before": {
+        "doi_1": "https://doi.org/10.1002/2017GB005709"
+      },
+      "after": {
+        "doi_1": "10.1002/2017gb005709"
+      },
+      "row_sha256": "dbdd0d396d9ecd2a86894470b5657c4238754461019ab40a88c8216bdb3c3c48"
+    },
+    {
+      "id": 109,
+      "before": {
+        "doi_1": "https://doi.org/10.1016/j.aaspro.2014.11.039"
+      },
+      "after": {
+        "doi_1": "10.1016/j.aaspro.2014.11.039"
+      },
+      "row_sha256": "9d2213062890d4affe405a7a508b4444b325e617d7c82e88763bbf4b94fb039a"
+    },
+    {
+      "id": 110,
+      "before": {
+        "doi_1": "https://doi.org/10.1016/j.aaspro.2014.11.039"
+      },
+      "after": {
+        "doi_1": "10.1016/j.aaspro.2014.11.039"
+      },
+      "row_sha256": "ca90505df19c9be5474e45ef32cdf8e7ebe7ed5ec66b6d512266fa369dd9404a"
+    },
+    {
+      "id": 111,
+      "before": {
+        "doi_1": "https://doi.org/10.1016/j.aaspro.2014.11.039"
+      },
+      "after": {
+        "doi_1": "10.1016/j.aaspro.2014.11.039"
+      },
+      "row_sha256": "bb0d003062b2781e06ff8e87e2e6f890efb04202e445808fec79118f79b105b2"
+    },
+    {
+      "id": 114,
+      "before": {
+        "doi_1": "https://doi.org/10.5194/bg-16-4321-2019"
+      },
+      "after": {
+        "doi_1": "10.5194/bg-16-4321-2019"
+      },
+      "row_sha256": "15182e7975173eb46e5fef366d9c8993cab12622d7ca199dba4d3b81250fd68d"
+    },
+    {
+      "id": 115,
+      "before": {
+        "doi_1": "https://doi.org/10.5194/bg-16-4321-2019"
+      },
+      "after": {
+        "doi_1": "10.5194/bg-16-4321-2019"
+      },
+      "row_sha256": "18ec57e995e24e8403c5c4898e0041527e8976160ea1623fad58c9766011c77d"
+    },
+    {
+      "id": 126,
+      "before": {
+        "doi_1": "https://doi.org/10.3844/ajgsp.2010.1.6"
+      },
+      "after": {
+        "doi_1": "10.3844/ajgsp.2010.1.6"
+      },
+      "row_sha256": "bccf52d93f1401234974b83d4ea02e3fe724df910fa5407be5a31335ce4624c0"
+    }
+  ],
+  "rows_affected": 22,
+  "fields_affected": 27,
+  "api_contract_source": "https://www.ifs.tuwien.ac.at/infrastructures/dbrepo/1.10/api/rest/",
+  "api_method": "PUT",
+  "api_payload": "keys: id and prior DOI fields; data: changed DOI fields only; expect HTTP 202 and exact table read-back"
+}

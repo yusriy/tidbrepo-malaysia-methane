@@ -21,6 +21,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable
 
+from doi_identifiers import normalize_doi, validated_doi
+
 
 ROOT = Path(__file__).resolve().parents[2]
 KB = ROOT / "knowledge_base"
@@ -79,12 +81,6 @@ def sha256_bytes(data: bytes) -> str:
 def stable_id(prefix: str, *parts: object) -> str:
     raw = "\x1f".join(str(part or "") for part in parts).encode("utf-8")
     return f"{prefix}_{hashlib.sha256(raw).hexdigest()[:16]}"
-
-
-def normalize_doi(value: str | None) -> str:
-    doi = (value or "").strip().lower()
-    doi = re.sub(r"^https?://(?:dx\.)?doi\.org/", "", doi)
-    return doi.rstrip(" .")
 
 
 def load_json(path: Path):
@@ -586,9 +582,17 @@ def command_prepare_upload(args: argparse.Namespace) -> int:
         if missing:
             errors.append(f"{row.get('proposal_id')}: missing/invalid {', '.join(missing)}")
             continue
-        payload.append({key: (row.get(key, "").strip() or None) for key in UPLOAD_FIELDS})
+        prepared = {key: (row.get(key, "").strip() or None) for key in UPLOAD_FIELDS}
+        try:
+            for key in (f"doi_{i}" for i in range(1, 7)):
+                if prepared.get(key):
+                    prepared[key] = validated_doi(prepared[key])
+        except ValueError:
+            errors.append(f"{row.get('proposal_id')}: invalid DOI format")
+            continue
+        payload.append(prepared)
         provenance.append({
-            "proposal_id": row["proposal_id"], "doi": row["doi_1"], "source_url": row["url"],
+            "proposal_id": row["proposal_id"], "doi": prepared["doi_1"], "reported_doi": row["doi_1"], "source_url": row["url"],
             "pdf_sha256": row["pdf_sha256"], "page": row["page"],
             "evidence_quote": row["evidence_quote"], "raw_value_text": row["raw_value_text"],
             "reviewer_notes": row["reviewer_notes"], "approved_at": utc_now(),

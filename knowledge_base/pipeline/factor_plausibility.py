@@ -13,10 +13,12 @@ import statistics
 import unicodedata
 from urllib.request import Request, urlopen
 
+from doi_identifiers import normalize_doi, doi_url
+
 ROOT = Path(__file__).resolve().parents[2]
 API = 'https://tidbrepo.usm.my/api/v1/database/8cb5b734-7d57-4ca5-81a6-4d1de7acee88/table/ff844ee0-03d8-4531-ae43-14f4bbdf4cd4/data'
 FIELDS = ('mean', 'median', 'min', 'max', 'stdev')
-VERSION = '1.0'
+VERSION = '1.1'
 
 
 def normalized(text):
@@ -80,10 +82,18 @@ def prepare(row):
         value = values[field]
         if value is not None and ((lo is not None and value < lo) or (hi is not None and value > hi)):
             issues.append(f'{field} outside recorded bounds; check aggregation/definitions')
-    sources = sorted({str(row[k]).strip().lower() for k in row if k.startswith('doi_') and row[k]})
+    sources = sorted({normalize_doi(row[k]) for k in row if k.startswith('doi_') and row[k]})
+    comparison_values = dict(values)
+    statistic_semantics = 'reported statistic; no substitution'
+    if row.get('countries') == 'IPCC' and values['min'] is not None and all(values[k] is None for k in ('mean', 'median', 'max')):
+        comparison_values['default_factor'] = comparison_values.pop('min')
+        statistic_semantics = 'owner-accepted IPCC/BUR default stored in min; default point factor, not a measured minimum'
+    comparison_values.setdefault('default_factor', None)
     source = '|'.join(sources) or str(row.get('url') or row.get('countries') or 'unknown')
     return {'id': row['id'], 'category': row.get('category', ''), 'condition': row.get('condition', ''),
             'country': row.get('countries', ''), 'unit': unit, 'reported_unit': row.get('unit'),
+            'comparison_values': comparison_values, 'statistic_semantics': statistic_semantics,
+            'reported_dois': {k: row[k] for k in row if k.startswith('doi_') and row[k]},
             'conversion_factor': factor, 'conversion_formula': formula, 'values': values,
             'reported_values': {k: row.get(k) for k in FIELDS}, 'source': source, 'dois': sources,
             'url': row.get('url'), 'scaling_factor_not_applied': row.get('scaling_factor'),
@@ -101,14 +111,14 @@ def audit(rows):
     # Exact condition and country restrict formal peer comparisons. Multiple records
     # from a source contribute one median, and the candidate source is left out.
     for candidate in prepared:
-        for field in ('mean', 'median', 'min', 'max'):
-            value = candidate['values'][field]
+        for field in ('mean', 'median', 'min', 'max', 'default_factor'):
+            value = candidate['comparison_values'].get(field)
             if value is None:
                 continue
             peers = defaultdict(list)
             peer_ids = []
             for other in groups[(candidate['category'], candidate['unit'])]:
-                v = other['values'][field]
+                v = other['comparison_values'].get(field)
                 overlap = set(candidate['dois']) & set(other['dois'])
                 if (other['source'] != candidate['source'] and not overlap and candidate['condition']
                     and normalized(other['condition']).casefold() == normalized(candidate['condition']).casefold()
@@ -129,13 +139,13 @@ def audit(rows):
                 signals.append({'id': candidate['id'], 'statistic': field, 'modified_z_log10': score, 'peer_ids': peer_ids,
                                 'independent_sources': len(peers), 'status': 'investigate; not a verified error'})
     for (category, unit), members in groups.items():
-        for field in ('mean', 'median', 'min', 'max'):
-            candidates = [r for r in members if r['values'][field] is not None and r['values'][field] > 0]
+        for field in ('mean', 'median', 'min', 'max', 'default_factor'):
+            candidates = [r for r in members if r['comparison_values'].get(field) is not None and r['comparison_values'].get(field) > 0]
             if len(candidates) < 2:
                 continue
-            low = min(candidates, key=lambda r: r['values'][field])
-            high = max(candidates, key=lambda r: r['values'][field])
-            ratio = high['values'][field] / low['values'][field]
+            low = min(candidates, key=lambda r: r['comparison_values'].get(field))
+            high = max(candidates, key=lambda r: r['comparison_values'].get(field))
+            ratio = high['comparison_values'].get(field) / low['comparison_values'].get(field)
             if ratio >= 100:
                 contrasts.append({'category': category, 'unit': unit, 'statistic': field, 'low_id': low['id'],
                                   'high_id': high['id'], 'ratio': ratio,
@@ -174,10 +184,13 @@ def plots(result, directory):
                 scale = 'linear'
             for y, row in enumerate(members):
                 v = row['values']
+                default = row['comparison_values']['default_factor']
+                if default is not None:
+                    ax.plot(default, y, marker='*', color='#8055a2', ms=7, linestyle='none')
                 if v['min'] is not None and v['max'] is not None:
                     ax.plot([v['min'], v['max']], [y, y], color='#8999ab', lw=2)
                 for key, marker, color in [('mean', 'o', '#147d92'), ('median', 'D', '#d47919'), ('min', '|', '#536273'), ('max', '|', '#536273')]:
-                    if v[key] is not None:
+                    if v[key] is not None and not (key == 'min' and default is not None):
                         ax.plot(v[key], y, marker=marker, color=color, ms=5, linestyle='none')
             ax.set_yticks(range(len(members)), [f"{r['id']} · {str(r['condition'])[:64]} [{r['country']}]" for r in members], fontsize=7)
             ax.invert_yaxis()
@@ -185,9 +198,9 @@ def plots(result, directory):
             ax.set_xlabel(f'{unit} · {scale} scale', fontsize=8)
             ax.grid(axis='x', alpha=.2)
             ax.margins(y=.15)
-        fig.legend(handles=[Line2D([], [], marker='o', color='#147d92', ls='', label='Reported mean'), Line2D([], [], marker='D', color='#d47919', ls='', label='Reported median'), Line2D([], [], color='#8999ab', label='Reported min–max (not confidence interval)')], loc='upper center', ncol=3, fontsize=8)
+        fig.legend(handles=[Line2D([], [], marker='*', color='#8055a2', ls='', label='IPCC default stored in min'), Line2D([], [], marker='o', color='#147d92', ls='', label='Reported mean'), Line2D([], [], marker='D', color='#d47919', ls='', label='Reported median'), Line2D([], [], color='#8999ab', label='Reported min–max (not confidence interval)')], loc='upper center', bbox_to_anchor=(.5, .98), ncol=2, fontsize=8)
         fig.suptitle(f'Methane factor audit · contextual comparisons · page {page}', y=.998, fontsize=12)
-        fig.tight_layout(rect=(0, 0, 1, .97))
+        fig.tight_layout(rect=(0, 0, 1, .91))
         name = f'factors-{page:02}.png'
         fig.savefig(directory / name, dpi=130, bbox_inches='tight')
         plt.close(fig)
@@ -207,7 +220,7 @@ def write_report(result, directory):
                    'source medians are weighted equally and overlapping DOI sources are excluded. Unknown source identities can remain dependent. '
                    'Positive peer values use a log10 modified z score threshold of 3.5. Nonpositive values remain visible but are not scored. '
                    'No universal physical limits are assumed. Missing signals do not demonstrate plausibility. '
-                   'Means, medians and endpoints are never substituted for each other. Ranges are reported bounds, not uncertainty intervals. '
+                   'Means, medians and endpoints are never substituted for each other. Owner-accepted IPCC/BUR defaults stored only in min are separately labeled default factors, with raw values preserved; they are not treated as measured minima. Ranges are reported bounds, not uncertainty intervals. '
                    'Annual area fluxes are divided by 365; no other numeric conversions are applied. Scaling-factor modifiers are retained, not multiplied automatically. '
                    'Oil/gas sales-volume, energy, BOD, product, dry matter and dry fuel bases remain separate. '
                    'Previously closed sago conversion Q01 and paddy Q02 decisions remain closed; contextual plots do not reopen them.')
@@ -225,12 +238,12 @@ def write_report(result, directory):
         parts.append(f'<img alt="Category factor comparison {escape(filename)}" style="max-width:100%" src="data:image/png;base64,{data}">')
     parts.append('<h2>Record inventory and provenance</h2><table border="1" cellspacing="0" cellpadding="4"><tr><th>ID</th><th>Category / condition / country</th><th>Normalized statistics</th><th>Unit and conversion</th><th>Sources</th></tr>')
     for r in result['rows']:
-        links = ' '.join(f'<a href="https://doi.org/{escape(doi)}">{escape(doi)}</a>' for doi in r['dois'])
+        links = ' '.join(f'<a href="{escape(doi_url(doi))}">{escape(doi)}</a>' for doi in r['dois'])
         # Only safe web URLs become clickable; all metadata is escaped.
         if r.get('url') and str(r['url']).startswith(('https://', 'http://')):
             links += f' <a href="{escape(r["url"])}">source</a>'
         values = ', '.join(f'{k}={v:.8g}' for k, v in r['values'].items() if v is not None)
-        parts.append(f'<tr><td>{r["id"]}</td><td>{escape(r["category"])}<br>{escape(r["condition"])}<br>{escape(r["country"])}</td><td>{escape(values)}</td><td>{escape(r["unit"])}<br>{escape(r["conversion_formula"])}</td><td>{links or escape(r["source"])}</td></tr>')
+        parts.append(f'<tr><td>{r["id"]}</td><td>{escape(r["category"])}<br>{escape(r["condition"])}<br>{escape(r["country"])}</td><td>{escape(values)}<br>{escape(r.get("statistic_semantics", "historical audit"))}</td><td>{escape(r["unit"])}<br>{escape(r["conversion_formula"])}</td><td>{links or escape(r["source"])}</td></tr>')
     parts.append(f'</table><p>Snapshot SHA-256: {result["snapshot_sha256"]}; analysis version {VERSION}. Original values and conversion factors are preserved in audit.json. Raw API response stays local.</p><p>Method reference: <a href="https://itl.nist.gov/div898/handbook/eda/section3/eda35h.htm">NIST: detection of outliers</a>. Statistical signals are exploratory and do not establish errors.</p>')
     document = '<!doctype html><html><head><meta charset="utf-8"><title>Methane factor audit</title></head><body style="font:14px sans-serif;max-width:1400px;margin:24px auto">' + '\n'.join(parts) + '</body></html>'
     (directory / 'report.html').write_text(document)
