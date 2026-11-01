@@ -1,0 +1,63 @@
+{
+  "review_id": "review_20261101_november_N16",
+  "display_id": "N16",
+  "candidate_id": "candidate_26d947b8af98085b",
+  "run_id": "20261101T014822Z",
+  "doi": "10.5194/essd-2024-90-rc1",
+  "title": "Comment on essd-2024-90",
+  "decision": "exclude",
+  "previous_decision": "pending",
+  "reviewer": "Project owner (user)",
+  "reviewed_at": "2026-11-01T14:31:35.165331+00:00",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "N16: exclude — comment",
+    "interpretation": "Paper screening/extraction permission only; no quantitative verification or upload authorization."
+  },
+  "reason": "comment",
+  "source_url": "http://dx.doi.org/10.5194/essd-2024-90-rc1",
+  "source_candidates": "knowledge_base/literature_updates/runs/20261101T014822Z/candidates.jsonl",
+  "source_candidates_sha256": "2dc95c2088ed2c053630143026a33aab853ff0a603da9e805657e15ac03dc0d1",
+  "publication_year_check": {
+    "display_id": "N16",
+    "candidate_id": "candidate_26d947b8af98085b",
+    "title": "Comment on essd-2024-90",
+    "reported_publication_year": 2024,
+    "source_checked_year": 2024,
+    "status": "publisher_deposited_metadata_supports_year",
+    "source_url": "https://api.crossref.org/works/10.5194%2Fessd-2024-90-rc1",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            25
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            25
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            25
+          ]
+        ]
+      }
+    },
+    "notes": ""
+  },
+  "wiki_review_page": "findings/november-2026-owner-screening",
+  "measurements_verified": false,
+  "tidbrepo_upload_authorized": false
+}

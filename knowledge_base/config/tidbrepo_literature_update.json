@@ -76,5 +76,52 @@
     "database_id": "8cb5b734-7d57-4ca5-81a6-4d1de7acee88",
     "table_id": "ff844ee0-03d8-4531-ae43-14f4bbdf4cd4",
     "public_data_endpoint": "https://tidbrepo.usm.my/api/v1/database/8cb5b734-7d57-4ca5-81a6-4d1de7acee88/table/ff844ee0-03d8-4531-ae43-14f4bbdf4cd4/data"
+  },
+  "screening_policy": {
+    "version": "owner-2026-11-01-v1",
+    "basis": "Owner decisions N01-N29, 2026-11-01; specific decisions override general triage. All filtered works retained locally.",
+    "rules": [
+      {
+        "id": "comment_editorial_abstract",
+        "work_types": [
+          "editorial",
+          "letter",
+          "peer-review"
+        ],
+        "title_pattern": "^(?:comment on|reply to|editorial\\b)|\\bconference abstract\\b",
+        "route": "filtered_out",
+        "doi_prefixes": [
+          "10.5194/egusphere-egu"
+        ]
+      },
+      {
+        "id": "review_article",
+        "work_types": [
+          "review"
+        ],
+        "title_pattern": "\\b(?:mini[ -]?)?review\\b|\\bbibliometric\\b",
+        "route": "filtered_out"
+      },
+      {
+        "id": "dna_only",
+        "title_pattern": "\\b(?:sequencing|metagenom|microbial diversity|putative methanogens)\\b",
+        "route": "filtered_out"
+      },
+      {
+        "id": "non_inventory_materials",
+        "title_pattern": "carbon nanotube|microbial electro[ -]?synthesis|bioplastic|polyhydroxyalkanoate",
+        "route": "filtered_out"
+      },
+      {
+        "id": "reactor_optimization",
+        "title_pattern": "co[ -]?digestion|tri[ -]?digestion|biohythane|enzymatic hydrolysis|optimization of methane yield|optimisation of methane yield",
+        "route": "filtered_out"
+      },
+      {
+        "id": "context_policy_economics_models",
+        "title_pattern": "cost analysis|economic stability|policy|environmental impact assessment|\\bedgar\\b|\\b(?:modeling|modelling)\\b|food security",
+        "route": "wiki_context"
+      }
+    ]
   }
 }

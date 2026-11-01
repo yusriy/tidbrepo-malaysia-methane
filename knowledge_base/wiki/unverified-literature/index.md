@@ -7,3 +7,35 @@
 - [[unverified-literature/20261028-september-source-review|20261028-september-source-review]] — 0 pending; 2 completed paper reviews
   - [[findings/september-2026-screening-and-extraction-review|exclude]] — Biogas Recovery from Palm Oil Mill Effluent in Malaysia: A Review of Technology Transition, Deployment Readiness, and Sustainability Challenges
   - [[findings/september-2026-screening-and-extraction-review|context_only]] — Production of Methane and Hydrogen from Mild-Strength Industrial Wastewater
+- [[unverified-literature/20261101-owner-screening|20261101-owner-screening]] — 0 pending; 1 completed paper reviews
+  - [[findings/november-2026-owner-screening|retrieve_extract]] — Country-Specific CO2 and Non-CO2 Emission Factor forCoal Electricity Generation in Malaysia
+- [[unverified-literature/20261101T014822Z-publication2|20261101T014822Z-publication2]] — 0 pending; 29 completed paper reviews
+  - [[findings/november-2026-owner-screening|exclude]] — Sustainable management of poultry manure: determination of biochemical methane potential (BMP) in probiotic-fed and commercial-fed broiler farms in Malaysia
+  - [[findings/november-2026-owner-screening|retrieve_extract]] — Country-Specific CO2 and Non-CO2 Emission Factor forCoal Electricity Generation in Malaysia
+  - [[findings/november-2026-owner-screening|context_only]] — Evaluating the Bio-Methane Potential by Anaerobic Tri-Digestion of Palm Oil Mill Effluent, Sewage Sludge and Food Waste in Malaysia
+  - [[findings/november-2026-owner-screening|context_only]] — Methane abatement in Malaysia’s upstream oil and gas sector: A marginal cost analysis for supporting long-term energy transition
+  - [[findings/november-2026-owner-screening|context_only]] — Field-Scale Pilot Observation of Continuous Cattle Slurry Acidification on Methane and Ammonia Emission Mitigation
+  - [[findings/november-2026-owner-screening|exclude]] — From Urban Kitchens to Landfills: Transforming Food Waste for Malaysia’s Health and Sustainability
+  - [[findings/november-2026-owner-screening|context_only]] — Sustainable Agricultural Practices And Environmental Impact Assessment In The Malaysian Palm Oil Industry For Climate Change Mitigation And Biodiversity Conservation
+  - [[findings/november-2026-owner-screening|exclude]] — Baseline Methane Emissions from a Large Solid Waste Disposal Site Receiving Oil Palm Empty Fruit Bunch (EFB)
+  - [[findings/november-2026-owner-screening|exclude]] — Exploring the sustainability of polyhydroxyalkanoates from palm oil mill effluent: A pathway to eco-friendly bioplastic
+  - [[findings/november-2026-owner-screening|exclude]] — Agricultural Exports, Agricultural Methane Emissions, and Food Security in Malaysia: Insights from ARDL and Granger Causality Analysis
+  - [[findings/november-2026-owner-screening|exclude]] — Biogeochemistry of an Iron‐ and Manganese‐Rich Stratified Lake: Tasik Biru, Malaysia, as a Modern Model Habitat for the Ancient Ocean
+  - [[findings/november-2026-owner-screening|exclude]] — GHG data
+  - [[findings/november-2026-owner-screening|context_only]] — The effects of environmental pollution on food security in Malaysia
+  - [[findings/november-2026-owner-screening|exclude]] — GHG emissions (CO2, CH4 and N2O) from tropical peatland cropland drainage ditches
+  - [[findings/november-2026-owner-screening|exclude]] — Bio-Methane from Palm Oil Mill Effluent (POME): Transportation Fuel Potential in Malaysia
+  - [[findings/november-2026-owner-screening|exclude]] — Comment on essd-2024-90
+  - [[findings/november-2026-owner-screening|context_only]] — Environmental Sustainability and Palm Oil Biomass Energy: Regional Policy Implications in Southwest Aceh, Indonesia
+  - [[findings/november-2026-owner-screening|context_only]] — Can Greenhouse Gas Emissions Be a Driving Factor for Economic Stability? An In-depth Study of D8 Nations
+  - [[findings/november-2026-owner-screening|exclude]] — Characterization of Two-compartment Bioreactor for Anaerobic Biohythane Production: Effects of Kitchen Waste Concentration
+  - [[findings/november-2026-owner-screening|context_only]] — Emission factors dominate the rice methane gap with EDGAR in Southeast Asia: A 10 m harvested-area assessment
+  - [[findings/november-2026-owner-screening|exclude]] — Enzymatic hydrolysis for methane production from hydrolysate food waste
+  - [[findings/november-2026-owner-screening|exclude]] — Long Read Sequencing Identifies Putative Methanogens and Novel Microbial Diversity in the North Selangor Peat Swamp Forest of Malaysia
+  - [[findings/november-2026-owner-screening|exclude]] — Modeling And Optimization of Methane Yield and H2S Reduction from Palm Oil Mill Effluent Using Artificial Neural Network
+  - [[findings/november-2026-owner-screening|exclude]] — Anaerobic Co-Digestion of Bread Waste and Sewage Sludge for Methane Production
+  - [[findings/november-2026-owner-screening|exclude]] — A mini review of bamboo fiber integration in food waste composting: insights from global and Malaysian contexts
+  - [[findings/november-2026-owner-screening|exclude]] — Exploring Continuous Cattle Slurry Acidification as a Strategy for Reducing Greenhouse Gas Emissions
+  - [[findings/november-2026-owner-screening|exclude]] — Food Security in SAARC and Climate Change
+  - [[findings/november-2026-owner-screening|exclude]] — Performance of Nickel Foam (NF) Cathode in Microbial Electro-synthesis System for Generating Methane and Acetate Production from CO2
+  - [[findings/november-2026-owner-screening|exclude]] — Thermodynamic Analysis for Carbon Nanotube Growth Mechanism in Combustion-Based Environment

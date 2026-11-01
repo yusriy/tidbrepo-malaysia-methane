@@ -1,0 +1,63 @@
+{
+  "review_id": "review_20261101_november_N27",
+  "display_id": "N27",
+  "candidate_id": "candidate_c78fe2870a7237e0",
+  "run_id": "20261101T014822Z",
+  "doi": "10.47363/jesmr/2025(6)298",
+  "title": "Food Security in SAARC and Climate Change",
+  "decision": "exclude",
+  "previous_decision": "pending",
+  "reviewer": "Project owner (user)",
+  "reviewed_at": "2026-11-01T14:31:35.165331+00:00",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "N27: exclude — review",
+    "interpretation": "Paper screening/extraction permission only; no quantitative verification or upload authorization."
+  },
+  "reason": "review",
+  "source_url": "https://doi.org/10.47363/jesmr/2025(6)298",
+  "source_candidates": "knowledge_base/literature_updates/runs/20261101T014822Z/candidates.jsonl",
+  "source_candidates_sha256": "2dc95c2088ed2c053630143026a33aab853ff0a603da9e805657e15ac03dc0d1",
+  "publication_year_check": {
+    "display_id": "N27",
+    "candidate_id": "candidate_c78fe2870a7237e0",
+    "title": "Food Security in SAARC and Climate Change",
+    "reported_publication_year": 2025,
+    "source_checked_year": 2025,
+    "status": "publisher_deposited_metadata_supports_year",
+    "source_url": "https://api.crossref.org/works/10.47363%2Fjesmr%2F2025%286%29298",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            8
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            8
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            8
+          ]
+        ]
+      }
+    },
+    "notes": ""
+  },
+  "wiki_review_page": "findings/november-2026-owner-screening",
+  "measurements_verified": false,
+  "tidbrepo_upload_authorized": false
+}

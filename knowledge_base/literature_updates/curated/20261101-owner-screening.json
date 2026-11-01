@@ -1,0 +1,181 @@
+{
+  "run_id": "20261101-owner-screening",
+  "verification_status": "unverified",
+  "review_package_run_id": "20261101-owner-screening",
+  "manifest": {
+    "source_run_id": "20261101T014822Z",
+    "purpose": "Owner-authorized source-checked extraction; not a discovery rerun",
+    "database_write_performed": false
+  },
+  "candidates": [
+    {
+      "already_known_by_doi": false,
+      "already_seen_candidate": false,
+      "candidate_id": "candidate_55204cf04e2a06f1",
+      "discovered_at": "2026-11-01T01:48:22+00:00",
+      "discovered_by": "OpenAlex API",
+      "doi": "10.30880/ijie.2024.16.06.029",
+      "open_access_pdf_url": "https://publisher.uthm.edu.my/ojs/index.php/ijie/article/download/17229/7098/105244",
+      "openalex_id": "https://openalex.org/W4407230526",
+      "publication_year": 2024,
+      "screening_flags": [
+        "malaysia_context",
+        "methane_context",
+        "measurement_language",
+        "numeric_value_in_abstract",
+        "malaysian_author_affiliation"
+      ],
+      "screening_score": 13,
+      "source_url": "https://doi.org/10.30880/ijie.2024.16.06.029",
+      "title": "Country-Specific CO2 and Non-CO2 Emission Factor forCoal Electricity Generation in Malaysia",
+      "workflow_status": "pending_screening",
+      "verification_status": "unverified"
+    }
+  ],
+  "proposals": [
+    {
+      "proposal_id": "proposal_2a634e00517b8c16",
+      "candidate_id": "candidate_55204cf04e2a06f1",
+      "doi": "10.30880/ijie.2024.16.06.029",
+      "source_url": "https://doi.org/10.30880/ijie.2024.16.06.029",
+      "open_access_pdf_url": "https://publisher.uthm.edu.my/ojs/index.php/ijie/article/download/17229/7098/105244",
+      "pdf_sha256": "35220e90c3015cf60533dfd15c50b4211d2c7aa5e960c5fd990e586b2175dfca",
+      "page": 15,
+      "source_locator": "Table 5; PDF p.15 (printed 324); uncertainty continues on PDF p.16 for lignite",
+      "evidence_quote": "Bituminous CH4 Emission factor (kgCH4/TJ) 0.1011",
+      "raw_value_text": "0.1011 kgCH4/TJ",
+      "raw_value": "0.1011",
+      "unit_original": "kgCH4/TJ",
+      "statistic": "fuel-consumption-weighted national emission factor for 2019; not min/max",
+      "condition": "Bituminous stationary combustion for electricity generation, Malaysia, 2019",
+      "reported_uncertainty": "22.29",
+      "uncertainty_note": "Table 5 uncertainty entry; interpretation and coverage require review. Do not assign to stdev.",
+      "extraction_rule": "owner_authorized_visual_table_transcription_v1",
+      "verification_status": "proposed_human_review",
+      "provenance_chain": [
+        {
+          "stage": "discovery",
+          "run_id": "20261101T014822Z",
+          "candidate_id": "candidate_55204cf04e2a06f1"
+        },
+        {
+          "stage": "owner_screening",
+          "display_id": "N02",
+          "decision": "retrieve_extract"
+        },
+        {
+          "stage": "source",
+          "url": "https://publisher.uthm.edu.my/ojs/index.php/ijie/article/download/17229/7098/105244",
+          "sha256": "35220e90c3015cf60533dfd15c50b4211d2c7aa5e960c5fd990e586b2175dfca"
+        },
+        {
+          "stage": "evidence",
+          "page": 15,
+          "table": "5",
+          "quote": "Bituminous CH4 Emission factor (kgCH4/TJ) 0.1011"
+        },
+        {
+          "stage": "extraction",
+          "rule": "owner_authorized_visual_table_transcription_v1",
+          "status": "unverified"
+        }
+      ]
+    },
+    {
+      "proposal_id": "proposal_6b3856ebb09f6736",
+      "candidate_id": "candidate_55204cf04e2a06f1",
+      "doi": "10.30880/ijie.2024.16.06.029",
+      "source_url": "https://doi.org/10.30880/ijie.2024.16.06.029",
+      "open_access_pdf_url": "https://publisher.uthm.edu.my/ojs/index.php/ijie/article/download/17229/7098/105244",
+      "pdf_sha256": "35220e90c3015cf60533dfd15c50b4211d2c7aa5e960c5fd990e586b2175dfca",
+      "page": 15,
+      "source_locator": "Table 5; PDF p.15 (printed 324); uncertainty continues on PDF p.16 for lignite",
+      "evidence_quote": "Sub-Bituminous CH4 Emission factor (kgCH4/TJ) 0.0883",
+      "raw_value_text": "0.0883 kgCH4/TJ",
+      "raw_value": "0.0883",
+      "unit_original": "kgCH4/TJ",
+      "statistic": "fuel-consumption-weighted national emission factor for 2019; not min/max",
+      "condition": "Sub-Bituminous stationary combustion for electricity generation, Malaysia, 2019",
+      "reported_uncertainty": "16.42",
+      "uncertainty_note": "Table 5 uncertainty entry; interpretation and coverage require review. Do not assign to stdev.",
+      "extraction_rule": "owner_authorized_visual_table_transcription_v1",
+      "verification_status": "proposed_human_review",
+      "provenance_chain": [
+        {
+          "stage": "discovery",
+          "run_id": "20261101T014822Z",
+          "candidate_id": "candidate_55204cf04e2a06f1"
+        },
+        {
+          "stage": "owner_screening",
+          "display_id": "N02",
+          "decision": "retrieve_extract"
+        },
+        {
+          "stage": "source",
+          "url": "https://publisher.uthm.edu.my/ojs/index.php/ijie/article/download/17229/7098/105244",
+          "sha256": "35220e90c3015cf60533dfd15c50b4211d2c7aa5e960c5fd990e586b2175dfca"
+        },
+        {
+          "stage": "evidence",
+          "page": 15,
+          "table": "5",
+          "quote": "Sub-Bituminous CH4 Emission factor (kgCH4/TJ) 0.0883"
+        },
+        {
+          "stage": "extraction",
+          "rule": "owner_authorized_visual_table_transcription_v1",
+          "status": "unverified"
+        }
+      ]
+    },
+    {
+      "proposal_id": "proposal_214e5445ea676ed0",
+      "candidate_id": "candidate_55204cf04e2a06f1",
+      "doi": "10.30880/ijie.2024.16.06.029",
+      "source_url": "https://doi.org/10.30880/ijie.2024.16.06.029",
+      "open_access_pdf_url": "https://publisher.uthm.edu.my/ojs/index.php/ijie/article/download/17229/7098/105244",
+      "pdf_sha256": "35220e90c3015cf60533dfd15c50b4211d2c7aa5e960c5fd990e586b2175dfca",
+      "page": 15,
+      "source_locator": "Table 5; PDF p.15 (printed 324); uncertainty continues on PDF p.16 for lignite",
+      "evidence_quote": "Lignite CH4 Emission factor (kgCH4/TJ) 0.0402",
+      "raw_value_text": "0.0402 kgCH4/TJ",
+      "raw_value": "0.0402",
+      "unit_original": "kgCH4/TJ",
+      "statistic": "fuel-consumption-weighted national emission factor for 2019; not min/max",
+      "condition": "Lignite stationary combustion for electricity generation, Malaysia, 2019",
+      "reported_uncertainty": "11.23",
+      "uncertainty_note": "Table 5 uncertainty entry; interpretation and coverage require review. Do not assign to stdev.",
+      "extraction_rule": "owner_authorized_visual_table_transcription_v1",
+      "verification_status": "proposed_human_review",
+      "provenance_chain": [
+        {
+          "stage": "discovery",
+          "run_id": "20261101T014822Z",
+          "candidate_id": "candidate_55204cf04e2a06f1"
+        },
+        {
+          "stage": "owner_screening",
+          "display_id": "N02",
+          "decision": "retrieve_extract"
+        },
+        {
+          "stage": "source",
+          "url": "https://publisher.uthm.edu.my/ojs/index.php/ijie/article/download/17229/7098/105244",
+          "sha256": "35220e90c3015cf60533dfd15c50b4211d2c7aa5e960c5fd990e586b2175dfca"
+        },
+        {
+          "stage": "evidence",
+          "page": 15,
+          "table": "5",
+          "quote": "Lignite CH4 Emission factor (kgCH4/TJ) 0.0402"
+        },
+        {
+          "stage": "extraction",
+          "rule": "owner_authorized_visual_table_transcription_v1",
+          "status": "unverified"
+        }
+      ]
+    }
+  ]
+}

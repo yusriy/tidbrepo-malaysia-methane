@@ -1,0 +1,72 @@
+{
+  "review_id": "review_20261101_november_N13",
+  "display_id": "N13",
+  "candidate_id": "candidate_4c7d3b2da0895da0",
+  "run_id": "20261101T014822Z",
+  "doi": "10.24191/smrj.v20i2.24317",
+  "title": "The effects of environmental pollution on food security in Malaysia",
+  "decision": "context_only",
+  "previous_decision": "pending",
+  "reviewer": "Project owner (user)",
+  "reviewed_at": "2026-11-01T14:31:35.165331+00:00",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "N13: wiki-only",
+    "interpretation": "Paper screening/extraction permission only; no quantitative verification or upload authorization."
+  },
+  "reason": "Explicit owner paper-screening choice.",
+  "source_url": "http://doi.org/10.24191/smrj.v20i2.24317",
+  "source_candidates": "knowledge_base/literature_updates/runs/20261101T014822Z/candidates.jsonl",
+  "source_candidates_sha256": "2dc95c2088ed2c053630143026a33aab853ff0a603da9e805657e15ac03dc0d1",
+  "publication_year_check": {
+    "display_id": "N13",
+    "candidate_id": "candidate_4c7d3b2da0895da0",
+    "title": "The effects of environmental pollution on food security in Malaysia",
+    "reported_publication_year": 2023,
+    "source_checked_year": 2023,
+    "status": "publisher_deposited_metadata_supports_year",
+    "source_url": "https://api.crossref.org/works/10.24191%2Fsmrj.v20i2.24317",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            30
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            30
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            30
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            30
+          ]
+        ]
+      }
+    },
+    "notes": ""
+  },
+  "wiki_review_page": "findings/november-2026-owner-screening",
+  "measurements_verified": false,
+  "tidbrepo_upload_authorized": false
+}

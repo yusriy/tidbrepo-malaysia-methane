@@ -1,0 +1,56 @@
+{
+  "review_id": "review_20261101_november_N08",
+  "display_id": "N08",
+  "candidate_id": "candidate_4222c141bed1ac3b",
+  "run_id": "20261101T014822Z",
+  "doi": "10.5281/zenodo.20522180",
+  "title": "Baseline Methane Emissions from a Large Solid Waste Disposal Site Receiving Oil Palm Empty Fruit Bunch (EFB)",
+  "decision": "retrieve_extract",
+  "previous_decision": "pending",
+  "reviewer": "Project owner (user)",
+  "reviewed_at": "2026-11-01T14:31:35.165331+00:00",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "N08: extract",
+    "interpretation": "Paper screening/extraction permission only; no quantitative verification or upload authorization."
+  },
+  "reason": "Explicit owner paper-screening choice.",
+  "source_url": "https://doi.org/10.5281/zenodo.20522180",
+  "source_candidates": "knowledge_base/literature_updates/runs/20261101T014822Z/candidates.jsonl",
+  "source_candidates_sha256": "2dc95c2088ed2c053630143026a33aab853ff0a603da9e805657e15ac03dc0d1",
+  "publication_year_check": {
+    "display_id": "N08",
+    "candidate_id": "candidate_4222c141bed1ac3b",
+    "title": "Baseline Methane Emissions from a Large Solid Waste Disposal Site Receiving Oil Palm Empty Fruit Bunch (EFB)",
+    "reported_publication_year": 2026,
+    "source_checked_year": 2026,
+    "status": "publisher_deposited_metadata_supports_year",
+    "source_url": "https://api.datacite.org/dois/10.5281/zenodo.20522180",
+    "date_evidence": {
+      "published": "2026",
+      "publicationYear": 2026,
+      "dates": [
+        {
+          "date": "2026-06-03",
+          "dateType": "Issued"
+        }
+      ],
+      "types": {
+        "ris": "JOUR",
+        "bibtex": "article",
+        "citeproc": "article-journal",
+        "schemaOrg": "ScholarlyArticle",
+        "resourceType": "",
+        "resourceTypeGeneral": "JournalArticle"
+      }
+    },
+    "notes": ""
+  },
+  "wiki_review_page": "findings/november-2026-owner-screening",
+  "measurements_verified": false,
+  "tidbrepo_upload_authorized": false,
+  "extraction_outcome": {
+    "status": "full_text_required_modelled_baseline",
+    "notes": "Repository identifies a UNFCCC Tool 04 FOD model. PDF downloads returned HTTP 403. No independently measured factor inferred."
+  }
+}

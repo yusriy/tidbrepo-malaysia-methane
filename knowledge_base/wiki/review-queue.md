@@ -73,3 +73,7 @@ Source assessment is prepared; the subsequent owner decisions are recorded below
 - **R02: wiki-only; no pending database action.** Preserve signed seasonal findings and source limitations.
 
 Staged object: `knowledge_base/reconciliations/staging/r01-author-preferred-range-2026-10-29.json`. Decisions: `knowledge_base/reconciliations/reviews/2026-10-29-factor-decision-R01.json` and `2026-10-29-factor-decision-R02.json`. R03 remains uploaded; Q01/Q02 remain closed.
+
+## November 2026 owner screening
+
+[[findings/november-2026-owner-screening|All 29 paper decisions and remaining factor/source checks]]. Paper screening and suitability choices are complete: N02’s three accepted factors are uploaded and independently verified as rows 181–183; N01/N08/N11 are excluded with no pending retrieval tasks. Eight papers remain wiki-only and twenty are excluded.

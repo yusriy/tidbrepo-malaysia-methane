@@ -1,0 +1,83 @@
+{
+  "review_id": "review_20261101_november_final_N02",
+  "display_id": "N02",
+  "candidate_id": "candidate_55204cf04e2a06f1",
+  "run_id": "20261101T014822Z",
+  "doi": "10.30880/ijie.2024.16.06.029",
+  "title": "Country-Specific CO2 and Non-CO2 Emission Factor forCoal Electricity Generation in Malaysia",
+  "decision": "retrieve_extract",
+  "previous_decision": "retrieve_extract",
+  "reviewer": "Project owner (user)",
+  "reviewed_at": "2026-11-01T14:52:43.531042+00:00",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "N02: suitable for TIDBRepo.",
+    "interpretation": "Paper disposition and factor-suitability decision; no TIDBRepo write authorization."
+  },
+  "reason": "Suitable for TIDBRepo; owner accepts the three source-checked coal-factor proposals.",
+  "source_url": "https://doi.org/10.30880/ijie.2024.16.06.029",
+  "source_candidates": "knowledge_base/literature_updates/runs/20261101T014822Z/candidates.jsonl",
+  "source_candidates_sha256": "2dc95c2088ed2c053630143026a33aab853ff0a603da9e805657e15ac03dc0d1",
+  "publication_year_check": {
+    "display_id": "N02",
+    "candidate_id": "candidate_55204cf04e2a06f1",
+    "title": "Country-Specific CO2 and Non-CO2 Emission Factor forCoal Electricity Generation in Malaysia",
+    "reported_publication_year": 2024,
+    "source_checked_year": 2024,
+    "status": "publisher_deposited_metadata_supports_year",
+    "source_url": "https://api.crossref.org/works/10.30880%2Fijie.2024.16.06.029",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            8
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            8
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            8
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            8
+          ]
+        ]
+      }
+    },
+    "notes": "Year agrees (2024); Crossref day/month differs from PDF (29 December) and landing page (30 December). Exact day unresolved."
+  },
+  "wiki_review_page": "findings/november-2026-owner-screening",
+  "measurements_verified": false,
+  "tidbrepo_upload_authorized": false,
+  "extraction_outcome": {
+    "status": "three_unverified_table_proposals",
+    "source_locator": "Table 5, PDF pages 15–16 (printed 324–325)",
+    "curated_output": "knowledge_base/literature_updates/curated/20261101-owner-screening.json"
+  },
+  "supersedes": "knowledge_base/literature_updates/reviews/2026-11-01-november-N02.json",
+  "supersedes_sha256": "fac83c7da7abc83725bcda33c7f0a63b76a87ad5ad24c88c5458c494a54ac159",
+  "further_factor_assessment_required": false,
+  "factor_suitability": "accepted_by_owner_for_tidbrepo",
+  "workflow_status": "staged_pending_upload_approval",
+  "scientific_status_note": "Owner suitability acceptance recorded separately; immutable discovery/proposal flags are not promoted."
+}

@@ -1,0 +1,41 @@
+{
+  "review_id": "review_20261101_november_N15",
+  "display_id": "N15",
+  "candidate_id": "candidate_60b8ca23a675d6db",
+  "run_id": "20261101T014822Z",
+  "doi": "",
+  "title": "Bio-Methane from Palm Oil Mill Effluent (POME): Transportation Fuel Potential in Malaysia",
+  "decision": "exclude",
+  "previous_decision": "pending",
+  "reviewer": "Project owner (user)",
+  "reviewed_at": "2026-11-01T14:31:35.165331+00:00",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "N15: exclude",
+    "interpretation": "Paper screening/extraction permission only; no quantitative verification or upload authorization."
+  },
+  "reason": "Explicit owner paper-screening choice.",
+  "source_url": "https://semarakilmu.com.my/journals/index.php/fluid_mechanics_thermal_sciences/article/view/3590",
+  "source_candidates": "knowledge_base/literature_updates/runs/20261101T014822Z/candidates.jsonl",
+  "source_candidates_sha256": "2dc95c2088ed2c053630143026a33aab853ff0a603da9e805657e15ac03dc0d1",
+  "publication_year_check": {
+    "display_id": "N15",
+    "candidate_id": "candidate_60b8ca23a675d6db",
+    "title": "Bio-Methane from Palm Oil Mill Effluent (POME): Transportation Fuel Potential in Malaysia",
+    "reported_publication_year": 2024,
+    "source_checked_year": 2019,
+    "status": "corrected_pdf_and_publisher_citation_year",
+    "source_url": "https://semarakilmu.com.my/journals/index.php/fluid_mechanics_thermal_sciences/article/view/3590",
+    "date_evidence": [
+      "<meta name=\"citation_date\" content=\"2019\"/>",
+      "<meta name=\"DC.Date.created\" scheme=\"ISO8601\" content=\"2024-03-28\"/>",
+      "<meta name=\"DC.Date.dateSubmitted\" scheme=\"ISO8601\" content=\"2023-07-05\"/>",
+      "<meta name=\"DC.Date.issued\" scheme=\"ISO8601\" content=\"2024-03-28\"/>",
+      "<meta name=\"DC.Date.modified\" scheme=\"ISO8601\" content=\"2024-12-18\"/>"
+    ],
+    "notes": "Publisher migration dates are 2024; citation year and original PDF are 2019."
+  },
+  "wiki_review_page": "findings/november-2026-owner-screening",
+  "measurements_verified": false,
+  "tidbrepo_upload_authorized": false
+}

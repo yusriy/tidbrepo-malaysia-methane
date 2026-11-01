@@ -1,0 +1,54 @@
+{
+  "review_id": "review_20261101_november_N19",
+  "display_id": "N19",
+  "candidate_id": "candidate_bd1f69f920ba2128",
+  "run_id": "20261101T014822Z",
+  "doi": "10.21203/rs.3.rs-3937246/v1",
+  "title": "Characterization of Two-compartment Bioreactor for Anaerobic Biohythane Production: Effects of Kitchen Waste Concentration",
+  "decision": "exclude",
+  "previous_decision": "pending",
+  "reviewer": "Project owner (user)",
+  "reviewed_at": "2026-11-01T14:31:35.165331+00:00",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "N19: exclude",
+    "interpretation": "Paper screening/extraction permission only; no quantitative verification or upload authorization."
+  },
+  "reason": "Explicit owner paper-screening choice.",
+  "source_url": "http://dx.doi.org/10.21203/rs.3.rs-3937246/v1",
+  "source_candidates": "knowledge_base/literature_updates/runs/20261101T014822Z/candidates.jsonl",
+  "source_candidates_sha256": "2dc95c2088ed2c053630143026a33aab853ff0a603da9e805657e15ac03dc0d1",
+  "publication_year_check": {
+    "display_id": "N19",
+    "candidate_id": "candidate_bd1f69f920ba2128",
+    "title": "Characterization of Two-compartment Bioreactor for Anaerobic Biohythane Production: Effects of Kitchen Waste Concentration",
+    "reported_publication_year": 2024,
+    "source_checked_year": 2024,
+    "status": "publisher_deposited_metadata_supports_year",
+    "source_url": "https://api.crossref.org/works/10.21203%2Frs.3.rs-3937246%2Fv1",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            9
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            9
+          ]
+        ]
+      }
+    },
+    "notes": ""
+  },
+  "wiki_review_page": "findings/november-2026-owner-screening",
+  "measurements_verified": false,
+  "tidbrepo_upload_authorized": false
+}

@@ -63,6 +63,14 @@ def command(args: list[str], cwd: Path, **kwargs) -> str:
     return result.stdout.strip()
 
 
+PROPOSAL_EVIDENCE_FIELDS = ("proposal_id", "candidate_id", "doi", "source_url", "pdf_sha256",
+                            "page", "evidence_quote", "raw_value_text", "unit_original")
+
+
+def proposal_evidence_gaps(proposal):
+    return [key for key in PROPOSAL_EVIDENCE_FIELDS if not proposal.get(key)]
+
+
 def validate_wiki(repo: Path) -> dict:
     """Resolve Obsidian root, page-relative, and unique short-name links."""
     wiki = repo / "knowledge_base/wiki"
@@ -85,9 +93,7 @@ def validate_wiki(repo: Path) -> dict:
         if record.get("verification_status") != "unverified":
             errors.append(f"{path.name}: generated literature must be unverified")
         for proposal in record.get("proposals", []):
-            required = ("proposal_id", "candidate_id", "doi", "source_url", "pdf_sha256",
-                        "page", "evidence_quote", "raw_value_text", "unit_original")
-            if any(not proposal.get(key) for key in required):
+            if proposal_evidence_gaps(proposal):
                 errors.append(f"{path.name}: incomplete proposal evidence")
             if proposal.get("verification_status") != "proposed_human_review":
                 errors.append(f"{path.name}: measurement promoted without scientific review")
@@ -102,9 +108,13 @@ def build_curated(run: Path) -> dict:
         raise ValueError("A completed discovery manifest and candidate list are required")
     candidates = literature.read_jsonl(run / "candidates.jsonl")
     proposals = literature.read_jsonl(run / "proposals.jsonl")
+    eligible = [p for p in proposals if not proposal_evidence_gaps(p)]
+    withheld = [{"proposal_id": p.get("proposal_id"), "candidate_id": p.get("candidate_id"),
+                 "missing_fields": proposal_evidence_gaps(p), "status": "blocked_incomplete_provenance"}
+                for p in proposals if proposal_evidence_gaps(p)]
     candidate_fields = ("candidate_id", "doi", "title", "publication_year", "source_url",
                         "open_access_pdf_url", "openalex_id", "discovered_at", "discovered_by",
-                        "screening_score", "screening_flags")
+                        "screening_score", "screening_flags", "screening_triage")
     proposal_fields = ("proposal_id", "candidate_id", "doi", "source_url", "open_access_pdf_url",
                        "pdf_sha256", "page", "evidence_quote", "raw_value_text", "raw_value",
                        "unit_original", "uncertainty_text", "statistic", "extraction_rule", "provenance_chain")
@@ -113,7 +123,9 @@ def build_curated(run: Path) -> dict:
         "manifest": manifest,
         "input_sha256": {p.name: sha(p) for p in (run / "manifest.json", run / "candidates.jsonl", run / "proposals.jsonl") if p.exists()},
         "candidates": [{**{k: c.get(k) for k in candidate_fields}, "verification_status": "unverified"} for c in candidates],
-        "proposals": [{**{k: p.get(k) for k in proposal_fields}, "verification_status": "proposed_human_review"} for p in proposals],
+        "proposals": [{**{k: p.get(k) for k in proposal_fields}, "verification_status": "proposed_human_review"} for p in eligible],
+        "withheld_proposals": withheld,
+        "proposal_counts": {"extracted_local": len(proposals), "curated_unverified": len(eligible), "withheld_incomplete": len(withheld)},
     }
 
 
@@ -148,15 +160,22 @@ def publish_queue(repo: Path, record: dict) -> list[str]:
              "> Machine-discovered candidates and proposed measurements. Scientific review is required.", "",
              "Nothing on this page is a verified inventory value. Promotion to the main scientific wiki is manual after review.", "",
              f"Curated provenance: `knowledge_base/literature_updates/curated/{run_id}.json`", "",
-             f"Local review package: `knowledge_base/literature_updates/runs/{run_id}/`", ""]
+             f"Local review package: `knowledge_base/literature_updates/runs/{identifier(record.get('review_package_run_id', run_id))}/`", ""]
+    if record.get("withheld_proposals"):
+        lines += [f"**{len(record['withheld_proposals'])} additional proposals remain in local review files because provenance is incomplete.**", ""]
     for candidate in record["candidates"]:
         lines += ["## " + compact(candidate["title"]), "",
                   "- Status: **unverified; pending scientific review**",
                   "- Candidate ID: " + compact(candidate["candidate_id"]),
+                  "- Discovery publication year (requires source check): " + compact(candidate.get("publication_year")),
+                  "- Scope triage: " + compact((candidate.get("screening_triage") or {}).get("route", "legacy run; see owner review")),
                   "- DOI: " + compact(candidate["doi"]),
                   "- Source location: " + compact(candidate["source_url"]),
                   "- OA location: " + compact(candidate["open_access_pdf_url"]),
                   "- Discovery: " + compact(candidate["discovered_by"]) + "; " + compact(candidate["discovered_at"]), ""]
+        for withheld in record.get("withheld_proposals", []):
+            if withheld["candidate_id"] == candidate["candidate_id"]:
+                lines += ["- Withheld proposal: " + compact(withheld["proposal_id"]) + "; missing " + compact(", ".join(withheld["missing_fields"])) + "; inspect the local review package before any promotion."]
         for proposal in record["proposals"]:
             if proposal["candidate_id"] == candidate["candidate_id"]:
                 lines += ["### Proposed measurement " + compact(proposal["proposal_id"]), "",
@@ -217,7 +236,7 @@ def sync_github(repo: Path, run: Path, record: dict, python: str) -> dict:
                   "/knowledge_base/wiki/unverified-literature/index.md") if match else None
     return {"status": "pushed", "branch": BRANCH, "review_url": review_url,
             "commit": command(["git", "rev-parse", "HEAD"], checkout),
-            "wiki_queue": str(checkout / QUEUE / (run.name + ".md"))}
+            "wiki_queue": str(checkout / QUEUE / (identifier(record["run_id"]) + ".md"))}
 
 
 def summarize(run: Path, state: dict) -> dict:
