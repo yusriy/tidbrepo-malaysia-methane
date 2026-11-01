@@ -1,12 +1,12 @@
 ---
 date: 2026-11-01
-status: owner-suitability-complete-submission-not-authorized
+status: owner-suitability-complete-n02-uploaded
 source_run_id: 20261101T014822Z
 ---
 
 # November 2026 owner screening
 
-Latest owner decisions: **1 suitable for TIDBRepo (N02), 8 wiki-only, 20 excluded; 0 pending paper-screening or suitability choices**. N02’s three factors are staged; the subsequent explicit owner upload approval is recorded separately; authenticated submission remains pending. The initial 4-extract/8-wiki/17-exclude decisions remain preserved in their original records. Original discovery records, PDF files and 42 automated proposals remain preserved.
+Latest owner decisions: **1 suitable for TIDBRepo (N02), 8 wiki-only, 20 excluded; 0 pending paper-screening or suitability choices**. N02’s three factors were subsequently explicitly approved for upload, saved as rows 181–183 and independently verified through the public API. The initial 4-extract/8-wiki/17-exclude decisions remain preserved in their original records. Original discovery records, PDF files and 42 automated proposals remain preserved.
 
 The N01–N29 labels follow the frozen November candidate order, matched through candidate IDs and the original file SHA-256. Individual decision records are in `knowledge_base/literature_updates/reviews/2026-11-01-november-Nxx.json`.
 
@@ -64,11 +64,11 @@ Table 5 was visually inspected on PDF p.15 (printed 324); its continuation on p.
 
 | Coal | CH4 factor, kgCH4/TJ | Status |
 |---|---:|---|
-| Bituminous | 0.1011 | Owner accepted suitability; upload not authorized |
-| Sub-Bituminous | 0.0883 | Owner accepted suitability; upload not authorized |
-| Lignite | 0.0402 | Owner accepted suitability; upload not authorized |
+| Bituminous | 0.1011 | Owner approved; uploaded and read-back verified |
+| Sub-Bituminous | 0.0883 | Owner approved; uploaded and read-back verified |
+| Lignite | 0.0402 | Owner approved; uploaded and read-back verified |
 
-These are coal combustion factors, not the coal-mining factors in rows 55/58. No existing value or unit is changed. The table uncertainty entries remain separate from standard deviation. The IPCC comparator and N2O values are not extracted as new CH4 measurements. Source: https://journal.uthm.edu.my/index.php/ijie/article/view/17229.
+These are coal combustion factors, not the coal-mining factors in rows 55/58. No existing value or unit is changed. Rows 181, 182 and 183 respectively contain the three new N02 factors. The table uncertainty entries remain separate from standard deviation. The IPCC comparator and N2O values are not extracted as new CH4 measurements. Source: https://journal.uthm.edu.my/index.php/ijie/article/view/17229.
 
 [[unverified-literature/20261101-owner-screening|Three source-checked, unverified proposals with evidence and provenance]].
 
@@ -90,12 +90,12 @@ These rules generalize the owner’s choices conservatively: N01’s B0 relevanc
 
 New discovery records carry the policy version and route. Only factor-assessment papers with a textual Malaysian context pass automatic extraction; explicit owner retrieve/extract decisions can override the route. A high keyword score alone no longer sends context/model papers to extraction.
 
-## Current disposition and submission stage
+## Current disposition and completed submission
 
 All scientific suitability choices requested for this batch are complete. N01, N08 and N11 are excluded; no full-text retrieval tasks remain pending. The eight wiki-only decisions remain unchanged.
 
 N02's three factors are staged in `knowledge_base/reconciliations/staging/n02-coal-factors-2026-11-01.json` with source quotes, page/table locations, checksum, unchanged numeric values and the existing kg CH4/TJ unit convention. The proposed database category is Fuel Combustion Activities - Electricity Generation, with separate coal types and the 2019 fuel-weighted statistic. Table uncertainty entries are preserved separately from standard deviation. Tier 2 is a proposed country-specific crosswalk requiring final payload validation.
 
-**Upload is now explicitly authorized; no upload has yet been performed.** The owner replied “yes” to uploading all three N02 factors. A fresh public preflight found 180 rows and no N02 DOI matches. The exact three-record uploader passed 88 tests and requires hidden local password entry for authenticated submission. The original automated proposals remain unverified historical records; owner acceptance is preserved in a separate decision.
+**Upload completed and independently verified.** The owner explicitly approved the three-record submission and ran the hidden-password API helper. Public API read-back confirms rows **181 (Bituminous, 0.1011), 182 (Sub-Bituminous, 0.0883), 183 (Lignite, 0.0402)**, all in **kg CH₄ TJ⁻¹**, stored as the source's 2019 fuel-weighted mean factors. The database increased from 180 to 183 records; every pre-existing record is unchanged. Passwords were not saved. Completion and receipt hashes: `knowledge_base/reconciliations/reviews/2026-11-01-N02-upload-completion.json`. There is no remaining upload action for this batch. The original automated proposals remain unverified historical records; owner acceptance is preserved in a separate decision.
 
 [[unverified-literature/index|Unverified literature queue]]

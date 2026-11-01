@@ -61,8 +61,8 @@
       "doi_1": "10.30880/ijie.2024.16.06.029"
     }
   ],
-  "database_write_performed": false,
-  "status": "authorized_pending_authenticated_submission",
+  "database_write_performed": true,
+  "status": "uploaded_independently_verified",
   "preflight": {
     "checked_at": "2026-11-01T14:58:15.439580+00:00",
     "public_rows": 180,
@@ -71,5 +71,11 @@
     "table_columns_validated": true,
     "unit_test_count": 88,
     "wiki_validation": "87 pages; no broken links; provenance passed"
-  }
+  },
+  "completion_record": "knowledge_base/reconciliations/reviews/2026-11-01-N02-upload-completion.json",
+  "verified_row_ids": [
+    181,
+    182,
+    183
+  ]
 }

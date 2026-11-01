@@ -48,4 +48,4 @@ Local review package: `knowledge_base/literature_updates/runs/20261101-owner-scr
 
 ## Owner suitability decision
 
-The owner accepted all three N02 coal factors as suitable for TIDBRepo. This separate suitability decision supersedes the pending-review disposition above, while original proposal provenance/status remains preserved. [[findings/november-2026-owner-screening|Current decisions and submission stage]]. The owner subsequently explicitly authorized uploading these three records; authenticated submission remains pending.
+The owner accepted all three N02 coal factors as suitable for TIDBRepo. This separate suitability decision supersedes the pending-review disposition above, while original proposal provenance/status remains preserved. [[findings/november-2026-owner-screening|Current decisions and submission stage]]. The owner subsequently explicitly authorized uploading these three records. Upload and independent public read-back are complete: rows 181–183. Original proposal flags remain archived; the separate completion record documents the approved database submission.

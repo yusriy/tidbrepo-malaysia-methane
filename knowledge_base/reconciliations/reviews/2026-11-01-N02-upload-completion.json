@@ -1,0 +1,60 @@
+{
+  "review_id": "review_20261101_N02_upload_completion",
+  "status": "uploaded_independently_verified",
+  "checked_at": "2026-11-01T14:59:30.619360+00:00",
+  "doi": "10.30880/ijie.2024.16.06.029",
+  "authorization_record": "knowledge_base/reconciliations/reviews/2026-11-01-N02-upload.json",
+  "before_rows": 180,
+  "after_rows": 183,
+  "ids": [
+    181,
+    182,
+    183
+  ],
+  "old_records_unchanged": true,
+  "submitted_records": [
+    {
+      "id": 181,
+      "countries": "Malaysia",
+      "sectors": "Energy",
+      "category": "Fuel Combustion Activities - Electricity Generation",
+      "condition": "Bituminous stationary combustion for electricity generation, Malaysia, 2019",
+      "tier": "2",
+      "mean": "0.1011",
+      "unit": "kg CH₄ TJ⁻¹",
+      "url": "https://doi.org/10.30880/ijie.2024.16.06.029",
+      "doi_1": "10.30880/ijie.2024.16.06.029"
+    },
+    {
+      "id": 182,
+      "countries": "Malaysia",
+      "sectors": "Energy",
+      "category": "Fuel Combustion Activities - Electricity Generation",
+      "condition": "Sub-Bituminous stationary combustion for electricity generation, Malaysia, 2019",
+      "tier": "2",
+      "mean": "0.0883",
+      "unit": "kg CH₄ TJ⁻¹",
+      "url": "https://doi.org/10.30880/ijie.2024.16.06.029",
+      "doi_1": "10.30880/ijie.2024.16.06.029"
+    },
+    {
+      "id": 183,
+      "countries": "Malaysia",
+      "sectors": "Energy",
+      "category": "Fuel Combustion Activities - Electricity Generation",
+      "condition": "Lignite stationary combustion for electricity generation, Malaysia, 2019",
+      "tier": "2",
+      "mean": "0.0402",
+      "unit": "kg CH₄ TJ⁻¹",
+      "url": "https://doi.org/10.30880/ijie.2024.16.06.029",
+      "doi_1": "10.30880/ijie.2024.16.06.029"
+    }
+  ],
+  "receipt_sha256": "8af665be4c06c5fdc526c8dd9e82d226442fb9daaa6d6efde36e78664d2311df",
+  "public_verification_sha256": "35bee8af6ab8bd873e322b3fed1ee11f85dd1748514584b00d5c2a27ff8f547f",
+  "local_evidence_directory": "knowledge_base/literature_updates/runs/20261101-n02-upload",
+  "password_saved": false,
+  "scientific_snapshot_promoted": false,
+  "database_write_performed": true,
+  "scope": "Three new N02 rows only; no modification of previous rows."
+}

@@ -1054,7 +1054,17 @@
       "knowledge_base/literature_updates/reviews/2026-11-01-november-final-N08.json",
       "knowledge_base/literature_updates/reviews/2026-11-01-november-final-N11.json"
     ],
-    "tidbrepo_writes": false,
-    "pending_authenticated_submission": "N02 three factors; explicit upload authorization recorded in knowledge_base/reconciliations/reviews/2026-11-01-N02-upload.json"
+    "tidbrepo_writes": true,
+    "pending_authenticated_submission": null,
+    "completed_submission": {
+      "paper": "N02",
+      "row_ids": [
+        181,
+        182,
+        183
+      ],
+      "verified_at": "2026-11-01T14:59:30.619360+00:00",
+      "existing_180_records_unchanged": true
+    }
   }
 }
