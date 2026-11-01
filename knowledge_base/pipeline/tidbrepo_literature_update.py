@@ -22,6 +22,7 @@ from pathlib import Path
 from typing import Iterable
 
 from doi_identifiers import normalize_doi, validated_doi
+from openalex_auth import request_json, read_key, OpenAlexError
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -103,15 +104,6 @@ def read_jsonl(path: Path) -> list[dict]:
     if not path.exists():
         return []
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
-
-
-def request_json(url: str, mailto: str | None = None) -> dict:
-    agent = "TIDBRepo-Malaysia-Methane-Literature-Update/1.0"
-    if mailto:
-        agent += f" (mailto:{mailto})"
-    request = urllib.request.Request(url, headers={"Accept": "application/json", "User-Agent": agent})
-    with urllib.request.urlopen(request, timeout=90) as response:
-        return json.load(response)
 
 
 def abstract_from_inverted_index(index: dict | None) -> str:
@@ -212,6 +204,8 @@ def screening_score(title: str, abstract: str, config: dict) -> tuple[int, list[
 
 def command_discover(args: argparse.Namespace) -> int:
     config = load_json(args.config)
+    if int(config["openalex_max_pages_per_query"]) > 1 and not read_key():
+        raise OpenAlexError("OpenAlex cursor pagination requires a key. Run knowledge_base/pipeline/configure_openalex.py locally; do not paste the key in chat.")
     run_id = args.run_id or datetime.now().strftime("%Y%m%dT%H%M%S")
     run_dir = args.runs_dir / run_id
     raw_dir = run_dir / "raw" / "openalex"
