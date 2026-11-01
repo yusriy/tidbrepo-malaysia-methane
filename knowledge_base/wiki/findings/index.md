@@ -16,3 +16,5 @@
 
 - [[november-2026-owner-screening|November 2026 owner screening and completed N02 submission]]
 - [[wiki-catalog-coverage-audit|Paper catalog coverage and how to use it]]
+
+- [Full-text synthesis of eight database sources](database-source-synthesis-2026-11-02.md) — source-checked notes, original unit bases and limitations

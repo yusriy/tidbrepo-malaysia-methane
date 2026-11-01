@@ -8,6 +8,51 @@ from doi_identifiers import normalize_doi
 
 ROOT = Path(__file__).resolve().parents[2]
 REGISTRY = Path('knowledge_base/reconciliations/wiki-source-registry.json')
+SYNTHESIS = Path('knowledge_base/reconciliations/database-source-synthesis-2026-11-02.json')
+
+
+def validate_syntheses(repo, pages):
+    """Require traceable source evidence without promoting measurement approval.
+
+    Source assets remain local: a fresh checkout validates the committed ledger;
+    when an asset is present, also verify its bytes against the recorded digest.
+    """
+    path = repo / SYNTHESIS
+    rows = json.loads(path.read_text())['sources'] if path.exists() else []
+    seen = set()
+    for row in rows:
+        doi = normalize_doi(row['doi'])
+        if doi in seen:
+            raise ValueError('Duplicate synthesis DOI: ' + doi)
+        seen.add(doi)
+        matches = [(p, f) for p, f in pages if normalize_doi(f.get('doi')) == doi]
+        if len(matches) != 1 or str(matches[0][0].relative_to(repo)) != row['paper_path']:
+            raise ValueError('Synthesis page identity mismatch: ' + doi)
+        _, fields = matches[0]
+        if (fields.get('manuscript_role') != 'database_source_synthesis'
+                or fields.get('verification_status') != 'full_text_synthesis_source_checked'
+                or fields.get('measurements_verified') is not False
+                or row.get('database_write') is not False
+                or row.get('new_factor_approval') is not False):
+            raise ValueError('Synthesis must not promote measurement approval: ' + doi)
+        for key in ('access_basis', 'source_url', 'locators', 'original_unit_basis'):
+            if not row.get(key):
+                raise ValueError('Incomplete synthesis provenance: ' + doi)
+        if not re.fullmatch(r'[a-f0-9]{64}', row.get('sha256', '')):
+            raise ValueError('Invalid synthesis source checksum: ' + doi)
+        local = Path(row['local_source_path'])
+        if (local.is_absolute() or '..' in local.parts
+                or local.parts[:3] != ('knowledge_base', 'literature_updates', 'runs')):
+            raise ValueError('Invalid local synthesis source path: ' + doi)
+        asset = repo / local
+        if asset.exists():
+            import hashlib
+            if hashlib.sha256(asset.read_bytes()).hexdigest() != row['sha256']:
+                raise ValueError('Synthesis source checksum mismatch: ' + doi)
+    for _, fields in pages:
+        if fields.get('manuscript_role') == 'database_source_synthesis' and normalize_doi(fields.get('doi')) not in seen:
+            raise ValueError('Synthesis page missing evidence ledger: ' + fields['title'])
+    return len(rows)
 
 
 def label(value):
@@ -100,7 +145,8 @@ def render(repo):
     rows=[(p,metadata(p)) for p in pages if p.name!='index.md']
     groups=[('Original quantitative manuscript baseline',lambda f:f.get('manuscript_role')=='quantitative_baseline'),
             ('Original supporting corpus',lambda f:f.get('manuscript_role')=='supporting_corpus'),
-            ('Monthly paper pages and owner-retained literature',lambda f:f.get('manuscript_role') not in ('quantitative_baseline','supporting_corpus','database_source_reference')),
+            ('Monthly paper pages and owner-retained literature',lambda f:f.get('manuscript_role') not in ('quantitative_baseline','supporting_corpus','database_source_reference','database_source_synthesis')),
+            ('Database sources with full-text synthesis',lambda f:f.get('manuscript_role')=='database_source_synthesis'),
             ('Database references awaiting full-text wiki synthesis',lambda f:f.get('manuscript_role')=='database_source_reference')]
     lines=['# Complete literature catalog','',f'**{len(rows)} distinct paper/source pages.** This catalog includes the original corpus, reviewed monthly additions, owner-retained wiki context and bibliographic pointers for DOI sources in the recorded TIDBRepo snapshot. It does not claim all papers worldwide or all discovered candidates are retained.','',
            'Status labels matter: wiki-only retention, source-pointer coverage, reviewed factor suitability and database submission are different states. Original machine-extracted pages and proposals keep their existing verification flags.','',
@@ -112,7 +158,7 @@ def render(repo):
             year=f.get('year');status=f.get('verification_status','see paper page')
             lines+=['- ['+label(f['title'])+']('+p.name+')'+(' ('+str(year)+')' if year else '')+' — `'+str(status)+'`']
         lines+=['']
-    return '\n'.join(lines)
+    return '\n'.join(lines).rstrip() + '\n'
 
 
 def validate(repo):
@@ -126,7 +172,8 @@ def validate(repo):
         if len(matches)!=1:errors.append('Missing or duplicate retained/source page: '+row['title'])
     if text!=render(repo):errors.append('Catalog stale; run wiki_catalog.py')
     if errors:raise ValueError('; '.join(errors))
-    return {'paper_pages':len(pages),'retained_decisions':len(retained_reviews(repo)),'database_doi_sources':len(registry(repo)['sources']),'catalog_coverage':'passed'}
+    syntheses = validate_syntheses(repo, pages)
+    return {'paper_pages':len(pages),'retained_decisions':len(retained_reviews(repo)),'database_doi_sources':len(registry(repo)['sources']),'full_text_syntheses':syntheses,'catalog_coverage':'passed'}
 
 
 def update_home(repo):
@@ -135,9 +182,9 @@ def update_home(repo):
     text=path.read_text()
     start='<!-- retained-catalog:start -->';end='<!-- retained-catalog:end -->'
     rows=[(p,metadata(p)) for p in (repo/'knowledge_base/wiki/papers').glob('*.md') if p.name!='index.md']
-    extra=[(p,f) for p,f in rows if f.get('manuscript_role') in ('retained_literature','database_source_reference')]
+    extra=[(p,f) for p,f in rows if f.get('manuscript_role') in ('retained_literature','database_source_reference','database_source_synthesis')]
     lines=[start,'','## Additional retained literature and database references','',
-           f'[Complete catalog: {len(rows)} paper/source pages](papers/index.md). Newly materialized pages below preserve their review status; source pointers are not full-text syntheses.','']
+           f'[Complete catalog: {len(rows)} paper/source pages](papers/index.md). Status distinguishes retained context, bibliographic pointers and source-checked full-text syntheses; none alone approves new database factors.','']
     for p,f in sorted(extra,key=lambda x:x[1]['title'].casefold()):
         lines.append('- ['+label(f['title'])+'](papers/'+p.name+') — `'+f['verification_status']+'`')
     lines+=['',end]

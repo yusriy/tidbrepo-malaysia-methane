@@ -60,13 +60,15 @@ For pending/excluded discoveries, use [the discovery and decision archive](../un
 - [The effects of environmental pollution on food security in Malaysia](the-effects-of-environmental-pollution-on-food-security-in-malaysia-fc01b883.md) (2023) — `retained_context_only`
 - [The Potential of Zero Liquid Discharge for Sustainable Palm Oil Mill Effluent Management in Malaysia: A Techno-Economic and ESG Perspective](the-potential-of-zero-liquid-discharge-for-sustainable-palm-oil-mill-effluent-management-in-mal-552a1e2b.md) — `retained_context_only`
 
-## Database references awaiting full-text wiki synthesis (8)
+## Database sources with full-text synthesis (8)
 
-- [An assessment of CO2 and CH4 emissions in a tropical river: from the Kenyir Reservoir to the estuary](an-assessment-of-co2-and-ch4-emissions-in-a-tropical-river-from-the-kenyir-reservoir-to-the-est-215a71ff.md) — `database_source_pointer`
-- [Capturing Biogas: A Means to Reduce Green House Gas Emissions for the Production of Crude Palm Oil](capturing-biogas-a-means-to-reduce-green-house-gas-emissions-for-the-production-of-crude-palm-o-b76db3c9.md) — `database_source_pointer`
-- [Development of Tier 2 Fugitive Emission Factors for Malaysia's Oil and Gas Systems](development-of-tier-2-fugitive-emission-factors-for-malaysia-s-oil-and-gas-systems-3c96f098.md) — `database_source_pointer`
-- [Enteric Methane Emission Factor for Local Kedah-Kelantan Cross Beef Cattle in Smallholder Farms of Malaysia](enteric-methane-emission-factor-for-local-kedah-kelantan-cross-beef-cattle-in-smallholder-farms-81a6785c.md) — `database_source_pointer`
-- [Greenhouse gas emissions from ditches in oil palm plantations on tropical peatlands in Malaysia](greenhouse-gas-emissions-from-ditches-in-oil-palm-plantations-on-tropical-peatlands-in-malaysia-13fd082f.md) — `database_source_pointer`
-- [Impact of land conversion on environmental conditions and methane emissions from a tropical peatland](impact-of-land-conversion-on-environmental-conditions-and-methane-emissions-from-a-tropical-pea-fa0b9424.md) — `database_source_pointer`
-- [Long-term effects of nitrogen fertilization on methane emissions in drained tropical peatland](long-term-effects-of-nitrogen-fertilization-on-methane-emissions-in-drained-tropical-peatland-d804c119.md) — `database_source_pointer`
-- [Temporal dynamics of soil microbial C and N cycles with GHG fluxes in the transition from tropical peatland forest to oil palm plantation](temporal-dynamics-of-soil-microbial-c-and-n-cycles-with-ghg-fluxes-in-the-transition-from-tropi-3a6e2e0c.md) — `database_source_pointer`
+- [An assessment of CO2 and CH4 emissions in a tropical river: from the Kenyir Reservoir to the estuary](an-assessment-of-co2-and-ch4-emissions-in-a-tropical-river-from-the-kenyir-reservoir-to-the-est-215a71ff.md) (2025) — `full_text_synthesis_source_checked`
+- [Capturing Biogas: A Means to Reduce Green House Gas Emissions for the Production of Crude Palm Oil](capturing-biogas-a-means-to-reduce-green-house-gas-emissions-for-the-production-of-crude-palm-o-b76db3c9.md) (2010) — `full_text_synthesis_source_checked`
+- [Development of Tier 2 Fugitive Emission Factors for Malaysia's Oil and Gas Systems](development-of-tier-2-fugitive-emission-factors-for-malaysia-s-oil-and-gas-systems-3c96f098.md) (2026) — `full_text_synthesis_source_checked`
+- [Enteric Methane Emission Factor for Local Kedah-Kelantan Cross Beef Cattle in Smallholder Farms of Malaysia](enteric-methane-emission-factor-for-local-kedah-kelantan-cross-beef-cattle-in-smallholder-farms-81a6785c.md) (2024) — `full_text_synthesis_source_checked`
+- [Greenhouse gas emissions from ditches in oil palm plantations on tropical peatlands in Malaysia](greenhouse-gas-emissions-from-ditches-in-oil-palm-plantations-on-tropical-peatlands-in-malaysia-13fd082f.md) (2025) — `full_text_synthesis_source_checked`
+- [Impact of land conversion on environmental conditions and methane emissions from a tropical peatland](impact-of-land-conversion-on-environmental-conditions-and-methane-emissions-from-a-tropical-pea-fa0b9424.md) (2025) — `full_text_synthesis_source_checked`
+- [Long-term effects of nitrogen fertilization on methane emissions in drained tropical peatland](long-term-effects-of-nitrogen-fertilization-on-methane-emissions-in-drained-tropical-peatland-d804c119.md) (2026) — `full_text_synthesis_source_checked`
+- [Temporal dynamics of soil microbial C and N cycles with GHG fluxes in the transition from tropical peatland forest to oil palm plantation](temporal-dynamics-of-soil-microbial-c-and-n-cycles-with-ghg-fluxes-in-the-transition-from-tropi-3a6e2e0c.md) (2025) — `full_text_synthesis_source_checked`
+
+## Database references awaiting full-text wiki synthesis (0)

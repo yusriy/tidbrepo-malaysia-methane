@@ -9,6 +9,7 @@ The original literature corpus, monthly discoveries, scientific review decisions
 | Task | Guide or entry point |
 |---|---|
 | Browse all retained papers and source references | [Complete literature catalog](knowledge_base/wiki/papers/index.md) |
+| Read the eight expanded database source syntheses | [Full-text synthesis guide](knowledge_base/wiki/findings/database-source-synthesis-2026-11-02.md) |
 | Browse sectors, methods, locations and research gaps | [Wiki home](knowledge_base/wiki/index.md) |
 | Find outstanding scientific review actions | [Review queue](knowledge_base/wiki/review-queue.md) |
 | Browse monthly discoveries and recorded screening decisions | [Unverified literature queue](knowledge_base/wiki/unverified-literature/index.md) |
