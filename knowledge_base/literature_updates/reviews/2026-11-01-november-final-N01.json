@@ -1,0 +1,81 @@
+{
+  "review_id": "review_20261101_november_final_N01",
+  "display_id": "N01",
+  "candidate_id": "candidate_534014bd1999b3dc",
+  "run_id": "20261101T014822Z",
+  "doi": "10.1071/an26157",
+  "title": "Sustainable management of poultry manure: determination of biochemical methane potential (BMP) in probiotic-fed and commercial-fed broiler farms in Malaysia",
+  "decision": "exclude",
+  "previous_decision": "retrieve_extract",
+  "reviewer": "Project owner (user)",
+  "reviewed_at": "2026-11-01T14:52:43.531042+00:00",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "N01: exclude because material is not accessible.",
+    "interpretation": "Paper disposition and factor-suitability decision; no TIDBRepo write authorization."
+  },
+  "reason": "material is not accessible",
+  "source_url": "https://doi.org/10.1071/an26157",
+  "source_candidates": "knowledge_base/literature_updates/runs/20261101T014822Z/candidates.jsonl",
+  "source_candidates_sha256": "2dc95c2088ed2c053630143026a33aab853ff0a603da9e805657e15ac03dc0d1",
+  "publication_year_check": {
+    "display_id": "N01",
+    "candidate_id": "candidate_534014bd1999b3dc",
+    "title": "Sustainable management of poultry manure: determination of biochemical methane potential (BMP) in probiotic-fed and commercial-fed broiler farms in Malaysia",
+    "reported_publication_year": 2026,
+    "source_checked_year": 2026,
+    "status": "publisher_deposited_metadata_supports_year",
+    "source_url": "https://api.crossref.org/works/10.1071%2Fan26157",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            15
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            30
+          ]
+        ]
+      }
+    },
+    "notes": ""
+  },
+  "wiki_review_page": "findings/november-2026-owner-screening",
+  "measurements_verified": false,
+  "tidbrepo_upload_authorized": false,
+  "extraction_outcome": {
+    "status": "full_text_required",
+    "notes": "Publisher abstract available; PDF returned HTTP 403. B0 is an inventory input, not a measured emission factor. No source-table proposal created."
+  },
+  "supersedes": "knowledge_base/literature_updates/reviews/2026-11-01-november-N01.json",
+  "supersedes_sha256": "3540f51afa2ef351197df82f59f191261dd36ab634c1d7016de591334b65407a",
+  "further_factor_assessment_required": false,
+  "workflow_status": "excluded_closed",
+  "retrieval_followup_required": false
+}

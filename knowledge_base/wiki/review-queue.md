@@ -76,4 +76,4 @@ Staged object: `knowledge_base/reconciliations/staging/r01-author-preferred-rang
 
 ## November 2026 owner screening
 
-[[findings/november-2026-owner-screening|All 29 paper decisions and remaining factor/source checks]]. Paper screening is complete; N02 has three unverified factor proposals, N01/N08 need full text, and N11 has no measured methane flux.
+[[findings/november-2026-owner-screening|All 29 paper decisions and remaining factor/source checks]]. Paper screening and suitability choices are complete: N02’s three factors are accepted as suitable and staged pending explicit upload approval; N01/N08/N11 are excluded with no pending retrieval tasks. Eight papers remain wiki-only and twenty are excluded.

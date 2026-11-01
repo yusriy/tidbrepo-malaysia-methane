@@ -10,17 +10,17 @@
 - [[unverified-literature/20261101-owner-screening|20261101-owner-screening]] — 0 pending; 1 completed paper reviews
   - [[findings/november-2026-owner-screening|retrieve_extract]] — Country-Specific CO2 and Non-CO2 Emission Factor forCoal Electricity Generation in Malaysia
 - [[unverified-literature/20261101T014822Z-publication2|20261101T014822Z-publication2]] — 0 pending; 29 completed paper reviews
-  - [[findings/november-2026-owner-screening|retrieve_extract]] — Sustainable management of poultry manure: determination of biochemical methane potential (BMP) in probiotic-fed and commercial-fed broiler farms in Malaysia
+  - [[findings/november-2026-owner-screening|exclude]] — Sustainable management of poultry manure: determination of biochemical methane potential (BMP) in probiotic-fed and commercial-fed broiler farms in Malaysia
   - [[findings/november-2026-owner-screening|retrieve_extract]] — Country-Specific CO2 and Non-CO2 Emission Factor forCoal Electricity Generation in Malaysia
   - [[findings/november-2026-owner-screening|context_only]] — Evaluating the Bio-Methane Potential by Anaerobic Tri-Digestion of Palm Oil Mill Effluent, Sewage Sludge and Food Waste in Malaysia
   - [[findings/november-2026-owner-screening|context_only]] — Methane abatement in Malaysia’s upstream oil and gas sector: A marginal cost analysis for supporting long-term energy transition
   - [[findings/november-2026-owner-screening|context_only]] — Field-Scale Pilot Observation of Continuous Cattle Slurry Acidification on Methane and Ammonia Emission Mitigation
   - [[findings/november-2026-owner-screening|exclude]] — From Urban Kitchens to Landfills: Transforming Food Waste for Malaysia’s Health and Sustainability
   - [[findings/november-2026-owner-screening|context_only]] — Sustainable Agricultural Practices And Environmental Impact Assessment In The Malaysian Palm Oil Industry For Climate Change Mitigation And Biodiversity Conservation
-  - [[findings/november-2026-owner-screening|retrieve_extract]] — Baseline Methane Emissions from a Large Solid Waste Disposal Site Receiving Oil Palm Empty Fruit Bunch (EFB)
+  - [[findings/november-2026-owner-screening|exclude]] — Baseline Methane Emissions from a Large Solid Waste Disposal Site Receiving Oil Palm Empty Fruit Bunch (EFB)
   - [[findings/november-2026-owner-screening|exclude]] — Exploring the sustainability of polyhydroxyalkanoates from palm oil mill effluent: A pathway to eco-friendly bioplastic
   - [[findings/november-2026-owner-screening|exclude]] — Agricultural Exports, Agricultural Methane Emissions, and Food Security in Malaysia: Insights from ARDL and Granger Causality Analysis
-  - [[findings/november-2026-owner-screening|retrieve_extract]] — Biogeochemistry of an Iron‐ and Manganese‐Rich Stratified Lake: Tasik Biru, Malaysia, as a Modern Model Habitat for the Ancient Ocean
+  - [[findings/november-2026-owner-screening|exclude]] — Biogeochemistry of an Iron‐ and Manganese‐Rich Stratified Lake: Tasik Biru, Malaysia, as a Modern Model Habitat for the Ancient Ocean
   - [[findings/november-2026-owner-screening|exclude]] — GHG data
   - [[findings/november-2026-owner-screening|context_only]] — The effects of environmental pollution on food security in Malaysia
   - [[findings/november-2026-owner-screening|exclude]] — GHG emissions (CO2, CH4 and N2O) from tropical peatland cropland drainage ditches

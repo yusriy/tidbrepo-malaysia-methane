@@ -45,3 +45,7 @@ Local review package: `knowledge_base/literature_updates/runs/20261101-owner-scr
 - PDF page: 15
 - PDF SHA-256: 35220e90c3015cf60533dfd15c50b4211d2c7aa5e960c5fd990e586b2175dfca
 - Evidence quote (unverified): Lignite CH4 Emission factor (kgCH4/TJ) 0.0402
+
+## Owner suitability decision
+
+The owner accepted all three N02 coal factors as suitable for TIDBRepo. This separate suitability decision supersedes the pending-review disposition above, while original proposal provenance/status remains preserved. [[findings/november-2026-owner-screening|Current decisions and submission stage]]. Upload is not authorized.

@@ -1,12 +1,12 @@
 ---
 date: 2026-11-01
-status: paper-screening-complete-values-unverified
+status: owner-suitability-complete-submission-not-authorized
 source_run_id: 20261101T014822Z
 ---
 
 # November 2026 owner screening
 
-All 29 paper decisions are recorded: **4 retrieve/extract, 8 wiki-only, 17 excluded; 0 pending paper-screening decisions**. Extraction does not approve a factor or authorize TIDBRepo submission. Original discovery records, PDF files and 42 automated proposals remain preserved.
+Latest owner decisions: **1 suitable for TIDBRepo (N02), 8 wiki-only, 20 excluded; 0 pending paper-screening or suitability choices**. N02’s three factors are staged; a suitability decision does not authorize a TIDBRepo write. The initial 4-extract/8-wiki/17-exclude decisions remain preserved in their original records. Original discovery records, PDF files and 42 automated proposals remain preserved.
 
 The N01–N29 labels follow the frozen November candidate order, matched through candidate IDs and the original file SHA-256. Individual decision records are in `knowledge_base/literature_updates/reviews/2026-11-01-november-Nxx.json`.
 
@@ -14,17 +14,17 @@ The N01–N29 labels follow the frozen November candidate order, matched through
 
 | ID | Paper | Year checked | Decision | Reason / qualification |
 |---|---|---|---|---|
-| N01 | [Sustainable management of poultry manure: determination of biochemical methane potential (BMP) in probiotic-fed and commercial-fed broiler farms in Malaysia](https://doi.org/10.1071/an26157) | 2026 | extract | Owner choice |
-| N02 | [Country-Specific CO2 and Non-CO2 Emission Factor forCoal Electricity Generation in Malaysia](https://doi.org/10.30880/ijie.2024.16.06.029) | 2024 | extract | Owner choice |
+| N01 | [Sustainable management of poultry manure: determination of biochemical methane potential (BMP) in probiotic-fed and commercial-fed broiler farms in Malaysia](https://doi.org/10.1071/an26157) | 2026 | exclude | material is not accessible |
+| N02 | [Country-Specific CO2 and Non-CO2 Emission Factor forCoal Electricity Generation in Malaysia](https://doi.org/10.30880/ijie.2024.16.06.029) | 2024 | suitable for TIDBRepo | Suitable for TIDBRepo; owner accepts the three source-checked coal-factor proposals. |
 | N03 | [Evaluating the Bio-Methane Potential by Anaerobic Tri-Digestion of Palm Oil Mill Effluent, Sewage Sludge and Food Waste in Malaysia](https://semarakilmu.com.my/journals/index.php/fluid_mechanics_thermal_sciences/article/view/3503) | 2019 | wiki-only | experiment-level reporting |
 | N04 | [Methane abatement in Malaysia’s upstream oil and gas sector: A marginal cost analysis for supporting long-term energy transition](https://doi.org/10.1016/j.envadv.2025.100664) | 2025 | wiki-only | cost analysis |
 | N05 | [Field-Scale Pilot Observation of Continuous Cattle Slurry Acidification on Methane and Ammonia Emission Mitigation](https://doi.org/10.37745/bjes.2013/vol14n298121) | 2026 | wiki-only | experiment-level reporting |
 | N06 | [From Urban Kitchens to Landfills: Transforming Food Waste for Malaysia’s Health and Sustainability](https://jurnal.maeh4u.org.my/index.php/home/article/view/129) | 2025 | exclude | Owner choice |
 | N07 | [Sustainable Agricultural Practices And Environmental Impact Assessment In The Malaysian Palm Oil Industry For Climate Change Mitigation And Biodiversity Conservation](https://theaspd.com/index.php/ijes/article/view/1477) | 2025 | wiki-only | Owner choice |
-| N08 | [Baseline Methane Emissions from a Large Solid Waste Disposal Site Receiving Oil Palm Empty Fruit Bunch (EFB)](https://doi.org/10.5281/zenodo.20522180) | 2026 | extract | Owner choice |
+| N08 | [Baseline Methane Emissions from a Large Solid Waste Disposal Site Receiving Oil Palm Empty Fruit Bunch (EFB)](https://doi.org/10.5281/zenodo.20522180) | 2026 | exclude | not a measured emission factor |
 | N09 | [Exploring the sustainability of polyhydroxyalkanoates from palm oil mill effluent: A pathway to eco-friendly bioplastic](https://doi.org/10.1063/5.0312696) | 2026 | exclude | Owner choice |
 | N10 | [Agricultural Exports, Agricultural Methane Emissions, and Food Security in Malaysia: Insights from ARDL and Granger Causality Analysis](https://doi.org/10.21834/e-bpj.v10isi24.6392) | 2025 | exclude | Owner choice |
-| N11 | [Biogeochemistry of an Iron‐ and Manganese‐Rich Stratified Lake: Tasik Biru, Malaysia, as a Modern Model Habitat for the Ancient Ocean](https://doi.org/10.1111/gbi.70036) | 2025 | extract | extract only if methane flux is available |
+| N11 | [Biogeochemistry of an Iron‐ and Manganese‐Rich Stratified Lake: Tasik Biru, Malaysia, as a Modern Model Habitat for the Ancient Ocean](https://doi.org/10.1111/gbi.70036) | 2025 | exclude | Explicit owner exclusion after the no-measured-methane finding. |
 | N12 | [GHG data](https://doi.org/10.5281/zenodo.17984038) | 2025 | exclude | Owner choice |
 | N13 | [The effects of environmental pollution on food security in Malaysia](http://doi.org/10.24191/smrj.v20i2.24317) | 2023 | wiki-only | Owner choice |
 | N14 | [GHG emissions (CO2, CH4 and N2O) from tropical peatland cropland drainage ditches](https://doi.org/10.5194/egusphere-egu25-19060) | 2025 | exclude | abstract only |
@@ -54,31 +54,31 @@ The N01–N29 labels follow the frozen November candidate order, matched through
 
 ## Extraction outcomes
 
-### N01: B0 assessment awaits full text
+### N01: excluded; retrieval closed
 
-Publisher date is 30 September 2026, with an October 2026 issue. This is a four-farm manure methane-potential study. B0 may inform an inventory calculation, but is not itself a direct atmospheric emission factor. The publisher abstract is accessible; PDF retrieval returned HTTP 403. Farm-specific table values, operating conditions, gas reference conditions and applicability remain to be checked. No complete quantitative proposal is published from the abstract alone. Source: https://connectsci.au/an/article/66/15/AN26157/276024/Sustainable-management-of-poultry-manure.
+Publisher date is 30 September 2026, with an October 2026 issue. This is a four-farm manure methane-potential study. B0 may inform an inventory calculation, but is not itself a direct atmospheric emission factor. The publisher abstract is accessible; PDF retrieval returned HTTP 403. The owner subsequently excluded N01 because the material is inaccessible; no further retrieval is pending. No complete quantitative proposal is published from the abstract alone. Source: https://connectsci.au/an/article/66/15/AN26157/276024/Sustainable-management-of-poultry-manure.
 
-### N02: three unverified coal factors
+### N02: owner accepts suitability of three coal factors
 
 Table 5 was visually inspected on PDF p.15 (printed 324); its continuation on p.16 supplies the lignite uncertainty entry. Section 3.3 identifies fuel-consumption-weighted factors for 2019.
 
 | Coal | CH4 factor, kgCH4/TJ | Status |
 |---|---:|---|
-| Bituminous | 0.1011 | Proposed; scientific review pending |
-| Sub-Bituminous | 0.0883 | Proposed; scientific review pending |
-| Lignite | 0.0402 | Proposed; scientific review pending |
+| Bituminous | 0.1011 | Owner accepted suitability; upload not authorized |
+| Sub-Bituminous | 0.0883 | Owner accepted suitability; upload not authorized |
+| Lignite | 0.0402 | Owner accepted suitability; upload not authorized |
 
 These are coal combustion factors, not the coal-mining factors in rows 55/58. No existing value or unit is changed. The table uncertainty entries remain separate from standard deviation. The IPCC comparator and N2O values are not extracted as new CH4 measurements. Source: https://journal.uthm.edu.my/index.php/ijie/article/view/17229.
 
 [[unverified-literature/20261101-owner-screening|Three source-checked, unverified proposals with evidence and provenance]].
 
-### N08: modelled baseline, full text required
+### N08: excluded; modelled baseline
 
-Repository version DOI is https://doi.org/10.5281/zenodo.20522181; discovery used concept DOI https://doi.org/10.5281/zenodo.20522180. Metadata describes a first-order-decay baseline using UNFCCC Tool 04 and assumed inputs. It is retained for extraction under the explicit owner decision, but no model output is labelled a measured emission factor. Two public PDF routes returned HTTP 403; source-table verification remains blocked.
+Repository version DOI is https://doi.org/10.5281/zenodo.20522181; discovery used concept DOI https://doi.org/10.5281/zenodo.20522180. Metadata describes a first-order-decay baseline using UNFCCC Tool 04 and assumed inputs. The owner subsequently excluded it because it is not a measured emission factor. Two public PDF routes returned HTTP 403; the exclusion closes retrieval follow-up.
 
-### N11: extraction condition not met
+### N11: excluded; extraction condition not met
 
-The complete 19-page author-hosted PDF was searched, and p.10 was visually checked. Section 3.6 explicitly says CH4 was not measured. No measured methane flux was identified; no flux proposal is created. This completes the owner’s conditional extraction check without silently changing the decision to wiki-only. Source: https://doi.org/10.1111/gbi.70036. Local frozen PDF and checksum are recorded in the N11 review record.
+The complete 19-page author-hosted PDF was searched, and p.10 was visually checked. Section 3.6 explicitly says CH4 was not measured. No measured methane flux was identified; no flux proposal is created. The owner subsequently explicitly excluded N11; no further assessment is pending. Source: https://doi.org/10.1111/gbi.70036. Local frozen PDF and checksum are recorded in the N11 review record.
 
 ## Learned screening preferences
 
@@ -86,15 +86,16 @@ Priority is Malaysian inventory factors, field methane flux, and explicitly rele
 
 Review/comment/DNA-only records, unrelated materials chemistry, and reactor/production optimization studies are filtered from the ordinary candidate queue when clearly identified. All raw metadata and screened-out records remain locally archived with reasons. Ambiguous records remain visible for manual screening. DNA studies that also report fluxes are not rejected solely for having sequencing in the title.
 
-These rules generalize the owner’s choices conservatively: N01’s B0 relevance is preserved; N03/N05 are explicit wiki exceptions; N08 is an explicit extraction exception despite being modelled. Experiments, preprints, repositories, or all model papers are not banned as entire publication classes. Primary evidence and scientific review remain required. The policy is a transparent heuristic, not a trained LLM or scientific verifier.
+These rules generalize the owner’s choices conservatively: N01’s B0 relevance is preserved; N03/N05 are explicit wiki exceptions; N08’s initial extraction exception was superseded by an explicit exclusion because it is not a measured emission factor. Experiments, preprints, repositories, or all model papers are not banned as entire publication classes. Primary evidence and scientific review remain required. The policy is a transparent heuristic, not a trained LLM or scientific verifier.
 
 New discovery records carry the policy version and route. Only factor-assessment papers with a textual Malaysian context pass automatic extraction; explicit owner retrieve/extract decisions can override the route. A high keyword score alone no longer sends context/model papers to extraction.
 
-## Next review actions
+## Current disposition and submission stage
 
-- N02: decide whether the three source-checked coal factors and their stated conditions are suitable for TIDBRepo. No upload has been authorized.
-- N01: obtain accessible full text to check the B0 tables.
-- N08: obtain accessible full text to distinguish original site evidence from assumed FOD inputs and model results.
-- N11: no methane-flux extraction remains pending.
+All scientific suitability choices requested for this batch are complete. N01, N08 and N11 are excluded; no full-text retrieval tasks remain pending. The eight wiki-only decisions remain unchanged.
+
+N02's three factors are staged in `knowledge_base/reconciliations/staging/n02-coal-factors-2026-11-01.json` with source quotes, page/table locations, checksum, unchanged numeric values and the existing kg CH4/TJ unit convention. The proposed database category is Fuel Combustion Activities - Electricity Generation, with separate coal types and the 2019 fuel-weighted statistic. Table uncertainty entries are preserved separately from standard deviation. Tier 2 is a proposed country-specific crosswalk requiring final payload validation.
+
+**No upload has been authorized or performed.** Explicit instruction to submit N02, a fresh duplicate check, final payload validation and authenticated access are needed before a write. The original automated proposals remain unverified historical records; owner acceptance is preserved in a separate decision.
 
 [[unverified-literature/index|Unverified literature queue]]
