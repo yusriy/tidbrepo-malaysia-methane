@@ -73,3 +73,7 @@ Source assessment is prepared; the subsequent owner decisions are recorded below
 - **R02: wiki-only; no pending database action.** Preserve signed seasonal findings and source limitations.
 
 Staged object: `knowledge_base/reconciliations/staging/r01-author-preferred-range-2026-10-29.json`. Decisions: `knowledge_base/reconciliations/reviews/2026-10-29-factor-decision-R01.json` and `2026-10-29-factor-decision-R02.json`. R03 remains uploaded; Q01/Q02 remain closed.
+
+## November 2026 owner screening
+
+[[findings/november-2026-owner-screening|All 29 paper decisions and remaining factor/source checks]]. Paper screening is complete; N02 has three unverified factor proposals, N01/N08 need full text, and N11 has no measured methane flux.

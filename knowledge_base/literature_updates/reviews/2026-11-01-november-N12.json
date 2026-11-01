@@ -1,0 +1,52 @@
+{
+  "review_id": "review_20261101_november_N12",
+  "display_id": "N12",
+  "candidate_id": "candidate_c49e65fa96694af1",
+  "run_id": "20261101T014822Z",
+  "doi": "10.5281/zenodo.17984038",
+  "title": "GHG data",
+  "decision": "exclude",
+  "previous_decision": "pending",
+  "reviewer": "Project owner (user)",
+  "reviewed_at": "2026-11-01T14:31:35.165331+00:00",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "N12: exclude",
+    "interpretation": "Paper screening/extraction permission only; no quantitative verification or upload authorization."
+  },
+  "reason": "Explicit owner paper-screening choice.",
+  "source_url": "https://doi.org/10.5281/zenodo.17984038",
+  "source_candidates": "knowledge_base/literature_updates/runs/20261101T014822Z/candidates.jsonl",
+  "source_candidates_sha256": "2dc95c2088ed2c053630143026a33aab853ff0a603da9e805657e15ac03dc0d1",
+  "publication_year_check": {
+    "display_id": "N12",
+    "candidate_id": "candidate_c49e65fa96694af1",
+    "title": "GHG data",
+    "reported_publication_year": 2025,
+    "source_checked_year": 2025,
+    "status": "publisher_deposited_metadata_supports_year",
+    "source_url": "https://api.datacite.org/dois/10.5281/zenodo.17984038",
+    "date_evidence": {
+      "published": "2025",
+      "publicationYear": 2025,
+      "dates": [
+        {
+          "date": "2025-12-19",
+          "dateType": "Issued"
+        }
+      ],
+      "types": {
+        "ris": "DATA",
+        "bibtex": "misc",
+        "citeproc": "dataset",
+        "schemaOrg": "Dataset",
+        "resourceType": "",
+        "resourceTypeGeneral": "Dataset"
+      }
+    },
+    "notes": ""
+  },
+  "wiki_review_page": "findings/november-2026-owner-screening",
+  "measurements_verified": false,
+  "tidbrepo_upload_authorized": false
+}

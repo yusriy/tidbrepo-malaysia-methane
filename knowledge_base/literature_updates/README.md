@@ -63,3 +63,15 @@ The uploader is intentionally not invoked by the normal workflow. Before its fir
 `OpenAlex record → OA source URL → frozen PDF checksum → page evidence → exact value/unit → reviewer decision → validated payload → upload receipt`
 
 The search configuration is in `knowledge_base/config/tidbrepo_literature_update.json`. Each run freezes raw OpenAlex responses and records the configuration checksum in its manifest.
+
+## Owner-informed screening policy (1 November 2026)
+
+The November N01–N29 choices are preserved as individual decision JSON records and summarized in [the owner screening report](../wiki/findings/november-2026-owner-screening.md). Discovery snapshots remain historical evidence; recorded owner choices take precedence.
+
+`screening_policy` in the discovery configuration now routes potential inventory factors/fluxes and B0 inventory inputs to `factor_assessment`, cost/policy/model context to `wiki_context`, and unclear records to `manual_scope_review`. Clear comments/reviews, DNA-only work, unrelated materials chemistry, and reactor-production optimization are filtered from the ordinary candidate queue. Each filtered record is retained in local `screened_out.jsonl`, with its reason and policy version; all raw OpenAlex responses remain local. No model is trained and no LLM service is invoked by these rules.
+
+Automatic extraction additionally requires the factor-assessment route and a textual Malaysian context. Malaysian author affiliation by itself does not establish study geography. Explicit owner `retrieve_extract` decisions override automatic routing. B0 lab assays are not rejected merely for being experiments, and sequencing papers with flux evidence remain eligible. Useful models can be retained as wiki context; model output must not be presented as measured emission factors. The owner can override any triage decision.
+
+Check publication years using the publisher citation/PDF or deposited publication metadata, preserving the conflicting OpenAlex value. DOI suffix years, website migration dates and acceptance dates are not substitutes for publication dates. Record online and print dates separately when they differ. Current November source checks are in `knowledge_base/reconciliations/november-2026-owner-screening.json`; future automated metadata remains provisional until source checked.
+
+These code changes are in development review and take effect in this laptop's checkout; the systemd unit and its schedule are unchanged. No verified wiki findings, database values/units, or TIDBRepo records are altered by routing or paper screening.

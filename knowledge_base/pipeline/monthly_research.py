@@ -114,7 +114,7 @@ def build_curated(run: Path) -> dict:
                 for p in proposals if proposal_evidence_gaps(p)]
     candidate_fields = ("candidate_id", "doi", "title", "publication_year", "source_url",
                         "open_access_pdf_url", "openalex_id", "discovered_at", "discovered_by",
-                        "screening_score", "screening_flags")
+                        "screening_score", "screening_flags", "screening_triage")
     proposal_fields = ("proposal_id", "candidate_id", "doi", "source_url", "open_access_pdf_url",
                        "pdf_sha256", "page", "evidence_quote", "raw_value_text", "raw_value",
                        "unit_original", "uncertainty_text", "statistic", "extraction_rule", "provenance_chain")
@@ -167,6 +167,8 @@ def publish_queue(repo: Path, record: dict) -> list[str]:
         lines += ["## " + compact(candidate["title"]), "",
                   "- Status: **unverified; pending scientific review**",
                   "- Candidate ID: " + compact(candidate["candidate_id"]),
+                  "- Discovery publication year (requires source check): " + compact(candidate.get("publication_year")),
+                  "- Scope triage: " + compact((candidate.get("screening_triage") or {}).get("route", "legacy run; see owner review")),
                   "- DOI: " + compact(candidate["doi"]),
                   "- Source location: " + compact(candidate["source_url"]),
                   "- OA location: " + compact(candidate["open_access_pdf_url"]),

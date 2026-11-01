@@ -1,0 +1,77 @@
+{
+  "review_id": "review_20261101_november_N11",
+  "display_id": "N11",
+  "candidate_id": "candidate_5d2071e8cc27b08d",
+  "run_id": "20261101T014822Z",
+  "doi": "10.1111/gbi.70036",
+  "title": "Biogeochemistry of an Iron‐ and Manganese‐Rich Stratified Lake: Tasik Biru, Malaysia, as a Modern Model Habitat for the Ancient Ocean",
+  "decision": "retrieve_extract",
+  "previous_decision": "pending",
+  "reviewer": "Project owner (user)",
+  "reviewed_at": "2026-11-01T14:31:35.165331+00:00",
+  "authorization": {
+    "channel": "project chat",
+    "user_decision": "N11: extract — extract only if methane flux is available",
+    "interpretation": "Paper screening/extraction permission only; no quantitative verification or upload authorization."
+  },
+  "reason": "extract only if methane flux is available",
+  "source_url": "https://doi.org/10.1111/gbi.70036",
+  "source_candidates": "knowledge_base/literature_updates/runs/20261101T014822Z/candidates.jsonl",
+  "source_candidates_sha256": "2dc95c2088ed2c053630143026a33aab853ff0a603da9e805657e15ac03dc0d1",
+  "publication_year_check": {
+    "display_id": "N11",
+    "candidate_id": "candidate_5d2071e8cc27b08d",
+    "title": "Biogeochemistry of an Iron‐ and Manganese‐Rich Stratified Lake: Tasik Biru, Malaysia, as a Modern Model Habitat for the Ancient Ocean",
+    "reported_publication_year": 2025,
+    "source_checked_year": 2025,
+    "status": "publisher_deposited_metadata_supports_year",
+    "source_url": "https://api.crossref.org/works/10.1111%2Fgbi.70036",
+    "date_evidence": {
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            9
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            11
+          ]
+        ]
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            9
+          ]
+        ]
+      }
+    },
+    "notes": "Year agrees (2025); issue month and online date differ. Original PDF is dated 2025."
+  },
+  "wiki_review_page": "findings/november-2026-owner-screening",
+  "measurements_verified": false,
+  "tidbrepo_upload_authorized": false,
+  "extraction_outcome": {
+    "status": "condition_not_met_no_measured_methane_flux",
+    "source_locator": "PDF page 10, section 3.6",
+    "evidence_quote": "not measured (CH4)",
+    "pdf_sha256": "04baf1e01152e59e743e8f6180feaacfa25bb324d833067949eaa20ab9990601",
+    "source_url": "https://uni-tuebingen.de/fileadmin/Uni_Tuebingen/Fakultaeten/MatNat/Fachbereiche/Geowissenschaften/Arbeitsgruppen/Angewandte_Geowissenschaften/Geomikrobiologie/Publications/2025/2025_Muammar_Tasik_Biru.pdf",
+    "interpretation": "No methane flux proposed. No automatic wiki-only reassignment."
+  }
+}

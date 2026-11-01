@@ -23,6 +23,7 @@ from typing import Iterable
 
 from doi_identifiers import normalize_doi, validated_doi
 from openalex_auth import request_json, read_key, OpenAlexError
+from research_screening import classify
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -244,6 +245,7 @@ def command_discover(args: argparse.Namespace) -> int:
                 break
 
     candidates_by_title: dict[str, dict] = {}
+    filtered_works: list[dict] = []
     for key, work in works.items():
         title = (work.get("title") or "").strip()
         abstract = abstract_from_inverted_index(work.get("abstract_inverted_index"))
@@ -275,11 +277,15 @@ def command_discover(args: argparse.Namespace) -> int:
             "already_known_by_doi": bool(doi and doi in known),
             "already_seen_candidate": already_seen_candidate,
             "workflow_status": "pending_screening",
+            "screening_triage": classify(work, title, abstract, config.get("screening_policy", {})),
         }
         # Malaysia and methane are both mandatory. The score only ranks candidates
         # within that eligible set; it must never admit a global paper by itself.
         malaysia_signal = "malaysia_context" in flags or "malaysian_author_affiliation" in flags
         mandatory_context = malaysia_signal and "methane_context" in flags
+        if mandatory_context and candidate["screening_triage"]["route"] == "filtered_out":
+            filtered_works.append(candidate)
+            continue
         if mandatory_context and score >= int(config["minimum_screening_score"]):
             if already_seen_candidate and not args.include_known:
                 continue
@@ -325,7 +331,11 @@ def command_discover(args: argparse.Namespace) -> int:
             "already_known_by_doi": bool(doi and doi in known),
             "already_seen_candidate": already_seen_candidate,
             "workflow_status": "pending_screening",
+            "screening_triage": classify({"doi": doi}, title, abstract, config.get("screening_policy", {})),
         }
+        if candidate["screening_triage"]["route"] == "filtered_out":
+            filtered_works.append(candidate)
+            continue
         if already_seen_candidate and not args.include_known:
             continue
         if title_key not in candidates_by_title:
@@ -333,6 +343,7 @@ def command_discover(args: argparse.Namespace) -> int:
     candidates = list(candidates_by_title.values())
     candidates.sort(key=lambda row: (-row["screening_score"], -(row["publication_year"] or 0), row["title"]))
     write_jsonl(run_dir / "candidates.jsonl", candidates)
+    write_jsonl(run_dir / "screened_out.jsonl", filtered_works)
     write_json(run_dir / "manifest.json", {
         "run_id": run_id,
         "created_at": retrieved_at,
@@ -340,6 +351,8 @@ def command_discover(args: argparse.Namespace) -> int:
         "queries": config["queries"],
         "works_deduplicated": len(works),
         "candidates_retained": len(candidates),
+        "screening_policy_version": config.get("screening_policy", {}).get("version"),
+        "screened_out_by_scope": len(filtered_works),
         "known_dois_at_run": len(known),
         "seen_openalex_ids_at_run": len(seen_openalex_ids),
         "seen_titles_at_run": len(seen_title_keys),
@@ -408,6 +421,12 @@ def command_extract(args: argparse.Namespace) -> int:
     for candidate in candidates:
         if approved_candidate_ids is not None and candidate["candidate_id"] not in approved_candidate_ids:
             continue
+        if approved_candidate_ids is None and candidate.get("screening_triage"):
+            triage = candidate["screening_triage"]
+            has_study_context = "malaysia_context" in candidate.get("screening_flags", [])
+            if triage["route"] != "factor_assessment" or not has_study_context:
+                errors.append({"candidate_id": candidate["candidate_id"], "error": "owner_scope_requires_paper_screening"})
+                continue
         if approved_candidate_ids is None and candidate.get("screening_score", 0) < args.minimum_score:
             errors.append({"candidate_id": candidate["candidate_id"], "error": f"below_automatic_extraction_score_{args.minimum_score}"})
             continue
@@ -470,7 +489,7 @@ def candidate_retrieval_status(proposal_count: int, error: str) -> str:
     """Distinguish an unattempted score gate from a failed source request."""
     if proposal_count:
         return "source_retrieved_values_proposed"
-    if error.startswith("below_automatic_extraction_score_"):
+    if error.startswith("below_automatic_extraction_score_") or error == "owner_scope_requires_paper_screening":
         return "not_attempted_pending_screening"
     if error == "no_open_access_pdf_url":
         return "manual_full_text_needed"
