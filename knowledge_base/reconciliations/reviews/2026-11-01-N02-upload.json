@@ -1,0 +1,75 @@
+{
+  "review_id": "review_20261101_N02_upload",
+  "reviewed_at": "2026-11-01T14:56:28.875526+00:00",
+  "doi": "10.30880/ijie.2024.16.06.029",
+  "authorization": {
+    "channel": "project chat",
+    "user_request": "yes",
+    "in_reply_to": "Would you like me to upload all three now?",
+    "tidbrepo_upload_authorized": true,
+    "scope": "Only the three staged N02 coal combustion records; no existing record changes."
+  },
+  "source_staging": "knowledge_base/reconciliations/staging/n02-coal-factors-2026-11-01.json",
+  "source_staging_sha256": "e8ff75778af002316669eb987de9d6ee51c195444da426bf2ec56a78352d023d",
+  "payload": [
+    {
+      "countries": "Malaysia",
+      "sectors": "Energy",
+      "category": "Fuel Combustion Activities - Electricity Generation",
+      "condition": "Bituminous stationary combustion for electricity generation, Malaysia, 2019",
+      "tier": 2,
+      "min": null,
+      "max": null,
+      "median": null,
+      "mean": 0.1011,
+      "stdev": null,
+      "scaling_factor": null,
+      "unit": "kg CH₄ TJ⁻¹",
+      "url": "https://doi.org/10.30880/ijie.2024.16.06.029",
+      "doi_1": "10.30880/ijie.2024.16.06.029"
+    },
+    {
+      "countries": "Malaysia",
+      "sectors": "Energy",
+      "category": "Fuel Combustion Activities - Electricity Generation",
+      "condition": "Sub-Bituminous stationary combustion for electricity generation, Malaysia, 2019",
+      "tier": 2,
+      "min": null,
+      "max": null,
+      "median": null,
+      "mean": 0.0883,
+      "stdev": null,
+      "scaling_factor": null,
+      "unit": "kg CH₄ TJ⁻¹",
+      "url": "https://doi.org/10.30880/ijie.2024.16.06.029",
+      "doi_1": "10.30880/ijie.2024.16.06.029"
+    },
+    {
+      "countries": "Malaysia",
+      "sectors": "Energy",
+      "category": "Fuel Combustion Activities - Electricity Generation",
+      "condition": "Lignite stationary combustion for electricity generation, Malaysia, 2019",
+      "tier": 2,
+      "min": null,
+      "max": null,
+      "median": null,
+      "mean": 0.0402,
+      "stdev": null,
+      "scaling_factor": null,
+      "unit": "kg CH₄ TJ⁻¹",
+      "url": "https://doi.org/10.30880/ijie.2024.16.06.029",
+      "doi_1": "10.30880/ijie.2024.16.06.029"
+    }
+  ],
+  "database_write_performed": false,
+  "status": "authorized_pending_authenticated_submission",
+  "preflight": {
+    "checked_at": "2026-11-01T14:58:15.439580+00:00",
+    "public_rows": 180,
+    "matching_doi_rows": [],
+    "public_snapshot_sha256": "2279ec84b4c26503d1fd7d25af570b8c33ba865ccaf83787089f4ba95bfde3d3",
+    "table_columns_validated": true,
+    "unit_test_count": 88,
+    "wiki_validation": "87 pages; no broken links; provenance passed"
+  }
+}

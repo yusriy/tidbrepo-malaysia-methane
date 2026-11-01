@@ -1047,13 +1047,14 @@
     "pending_paper_screening": 0,
     "pending_scientific_suitability_choices": 0,
     "pending_retrieval_followups": 0,
-    "pending_submission_approval": "N02 three staged factors",
+    "pending_submission_approval": null,
     "decision_records": [
       "knowledge_base/literature_updates/reviews/2026-11-01-november-final-N01.json",
       "knowledge_base/literature_updates/reviews/2026-11-01-november-final-N02.json",
       "knowledge_base/literature_updates/reviews/2026-11-01-november-final-N08.json",
       "knowledge_base/literature_updates/reviews/2026-11-01-november-final-N11.json"
     ],
-    "tidbrepo_writes": false
+    "tidbrepo_writes": false,
+    "pending_authenticated_submission": "N02 three factors; explicit upload authorization recorded in knowledge_base/reconciliations/reviews/2026-11-01-N02-upload.json"
   }
 }

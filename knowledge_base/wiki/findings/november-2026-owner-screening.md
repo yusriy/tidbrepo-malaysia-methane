@@ -6,7 +6,7 @@ source_run_id: 20261101T014822Z
 
 # November 2026 owner screening
 
-Latest owner decisions: **1 suitable for TIDBRepo (N02), 8 wiki-only, 20 excluded; 0 pending paper-screening or suitability choices**. N02’s three factors are staged; a suitability decision does not authorize a TIDBRepo write. The initial 4-extract/8-wiki/17-exclude decisions remain preserved in their original records. Original discovery records, PDF files and 42 automated proposals remain preserved.
+Latest owner decisions: **1 suitable for TIDBRepo (N02), 8 wiki-only, 20 excluded; 0 pending paper-screening or suitability choices**. N02’s three factors are staged; the subsequent explicit owner upload approval is recorded separately; authenticated submission remains pending. The initial 4-extract/8-wiki/17-exclude decisions remain preserved in their original records. Original discovery records, PDF files and 42 automated proposals remain preserved.
 
 The N01–N29 labels follow the frozen November candidate order, matched through candidate IDs and the original file SHA-256. Individual decision records are in `knowledge_base/literature_updates/reviews/2026-11-01-november-Nxx.json`.
 
@@ -96,6 +96,6 @@ All scientific suitability choices requested for this batch are complete. N01, N
 
 N02's three factors are staged in `knowledge_base/reconciliations/staging/n02-coal-factors-2026-11-01.json` with source quotes, page/table locations, checksum, unchanged numeric values and the existing kg CH4/TJ unit convention. The proposed database category is Fuel Combustion Activities - Electricity Generation, with separate coal types and the 2019 fuel-weighted statistic. Table uncertainty entries are preserved separately from standard deviation. Tier 2 is a proposed country-specific crosswalk requiring final payload validation.
 
-**No upload has been authorized or performed.** Explicit instruction to submit N02, a fresh duplicate check, final payload validation and authenticated access are needed before a write. The original automated proposals remain unverified historical records; owner acceptance is preserved in a separate decision.
+**Upload is now explicitly authorized; no upload has yet been performed.** The owner replied “yes” to uploading all three N02 factors. A fresh public preflight found 180 rows and no N02 DOI matches. The exact three-record uploader passed 88 tests and requires hidden local password entry for authenticated submission. The original automated proposals remain unverified historical records; owner acceptance is preserved in a separate decision.
 
 [[unverified-literature/index|Unverified literature queue]]
