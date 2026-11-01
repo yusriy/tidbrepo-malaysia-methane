@@ -7,3 +7,4 @@
 - [[unverified-literature/20261028-september-source-review|20261028-september-source-review]] — 0 pending; 2 completed paper reviews
   - [[findings/september-2026-screening-and-extraction-review|exclude]] — Biogas Recovery from Palm Oil Mill Effluent in Malaysia: A Review of Technology Transition, Deployment Readiness, and Sustainability Challenges
   - [[findings/september-2026-screening-and-extraction-review|context_only]] — Production of Methane and Hydrogen from Mild-Strength Industrial Wastewater
+- [[unverified-literature/20261101T014822Z-publication2|20261101T014822Z-publication2]] — 29 pending; 0 completed paper reviews
