@@ -271,3 +271,34 @@ class GitPublicationTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+class IncompleteEvidenceTests(unittest.TestCase):
+    def test_missing_doi_is_withheld_without_losing_local_evidence(self):
+        with tempfile.TemporaryDirectory() as temp:
+            repo=Path(temp);run=fixture(repo)
+            proposals=literature.read_jsonl(run/'proposals.jsonl')
+            proposals[0]['doi']=''
+            literature.write_jsonl(run/'proposals.jsonl',proposals)
+            before=(run/'proposals.jsonl').read_bytes()
+            record=monthly.build_curated(run)
+            self.assertEqual(record['proposals'],[])
+            self.assertEqual(record['withheld_proposals'][0]['missing_fields'],['doi'])
+            self.assertEqual(record['proposal_counts']['extracted_local'],1)
+            monthly.publish_queue(repo,record)
+            self.assertEqual((run/'proposals.jsonl').read_bytes(),before)
+            self.assertIn('Withheld proposal:',(repo/monthly.QUEUE/(run.name+'.md')).read_text())
+            monthly.validate_wiki(repo)
+            # The ordinary validator still rejects attempts to publish incomplete evidence.
+            record['proposals']=proposals
+            monthly.save(repo/monthly.CURATED/(run.name+'.json'),record)
+            with self.assertRaisesRegex(ValueError,'incomplete proposal evidence'):monthly.validate_wiki(repo)
+
+    def test_publication_attempt_links_original_review_package(self):
+        with tempfile.TemporaryDirectory() as temp:
+            repo=Path(temp);run=fixture(repo)
+            record=monthly.build_curated(run)
+            record.update(run_id=run.name+'-publication2',review_package_run_id=run.name)
+            monthly.publish_queue(repo,record)
+            page=(repo/monthly.QUEUE/(record['run_id']+'.md')).read_text()
+            self.assertIn(f'runs/{run.name}/',page)
+            self.assertNotIn(f'runs/{record["run_id"]}/',page)

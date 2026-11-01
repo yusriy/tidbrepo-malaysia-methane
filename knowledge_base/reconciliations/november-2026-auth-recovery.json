@@ -1,0 +1,27 @@
+{
+  "recovery_date": "2026-11-01 Asia/Makassar",
+  "failed_discovery_run": "20261031T194815Z",
+  "failure_cause": "OpenAlex cursor continuation requires an activated API key; only contact email was configured.",
+  "key_storage": "Existing private service environment file; header-only authentication; no key values in this record.",
+  "two_page_access_verified": true,
+  "recovered_run": "20261101T014822Z",
+  "status": "succeeded",
+  "publications_screened": 931,
+  "candidate_papers": 29,
+  "proposals_extracted_unverified": 42,
+  "curation_counts": {
+    "extracted_local": 42,
+    "curated_unverified": 20,
+    "withheld_incomplete": 22
+  },
+  "withheld_reason": "Missing DOI in OpenAlex metadata for two candidate papers. Full evidence remains local; strict published proposal validation unchanged.",
+  "publication_attempt": "20261101T014822Z-publication2",
+  "publication_commit": "b3f90709877bd5e4ef6a584ed3cb62c10c6477a6",
+  "review_url": "https://github.com/yusriy/tidbrepo-malaysia-methane/blob/codex/monthly-literature/knowledge_base/wiki/unverified-literature/20261101T014822Z-publication2.md",
+  "original_failures_preserved": true,
+  "notification": "Confirmed Gmail delivery; message receipt stays local",
+  "tests_passed": 71,
+  "tidbrepo_upload_performed": false,
+  "scientific_verification_changed": false,
+  "systemd_timer_modified": false
+}

@@ -34,9 +34,9 @@ After a scientist reviews the actual source, record the reviewer identity, date,
 
 ## Gmail delivery selected by the owner
 
-Destination: **`yusriy@usm.my`**. Connected Gmail sender observed during setup: **`admin.atmosfera@gmail.com`**. This is the Gmail plugin connection, not a local SMTP configuration. The existing monthly environment file contains only the OpenAlex contact email; no local mail executable or SMTP credential was found.
+Destination: **`yusriy@usm.my`**. Connected Gmail sender observed during setup: **`admin.atmosfera@gmail.com`**. This is the Gmail plugin connection, not a local SMTP configuration. The monthly environment file holds service settings and, after key setup, the private OpenAlex credential; Gmail delivery uses the connected plugin rather than local SMTP credentials.
 
-A scheduled Codex chat follow-up checks the outbox hourly and sends pending summaries using the connected Gmail plugin. The laptop and desktop app must be available for that delivery step. Messages remain queued while unavailable; systemd research processing does not depend on the app. No Gmail password, OAuth refresh token, or OpenAI API key is stored in the repository or the systemd environment. The Gmail connection needs sending permission; Git needs unattended push access as the service user. Desktop keyring access after a headless reboot may need attention if Git authentication fails.
+A scheduled Codex chat follow-up checks the outbox daily at 09:00 WITA and sends pending summaries using the connected Gmail plugin. The laptop and desktop app must be available for that delivery step. Messages remain queued while unavailable; systemd research processing does not depend on the app. No Gmail password, OAuth refresh token, or OpenAI API key is stored in the repository or the systemd environment. The Gmail connection needs sending permission; Git needs unattended push access as the service user. Desktop keyring access after a headless reboot may need attention if Git authentication fails.
 
 Consumer protocol:
 
@@ -64,3 +64,27 @@ git diff --check
 ```
 
 The October package can be replayed into a temporary directory to preview queue output and notification counts without rerunning discovery or changing the original evidence. No historical run is automatically mailed as if it were a newly completed scheduled run.
+
+## OpenAlex key authentication — November 2026 recovery
+
+OpenAlex cursor pagination now requires a free activated key after the first page. The November attempt `20261031T194815Z` fetched 100 works, then failed with HTTP 401 on the second page. Its complete raw response and failure log are preserved locally. Contact email alone does not authenticate cursor requests.
+
+Configure an existing key without putting it in shell history or chat:
+
+```sh
+/home/yusriy/tidbrepo-monthly/.venv/bin/python /home/yusriy/tidbrepo-monthly/knowledge_base/pipeline/configure_openalex.py
+```
+
+The hidden prompt verifies two cursor pages before saving anything. The helper atomically updates only `OPENALEX_API_KEY` in `~/.config/tidbrepo-monthly.env`, preserving the contact address and Git settings, with file permissions `0600`. The existing service already reads this environment file, so no service or timer modification/restart is required. Manual recovery also reads the saved key. To verify an existing configuration without changing it:
+
+```sh
+/home/yusriy/tidbrepo-monthly/.venv/bin/python /home/yusriy/tidbrepo-monthly/knowledge_base/pipeline/configure_openalex.py --check
+```
+
+Keys travel only in the HTTPS Authorization header to `api.openalex.org`; redirects are refused. They do not enter logged request URLs, source snapshots, Git outputs, or error messages. The environment takes precedence over the local file. Missing keys fail before multi-page discovery begins, with an actionable setup message. API authentication/activation failures report the HTTP status without copying response bodies.
+
+Recovery uses a fresh run identifier, preserving the failed evidence and already delivered failure notification. Complete raw files stay local, new candidates remain unverified, and only curated metadata/review queues may be committed. The daily notification consumer will deliver the recovery summary. The monthly timer and daily notification cadence remain unchanged.
+
+Official sources: [OpenAlex authentication](https://help.openalex.org/api/authentication/) and [cursor paging](https://help.openalex.org/api/paging/).
+
+The recovered November run screened 931 works and retained 29 unverified candidates, with 42 local numeric proposals. The first publication attempt correctly rejected 22 proposals lacking DOI metadata for two papers. These now remain explicitly withheld from curated measurement publication, while their paper metadata and missing-field notices are queued. All local source evidence and review files are preserved. The strict proposal validator is unchanged; no DOI or scientific verification is invented. A separate publication attempt (`20261101T014822Z-publication2`) links to the original review package and preserves the rejected attempt locally.
