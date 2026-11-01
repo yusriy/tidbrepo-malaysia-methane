@@ -20,3 +20,7 @@ Combustion, power generation, oil and gas, and fugitive energy emissions.
 ## Synthesis
 
 <!-- Codex maintains synthesis here only when claims carry evidence IDs. -->
+
+## Owner-reviewed monthly additions
+
+- [[papers/country-specific-co2-and-non-co2-emission-factor-forcoal-electricity-generation-in-malaysia-83c3cc4b|2024 country-specific coal electricity factors]] — owner-approved 2019 fuel-weighted CH4 factors; TIDBRepo rows 181–183. See the paper page for units, source table, evidence and approval records.

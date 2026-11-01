@@ -75,3 +75,17 @@ Automatic extraction additionally requires the factor-assessment route and a tex
 Check publication years using the publisher citation/PDF or deposited publication metadata, preserving the conflicting OpenAlex value. DOI suffix years, website migration dates and acceptance dates are not substitutes for publication dates. Record online and print dates separately when they differ. Current November source checks are in `knowledge_base/reconciliations/november-2026-owner-screening.json`; future automated metadata remains provisional until source checked.
 
 These code changes are in development review and take effect in this laptop's checkout; the systemd unit and its schedule are unchanged. No verified wiki findings, database values/units, or TIDBRepo records are altered by routing or paper screening.
+
+## Keep retained papers discoverable in the wiki
+
+Recording a paper decision or uploading its factors does not by itself create a paper page. After recording owner retention/exclusion decisions, run:
+
+```bash
+.venv/bin/python knowledge_base/pipeline/wiki_catalog.py
+.venv/bin/python knowledge_base/pipeline/wiki_catalog.py --check
+.venv/bin/python knowledge_base/pipeline/monthly_research.py validate-wiki
+```
+
+The catalog command creates missing retained/source-pointer notes without replacing existing human-written paper content, rebuilds `wiki/papers/index.md`, and updates the retained-literature links on the wiki home. Main wiki validation checks catalog completeness against retained decisions and the curated database DOI-source registry. A paper page can be context-only or a metadata pointer; creating it never verifies measurements or authorizes upload. Pending and excluded discoveries remain available through the original queue and review history.
+
+The [catalog coverage report](../wiki/findings/wiki-catalog-coverage-audit.md) explains the original missing-page gap, the repaired coverage, and how to use these notes in Obsidian, GitHub and LLM-assisted research. The registry covers a dated database snapshot and does not assert continuous live synchronization or availability of every source PDF.

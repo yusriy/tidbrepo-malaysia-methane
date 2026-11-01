@@ -13,3 +13,6 @@
 - [[query-methane-measurement-methods-in-the-corpus|Methane measurement methods in the corpus]] — filed retrieval query
 - [[monthly-candidate-screening-2026-08-30|Monthly candidate screening — 30 August 2026]] — 13 approved papers advanced to value review
 - [[monthly-value-review-2026-08-30|Monthly value review — 30 August 2026]] — 66 completed decisions and provenance-backed staging
+
+- [[november-2026-owner-screening|November 2026 owner screening and completed N02 submission]]
+- [[wiki-catalog-coverage-audit|Paper catalog coverage and how to use it]]

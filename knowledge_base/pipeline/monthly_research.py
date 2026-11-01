@@ -99,6 +99,8 @@ def validate_wiki(repo: Path) -> dict:
                 errors.append(f"{path.name}: measurement promoted without scientific review")
     if errors:
         raise ValueError("Wiki validation failed: " + "; ".join(errors))
+    from wiki_catalog import validate as validate_catalog
+    validate_catalog(repo)
     return {"markdown_pages": len(pages), "broken_wikilinks": 0, "curated_provenance": "passed"}
 
 

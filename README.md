@@ -8,7 +8,8 @@ The original literature corpus, monthly discoveries, scientific review decisions
 
 | Task | Guide or entry point |
 |---|---|
-| Browse papers, sectors, methods, locations and research gaps | [Wiki home](knowledge_base/wiki/index.md) |
+| Browse all retained papers and source references | [Complete literature catalog](knowledge_base/wiki/papers/index.md) |
+| Browse sectors, methods, locations and research gaps | [Wiki home](knowledge_base/wiki/index.md) |
 | Find outstanding scientific review actions | [Review queue](knowledge_base/wiki/review-queue.md) |
 | Browse monthly discoveries and recorded screening decisions | [Unverified literature queue](knowledge_base/wiki/unverified-literature/index.md) |
 | Understand discovery, extraction and source verification | [Literature workflow](knowledge_base/literature_updates/README.md) |
