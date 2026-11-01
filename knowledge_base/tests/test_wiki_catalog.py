@@ -56,3 +56,38 @@ class CatalogTests(unittest.TestCase):
         self.review('2026-11-01.json',title='Methane ]][[injected|go]] <script>')
         self.build();text=(self.wiki/'papers/index.md').read_text()
         self.assertNotIn('[[injected',text);self.assertNotIn('<script>',text)
+
+    def synthesis(self):
+        self.review('2026-11-01.json');created=self.build();p=self.repo/created[0]
+        p.write_text(p.read_text().replace('retained_context_only','full_text_synthesis_source_checked').replace('retained_literature','database_source_synthesis').replace('---\n\n#','measurements_verified: false\n---\n\n#'))
+        row={'doi':'10.1234/example','paper_path':created[0],
+             'access_basis':'Complete article XML','source_url':'https://example.org/article',
+             'locators':'Results, Table 1','original_unit_basis':'kg CH4 head-1 year-1',
+             'sha256':'a'*64,'local_source_path':'knowledge_base/literature_updates/runs/test/sources/article.xml',
+             'database_write':False,'new_factor_approval':False}
+        path=self.repo/catalog.SYNTHESIS;path.parent.mkdir(parents=True,exist_ok=True)
+        path.write_text(json.dumps({'sources':[row]}));self.build()
+        return path,row,p
+
+    def test_synthesis_is_separate_and_validates_without_local_assets(self):
+        self.synthesis()
+        self.assertEqual(catalog.validate(self.repo)['full_text_syntheses'],1)
+        self.assertIn('Database sources with full-text synthesis (1)',(self.wiki/'papers/index.md').read_text())
+        self.assertIn('full_text_synthesis_source_checked',(self.wiki/'index.md').read_text())
+
+    def test_synthesis_rejects_missing_provenance_or_factor_promotion(self):
+        path,row,p=self.synthesis()
+        for changes in ({'locators':''},{'sha256':'invalid'},{'new_factor_approval':True},{'local_source_path':'../private.xml'}):
+            with self.subTest(changes=changes):
+                path.write_text(json.dumps({'sources':[{**row,**changes}]}))
+                with self.assertRaises(ValueError):catalog.validate(self.repo)
+        path.write_text(json.dumps({'sources':[row]}))
+        p.write_text(p.read_text().replace('measurements_verified: false','measurements_verified: true'));self.build()
+        with self.assertRaisesRegex(ValueError,'promote'):catalog.validate(self.repo)
+
+    def test_synthesis_detects_local_source_drift_and_missing_ledger(self):
+        path,row,p=self.synthesis()
+        asset=self.repo/row['local_source_path'];asset.parent.mkdir(parents=True);asset.write_text('changed source')
+        with self.assertRaisesRegex(ValueError,'checksum mismatch'):catalog.validate(self.repo)
+        path.unlink()
+        with self.assertRaisesRegex(ValueError,'missing evidence ledger'):catalog.validate(self.repo)

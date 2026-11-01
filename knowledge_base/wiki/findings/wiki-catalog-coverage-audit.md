@@ -37,3 +37,7 @@ After recording owner paper decisions, run:
 ```
 
 The catalog command creates only missing retained/reference notes, preserves existing paper text, and rebuilds navigation. It never approves measurements or uploads records. Wiki validation now checks that every paper page is listed, every retained decision and registered DOI source resolves to exactly one page, and the generated catalog is current. New discoveries continue to enter the unverified queue until the owner records a retention decision.
+
+## Full-text follow-up, 2 November 2026
+
+The eight bibliographic pointers described above have since been expanded into [source-checked full-text syntheses](database-source-synthesis-2026-11-02.md). The catalog still contains 53 distinct paper/source pages. Its new synthesis section distinguishes this evidence from metadata-only references and factor approvals. The earlier counts and descriptions above document the original catalog repair.

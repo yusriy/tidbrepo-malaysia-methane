@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-02",
+  "scope": "Eight existing database-reference pages expanded from full text. No database writes or new scientific factor approvals. Row IDs refer to the preserved 2026-11-01 snapshot.",
+  "sources": [
+    {
+      "doi": "10.1016/j.scitotenv.2025.178466",
+      "paper_path": "knowledge_base/wiki/papers/impact-of-land-conversion-on-environmental-conditions-and-methane-emissions-from-a-tropical-pea-fa0b9424.md",
+      "status": "full_text_synthesis_source_checked",
+      "access_basis": "PDF supplied by owner; results Table 2 visually checked",
+      "source_url": "https://doi.org/10.1016/j.scitotenv.2025.178466",
+      "local_source_path": "knowledge_base/literature_updates/runs/20261102-database-source-synthesis/sources/land-conversion.pdf",
+      "sha256": "e600af219ce4964385da2995db31a16765897f762aaf87f9e549913c2ec1c6df",
+      "locators": "Sections 2.1–2.3, pp. 3–5; Table 2 and section 3.2, p. 7; section 4.3, pp. 10–11",
+      "original_unit_basis": "mg C m⁻² d⁻¹; ecosystem exchange; monthly means ± SD",
+      "evidence_quote": "The values represent mean ± 1 standard deviation.",
+      "tidbrepo_row_ids": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180
+      ],
+      "database_write": false,
+      "new_factor_approval": false
+    },
+    {
+      "doi": "10.1038/s41598-025-21094-3",
+      "paper_path": "knowledge_base/wiki/papers/greenhouse-gas-emissions-from-ditches-in-oil-palm-plantations-on-tropical-peatlands-in-malaysia-13fd082f.md",
+      "status": "full_text_synthesis_source_checked",
+      "access_basis": "Publisher PDF; Table 2 visually checked",
+      "source_url": "https://www.nature.com/articles/s41598-025-21094-3",
+      "local_source_path": "knowledge_base/literature_updates/runs/20261102-database-source-synthesis/sources/ditches.pdf",
+      "sha256": "1430c15082d7f311f78ff7c012b69d29ccf78731ec5829eae6fa644129d6f673",
+      "locators": "Methods, pp. 2–4; Table 2, p. 5; Table 3, p. 9",
+      "original_unit_basis": "g CH₄ m⁻² d⁻¹; ditch water surface; medians and means",
+      "evidence_quote": "",
+      "tidbrepo_row_ids": [
+        164,
+        165,
+        166,
+        167,
+        168
+      ],
+      "database_write": false,
+      "new_factor_approval": false
+    },
+    {
+      "doi": "10.1038/s41598-025-32378-z",
+      "paper_path": "knowledge_base/wiki/papers/long-term-effects-of-nitrogen-fertilization-on-methane-emissions-in-drained-tropical-peatland-d804c119.md",
+      "status": "full_text_synthesis_source_checked",
+      "access_basis": "Publisher final-version PDF; Table 2 visually checked",
+      "source_url": "https://www.nature.com/articles/s41598-025-32378-z",
+      "local_source_path": "knowledge_base/literature_updates/runs/20261102-database-source-synthesis/sources/nitrogen.pdf",
+      "sha256": "058ca246bd0d0d9c9b268339ec4181055bfa6f93550f9b2251a779452b9e2eae",
+      "locators": "Methods, pp. 2–4; Table 2, p. 6; Results and discussion, pp. 5–8",
+      "original_unit_basis": "µg C m⁻² h⁻¹; soil chamber flux; mean ± SE",
+      "evidence_quote": "",
+      "tidbrepo_row_ids": [
+        144,
+        145,
+        146,
+        147
+      ],
+      "database_write": false,
+      "new_factor_approval": false
+    },
+    {
+      "doi": "10.1051/e3sconf/202459901005",
+      "paper_path": "knowledge_base/wiki/papers/enteric-methane-emission-factor-for-local-kedah-kelantan-cross-beef-cattle-in-smallholder-farms-81a6785c.md",
+      "status": "full_text_synthesis_source_checked",
+      "access_basis": "Publisher-provided full text displayed through ResearchGate; archived text, not a downloaded or visually checked PDF",
+      "source_url": "https://www.researchgate.net/publication/387902990_Enteric_Methane_Emission_Factor_for_Local_Kedah-Kelantan_Cross_Beef_Cattle_in_Smallholder_Farms_of_Malaysia",
+      "local_source_path": "knowledge_base/literature_updates/runs/20261102-database-source-synthesis/sources/cattle-web-extraction.txt",
+      "sha256": "00bc672d971b29cadfbfb9b79fe94fe4028ec5b9c7007af3c083ee7ce3d4fbc8",
+      "locators": "Sections 2.1–2.3; section 3.1 and Table 3, printed pp. 5–6; archived extraction lines L201–L260 and L569–L662",
+      "original_unit_basis": "kg CH₄ head⁻¹ yr⁻¹; IPCC Tier 2 calculated factors",
+      "evidence_quote": "",
+      "tidbrepo_row_ids": [
+        140,
+        141,
+        142
+      ],
+      "database_write": false,
+      "new_factor_approval": false
+    },
+    {
+      "doi": "10.1128/aem.01986-24",
+      "paper_path": "knowledge_base/wiki/papers/temporal-dynamics-of-soil-microbial-c-and-n-cycles-with-ghg-fluxes-in-the-transition-from-tropi-3a6e2e0c.md",
+      "status": "full_text_synthesis_source_checked",
+      "access_basis": "Complete Europe PMC JATS article; figures represented by captions, not digitized",
+      "source_url": "https://europepmc.org/articles/PMC11784229",
+      "local_source_path": "knowledge_base/literature_updates/runs/20261102-database-source-synthesis/sources/microbial.xml",
+      "sha256": "c85454950520ca19eaddab77df6e124587ee10afead627a691754c45b55ec6f1",
+      "locators": "Results: Soil greenhouse gases; Fig. 2 and caption; Materials and methods; Discussion methane cycling",
+      "original_unit_basis": "Chamber CH₄ flux; original Fig. 2 axis required for quantitative reuse; no new numeric factor extracted",
+      "evidence_quote": "",
+      "tidbrepo_row_ids": [
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154
+      ],
+      "database_write": false,
+      "new_factor_approval": false
+    },
+    {
+      "doi": "10.3844/ajgsp.2010.1.6",
+      "paper_path": "knowledge_base/wiki/papers/capturing-biogas-a-means-to-reduce-green-house-gas-emissions-for-the-production-of-crude-palm-o-b76db3c9.md",
+      "status": "full_text_synthesis_source_checked",
+      "access_basis": "Publisher PDF; Table 3 visually checked",
+      "source_url": "https://thescipub.com/pdf/ajgsp.2010.1.6.pdf",
+      "local_source_path": "knowledge_base/literature_updates/runs/20261102-database-source-synthesis/sources/biogas.pdf",
+      "sha256": "b62ab0039ec396bdc58daee604cf33b3fe269ed1be5f386fe84911fc42ef4226",
+      "locators": "Methods, pp. 2–3; Tables 3–4, p. 3; Table 5 and discussion, p. 4; conclusions, pp. 4–5",
+      "original_unit_basis": "kg CH₄ t⁻¹ crude palm oil; allocated/unallocated inventory; separate kg CO₂eq",
+      "evidence_quote": "Methane gas (kg)",
+      "tidbrepo_row_ids": [
+        126
+      ],
+      "database_write": false,
+      "new_factor_approval": false
+    },
+    {
+      "doi": "10.61762/pajevol10iss2art001",
+      "paper_path": "knowledge_base/wiki/papers/development-of-tier-2-fugitive-emission-factors-for-malaysia-s-oil-and-gas-systems-3c96f098.md",
+      "status": "full_text_synthesis_source_checked",
+      "access_basis": "Publisher-downloaded PDF; Table 3 visually checked",
+      "source_url": "https://journal.utp.edu.my/paje/vol10/iss2/1/",
+      "local_source_path": "knowledge_base/literature_updates/runs/20261102-database-source-synthesis/sources/oil-gas.pdf",
+      "sha256": "476ef5d09beb4bb2b938d73ba6f47dc85b94bb5a30201c4b1c3e0116519e65dc",
+      "locators": "Methods, PDF pp. 6–8; Table 3, PDF p. 10 (printed p. 8); limitations, PDF p. 11",
+      "original_unit_basis": "Gg CH₄ per 10⁶ m³, except oil other fugitives per 10³ m³",
+      "evidence_quote": "",
+      "tidbrepo_row_ids": [
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139
+      ],
+      "database_write": false,
+      "new_factor_approval": false
+    },
+    {
+      "doi": "10.7717/peerj.19929",
+      "paper_path": "knowledge_base/wiki/papers/an-assessment-of-co2-and-ch4-emissions-in-a-tropical-river-from-the-kenyir-reservoir-to-the-est-215a71ff.md",
+      "status": "full_text_synthesis_source_checked",
+      "access_basis": "Complete Europe PMC JATS article including tables",
+      "source_url": "https://peerj.com/articles/19929/",
+      "local_source_path": "knowledge_base/literature_updates/runs/20261102-database-source-synthesis/sources/river.xml",
+      "sha256": "339d3f868d753bbc65463fcd0acf3ec59a0a43cb8f42c4d385991bcb05ac9dc5",
+      "locators": "Materials and methods: GHG analysis and flux calculations; Results: GHG concentrations and fluxes; Tables 1–2 and 4",
+      "original_unit_basis": "mmol CH₄ m⁻² d⁻¹; diffusion versus ebullition; seasonal statistics",
+      "evidence_quote": "",
+      "tidbrepo_row_ids": [
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163
+      ],
+      "database_write": false,
+      "new_factor_approval": false
+    }
+  ]
+}
