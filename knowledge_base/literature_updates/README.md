@@ -89,3 +89,17 @@ Recording a paper decision or uploading its factors does not by itself create a 
 The catalog command creates missing retained/source-pointer notes without replacing existing human-written paper content, rebuilds `wiki/papers/index.md`, and updates the retained-literature links on the wiki home. Main wiki validation checks catalog completeness against retained decisions and the curated database DOI-source registry. A paper page can be context-only or a metadata pointer; creating it never verifies measurements or authorizes upload. Pending and excluded discoveries remain available through the original queue and review history.
 
 The [catalog coverage report](../wiki/findings/wiki-catalog-coverage-audit.md) explains the original missing-page gap, the repaired coverage, and how to use these notes in Obsidian, GitHub and LLM-assisted research. The registry covers a dated database snapshot and does not assert continuous live synchronization or availability of every source PDF.
+
+### Routine wiki upkeep after every addition
+
+Queue publication refreshes the retained catalog and configured wiki navigation,
+then validates links, duplicate identities, source/proposal provenance and the
+maintenance report before running tests and publishing curated files. No PDF or
+raw response is staged. A failure stops commit/push and is recorded through the
+existing run-failure handling. For manual retained additions, run
+`wiki_catalog.py`; it now includes configured maintenance automatically. The
+`validate-wiki` command and the **Wiki addition checks** GitHub workflow detect
+stale or invalid additions. Review reported missing metadata/topic connections;
+never infer a DOI, location, method or factor approval to suppress a warning.
+
+The clean publication development checkout advances from merged `main` before additions. Dirty/divergent checkouts or missing maintenance configuration stop publication for reconciliation; main and local owner edits are never reset.

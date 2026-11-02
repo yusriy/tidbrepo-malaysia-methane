@@ -36,3 +36,11 @@ The maintenance command updates only its marked connection blocks, navigation in
 ## Validation
 
 All 106 unit tests passed. Catalog validation passed for 53 paper/source pages and eight source syntheses; the refreshed maintenance audit covers 117 Markdown pages with zero broken local links, orphan pages or duplicate normalized DOI/title identities. All 53 paper pages have topic navigation; 30 have documented method links and 45 have location links. The only remaining missing metadata fields are the two explicitly unestablished DOIs. A comparison against merged main confirmed unchanged scientific/owner status metadata for every paper page.
+
+## Routine checks after additions
+
+At the owner's request, scheduled queue publication now runs catalog refresh and configured maintenance before validation, tests, commit and push. Its explicit curated-file list includes changed navigation and the lint report. Tests run against the publication checkout. For manual retained additions, `wiki_catalog.py` invokes the same upkeep; `validate-wiki` verifies the maintenance report. A read-only GitHub Actions workflow checks relevant pull requests and pushes, including direct wiki edits. Stale reports, duplicate identities and broken navigation block validation; metadata and topic-assignment gaps are reported without inventing scientific facts. No new schedule or TIDBRepo access is configured. This routine becomes active once the reviewed changes are merged and used by the existing service.
+
+Validation after this follow-up: 110 unit tests passed, including configured repeated-addition upkeep, preservation of unverified proposal status, and rejection of broken navigation. Wiki validation passed for 117 pages.
+
+The clean publication development checkout fast-forwards from merged `main` before additions so an older checkout cannot bypass the routine. A dirty or divergent checkout requires reconciliation; neither main nor owner edits are reset. A checkout without the merged maintenance configuration cannot publish.

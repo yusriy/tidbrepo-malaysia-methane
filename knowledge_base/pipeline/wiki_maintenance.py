@@ -81,13 +81,16 @@ def audit(repo):
         for key in ('year', 'doi'):
             if not f.get(key): missing.append({'paper': p.name, 'field': key})
     duplicates = [key + ': ' + ' / '.join(v) for key, group in identities.items() for v in group.values() if len(v) > 1]
-    coverage = {}
+    coverage = {}; missing_topics = []
     for folder in ('topics', 'methods', 'locations'):
         linked = set().union(*(graph[p.resolve()] for p in (wiki / folder).glob('*.md')))
         coverage[folder] = sum(p.resolve() in linked for p in papers)
+        if folder == 'topics':
+            missing_topics = sorted(p.name for p in papers if p.resolve() not in linked)
     return {'markdown_pages': len(pages), 'paper_pages': len(papers), 'broken_links': sorted(broken),
             'orphan_pages': sorted(str(p.relative_to(wiki)) for p in pages if p.resolve() not in reachable),
             'duplicate_identities': sorted(duplicates), 'navigation_coverage': coverage,
+            'missing_topic_links': missing_topics,
             'missing_metadata': sorted(missing, key=lambda r:(r['paper'],r['field']))}
 
 
@@ -143,6 +146,8 @@ def report(repo, checked_date):
     lines += ['## Navigation coverage', '']
     lines += ['- ' + folder.title() + ': ' + str(count) + '/' + str(result['paper_pages']) + ' paper pages linked.' for folder, count in result['navigation_coverage'].items()]
     lines += ['', 'Missing method/location links can reflect insufficient evidence or inapplicability; do not infer them just to fill a field.', '']
+    lines += ['## Topic connections requiring editorial review', '']
+    lines += (['- [' + label(metadata(repo/'knowledge_base/wiki/papers'/name)['title']) + '](papers/' + name + ')' for name in result['missing_topic_links']] or ['None.']) + ['']
     for title, key in [('Broken links','broken_links'),('Orphan pages','orphan_pages'),('Duplicate identities','duplicate_identities')]:
         lines += ['## ' + title, ''] + (['- `' + item + '`' for item in result[key]] or ['None.']) + ['']
     lines += ['## Metadata still unestablished', '']

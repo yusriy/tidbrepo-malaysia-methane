@@ -23,6 +23,10 @@ These checks find navigation/identity problems; they do not prove scientific cor
 
 Missing method/location links can reflect insufficient evidence or inapplicability; do not infer them just to fill a field.
 
+## Topic connections requiring editorial review
+
+None.
+
 ## Broken links
 
 None.

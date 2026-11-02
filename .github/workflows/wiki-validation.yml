@@ -1,0 +1,35 @@
+name: Wiki addition checks
+
+on:
+  pull_request:
+    paths:
+      - 'knowledge_base/**'
+      - '.github/workflows/wiki-validation.yml'
+  push:
+    branches: [main, 'codex/**']
+    paths:
+      - 'knowledge_base/**'
+      - '.github/workflows/wiki-validation.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  wiki-validation:
+    name: Validate wiki additions
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Run research workflow tests
+        run: python -m unittest discover -s knowledge_base/tests -q
+      - name: Check catalog and routine maintenance
+        run: python knowledge_base/pipeline/wiki_catalog.py --check
+      - name: Check wiki links and unverified provenance
+        run: python knowledge_base/pipeline/monthly_research.py validate-wiki

@@ -302,3 +302,85 @@ class IncompleteEvidenceTests(unittest.TestCase):
             page=(repo/monthly.QUEUE/(record['run_id']+'.md')).read_text()
             self.assertIn(f'runs/{run.name}/',page)
             self.assertNotIn(f'runs/{record["run_id"]}/',page)
+
+class RoutineMaintenanceTests(unittest.TestCase):
+    def configure(self, repo):
+        import json
+        import wiki_catalog
+        import wiki_maintenance
+        wiki = repo / 'knowledge_base/wiki'
+        for folder in ('papers', 'topics', 'methods', 'locations'):
+            (wiki / folder).mkdir(parents=True, exist_ok=True)
+        (wiki/'index.md').write_text('# Wiki\n\n[Catalog](papers/index.md)\n[Queue](unverified-literature/index.md)\n[Topics](topics/index.md)\n[Methods](methods/index.md)\n[Locations](locations/index.md)\n[Lint](lint-report.md)\n')
+        (wiki/'papers/retained.md').write_text('---\ntitle: "Retained source"\ndoi: "10.4321/retained"\nyear: 2024\nverification_status: "retained_context_only"\nmanuscript_role: "retained_literature"\n---\n# Retained source\n\nHuman interpretation remains.\n')
+        (wiki/'topics/methane.md').write_text('# Methane\n')
+        for folder in ('topics', 'methods', 'locations'):
+            (wiki/folder/'index.md').write_text('# Navigation\n')
+        (wiki/'lint-report.md').write_text('# Old report\n')
+        (wiki/'review-queue.md').write_text('# Review queue\n')
+        (wiki/'papers/index.md').write_text(wiki_catalog.render(repo))
+        path = repo/wiki_maintenance.NAVIGATION; path.parent.mkdir(parents=True)
+        path.write_text(json.dumps({'papers':[{'paper':'retained.md','topics':['methane'],'methods':[],'locations':[],'basis':'Owner-retained note'}]}))
+        return wiki
+
+    def test_every_queue_addition_refreshes_report_and_returns_curated_upkeep_files(self):
+        with tempfile.TemporaryDirectory() as temp:
+            repo = Path(temp); wiki = self.configure(repo)
+            first = fixture(repo)
+            files = monthly.publish_queue(repo, monthly.build_curated(first))
+            self.assertIn('knowledge_base/wiki/lint-report.md', files)
+            self.assertIn('knowledge_base/wiki/topics/index.md', files)
+            self.assertIn('knowledge_base/wiki/papers/retained.md', files)
+            self.assertTrue(all(not name.endswith('.pdf') and '/runs/' not in name for name in files))
+            validation = monthly.validate_wiki(repo)['routine_maintenance']
+            self.assertEqual(validation['duplicate_identities'], [])
+            second = fixture(repo, '20261101T000000Z')
+            monthly.publish_queue(repo, monthly.build_curated(second))
+            self.assertEqual(monthly.validate_wiki(repo)['markdown_pages'], validation['markdown_pages'] + 1)
+            note = (wiki/'papers/retained.md').read_text()
+            self.assertIn('Human interpretation remains.', note)
+            self.assertIn('verification_status: "retained_context_only"', note)
+            self.assertEqual(monthly.load(repo/monthly.CURATED/(second.name+'.json'))['proposals'][0]['verification_status'], 'proposed_human_review')
+
+    def test_routine_validation_blocks_an_addition_with_broken_navigation(self):
+        with tempfile.TemporaryDirectory() as temp:
+            repo = Path(temp); wiki = self.configure(repo)
+            note = wiki/'papers/retained.md'; note.write_text(note.read_text()+'\n[Missing](missing.md)\n')
+            run = fixture(repo)
+            with self.assertRaisesRegex(ValueError, 'missing.md'):
+                monthly.publish_queue(repo, monthly.build_curated(run))
+
+    def test_configured_publication_refreshes_clean_development_checkout_first(self):
+        import shutil
+        with tempfile.TemporaryDirectory() as temp:
+            repo = Path(temp); self.configure(repo); run = fixture(repo)
+            checkout = repo/monthly.STATE/'github-review'; checkout.mkdir(parents=True)
+            shutil.copytree(repo/'knowledge_base/wiki', checkout/'knowledge_base/wiki')
+            shutil.copytree(repo/'knowledge_base/reconciliations', checkout/'knowledge_base/reconciliations')
+            calls = []
+            def fake_command(args, cwd, **kwargs):
+                calls.append((args, cwd))
+                if args[:3] == ['git','branch','--show-current']: return monthly.BRANCH
+                return ''
+            with patch.object(monthly, 'command', side_effect=fake_command):
+                monthly.sync_github(repo, run, monthly.build_curated(run), sys.executable)
+            fetch = next(i for i,(args,_) in enumerate(calls) if args[:3] == ['git','fetch','origin'])
+            advance = next(i for i,(args,_) in enumerate(calls) if args[:3] == ['git','merge','--ff-only'])
+            tests = next(i for i,(args,_) in enumerate(calls) if 'unittest' in args)
+            stage = next(i for i,(args,_) in enumerate(calls) if args[:2] == ['git','add'])
+            self.assertLess(fetch, advance); self.assertLess(advance, tests); self.assertLess(tests, stage)
+            self.assertTrue(all(cwd == checkout for _,cwd in calls))
+
+    def test_outdated_publication_cannot_silently_skip_routine_checks(self):
+        with tempfile.TemporaryDirectory() as temp:
+            repo = Path(temp); self.configure(repo); run = fixture(repo)
+            (repo/monthly.STATE/'github-review').mkdir(parents=True)
+            calls = []
+            def fake_command(args, cwd, **kwargs):
+                calls.append(args)
+                if args[:3] == ['git','branch','--show-current']: return monthly.BRANCH
+                return ''
+            with patch.object(monthly, 'command', side_effect=fake_command):
+                with self.assertRaisesRegex(ValueError, 'lacks routine wiki maintenance'):
+                    monthly.sync_github(repo, run, monthly.build_curated(run), sys.executable)
+            self.assertFalse(any(args[:2] in (['git','add'],['git','commit'],['git','push']) for args in calls))
