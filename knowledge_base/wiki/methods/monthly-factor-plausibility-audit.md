@@ -31,3 +31,9 @@ The owner ran the DOI-only updater. Following a partial HTTP 401 interruption, a
 ## Owner superseded coal proposals — 29 October 2026
 
 The owner clarified that the existing coal values were deliberately converted to standardize units and instructed that **kg CH4/TJ, numeric values and categories remain unchanged**. The earlier native-unit/category proposals are retained as historical source checks and are not actionable. The owner authorized only the description (`condition`) fields: row 55, “Underground coal mining - IPCC Tier 1 low default”; row 58, “Surface coal mining - IPCC Tier 1 low default”. The owner ran the description-only updater, and independent live read-back confirms both descriptions updated, all 180 rows retained, and every other field unchanged. No conversion details are inferred from the clarification. Decision: `knowledge_base/reconciliations/reviews/2026-10-29-coal-description-update.json`.
+
+## November 2026 scheduled report
+
+[Report with all nine embedded plot pages](../../reports/plausibility/202611-monthly/report.html) · [Review priorities and limitations](../../reports/plausibility/202611-monthly/review-notes.md) · [Reproducible findings](../../reports/plausibility/202611-monthly/audit.json).
+
+The live GET-only snapshot contains 183 records in 44 category/unit groups: zero numerical consistency prompts, zero statistical peer signals, twelve broad contextual contrasts, and 223 stored statistics without sufficient usable peers. The absence of signals does not establish plausibility. Review pathway, statistic, country/season, method and area/activity boundaries before interpreting contrasts; preserve near-zero and signed fluxes. Q01/Q02 remain closed. Raw snapshot and mail receipt stay local; no scientific record or schedule changed.

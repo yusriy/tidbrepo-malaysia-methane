@@ -745,3 +745,7 @@ The owner clarified that old original-corpus papers should not be presented as t
 ## 2026-11-02 | Full-text synthesis and wiki consistency follow-up
 
 The eight database-reference syntheses were merged in PR #14. The subsequent owner-authorized cleanup adds an authoritative current-status summary, fills five publication years with source provenance, documents two unestablished DOI checks, connects the 27 non-original paper pages to appropriate navigation, and collects source limitations without reopening closed decisions. The Brakmas oil-palm relationship is retained as background rather than POME factor evidence. [Cleanup scope and maintenance commands](findings/wiki-consistency-cleanup-2026-11-02.md). Historical reviews, scientific verification flags and accepted database units/values are preserved; no TIDBRepo write or timer change.
+
+## 2026-11-02 | November monthly factor plausibility report prepared
+
+Ran the read-only public-database audit for `202611-monthly`: 183 records, 44 category/unit groups, zero numerical consistency prompts or statistical peer signals, twelve contextual contrasts, and 223 stored statistics lacking sufficient usable peer references. Inspected all nine plot pages and recorded interpretation priorities without asserting errors or reopening Q01/Q02. [Report and priorities](methods/monthly-factor-plausibility-audit.md#november-2026-scheduled-report). Raw snapshot and mail receipt remain local. No TIDBRepo writes, scientific-status changes, discovery run or schedule changes.
