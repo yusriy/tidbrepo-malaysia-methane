@@ -1,0 +1,383 @@
+{
+  "date": "2026-11-02",
+  "scope": "Editorial navigation connections, not scientific verification. Unknown methods/locations are omitted rather than inferred from author affiliations. Original machine assignments remain labeled.",
+  "papers": [
+    {
+      "paper": "2024-methane-nitrous-oxide-soil-stems-malaysian-peat-a77001.md",
+      "topics": [
+        "tropical-peatland",
+        "afolu"
+      ],
+      "methods": [
+        "closed-chamber"
+      ],
+      "locations": [
+        "malaysia",
+        "sarawak"
+      ],
+      "basis": "Paper note: Study relevance; abstract-only methods"
+    },
+    {
+      "paper": "2024-rice-water-management-methane-3a6645.md",
+      "topics": [
+        "paddy-and-rice-cultivation",
+        "afolu",
+        "methane-emission-factors"
+      ],
+      "methods": [],
+      "locations": [
+        "malaysia"
+      ],
+      "basis": "Paper note: reviewed treatment factors and source locators"
+    },
+    {
+      "paper": "2025-development-national-emission-factor-rice-malaysia-7e8229.md",
+      "topics": [
+        "paddy-and-rice-cultivation",
+        "afolu",
+        "methane-emission-factors",
+        "national-inventory-and-ipcc-tiers"
+      ],
+      "methods": [],
+      "locations": [
+        "malaysia"
+      ],
+      "basis": "Paper note: eleven planting-season datasets; no new instrument assignment"
+    },
+    {
+      "paper": "2025-estimating-landfill-methane-emissions-shah-alam-1ef46a.md",
+      "topics": [
+        "waste-sector"
+      ],
+      "methods": [
+        "inventory-and-scenario-modeling"
+      ],
+      "locations": [
+        "malaysia",
+        "selangor"
+      ],
+      "basis": "Paper note: Study relevance, BMP and first-order decay"
+    },
+    {
+      "paper": "2026-spatial-dynamics-methane-pome-d3b4b8.md",
+      "topics": [
+        "waste-sector",
+        "oil-palm-and-pome"
+      ],
+      "methods": [
+        "closed-chamber"
+      ],
+      "locations": [
+        "malaysia",
+        "sarawak"
+      ],
+      "basis": "Paper note: Study relevance, floating chambers"
+    },
+    {
+      "paper": "an-assessment-of-co2-and-ch4-emissions-in-a-tropical-river-from-the-kenyir-reservoir-to-the-est-215a71ff.md",
+      "topics": [
+        "aquatic-methane"
+      ],
+      "methods": [
+        "gas-chromatography",
+        "inventory-and-scenario-modeling"
+      ],
+      "locations": [
+        "malaysia"
+      ],
+      "basis": "Source synthesis: methods; dissolved gases and modeled transfer velocity"
+    },
+    {
+      "paper": "can-greenhouse-gas-emissions-be-a-driving-factor-for-economic-stability-an-in-depth-study-of-d8-f906e347.md",
+      "topics": [
+        "policy-and-economic-context"
+      ],
+      "methods": [],
+      "locations": [],
+      "basis": "Title and owner-retained note; navigation only"
+    },
+    {
+      "paper": "capturing-biogas-a-means-to-reduce-green-house-gas-emissions-for-the-production-of-crude-palm-o-b76db3c9.md",
+      "topics": [
+        "oil-palm-and-pome",
+        "waste-sector"
+      ],
+      "methods": [
+        "inventory-and-scenario-modeling"
+      ],
+      "locations": [
+        "malaysia",
+        "peninsular-malaysia"
+      ],
+      "basis": "Source synthesis: mill inventory and capture scenario; regions described in PDF"
+    },
+    {
+      "paper": "country-specific-co2-and-non-co2-emission-factor-forcoal-electricity-generation-in-malaysia-83c3cc4b.md",
+      "topics": [
+        "energy-sector",
+        "methane-emission-factors",
+        "national-inventory-and-ipcc-tiers"
+      ],
+      "methods": [
+        "ipcc-inventory-calculation"
+      ],
+      "locations": [
+        "malaysia"
+      ],
+      "basis": "Owner-approved factor note: calculations and source Table 3"
+    },
+    {
+      "paper": "development-of-tier-2-fugitive-emission-factors-for-malaysia-s-oil-and-gas-systems-3c96f098.md",
+      "topics": [
+        "energy-sector",
+        "methane-emission-factors",
+        "national-inventory-and-ipcc-tiers"
+      ],
+      "methods": [
+        "ipcc-inventory-calculation"
+      ],
+      "locations": [
+        "malaysia",
+        "peninsular-malaysia",
+        "sabah",
+        "sarawak"
+      ],
+      "basis": "Source synthesis: Malaysian operational asset coverage and Tier 2 factors"
+    },
+    {
+      "paper": "emission-factors-dominate-the-rice-methane-gap-with-edgar-in-southeast-asia-a-10-m-harvested-ar-a5b6afba.md",
+      "topics": [
+        "paddy-and-rice-cultivation",
+        "afolu",
+        "methane-emission-factors"
+      ],
+      "methods": [
+        "inventory-and-scenario-modeling"
+      ],
+      "locations": [],
+      "basis": "Owner N20: model data, regional rather than a confirmed Malaysian field site"
+    },
+    {
+      "paper": "enteric-methane-emission-factor-for-local-kedah-kelantan-cross-beef-cattle-in-smallholder-farms-81a6785c.md",
+      "topics": [
+        "livestock-and-enteric-fermentation",
+        "afolu",
+        "methane-emission-factors"
+      ],
+      "methods": [
+        "ipcc-inventory-calculation"
+      ],
+      "locations": [
+        "malaysia"
+      ],
+      "basis": "Source synthesis: farm survey and Tier 2 calculation"
+    },
+    {
+      "paper": "environmental-sustainability-and-palm-oil-biomass-energy-regional-policy-implications-in-southw-2ee2f8f0.md",
+      "topics": [
+        "policy-and-economic-context",
+        "oil-palm-and-pome",
+        "energy-sector"
+      ],
+      "methods": [],
+      "locations": [],
+      "basis": "Title: Southwest Aceh, Indonesia; no Malaysian study-site assignment"
+    },
+    {
+      "paper": "estimation-of-biomass-burning-emissions-in-south-and-southeast-asia-based-on-fy-4a-satellite-ob-4b80d2e3.md",
+      "topics": [
+        "peat-and-biomass-fire"
+      ],
+      "methods": [
+        "satellite-remote-sensing"
+      ],
+      "locations": [],
+      "basis": "Title: FY-4A observations over South/Southeast Asia; no specific Malaysian field site inferred"
+    },
+    {
+      "paper": "evaluating-the-bio-methane-potential-by-anaerobic-tri-digestion-of-palm-oil-mill-effluent-sewag-a0a92a12.md",
+      "topics": [
+        "waste-sector",
+        "oil-palm-and-pome"
+      ],
+      "methods": [],
+      "locations": [
+        "malaysia"
+      ],
+      "basis": "Author institution record and owner N03; experiment-level BMP"
+    },
+    {
+      "paper": "field-scale-pilot-observation-of-continuous-cattle-slurry-acidification-on-methane-and-ammonia-6c13f638.md",
+      "topics": [
+        "livestock-and-enteric-fermentation",
+        "waste-sector"
+      ],
+      "methods": [],
+      "locations": [],
+      "basis": "Title/owner N05: slurry experiment, not enteric factors; location not established"
+    },
+    {
+      "paper": "greenhouse-gas-emissions-from-ditches-in-oil-palm-plantations-on-tropical-peatlands-in-malaysia-13fd082f.md",
+      "topics": [
+        "tropical-peatland",
+        "oil-palm-and-pome",
+        "afolu"
+      ],
+      "methods": [
+        "closed-chamber"
+      ],
+      "locations": [
+        "malaysia",
+        "sarawak"
+      ],
+      "basis": "Source synthesis: Betong floating chamber methods"
+    },
+    {
+      "paper": "impact-of-land-conversion-on-environmental-conditions-and-methane-emissions-from-a-tropical-pea-fa0b9424.md",
+      "topics": [
+        "tropical-peatland",
+        "oil-palm-and-pome",
+        "afolu"
+      ],
+      "methods": [
+        "eddy-covariance"
+      ],
+      "locations": [
+        "malaysia",
+        "sarawak"
+      ],
+      "basis": "Source synthesis: ecosystem exchange at Maludam"
+    },
+    {
+      "paper": "long-term-effects-of-nitrogen-fertilization-on-methane-emissions-in-drained-tropical-peatland-d804c119.md",
+      "topics": [
+        "tropical-peatland",
+        "oil-palm-and-pome",
+        "afolu"
+      ],
+      "methods": [
+        "closed-chamber",
+        "gas-chromatography"
+      ],
+      "locations": [
+        "malaysia",
+        "sarawak"
+      ],
+      "basis": "Source synthesis: Sibu soil chambers and GC-FID"
+    },
+    {
+      "paper": "methane-abatement-in-malaysia-s-upstream-oil-and-gas-sector-a-marginal-cost-analysis-for-suppor-f52145c2.md",
+      "topics": [
+        "energy-sector",
+        "policy-and-economic-context"
+      ],
+      "methods": [],
+      "locations": [
+        "malaysia"
+      ],
+      "basis": "Owner N04: cost analysis, not direct field emission factors"
+    },
+    {
+      "paper": "production-of-methane-and-hydrogen-from-mild-strength-industrial-wastewater-cb3256c4.md",
+      "topics": [
+        "waste-sector"
+      ],
+      "methods": [
+        "gas-chromatography"
+      ],
+      "locations": [
+        "malaysia"
+      ],
+      "basis": "September source review: industrial wastewater from Terengganu; GC-TCD"
+    },
+    {
+      "paper": "socio-economic-impacts-of-oil-palm-plantations-in-malaysia-a-review-of-economic-and-environment-98c55ffc.md",
+      "topics": [
+        "oil-palm-and-pome",
+        "policy-and-economic-context"
+      ],
+      "methods": [],
+      "locations": [
+        "malaysia"
+      ],
+      "basis": "Publisher citation/owner context-only review"
+    },
+    {
+      "paper": "spatiotemporal-variations-in-hydrology-drive-greenhouse-gas-emissions-in-tropical-peatlands-8a219a73.md",
+      "topics": [
+        "tropical-peatland",
+        "policy-and-economic-context"
+      ],
+      "methods": [],
+      "locations": [],
+      "basis": "Publisher: commentary on regional hydrology modeling; not the underlying model study"
+    },
+    {
+      "paper": "sustainable-agricultural-practices-and-environmental-impact-assessment-in-the-malaysian-palm-oi-3e19a748.md",
+      "topics": [
+        "oil-palm-and-pome",
+        "policy-and-economic-context"
+      ],
+      "methods": [],
+      "locations": [
+        "malaysia"
+      ],
+      "basis": "Title and owner-retained note; navigation only"
+    },
+    {
+      "paper": "temporal-dynamics-of-soil-microbial-c-and-n-cycles-with-ghg-fluxes-in-the-transition-from-tropi-3a6e2e0c.md",
+      "topics": [
+        "tropical-peatland",
+        "oil-palm-and-pome",
+        "afolu"
+      ],
+      "methods": [
+        "closed-chamber",
+        "gas-chromatography"
+      ],
+      "locations": [
+        "malaysia",
+        "sarawak"
+      ],
+      "basis": "Source synthesis: chambers and microbial processes"
+    },
+    {
+      "paper": "the-effects-of-environmental-pollution-on-food-security-in-malaysia-fc01b883.md",
+      "topics": [
+        "policy-and-economic-context"
+      ],
+      "methods": [],
+      "locations": [
+        "malaysia"
+      ],
+      "basis": "Title and owner-retained note; navigation only"
+    },
+    {
+      "paper": "the-potential-of-zero-liquid-discharge-for-sustainable-palm-oil-mill-effluent-management-in-mal-552a1e2b.md",
+      "topics": [
+        "oil-palm-and-pome",
+        "waste-sector",
+        "policy-and-economic-context"
+      ],
+      "methods": [],
+      "locations": [
+        "malaysia"
+      ],
+      "basis": "Title and owner-retained note; navigation only"
+    },
+    {
+      "paper": "2022-mapping-trends-of-carbon-dioxide-and-methane-during-movement-control-order-in-in-137b06.md",
+      "topics": [
+        "atmospheric-methane-monitoring"
+      ],
+      "methods": [
+        "satellite-remote-sensing"
+      ],
+      "locations": [
+        "malaysia",
+        "peninsular-malaysia"
+      ],
+      "basis": "Original paper title and source note: satellite concentration monitoring in Peninsular Malaysian industrial areas; not a direct emission factor"
+    }
+  ]
+}

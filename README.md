@@ -101,3 +101,14 @@ Complete monthly runs, downloaded PDFs, large raw API responses, runtime state, 
 Maintain original values, unit bases and research history. A methane-production yield or modelled baseline is not automatically a measured atmospheric emission factor. Existing standardized TIDBRepo units must not be changed merely to match a paper's presentation. IPCC/BUR defaults stored in `min` follow the owner's documented convention; official reports can use edition/chapter/table citations without a journal DOI.
 
 Third-party paper redistribution rights are not assumed. Consult the original publisher or repository for access and reuse terms.
+
+Wiki maintenance after editing retained notes:
+
+```bash
+.venv/bin/python knowledge_base/pipeline/wiki_catalog.py
+.venv/bin/python knowledge_base/pipeline/wiki_maintenance.py
+.venv/bin/python knowledge_base/pipeline/monthly_research.py validate-wiki
+.venv/bin/python knowledge_base/pipeline/wiki_maintenance.py --check
+```
+
+See the [cleanup and maintenance guide](knowledge_base/wiki/findings/wiki-consistency-cleanup-2026-11-02.md). The maintenance report checks both Markdown and Obsidian links, duplicate identities and reachability. Editorial navigation links preserve scientific statuses; undocumented methods or study locations are omitted. Full metadata responses remain local.

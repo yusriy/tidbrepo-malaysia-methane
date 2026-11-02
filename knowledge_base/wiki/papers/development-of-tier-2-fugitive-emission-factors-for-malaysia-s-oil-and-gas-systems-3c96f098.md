@@ -52,3 +52,20 @@ Check Table 1 activity definitions alongside Table 3: volume denominators are no
 - [Scope, limitations and remaining evidence checks](../findings/database-source-synthesis-2026-11-02.md)
 
 [Complete literature catalog](index.md)
+
+<!-- wiki-maintenance:start -->
+
+## Catalog connections
+
+Navigation basis: Source synthesis: Malaysian operational asset coverage and Tier 2 factors. These links do not change scientific verification or owner decisions.
+
+- [Energy sector](../topics/energy-sector.md)
+- [Methane emission factors](../topics/methane-emission-factors.md)
+- [National inventory and IPCC tiers](../topics/national-inventory-and-ipcc-tiers.md)
+- [IPCC inventory calculation](../methods/ipcc-inventory-calculation.md)
+- [Malaysia](../locations/malaysia.md)
+- [Peninsular Malaysia](../locations/peninsular-malaysia.md)
+- [Sabah](../locations/sabah.md)
+- [Sarawak](../locations/sarawak.md)
+
+<!-- wiki-maintenance:end -->

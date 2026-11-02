@@ -12,7 +12,7 @@ Static or closed chamber flux measurement.
 
 > Assignments are machine-generated proposals. Confirm relevance before using this page as evidence.
 
-## Connected papers (8)
+## Original machine-assigned papers (8)
 
 - [[papers/2005-methane-fluxes-from-three-ecosystems-in-tropical-peatland-of-sarawak-malaysia-e285b6|Methane fluxes from three ecosystems in tropical peatland of Sarawak, Malaysia]] (2005) — confidence 0.85
 - [[papers/2014-comparison-of-methane-emission-from-conventional-and-modified-paddy-cultivation--f1a060|Comparison of Methane Emission from Conventional and Modified Paddy Cultivation in Malaysia]] (2014) — confidence 0.70
@@ -26,3 +26,17 @@ Static or closed chamber flux measurement.
 ## Synthesis
 
 <!-- Codex maintains synthesis here only when claims carry evidence IDs. -->
+
+<!-- wiki-maintenance:start -->
+
+## Additional catalog connections
+
+Editorial navigation based on the linked notes and stated evidence basis; scientific approval is separate.
+
+- [Greenhouse gas emissions from ditches in oil palm plantations on tropical peatlands in Malaysia](../papers/greenhouse-gas-emissions-from-ditches-in-oil-palm-plantations-on-tropical-peatlands-in-malaysia-13fd082f.md) — `full_text_synthesis_source_checked`; Source synthesis: Betong floating chamber methods.
+- [Long-term effects of nitrogen fertilization on methane emissions in drained tropical peatland](../papers/long-term-effects-of-nitrogen-fertilization-on-methane-emissions-in-drained-tropical-peatland-d804c119.md) — `full_text_synthesis_source_checked`; Source synthesis: Sibu soil chambers and GC-FID.
+- [Methane and Nitrous Oxide Fluxes in Soil and Stems of Malaysian Tropical Peat Swamp Forest](../papers/2024-methane-nitrous-oxide-soil-stems-malaysian-peat-a77001.md) — `human_abstract_review_complete`; Paper note: Study relevance; abstract-only methods.
+- [Spatial dynamics of methane emissions and organic load reduction in a pond-based palm oil mill effluent treatment system](../papers/2026-spatial-dynamics-methane-pome-d3b4b8.md) — `human_value_review_complete`; Paper note: Study relevance, floating chambers.
+- [Temporal dynamics of soil microbial C and N cycles with GHG fluxes in the transition from tropical peatland forest to oil palm plantation](../papers/temporal-dynamics-of-soil-microbial-c-and-n-cycles-with-ghg-fluxes-in-the-transition-from-tropi-3a6e2e0c.md) — `full_text_synthesis_source_checked`; Source synthesis: chambers and microbial processes.
+
+<!-- wiki-maintenance:end -->

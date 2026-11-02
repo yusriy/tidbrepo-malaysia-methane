@@ -741,3 +741,7 @@ Recorded the explicit owner decisions separately from the assessment. Staged one
 ## 2026-10-29 | Restored focus to new automated discoveries
 
 The owner clarified that old original-corpus papers should not be presented as the new monthly literature backlog. R01/R02 assessments remain preserved as legacy history; R01 further visual checking is deferred outside the active monthly queue. Confirmed zero pending August–October paper-screening decisions and that discovery already excludes known identities by default. Read the next timer trigger as 1 November 2026 at 03:48:11 WITA; no timer or schedule change.
+
+## 2026-11-02 | Full-text synthesis and wiki consistency follow-up
+
+The eight database-reference syntheses were merged in PR #14. The subsequent owner-authorized cleanup adds an authoritative current-status summary, fills five publication years with source provenance, documents two unestablished DOI checks, connects the 27 non-original paper pages to appropriate navigation, and collects source limitations without reopening closed decisions. The Brakmas oil-palm relationship is retained as background rather than POME factor evidence. [Cleanup scope and maintenance commands](findings/wiki-consistency-cleanup-2026-11-02.md). Historical reviews, scientific verification flags and accepted database units/values are preserved; no TIDBRepo write or timer change.

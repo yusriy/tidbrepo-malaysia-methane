@@ -12,7 +12,7 @@ Research or inventory evidence concerning Malaysia.
 
 > Assignments are machine-generated proposals. Confirm relevance before using this page as evidence.
 
-## Connected papers (23)
+## Original machine-assigned papers (23)
 
 - [[papers/2005-methane-fluxes-from-three-ecosystems-in-tropical-peatland-of-sarawak-malaysia-e285b6|Methane fluxes from three ecosystems in tropical peatland of Sarawak, Malaysia]] (2005) — confidence 0.95
 - [[papers/2014-comparison-of-methane-emission-from-conventional-and-modified-paddy-cultivation--f1a060|Comparison of Methane Emission from Conventional and Modified Paddy Cultivation in Malaysia]] (2014) — confidence 0.95
@@ -41,3 +41,33 @@ Research or inventory evidence concerning Malaysia.
 ## Synthesis
 
 <!-- Codex maintains synthesis here only when claims carry evidence IDs. -->
+
+<!-- wiki-maintenance:start -->
+
+## Additional catalog connections
+
+Editorial navigation based on the linked notes and stated evidence basis; scientific approval is separate.
+
+- [An assessment of CO2 and CH4 emissions in a tropical river: from the Kenyir Reservoir to the estuary](../papers/an-assessment-of-co2-and-ch4-emissions-in-a-tropical-river-from-the-kenyir-reservoir-to-the-est-215a71ff.md) — `full_text_synthesis_source_checked`; Source synthesis: methods; dissolved gases and modeled transfer velocity.
+- [Capturing Biogas: A Means to Reduce Green House Gas Emissions for the Production of Crude Palm Oil](../papers/capturing-biogas-a-means-to-reduce-green-house-gas-emissions-for-the-production-of-crude-palm-o-b76db3c9.md) — `full_text_synthesis_source_checked`; Source synthesis: mill inventory and capture scenario; regions described in PDF.
+- [Country-Specific CO2 and Non-CO2 Emission Factor for Coal Electricity Generation in Malaysia](../papers/country-specific-co2-and-non-co2-emission-factor-forcoal-electricity-generation-in-malaysia-83c3cc4b.md) — `owner_approved_factors_uploaded`; Owner-approved factor note: calculations and source Table 3.
+- [Development of National Emission Factor for Rice Production System in Malaysia: A Step Toward Achieving Sustainable Development Goals](../papers/2025-development-national-emission-factor-rice-malaysia-7e8229.md) — `human_value_review_complete`; Paper note: eleven planting-season datasets; no new instrument assignment.
+- [Development of Tier 2 Fugitive Emission Factors for Malaysia's Oil and Gas Systems](../papers/development-of-tier-2-fugitive-emission-factors-for-malaysia-s-oil-and-gas-systems-3c96f098.md) — `full_text_synthesis_source_checked`; Source synthesis: Malaysian operational asset coverage and Tier 2 factors.
+- [Enteric Methane Emission Factor for Local Kedah-Kelantan Cross Beef Cattle in Smallholder Farms of Malaysia](../papers/enteric-methane-emission-factor-for-local-kedah-kelantan-cross-beef-cattle-in-smallholder-farms-81a6785c.md) — `full_text_synthesis_source_checked`; Source synthesis: farm survey and Tier 2 calculation.
+- [Estimating Landfill Methane Emissions Based on Climatic Conditions and Major Waste Components in Shah Alam, Selangor, Malaysia](../papers/2025-estimating-landfill-methane-emissions-shah-alam-1ef46a.md) — `human_value_review_complete`; Paper note: Study relevance, BMP and first-order decay.
+- [Evaluating the Bio-Methane Potential by Anaerobic Tri-Digestion of Palm Oil Mill Effluent, Sewage Sludge and Food Waste in Malaysia](../papers/evaluating-the-bio-methane-potential-by-anaerobic-tri-digestion-of-palm-oil-mill-effluent-sewag-a0a92a12.md) — `retained_context_only`; Author institution record and owner N03; experiment-level BMP.
+- [Greenhouse gas emissions from ditches in oil palm plantations on tropical peatlands in Malaysia](../papers/greenhouse-gas-emissions-from-ditches-in-oil-palm-plantations-on-tropical-peatlands-in-malaysia-13fd082f.md) — `full_text_synthesis_source_checked`; Source synthesis: Betong floating chamber methods.
+- [Impact of land conversion on environmental conditions and methane emissions from a tropical peatland](../papers/impact-of-land-conversion-on-environmental-conditions-and-methane-emissions-from-a-tropical-pea-fa0b9424.md) — `full_text_synthesis_source_checked`; Source synthesis: ecosystem exchange at Maludam.
+- [Long-term effects of nitrogen fertilization on methane emissions in drained tropical peatland](../papers/long-term-effects-of-nitrogen-fertilization-on-methane-emissions-in-drained-tropical-peatland-d804c119.md) — `full_text_synthesis_source_checked`; Source synthesis: Sibu soil chambers and GC-FID.
+- [Methane abatement in Malaysia’s upstream oil and gas sector: A marginal cost analysis for supporting long-term energy transition](../papers/methane-abatement-in-malaysia-s-upstream-oil-and-gas-sector-a-marginal-cost-analysis-for-suppor-f52145c2.md) — `retained_context_only`; Owner N04: cost analysis, not direct field emission factors.
+- [Methane and Nitrous Oxide Fluxes in Soil and Stems of Malaysian Tropical Peat Swamp Forest](../papers/2024-methane-nitrous-oxide-soil-stems-malaysian-peat-a77001.md) — `human_abstract_review_complete`; Paper note: Study relevance; abstract-only methods.
+- [Plant Physiological Performances, Plant Growth, Grain Yield and Methane Emission of Rice (Oryza Sativa L.) in Response to Water Management as Adaptation Strategy for Climate Change](../papers/2024-rice-water-management-methane-3a6645.md) — `human_value_review_complete`; Paper note: reviewed treatment factors and source locators.
+- [Production of Methane and Hydrogen from Mild-Strength Industrial Wastewater](../papers/production-of-methane-and-hydrogen-from-mild-strength-industrial-wastewater-cb3256c4.md) — `retained_context_only`; September source review: industrial wastewater from Terengganu; GC-TCD.
+- [SOCIO-ECONOMIC IMPACTS OF OIL PALM PLANTATIONS IN MALAYSIA: A REVIEW OF ECONOMIC AND ENVIRONMENTAL PERSPECTIVES](../papers/socio-economic-impacts-of-oil-palm-plantations-in-malaysia-a-review-of-economic-and-environment-98c55ffc.md) — `retained_context_only`; Publisher citation/owner context-only review.
+- [Spatial dynamics of methane emissions and organic load reduction in a pond-based palm oil mill effluent treatment system](../papers/2026-spatial-dynamics-methane-pome-d3b4b8.md) — `human_value_review_complete`; Paper note: Study relevance, floating chambers.
+- [Sustainable Agricultural Practices And Environmental Impact Assessment In The Malaysian Palm Oil Industry For Climate Change Mitigation And Biodiversity Conservation](../papers/sustainable-agricultural-practices-and-environmental-impact-assessment-in-the-malaysian-palm-oi-3e19a748.md) — `retained_context_only`; Title and owner-retained note; navigation only.
+- [Temporal dynamics of soil microbial C and N cycles with GHG fluxes in the transition from tropical peatland forest to oil palm plantation](../papers/temporal-dynamics-of-soil-microbial-c-and-n-cycles-with-ghg-fluxes-in-the-transition-from-tropi-3a6e2e0c.md) — `full_text_synthesis_source_checked`; Source synthesis: chambers and microbial processes.
+- [The effects of environmental pollution on food security in Malaysia](../papers/the-effects-of-environmental-pollution-on-food-security-in-malaysia-fc01b883.md) — `retained_context_only`; Title and owner-retained note; navigation only.
+- [The Potential of Zero Liquid Discharge for Sustainable Palm Oil Mill Effluent Management in Malaysia: A Techno-Economic and ESG Perspective](../papers/the-potential-of-zero-liquid-discharge-for-sustainable-palm-oil-mill-effluent-management-in-mal-552a1e2b.md) — `retained_context_only`; Title and owner-retained note; navigation only.
+
+<!-- wiki-maintenance:end -->

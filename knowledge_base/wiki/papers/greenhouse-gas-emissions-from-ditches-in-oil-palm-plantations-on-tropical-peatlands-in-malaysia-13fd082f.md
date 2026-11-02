@@ -48,3 +48,18 @@ The four-day daytime campaign captures spatial and episodic variability, not a r
 - [Scope, limitations and remaining evidence checks](../findings/database-source-synthesis-2026-11-02.md)
 
 [Complete literature catalog](index.md)
+
+<!-- wiki-maintenance:start -->
+
+## Catalog connections
+
+Navigation basis: Source synthesis: Betong floating chamber methods. These links do not change scientific verification or owner decisions.
+
+- [Tropical peatland](../topics/tropical-peatland.md)
+- [Oil palm and POME](../topics/oil-palm-and-pome.md)
+- [AFOLU](../topics/afolu.md)
+- [Closed chamber](../methods/closed-chamber.md)
+- [Malaysia](../locations/malaysia.md)
+- [Sarawak](../locations/sarawak.md)
+
+<!-- wiki-maintenance:end -->

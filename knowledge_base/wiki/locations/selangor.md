@@ -12,7 +12,7 @@ Studies conducted in or reporting evidence from Selangor.
 
 > Assignments are machine-generated proposals. Confirm relevance before using this page as evidence.
 
-## Connected papers (7)
+## Original machine-assigned papers (7)
 
 - [[papers/2018-in-situ-tropical-peatland-fire-emission-factors-and-their-variability-as-determi-22a0ac|In Situ Tropical Peatland Fire Emission Factors and Their Variability, as Determined by Field Measurements in Peninsula Malaysia]] (2018) — confidence 0.85
 - [[papers/2019-are-secondary-forests-second-rate-comparing-peatland-greenhouse-gas-emissions-ch-20dfb6|Are secondary forests second-rate? Comparing peatland greenhouse gas emissions, chemical and microbial community properties between primary and secondary forests in Peninsular Malaysia]] (2019) — confidence 0.70
@@ -25,3 +25,13 @@ Studies conducted in or reporting evidence from Selangor.
 ## Synthesis
 
 <!-- Codex maintains synthesis here only when claims carry evidence IDs. -->
+
+<!-- wiki-maintenance:start -->
+
+## Additional catalog connections
+
+Editorial navigation based on the linked notes and stated evidence basis; scientific approval is separate.
+
+- [Estimating Landfill Methane Emissions Based on Climatic Conditions and Major Waste Components in Shah Alam, Selangor, Malaysia](../papers/2025-estimating-landfill-methane-emissions-shah-alam-1ef46a.md) — `human_value_review_complete`; Paper note: Study relevance, BMP and first-order decay.
+
+<!-- wiki-maintenance:end -->

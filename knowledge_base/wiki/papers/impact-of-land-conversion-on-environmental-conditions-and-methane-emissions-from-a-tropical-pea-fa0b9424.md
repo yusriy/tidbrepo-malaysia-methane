@@ -47,3 +47,18 @@ Drainage accompanied higher ecosystem emissions. Ditches are a proposed explanat
 - [Scope, limitations and remaining evidence checks](../findings/database-source-synthesis-2026-11-02.md)
 
 [Complete literature catalog](index.md)
+
+<!-- wiki-maintenance:start -->
+
+## Catalog connections
+
+Navigation basis: Source synthesis: ecosystem exchange at Maludam. These links do not change scientific verification or owner decisions.
+
+- [Tropical peatland](../topics/tropical-peatland.md)
+- [Oil palm and POME](../topics/oil-palm-and-pome.md)
+- [AFOLU](../topics/afolu.md)
+- [Eddy covariance](../methods/eddy-covariance.md)
+- [Malaysia](../locations/malaysia.md)
+- [Sarawak](../locations/sarawak.md)
+
+<!-- wiki-maintenance:end -->

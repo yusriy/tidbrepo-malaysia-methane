@@ -40,3 +40,19 @@ Methane-related gene abundance offers mechanistic context alongside measured cha
 - [Scope, limitations and remaining evidence checks](../findings/database-source-synthesis-2026-11-02.md)
 
 [Complete literature catalog](index.md)
+
+<!-- wiki-maintenance:start -->
+
+## Catalog connections
+
+Navigation basis: Source synthesis: chambers and microbial processes. These links do not change scientific verification or owner decisions.
+
+- [Tropical peatland](../topics/tropical-peatland.md)
+- [Oil palm and POME](../topics/oil-palm-and-pome.md)
+- [AFOLU](../topics/afolu.md)
+- [Closed chamber](../methods/closed-chamber.md)
+- [Gas chromatography](../methods/gas-chromatography.md)
+- [Malaysia](../locations/malaysia.md)
+- [Sarawak](../locations/sarawak.md)
+
+<!-- wiki-maintenance:end -->

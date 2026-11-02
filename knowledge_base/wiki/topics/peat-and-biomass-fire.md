@@ -12,10 +12,20 @@ Methane and greenhouse-gas evidence from fire.
 
 > Assignments are machine-generated proposals. Confirm relevance before using this page as evidence.
 
-## Connected papers (1)
+## Original machine-assigned papers (1)
 
 - [[papers/2018-in-situ-tropical-peatland-fire-emission-factors-and-their-variability-as-determi-22a0ac|In Situ Tropical Peatland Fire Emission Factors and Their Variability, as Determined by Field Measurements in Peninsula Malaysia]] (2018) — confidence 0.95
 
 ## Synthesis
 
 <!-- Codex maintains synthesis here only when claims carry evidence IDs. -->
+
+<!-- wiki-maintenance:start -->
+
+## Additional catalog connections
+
+Editorial navigation based on the linked notes and stated evidence basis; scientific approval is separate.
+
+- [Estimation of Biomass Burning Emissions in South and Southeast Asia Based on FY-4A Satellite Observations](../papers/estimation-of-biomass-burning-emissions-in-south-and-southeast-asia-based-on-fy-4a-satellite-ob-4b80d2e3.md) — `retained_context_only`; Title: FY-4A observations over South/Southeast Asia; no specific Malaysian field site inferred.
+
+<!-- wiki-maintenance:end -->

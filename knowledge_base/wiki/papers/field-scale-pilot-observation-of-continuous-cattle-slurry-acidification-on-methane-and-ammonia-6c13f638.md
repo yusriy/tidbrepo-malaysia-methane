@@ -26,3 +26,14 @@ managed_by: "owner-guided literature catalog"
 Use this page as a source entry point. Follow its review record and original source before citing numerical results; preserve units, statistic meaning, study conditions and source locators. Do not infer atmospheric emission factors from production yields or model outputs.
 
 [Complete literature catalog](index.md)
+
+<!-- wiki-maintenance:start -->
+
+## Catalog connections
+
+Navigation basis: Title/owner N05: slurry experiment, not enteric factors; location not established. These links do not change scientific verification or owner decisions.
+
+- [Livestock and enteric fermentation](../topics/livestock-and-enteric-fermentation.md)
+- [Waste sector](../topics/waste-sector.md)
+
+<!-- wiki-maintenance:end -->
