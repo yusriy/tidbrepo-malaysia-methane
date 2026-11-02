@@ -12,7 +12,7 @@ Studies conducted in or reporting evidence from Sarawak.
 
 > Assignments are machine-generated proposals. Confirm relevance before using this page as evidence.
 
-## Connected papers (14)
+## Original machine-assigned papers (14)
 
 - [[papers/2005-methane-fluxes-from-three-ecosystems-in-tropical-peatland-of-sarawak-malaysia-e285b6|Methane fluxes from three ecosystems in tropical peatland of Sarawak, Malaysia]] (2005) — confidence 0.95
 - [[papers/2017-methane-emission-from-pineapple-cultivation-on-a-tropical-peatland-at-saratok-ma-c4ef44|Methane Emission from Pineapple Cultivation on a Tropical Peatland at Saratok, Malaysia]] (2017) — confidence 0.70
@@ -32,3 +32,19 @@ Studies conducted in or reporting evidence from Sarawak.
 ## Synthesis
 
 <!-- Codex maintains synthesis here only when claims carry evidence IDs. -->
+
+<!-- wiki-maintenance:start -->
+
+## Additional catalog connections
+
+Editorial navigation based on the linked notes and stated evidence basis; scientific approval is separate.
+
+- [Development of Tier 2 Fugitive Emission Factors for Malaysia's Oil and Gas Systems](../papers/development-of-tier-2-fugitive-emission-factors-for-malaysia-s-oil-and-gas-systems-3c96f098.md) — `full_text_synthesis_source_checked`; Source synthesis: Malaysian operational asset coverage and Tier 2 factors.
+- [Greenhouse gas emissions from ditches in oil palm plantations on tropical peatlands in Malaysia](../papers/greenhouse-gas-emissions-from-ditches-in-oil-palm-plantations-on-tropical-peatlands-in-malaysia-13fd082f.md) — `full_text_synthesis_source_checked`; Source synthesis: Betong floating chamber methods.
+- [Impact of land conversion on environmental conditions and methane emissions from a tropical peatland](../papers/impact-of-land-conversion-on-environmental-conditions-and-methane-emissions-from-a-tropical-pea-fa0b9424.md) — `full_text_synthesis_source_checked`; Source synthesis: ecosystem exchange at Maludam.
+- [Long-term effects of nitrogen fertilization on methane emissions in drained tropical peatland](../papers/long-term-effects-of-nitrogen-fertilization-on-methane-emissions-in-drained-tropical-peatland-d804c119.md) — `full_text_synthesis_source_checked`; Source synthesis: Sibu soil chambers and GC-FID.
+- [Methane and Nitrous Oxide Fluxes in Soil and Stems of Malaysian Tropical Peat Swamp Forest](../papers/2024-methane-nitrous-oxide-soil-stems-malaysian-peat-a77001.md) — `human_abstract_review_complete`; Paper note: Study relevance; abstract-only methods.
+- [Spatial dynamics of methane emissions and organic load reduction in a pond-based palm oil mill effluent treatment system](../papers/2026-spatial-dynamics-methane-pome-d3b4b8.md) — `human_value_review_complete`; Paper note: Study relevance, floating chambers.
+- [Temporal dynamics of soil microbial C and N cycles with GHG fluxes in the transition from tropical peatland forest to oil palm plantation](../papers/temporal-dynamics-of-soil-microbial-c-and-n-cycles-with-ghg-fluxes-in-the-transition-from-tropi-3a6e2e0c.md) — `full_text_synthesis_source_checked`; Source synthesis: chambers and microbial processes.
+
+<!-- wiki-maintenance:end -->

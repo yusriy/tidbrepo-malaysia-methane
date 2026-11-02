@@ -65,3 +65,13 @@ The factor `value × (16/12) × 24 × 10,000 × 10^-9` would convert a carbon-ma
 3. Researcher decision: `Wiki context only`.
 4. Explicit full-text evidence limitation.
 5. Curated paper page: this file.
+
+<!-- wiki-maintenance:start -->
+
+## Catalog connections
+
+Navigation basis: Paper note: Study relevance; abstract-only methods. These links do not change scientific verification or owner decisions.
+
+- [Closed chamber](../methods/closed-chamber.md)
+
+<!-- wiki-maintenance:end -->

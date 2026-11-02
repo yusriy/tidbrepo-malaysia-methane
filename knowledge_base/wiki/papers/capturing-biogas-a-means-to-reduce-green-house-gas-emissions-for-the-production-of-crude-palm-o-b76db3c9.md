@@ -41,3 +41,17 @@ The abstract/methods describe a three-year inventory, while results refer to fiv
 - [Scope, limitations and remaining evidence checks](../findings/database-source-synthesis-2026-11-02.md)
 
 [Complete literature catalog](index.md)
+
+<!-- wiki-maintenance:start -->
+
+## Catalog connections
+
+Navigation basis: Source synthesis: mill inventory and capture scenario; regions described in PDF. These links do not change scientific verification or owner decisions.
+
+- [Oil palm and POME](../topics/oil-palm-and-pome.md)
+- [Waste sector](../topics/waste-sector.md)
+- [Inventory and scenario modeling](../methods/inventory-and-scenario-modeling.md)
+- [Malaysia](../locations/malaysia.md)
+- [Peninsular Malaysia](../locations/peninsular-malaysia.md)
+
+<!-- wiki-maintenance:end -->

@@ -2,6 +2,28 @@
 
 > Nothing in this queue becomes verified merely because it was extracted or linked by an LLM.
 
+## Current status — checked 2 November 2026
+
+This summary takes precedence over dated history below. Counts describe the latest recorded decisions, not a fresh discovery run or live database read.
+
+| Item | Current recorded disposition | Evidence |
+|---|---|---|
+| August–October screening | Complete; zero pending paper decisions | Monthly review links below |
+| November N01–N29 | Complete; N02 uploaded, eight wiki-only, twenty excluded; zero pending paper/suitability decisions | [November decisions](findings/november-2026-owner-screening.md) |
+| N02 coal factors | Rows 181–183 uploaded and independently verified on 1 November | [Completion record](../reconciliations/reviews/2026-11-01-N02-upload-completion.json) |
+| R03 legacy paper | Its temporary row 181 was removed on 29 October; no reinsertion approval | [Removal record](../reconciliations/reviews/2026-10-29-R03-removal.json) |
+| Recorded database coverage | 183 rows in the 1 November snapshot; row 181 now refers to N02, not R03 | [Source registry](../reconciliations/wiki-source-registry.json) |
+| R01 | Legacy staging; visual-table follow-up deferred, outside monthly review | [Deferred disposition below](#legacy-r01r02-dispositions--outside-the-monthly-review-queue) |
+| R02 and R04/S02 | Wiki-only; no pending database action | Dated decisions below |
+| Q01 and Q02 | Closed by owner | Closure history below |
+| Eight former source pointers | Full-text syntheses completed; source limitations documented, no new factor approvals | [Synthesis guide](findings/database-source-synthesis-2026-11-02.md) |
+
+The original 95 proposed measurements and other extraction/editorial counts below are historical scientific-verification flags. They are not new uploads or required monthly decisions. See [source follow-ups](research-gaps/source-evidence-follow-ups.md) for unresolved evidence limitations; do not reopen an owner-closed decision automatically.
+
+## Historical review and verification records
+
+The dated sections preserve the sequence of earlier assessments. An earlier upload or database size describes that time only.
+
 ## Monthly literature
 
 **Current focus: new papers discovered by the automated routine.** August–October paper screening is complete. Original-corpus R01/R02 assessments below are legacy history, not newly discovered papers or required monthly reviews. R01 follow-up is deferred following the owner’s scope clarification on 29 October 2026.
@@ -14,7 +36,7 @@ August 2026: **0 pending paper-screening decisions**. The owner [[findings/augus
 
 September 2026: **0 pending paper-screening decisions; R04/S02 approved for wiki-only use**. The three extracted proposals remain unverified, with source conflicts retained; no database submission is pending. The owner excluded S01 and retained S02 for extraction. See [[findings/september-2026-screening-and-extraction-review|the source-checked S03–S05 review]] for the approved wiki-only disposition, conflicting reported figures and corrected batch range. The current local measurement review file is `knowledge_base/literature_updates/runs/20261028-september-source-review/review.csv`; the original September run remains archived unchanged.
 
-## Queue summary
+## Original-corpus verification snapshot (historical)
 
 The original corpus has been [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28|matched against all 180 live TIDBRepo records]]. Eleven of the 18 papers with extracted measurements are already cited. Six extracted values match stored numbers after normalization; other records include combined-source ranges, concentrations, regional totals and extraction errors. The 95 `proposed` measurements below are local scientific-verification flags, **not 95 missing uploads or 95 new approval requests**. Use the focused checks in the reconciliation report before deciding whether anything needs adding.
 
@@ -50,18 +72,18 @@ The original corpus has been [[findings/original-corpus-tidbrepo-reconciliation-
 
 ## Approved suitability dispositions — R01–R04
 
-The owner approved [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28|R01–R04 suitability decisions]]: R01 and R02 wiki-only with database use on hold; R03 a factor candidate pending full-text verification; R04 wiki-only. These are not new quantitative verification or upload approvals. The later R03 upload is complete. R01/R02 database-assessment checks were on hold at this stage; the owner later accepted R01 staging pending visual Table 2 checking and retained R02 wiki-only, as recorded below. Q01/Q02 existing-entry checks were closed by the owner on 29 October 2026, as recorded below.
+The owner approved [[findings/original-corpus-tidbrepo-reconciliation-2026-10-28|R01–R04 suitability decisions]]: R01 and R02 wiki-only with database use on hold; R03 a factor candidate pending full-text verification; R04 wiki-only. These are not new quantitative verification or upload approvals. R03 was later uploaded and then removed at owner request; neither action is pending. R01/R02 database-assessment checks were on hold at this stage; the owner later accepted R01 staging pending visual Table 2 checking and retained R02 wiki-only, as recorded below. Q01/Q02 existing-entry checks were closed by the owner on 29 October 2026, as recorded below.
 
 ## R03 upload follow-up — 29 October 2026
 
-The owner authorized [[papers/2019-carbon-dioxide-and-methane-emissions-from-peat-soil-in-an-undrained-tropical-pea-a6bc32|R03 submission]]. The non-trenched n=9 outlier-excluded Table 3 mean/SD and source conditions have been cross-checked in full text; conversion and duplicate checks passed. One record was uploaded and independently verified as **TIDBRepo row 181** (mean 0.158, SD 0.144 kg CH4 ha^-1 day^-1). At that upload verification the table contained 181 rows with the earlier 180 unchanged. Row 181 was subsequently removed at owner request; the current table contains 180 unchanged original rows. R03 has no pending upload or removal action. Earlier candidate-only decisions and the 28 October live-table reconciliation remain historical snapshots. R01/R02/R04 dispositions are unchanged. Q01/Q02 were subsequently closed by the owner, as recorded below.
+The owner authorized [[papers/2019-carbon-dioxide-and-methane-emissions-from-peat-soil-in-an-undrained-tropical-pea-a6bc32|R03 submission]]. The non-trenched n=9 outlier-excluded Table 3 mean/SD and source conditions have been cross-checked in full text; conversion and duplicate checks passed. One record was uploaded and independently verified as **TIDBRepo row 181** (mean 0.158, SD 0.144 kg CH4 ha^-1 day^-1). At that upload verification the table contained 181 rows with the earlier 180 unchanged. Row 181 was subsequently removed at owner request; the table then returned to the 180 original rows. N02 subsequently occupied rows 181–183 on 1 November; see the current summary above. R03 has no pending upload or removal action. Earlier candidate-only decisions and the 28 October live-table reconciliation remain historical snapshots. R01/R02/R04 dispositions are unchanged. Q01/Q02 were subsequently closed by the owner, as recorded below.
 
 ## Existing-entry checks closed — 29 October 2026
 
 - **Q01 — Melling sago, row 97: closed.** The owner accepted the approximately 0.25% conversion difference as negligible and instructed that it can be ignored. Keep the existing database value unchanged; no correction or further review is required.
 - **Q02 — 2014 paddy, rows 109–110: closed.** The owner confirmed this issue was resolved previously. This records the owner's confirmation without inventing an undocumented technical resolution. No new database action or review is required.
 
-Separate decision records preserve the closure and original evidence: `knowledge_base/reconciliations/reviews/2026-10-29-close-Q01.json` and `2026-10-29-close-Q02.json`. These closures do not change scientific verification flags or database values. R03 upload is complete; The owner subsequently staged R01 pending visual Table 2 checking and retained R02 wiki-only; R04 remains wiki-only.
+Separate decision records preserve the closure and original evidence: `knowledge_base/reconciliations/reviews/2026-10-29-close-Q01.json` and `2026-10-29-close-Q02.json`. These closures do not change scientific verification flags or database values. R03’s temporary upload was subsequently removed; the owner also staged R01 pending visual Table 2 checking and retained R02 wiki-only; R04 remains wiki-only.
 
 ## Guided R01/R02 assessment — 29 October 2026
 
@@ -72,7 +94,7 @@ Source assessment is prepared; the subsequent owner decisions are recorded below
 - **R01: staged legacy evidence; further review deferred.** One author-preferred ecosystem-scale range candidate (9.8–10.8 g CH4-C m^-2 yr^-1) is preserved with source, conversion and explicit method-range meaning. The visual Table 2 gate remains incomplete, but it is not an active monthly review task. Staging is not upload approval; `ready_for_upload` is false.
 - **R02: wiki-only; no pending database action.** Preserve signed seasonal findings and source limitations.
 
-Staged object: `knowledge_base/reconciliations/staging/r01-author-preferred-range-2026-10-29.json`. Decisions: `knowledge_base/reconciliations/reviews/2026-10-29-factor-decision-R01.json` and `2026-10-29-factor-decision-R02.json`. R03 remains uploaded; Q01/Q02 remain closed.
+Staged object: `knowledge_base/reconciliations/staging/r01-author-preferred-range-2026-10-29.json`. Decisions: `knowledge_base/reconciliations/reviews/2026-10-29-factor-decision-R01.json` and `2026-10-29-factor-decision-R02.json`. R03 remains removed; Q01/Q02 remain closed. Row IDs from that temporary upload must not be confused with later N02 additions.
 
 ## November 2026 owner screening
 

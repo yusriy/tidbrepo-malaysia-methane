@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-02",
+  "scope": "Bibliographic enrichment only; no scientific approval or database edits.",
+  "changes": [
+    {
+      "paper": "knowledge_base/wiki/papers/the-potential-of-zero-liquid-discharge-for-sustainable-palm-oil-mill-effluent-management-in-mal-552a1e2b.md",
+      "field": "year",
+      "old": null,
+      "new": 2025,
+      "source_url": "https://api.crossref.org/works/10.3390/su172310665",
+      "local_asset": "knowledge_base/literature_updates/runs/20261102-wiki-cleanup/sources/10.3390_su172310665.json",
+      "sha256": "e275ce9f5709a49bc2ce53d211c0b919450a1ba5e88fb1a70af799684f55ea96"
+    },
+    {
+      "paper": "knowledge_base/wiki/papers/estimation-of-biomass-burning-emissions-in-south-and-southeast-asia-based-on-fy-4a-satellite-ob-4b80d2e3.md",
+      "field": "year",
+      "old": null,
+      "new": 2025,
+      "source_url": "https://api.crossref.org/works/10.3390/atmos16050582",
+      "local_asset": "knowledge_base/literature_updates/runs/20261102-wiki-cleanup/sources/10.3390_atmos16050582.json",
+      "sha256": "b8d5fd21b2e170391890ee63a9e632f506860fb0d58baf984a819660a1265080"
+    },
+    {
+      "paper": "knowledge_base/wiki/papers/spatiotemporal-variations-in-hydrology-drive-greenhouse-gas-emissions-in-tropical-peatlands-8a219a73.md",
+      "field": "year",
+      "old": null,
+      "new": 2026,
+      "source_url": "https://api.crossref.org/works/10.1029/2025av002260",
+      "local_asset": "knowledge_base/literature_updates/runs/20261102-wiki-cleanup/sources/10.1029_2025av002260.json",
+      "sha256": "264c66af72bf78cc927ceae7bc0edaafa64641717879e39cb9552f0414b32500"
+    },
+    {
+      "paper": "knowledge_base/wiki/papers/socio-economic-impacts-of-oil-palm-plantations-in-malaysia-a-review-of-economic-and-environment-98c55ffc.md",
+      "field": "year",
+      "old": null,
+      "new": 2024,
+      "source_url": "https://api.crossref.org/works/10.35631/aijbes.620026",
+      "local_asset": "knowledge_base/literature_updates/runs/20261102-wiki-cleanup/sources/10.35631_aijbes.620026.json",
+      "sha256": "43b2907d2b95b0542bc671a1d5eec76a7306288a349013a4c64224c2cb59c8bb"
+    },
+    {
+      "paper": "knowledge_base/wiki/papers/production-of-methane-and-hydrogen-from-mild-strength-industrial-wastewater-cb3256c4.md",
+      "field": "year",
+      "old": null,
+      "new": 2024,
+      "source_path": "knowledge_base/wiki/findings/september-2026-screening-and-extraction-review.md",
+      "source_url": "https://doi.org/10.14233/ajchem.2024.30618"
+    },
+    {
+      "paper": "knowledge_base/wiki/papers/2017-local-emission-factors-estimates-for-methane-emission-from-cattle-enteric-fermen-b782a0.md",
+      "field": "doi",
+      "new": null,
+      "status": "not_established_after_publisher_pdf_check",
+      "source_url": "https://mjas.my/mjas-v2/rf/pages/journal/v20i2/1-Azizi.pdf",
+      "locator": "PDF pp. 1–10; bibliographic header p. 1; contextual oil-palm discussion p. 2"
+    },
+    {
+      "paper": "knowledge_base/wiki/papers/evaluating-the-bio-methane-potential-by-anaerobic-tri-digestion-of-palm-oil-mill-effluent-sewag-a0a92a12.md",
+      "field": "doi",
+      "new": null,
+      "status": "not_established_in_author_institution_records_publisher_unreachable",
+      "source_url": "https://research.tudelft.nl/en/publications/evaluating-the-bio-methane-potential-by-anaerobic-tri-digestion-o/"
+    }
+  ]
+}

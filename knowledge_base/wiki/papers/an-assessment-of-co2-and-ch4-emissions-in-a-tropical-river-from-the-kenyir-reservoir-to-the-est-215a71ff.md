@@ -40,3 +40,16 @@ Separate diffusion, ebullition, locations, seasons and table statistic labels be
 - [Scope, limitations and remaining evidence checks](../findings/database-source-synthesis-2026-11-02.md)
 
 [Complete literature catalog](index.md)
+
+<!-- wiki-maintenance:start -->
+
+## Catalog connections
+
+Navigation basis: Source synthesis: methods; dissolved gases and modeled transfer velocity. These links do not change scientific verification or owner decisions.
+
+- [Aquatic methane](../topics/aquatic-methane.md)
+- [Gas chromatography](../methods/gas-chromatography.md)
+- [Inventory and scenario modeling](../methods/inventory-and-scenario-modeling.md)
+- [Malaysia](../locations/malaysia.md)
+
+<!-- wiki-maintenance:end -->

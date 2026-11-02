@@ -27,3 +27,7 @@ Contextualizing Energy Sector Emissions vs. Research Scope: The manuscript right
 ## review_996c5761b49048 — Reviewer 2
 
 Actionable Roadmap for Data Integration: While the inclusion of institutional constraints (such as NDAs and data governance) is a strong addition, the manuscript would benefit from a clearer recommendation on how to bridge the gap between proprietary industrial data (energy sector) and public academic research. Consider proposing a framework for public-private data-sharing agreements or hybrid inventory verification models.
+
+## Later evidence and current scope — 2 November 2026
+
+The comments above are historical reviewer statements about the original manuscript. Consult [source follow-ups and later energy evidence](source-evidence-follow-ups.md) before describing those gaps as unchanged. The 2026 oil-and-gas source is now synthesized in the wiki; it does not by itself establish comprehensive direct measurement coverage.

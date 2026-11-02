@@ -75,3 +75,13 @@ Percentage reduction is a treatment comparison, not an absolute emission factor.
 3. Researcher decision: percentage reductions are wiki context; absolute factors are uploadable.
 4. Verified TIDBRepo upload receipt for rows 169–174.
 5. Curated paper page: this file.
+
+<!-- wiki-maintenance:start -->
+
+## Catalog connections
+
+Navigation basis: Paper note: reviewed treatment factors and source locators. These links do not change scientific verification or owner decisions.
+
+Existing connections above supply these navigation links.
+
+<!-- wiki-maintenance:end -->

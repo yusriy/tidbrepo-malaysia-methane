@@ -17,8 +17,8 @@ verification_status: "machine_extracted"
 - Database ID: `doc_1808a32a34b782a0`
 - Local source: `pdfs/2017_Azizi.pdf`
 - SHA-256: `1808a32a34b782a0072055e4ea211413ac3fafe84bc17a0832c43d911fdf1637`
-- Authors: Azizi Ahmad Azmin
-- DOI: Not detected
+- Authors: Azizi, A.A.; Mardhati, M.; Mohd Fairuz, M.S.; Shaidatul Azdawiyah, A.T.; Nurul Ain, A.B.; Fauzi, J.; Mohamad Hariz, A.R.; Reisinger, A.
+- DOI: Not established after publisher PDF check on 2 November 2026; no article DOI was identified in that PDF. This is not proof that none was ever assigned.
 - Pages: 10
 - Search chunks: 21
 - Manuscript role: `quantitative_baseline`
@@ -27,7 +27,7 @@ verification_status: "machine_extracted"
 ## Connections
 
 - ecosystem: [[topics/livestock-and-enteric-fermentation|Livestock and enteric fermentation]]
-- ecosystem: [[topics/oil-palm-and-pome|Oil palm and POME]]
+- contextual background: [[topics/oil-palm-and-pome|Oil palm and POME]] — introduction p. 2 discusses cattle integration under oil palm; this is not a POME treatment or POME emission-factor study.
 - location: [[locations/malaysia|Malaysia]]
 - method: [[methods/ipcc-inventory-calculation|IPCC inventory calculation]]
 - sector: [[topics/afolu|AFOLU]]
@@ -69,3 +69,7 @@ value is suggested for use in emission estimates for the national GHG inventory 
 ## Research notes
 
 <!-- Add verified synthesis through the ingestion/review workflow. -->
+
+## Bibliographic and topical check — 2 November 2026
+
+Publisher citation: *Malaysian Journal of Animal Science* 20(2), 1–10 (December 2017). [Society publisher PDF](https://mjas.my/mjas-v2/rf/pages/journal/v20i2/1-Azizi.pdf), pp. 1–2. The oil-palm connection is contextual background; livestock/enteric fermentation is the primary subject. Original extraction flags and factor approvals remain unchanged.

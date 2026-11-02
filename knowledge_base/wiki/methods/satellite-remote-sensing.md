@@ -12,7 +12,7 @@ Satellite retrieval or remote-sensing methods.
 
 > Assignments are machine-generated proposals. Confirm relevance before using this page as evidence.
 
-## Connected papers (2)
+## Original machine-assigned papers (2)
 
 - [[papers/2020-carbon-emissions-from-oil-palm-induced-forest-and-peatland-conversion-in-sabah-a-c36df2|Carbon Emissions from Oil Palm Induced Forest and Peatland Conversion in Sabah and Sarawak, Malaysia]] (2020) — confidence 0.70
 - [[papers/2022-mapping-trends-of-carbon-dioxide-and-methane-during-movement-control-order-in-in-137b06|Mapping Trends of Carbon Dioxide and Methane During Movement Control Order in Industrial Areas in Peninsular Malaysia Using GOSAT, GOSAT-2, OCO-2, OCO-3, and TROPOMI Satellites Data]] (2022) — confidence 0.95
@@ -20,3 +20,13 @@ Satellite retrieval or remote-sensing methods.
 ## Synthesis
 
 <!-- Codex maintains synthesis here only when claims carry evidence IDs. -->
+
+<!-- wiki-maintenance:start -->
+
+## Additional catalog connections
+
+Editorial navigation based on the linked notes and stated evidence basis; scientific approval is separate.
+
+- [Estimation of Biomass Burning Emissions in South and Southeast Asia Based on FY-4A Satellite Observations](../papers/estimation-of-biomass-burning-emissions-in-south-and-southeast-asia-based-on-fy-4a-satellite-ob-4b80d2e3.md) — `retained_context_only`; Title: FY-4A observations over South/Southeast Asia; no specific Malaysian field site inferred.
+
+<!-- wiki-maintenance:end -->

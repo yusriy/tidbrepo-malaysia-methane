@@ -26,3 +26,15 @@ managed_by: "owner-guided literature catalog"
 Use this page as a source entry point. Follow its review record and original source before citing numerical results; preserve units, statistic meaning, study conditions and source locators. Do not infer atmospheric emission factors from production yields or model outputs.
 
 [Complete literature catalog](index.md)
+
+<!-- wiki-maintenance:start -->
+
+## Catalog connections
+
+Navigation basis: Owner N04: cost analysis, not direct field emission factors. These links do not change scientific verification or owner decisions.
+
+- [Energy sector](../topics/energy-sector.md)
+- [Policy and economic context](../topics/policy-and-economic-context.md)
+- [Malaysia](../locations/malaysia.md)
+
+<!-- wiki-maintenance:end -->

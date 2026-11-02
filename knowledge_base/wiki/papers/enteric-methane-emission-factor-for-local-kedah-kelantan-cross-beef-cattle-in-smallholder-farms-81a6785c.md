@@ -40,3 +40,17 @@ Use for breed-specific inventory context, with mature-animal and intake assumpti
 - [Scope, limitations and remaining evidence checks](../findings/database-source-synthesis-2026-11-02.md)
 
 [Complete literature catalog](index.md)
+
+<!-- wiki-maintenance:start -->
+
+## Catalog connections
+
+Navigation basis: Source synthesis: farm survey and Tier 2 calculation. These links do not change scientific verification or owner decisions.
+
+- [Livestock and enteric fermentation](../topics/livestock-and-enteric-fermentation.md)
+- [AFOLU](../topics/afolu.md)
+- [Methane emission factors](../topics/methane-emission-factors.md)
+- [IPCC inventory calculation](../methods/ipcc-inventory-calculation.md)
+- [Malaysia](../locations/malaysia.md)
+
+<!-- wiki-maintenance:end -->

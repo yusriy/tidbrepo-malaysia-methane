@@ -12,7 +12,7 @@ Studies covering Peninsular Malaysia.
 
 > Assignments are machine-generated proposals. Confirm relevance before using this page as evidence.
 
-## Connected papers (9)
+## Original machine-assigned papers (9)
 
 - [[papers/2019-are-secondary-forests-second-rate-comparing-peatland-greenhouse-gas-emissions-ch-20dfb6|Are secondary forests second-rate? Comparing peatland greenhouse gas emissions, chemical and microbial community properties between primary and secondary forests in Peninsular Malaysia]] (2019) — confidence 0.95
 - [[papers/2020-carbon-emissions-from-oil-palm-induced-forest-and-peatland-conversion-in-sabah-a-c36df2|Carbon Emissions from Oil Palm Induced Forest and Peatland Conversion in Sabah and Sarawak, Malaysia]] (2020) — confidence 0.70
@@ -27,3 +27,14 @@ Studies covering Peninsular Malaysia.
 ## Synthesis
 
 <!-- Codex maintains synthesis here only when claims carry evidence IDs. -->
+
+<!-- wiki-maintenance:start -->
+
+## Additional catalog connections
+
+Editorial navigation based on the linked notes and stated evidence basis; scientific approval is separate.
+
+- [Capturing Biogas: A Means to Reduce Green House Gas Emissions for the Production of Crude Palm Oil](../papers/capturing-biogas-a-means-to-reduce-green-house-gas-emissions-for-the-production-of-crude-palm-o-b76db3c9.md) — `full_text_synthesis_source_checked`; Source synthesis: mill inventory and capture scenario; regions described in PDF.
+- [Development of Tier 2 Fugitive Emission Factors for Malaysia's Oil and Gas Systems](../papers/development-of-tier-2-fugitive-emission-factors-for-malaysia-s-oil-and-gas-systems-3c96f098.md) — `full_text_synthesis_source_checked`; Source synthesis: Malaysian operational asset coverage and Tier 2 factors.
+
+<!-- wiki-maintenance:end -->

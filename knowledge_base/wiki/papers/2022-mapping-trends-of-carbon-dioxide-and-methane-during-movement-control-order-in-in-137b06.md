@@ -62,3 +62,13 @@ year by year. By using satellites data, the XCO2 and XCH4 from large areas can b
 ## Research notes
 
 <!-- Add verified synthesis through the ingestion/review workflow. -->
+
+<!-- wiki-maintenance:start -->
+
+## Catalog connections
+
+Navigation basis: Original paper title and source note: satellite concentration monitoring in Peninsular Malaysian industrial areas; not a direct emission factor. These links do not change scientific verification or owner decisions.
+
+- [Atmospheric methane monitoring](../topics/atmospheric-methane-monitoring.md)
+
+<!-- wiki-maintenance:end -->

@@ -101,7 +101,10 @@ def validate_wiki(repo: Path) -> dict:
         raise ValueError("Wiki validation failed: " + "; ".join(errors))
     from wiki_catalog import validate as validate_catalog
     validate_catalog(repo)
-    return {"markdown_pages": len(pages), "broken_wikilinks": 0, "curated_provenance": "passed"}
+    from wiki_maintenance import NAVIGATION, run as maintain
+    maintenance = maintain(repo, check=True) if (repo / NAVIGATION).exists() else None
+    return {"markdown_pages": len(pages), "broken_wikilinks": 0, "curated_provenance": "passed",
+            "routine_maintenance": maintenance}
 
 
 def build_curated(run: Path) -> dict:
@@ -196,11 +199,17 @@ def publish_queue(repo: Path, record: dict) -> list[str]:
     page.write_text(content)
     index = queue / "index.md"
     index.write_text(queue_index(repo))
-    return [str(CURATED / f"{run_id}.json"), str(QUEUE / f"{run_id}.md"), str(QUEUE / "index.md")]
+    files = [str(CURATED / f"{run_id}.json"), str(QUEUE / f"{run_id}.md"), str(QUEUE / "index.md")]
+    # Existing research checkouts configure the full catalog/maintenance step.
+    # Small legacy or standalone queue checkouts retain their existing behavior.
+    from wiki_catalog import refresh
+    if (repo / "knowledge_base/wiki/papers/index.md").exists():
+        files += refresh(repo)
+    return sorted(set(files))
 
 
 def sync_github(repo: Path, run: Path, record: dict, python: str) -> dict:
-    """Commit only generated queue outputs in a dedicated development worktree."""
+    """Commit curated queue and validated upkeep outputs in a development worktree."""
     checkout = repo / STATE / "github-review"
     checkout.parent.mkdir(parents=True, exist_ok=True)
     if not checkout.exists():
@@ -213,11 +222,19 @@ def sync_github(repo: Path, run: Path, record: dict, python: str) -> dict:
         raise ValueError("Git publication checkout must use the designated development branch")
     if command(["git", "status", "--porcelain"], checkout):
         raise ValueError("Publication checkout has local edits; preserve and review them before retrying")
+    from wiki_maintenance import NAVIGATION
+    if (repo / NAVIGATION).exists():
+        # An old publication branch must not silently bypass the routine checks.
+        # Advance only the clean development checkout, never the main branch.
+        command(["git", "fetch", "origin", "main"], checkout)
+        command(["git", "merge", "--ff-only", "FETCH_HEAD"], checkout)
+        if not (checkout / NAVIGATION).exists():
+            raise ValueError("Publication checkout lacks routine wiki maintenance; merge the reviewed update into main before publication")
     files = publish_queue(checkout, record)
     validation = validate_wiki(checkout)
     save(run / "wiki_validation.json", validation)
     try:
-        output = command([python, "-m", "unittest", "discover", "-s", "knowledge_base/tests", "-v"], repo, timeout=180,
+        output = command([python, "-m", "unittest", "discover", "-s", "knowledge_base/tests", "-v"], checkout, timeout=180,
                          env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"})
         (run / "publication_tests.log").write_text(output + "\n")
     except subprocess.CalledProcessError as exc:

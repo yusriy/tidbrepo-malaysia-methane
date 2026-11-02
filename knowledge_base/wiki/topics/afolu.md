@@ -12,7 +12,7 @@ Agriculture, forestry and other land use.
 
 > Assignments are machine-generated proposals. Confirm relevance before using this page as evidence.
 
-## Connected papers (21)
+## Original machine-assigned papers (21)
 
 - [[papers/2005-methane-fluxes-from-three-ecosystems-in-tropical-peatland-of-sarawak-malaysia-e285b6|Methane fluxes from three ecosystems in tropical peatland of Sarawak, Malaysia]] (2005) — confidence 0.95
 - [[papers/2014-comparison-of-methane-emission-from-conventional-and-modified-paddy-cultivation--f1a060|Comparison of Methane Emission from Conventional and Modified Paddy Cultivation in Malaysia]] (2014) — confidence 0.95
@@ -39,3 +39,21 @@ Agriculture, forestry and other land use.
 ## Synthesis
 
 <!-- Codex maintains synthesis here only when claims carry evidence IDs. -->
+
+<!-- wiki-maintenance:start -->
+
+## Additional catalog connections
+
+Editorial navigation based on the linked notes and stated evidence basis; scientific approval is separate.
+
+- [Development of National Emission Factor for Rice Production System in Malaysia: A Step Toward Achieving Sustainable Development Goals](../papers/2025-development-national-emission-factor-rice-malaysia-7e8229.md) — `human_value_review_complete`; Paper note: eleven planting-season datasets; no new instrument assignment.
+- [Emission factors dominate the rice methane gap with EDGAR in Southeast Asia: A 10 m harvested-area assessment](../papers/emission-factors-dominate-the-rice-methane-gap-with-edgar-in-southeast-asia-a-10-m-harvested-ar-a5b6afba.md) — `retained_context_only`; Owner N20: model data, regional rather than a confirmed Malaysian field site.
+- [Enteric Methane Emission Factor for Local Kedah-Kelantan Cross Beef Cattle in Smallholder Farms of Malaysia](../papers/enteric-methane-emission-factor-for-local-kedah-kelantan-cross-beef-cattle-in-smallholder-farms-81a6785c.md) — `full_text_synthesis_source_checked`; Source synthesis: farm survey and Tier 2 calculation.
+- [Greenhouse gas emissions from ditches in oil palm plantations on tropical peatlands in Malaysia](../papers/greenhouse-gas-emissions-from-ditches-in-oil-palm-plantations-on-tropical-peatlands-in-malaysia-13fd082f.md) — `full_text_synthesis_source_checked`; Source synthesis: Betong floating chamber methods.
+- [Impact of land conversion on environmental conditions and methane emissions from a tropical peatland](../papers/impact-of-land-conversion-on-environmental-conditions-and-methane-emissions-from-a-tropical-pea-fa0b9424.md) — `full_text_synthesis_source_checked`; Source synthesis: ecosystem exchange at Maludam.
+- [Long-term effects of nitrogen fertilization on methane emissions in drained tropical peatland](../papers/long-term-effects-of-nitrogen-fertilization-on-methane-emissions-in-drained-tropical-peatland-d804c119.md) — `full_text_synthesis_source_checked`; Source synthesis: Sibu soil chambers and GC-FID.
+- [Methane and Nitrous Oxide Fluxes in Soil and Stems of Malaysian Tropical Peat Swamp Forest](../papers/2024-methane-nitrous-oxide-soil-stems-malaysian-peat-a77001.md) — `human_abstract_review_complete`; Paper note: Study relevance; abstract-only methods.
+- [Plant Physiological Performances, Plant Growth, Grain Yield and Methane Emission of Rice (Oryza Sativa L.) in Response to Water Management as Adaptation Strategy for Climate Change](../papers/2024-rice-water-management-methane-3a6645.md) — `human_value_review_complete`; Paper note: reviewed treatment factors and source locators.
+- [Temporal dynamics of soil microbial C and N cycles with GHG fluxes in the transition from tropical peatland forest to oil palm plantation](../papers/temporal-dynamics-of-soil-microbial-c-and-n-cycles-with-ghg-fluxes-in-the-transition-from-tropi-3a6e2e0c.md) — `full_text_synthesis_source_checked`; Source synthesis: chambers and microbial processes.
+
+<!-- wiki-maintenance:end -->

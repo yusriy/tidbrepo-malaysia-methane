@@ -72,3 +72,13 @@ The study used floating chambers to characterize spatial and seasonal methane fl
 3. Researcher decision: `Wiki context only`.
 4. Unit-policy assessment documenting why no BOD-based database factor can be derived.
 5. Curated paper page: this file.
+
+<!-- wiki-maintenance:start -->
+
+## Catalog connections
+
+Navigation basis: Paper note: Study relevance, floating chambers. These links do not change scientific verification or owner decisions.
+
+- [Closed chamber](../methods/closed-chamber.md)
+
+<!-- wiki-maintenance:end -->

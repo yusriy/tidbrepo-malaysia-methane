@@ -77,3 +77,12 @@ The study evaluates how Shah Alam waste composition, rainfall, and ambient tempe
 4. Unit-policy assessment: database normalization blocked because the required activity-basis or gas-state information is incomplete.
 5. Curated paper page: this file.
 
+<!-- wiki-maintenance:start -->
+
+## Catalog connections
+
+Navigation basis: Paper note: Study relevance, BMP and first-order decay. These links do not change scientific verification or owner decisions.
+
+- [Inventory and scenario modeling](../methods/inventory-and-scenario-modeling.md)
+
+<!-- wiki-maintenance:end -->

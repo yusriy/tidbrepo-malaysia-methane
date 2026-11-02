@@ -195,13 +195,28 @@ def update_home(repo):
     path.write_text(text)
 
 
+def refresh(repo):
+    """Materialize retained notes, refresh navigation, and run configured upkeep."""
+    wiki = repo / 'knowledge_base/wiki'
+    before = {p: p.read_bytes() for p in wiki.rglob('*.md')}
+    materialize_missing(repo)
+    (wiki/'papers/index.md').write_text(render(repo))
+    update_home(repo)
+    from wiki_maintenance import NAVIGATION, run as maintain
+    if (repo / NAVIGATION).exists():
+        maintain(repo)
+    validate(repo)
+    return sorted(str(p.relative_to(repo)) for p in wiki.rglob('*.md')
+                  if before.get(p) != p.read_bytes())
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--check',action='store_true');args=parser.parse_args()
     if not args.check:
-        created=materialize_missing(ROOT)
-        (ROOT/'knowledge_base/wiki/papers/index.md').write_text(render(ROOT))
-        update_home(ROOT)
-        print(json.dumps({'created':created}))
+        print(json.dumps({'refreshed':refresh(ROOT)}))
+    from wiki_maintenance import NAVIGATION, run as maintain
+    if args.check and (ROOT / NAVIGATION).exists():
+        maintain(ROOT, check=True)
     print(json.dumps(validate(ROOT)))
 
 if __name__=='__main__':main()

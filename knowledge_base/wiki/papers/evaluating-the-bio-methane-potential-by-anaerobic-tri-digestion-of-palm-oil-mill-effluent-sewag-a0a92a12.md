@@ -26,3 +26,19 @@ managed_by: "owner-guided literature catalog"
 Use this page as a source entry point. Follow its review record and original source before citing numerical results; preserve units, statistic meaning, study conditions and source locators. Do not infer atmospheric emission factors from production yields or model outputs.
 
 [Complete literature catalog](index.md)
+
+## Bibliographic check — 2 November 2026
+
+Alsamet, M.A.; Goto, M.; Al-Muraisy, S.A. (2019). *Journal of Advanced Research in Fluid Mechanics and Thermal Sciences* 61(2), 155–169. The [author institution’s publication record](https://research.tudelft.nl/en/publications/evaluating-the-bio-methane-potential-by-anaerobic-tri-digestion-o/) and [repository record](https://repository.tudelft.nl/record/uuid:3f4dbff2-06d2-42f0-b5c4-3b4cb210bfe4) provide no DOI. Keep DOI blank pending an authoritative assignment; do not adopt DOI strings from unrelated citing articles. The publisher page returned HTTP 403 during this check. Owner wiki-only status is unchanged.
+
+<!-- wiki-maintenance:start -->
+
+## Catalog connections
+
+Navigation basis: Author institution record and owner N03; experiment-level BMP. These links do not change scientific verification or owner decisions.
+
+- [Waste sector](../topics/waste-sector.md)
+- [Oil palm and POME](../topics/oil-palm-and-pome.md)
+- [Malaysia](../locations/malaysia.md)
+
+<!-- wiki-maintenance:end -->

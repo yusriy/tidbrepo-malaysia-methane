@@ -67,3 +67,13 @@ The two values use the same unit but serve different evidentiary roles. The 1.80
 3. Researcher decision: upload the national value; retain the regional comparator as wiki context.
 4. Verified TIDBRepo upload receipt for row 143.
 5. Curated paper page: this file.
+
+<!-- wiki-maintenance:start -->
+
+## Catalog connections
+
+Navigation basis: Paper note: eleven planting-season datasets; no new instrument assignment. These links do not change scientific verification or owner decisions.
+
+Existing connections above supply these navigation links.
+
+<!-- wiki-maintenance:end -->
